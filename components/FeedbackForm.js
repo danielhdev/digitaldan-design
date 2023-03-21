@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 export default function FeedbackForm() {
   return (
 
-    <main className="border-r-0 border-b-0 border-stone-50 border-[0.15rem] pt-8 pl-10 w-fit
+    <main className="border-l-0 border-b-0 border-stone-50 border-[0.15rem] pt-8 pr-10 w-fit
     text-zinc-50">
       <ul>
         <a

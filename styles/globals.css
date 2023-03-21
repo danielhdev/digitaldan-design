@@ -42,7 +42,7 @@ body {
   margin: 0;
   overflow-x: hidden;
   font-family: 'Oxygen', sans-serif;
-  background-color: #e5e4e2;
+  background-color: #e5e5e2;
 }
 
 * {
@@ -120,12 +120,9 @@ body {
   position: fixed;
   width: 100vw;
   text-decoration: none;
-}
-
-nav > a {
-  font-family: 'Oxygen';
-  text-decoration: none;
-  color: var(--stone);
+  z-index: 99;
+  color: white;
+  mix-blend-mode: difference;
 }
 @media (max-width: 500px) {
   .iconsize {

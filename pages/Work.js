@@ -33,8 +33,8 @@ const Work = () => {
                     </div>
                     <div className="md:w-[50%]">
                         <h1 className="header">A New Look</h1>
-                        <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <p className="paragraph w-[40ch] pt-3 pl-8 ">
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                            <p className="paragraph w-[40ch] pt-3 pr-8 ">
                                 Some branding and a new portfolio site for one of the best photographers on unsplash.com. His old portfolio looks a bit dated and too minimal.
                                 <br />
                                 <br />
@@ -54,8 +54,8 @@ const Work = () => {
                     </div>
                     <div className="md:w-[50%]">
                         <h1 className="header">Just Premium</h1>
-                        <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <p className="paragraph w-[40ch] pt-3 pl-8 ">
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                            <p className="paragraph w-[40ch] pt-3 pr-8 ">
                                 Redesign of a Berlin upscale burger joints' online presense. The old one was looking like an outdated template and didn't match the owner&apos;s strive for classy fast food.
                                 <br />
                                 <br />
@@ -72,8 +72,8 @@ const Work = () => {
                         /></div>
                     <div className="md:w-[50%]">
                         <h1 className="header">It&apos;s Personal!</h1>
-                        <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <p className="paragraph w-[40ch] pt-3 pl-8 ">
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                            <p className="paragraph w-[40ch] pt-3 pr-8 ">
                                 Branding Digitaldan agency in light of the post-covid restart. AI was glad to help out with ideas.
                                 <br />
                                 <br />
@@ -90,8 +90,8 @@ const Work = () => {
                         /></div>
                     <div className="md:w-[50%]">
                         <h1 className="header">Just Beautiful</h1>
-                        <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <p className="paragraph w-[40ch] pt-3 pl-8 ">
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                            <p className="paragraph w-[40ch] pt-3 pr-8 ">
                                 Designing a landing page for the launch of new skin care product line. Testing colors, layout and scroll animations.
                                 <br />
                                 <br />
@@ -108,8 +108,8 @@ const Work = () => {
                         /></div>
                     <div className="md:w-[50%]">
                         <h1 className="header">Social Media</h1>
-                        <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <p className="paragraph w-[40ch] pt-3 pl-8 ">
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                            <p className="paragraph w-[40ch] pt-3 pr-8 ">
                                 Stand out from the noise with stylish ads, headers and other images for your social media accounts.
                                 <br />
                                 <br />
@@ -126,8 +126,8 @@ const Work = () => {
                         /></div>
                     <div className="md:w-[50%]">
                         <h1 className="header">VR Nightclub</h1>
-                        <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <p className="paragraph w-[40ch] pt-3 pl-8 ">
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                            <p className="paragraph w-[40ch] pt-3 pr-8 ">
                                 Order VR assets like these digital items for a virtual reality night club in the game Second Life.
 
                                 <br />
@@ -146,8 +146,8 @@ const Work = () => {
                         /></div>
                     <div className="md:w-[50%]">
                         <h1 className="header">For Tool Fans</h1>
-                        <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <p className="paragraph w-[40ch] pt-3 pl-8 ">
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                            <p className="paragraph w-[40ch] pt-3 pr-8 ">
                                 Portfolio site, find the source of the mysterious headline.
                                 <br />
                                 <br />

@@ -16,13 +16,13 @@ const About = () => {
 
                     <div className="w-[95vw] md:w-[70vw]">
                         <h1 className="header">About Digitaldan Agency</h1>
-                        <div className="border-[0.15rem] border-r-0 border-b-0 border-amber-600 w-fit">
-                            <p className="paragraph md:w-[60ch] 
-                            pt-4 pl-6 
-                            md:pt-8 md:pl-12 
+                        <div className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 w-fit">
+                            <p className="paragraph md:w-[60ch] text-[var(--stone)] font-bold
+                            pt-4 pr-6 
+                            md:pt-8 md:pr-12 
                             
                             ">
-                                I'm Daniel Hubschmann from Germany, senior digital designer with over 20 years of design experience.
+                                I'm Daniel Hubschmann from Germany,<br /> senior digital designer with over 20 years of experience.
                                 <br />
                                 <br />
                                 Offering web and app design, digital graphics for ads, events or presentations and I will also do brand design for my clients.
