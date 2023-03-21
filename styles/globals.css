@@ -57,6 +57,42 @@ body {
   background: url('/heroimg.png') center no-repeat;
   background-size: cover;
 }
+.work1 {
+  background: url('/as.png') center no-repeat;
+  background-size: cover;
+}
+.work2 {
+  background: url('/burger.png') center no-repeat;
+  background-size: cover;
+}
+.work3 {
+  background: url('/selfbrand1.png') center no-repeat;
+  background-size: cover;
+}
+.work4 {
+  background: url('/beauty.png') center no-repeat;
+  background-size: cover;
+}
+.work5 {
+  background: url('/social1.png') center no-repeat;
+  background-size: cover;
+}
+.work6 {
+  background: url('/vr1.png') center no-repeat;
+  background-size: cover;
+}
+.work7 {
+  background: url('/devport.png') center no-repeat;
+  background-size: cover;
+}
+.contactlogo {
+  font-size: 12vw;
+}
+.contactli {
+  font-size: clamp(1.8rem, 3vw + 1rem, 2.8rem);
+  line-height: 1.2em;
+  font-family: 'octarine';
+}
 
 .iconsize {
   font-size: 1.7vw;
