@@ -90,7 +90,12 @@ body {
   font-size: 12vw;
 }
 .contactli {
-  font-size: clamp(1.8rem, 3vw + 1rem, 2.8rem);
+  font-size: 4vw;
+  line-height: 1.2em;
+  font-family: 'octarine';
+}
+.heroli {
+  font-size: 4vw;
   line-height: 1.2em;
   font-family: 'octarine';
 }

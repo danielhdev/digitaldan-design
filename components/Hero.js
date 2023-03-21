@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
+
 const Hero = () => {
     return (
         <main className="h-screen pt-[32vh]">
@@ -10,20 +12,39 @@ const Hero = () => {
 
             </section>
             <div className="herobg bg-cover bg-center bg-no-repeat w-screen h-[60vh]
-            flex flex-col justify-center items-center
+            flex flex-col justify-center items-center 
             " >
-                <Link href="/Work">
-                    <span className='header bg-zonc-50 p-1 
-                    cursor-pointer
-                    '>work </span></Link>
-                <Link href="/About">
-                    <span className='header bg-zonc-50 p-1 
-                    cursor-pointer
-                    '>about </span></Link>
-                <Link href="/Contact">
-                    <span className='header bg-zonc-50 p-1 
-                    cursor-pointer
-                    '>contact </span></Link>
+
+                <div className="border-r-0 border-b-0 border-stone-200
+                 border-[0.15rem] pt-5 pl-7 w-fit
+                flex flex-col">
+                    <Link href="/Work">
+                        <motion.span className=' text-zinc-700 p-1 
+                    cursor-pointer heroli
+                    '
+                            initial={{ y: 20, opacity: 0 }}
+                            animate={{ y: 0, opacity: 1 }}
+                            transition={{ delay: 0.5, duration: 0.5 }}
+                            viewport={{ once: true }}
+                        >work </motion.span></Link>
+                    <Link href="/About">
+                        <motion.span className=' text-zinc-700 p-1 
+                    cursor-pointer heroli'
+                            initial={{ y: 20, opacity: 0 }}
+                            animate={{ y: 0, opacity: 1 }}
+                            transition={{ delay: 0.6, duration: 0.5 }}
+                            viewport={{ once: true }}
+
+                        >about </motion.span></Link>
+                    <Link href="/Contact">
+                        <motion.span className=' text-zinc-700 p-1 
+                    cursor-pointer heroli
+                    '
+                            initial={{ y: 20, opacity: 0 }}
+                            animate={{ y: 0, opacity: 1 }}
+                            transition={{ delay: 0.7, duration: 0.5 }}
+                            viewport={{ once: true }}
+                        >contact </motion.span></Link></div>
 
 
 
