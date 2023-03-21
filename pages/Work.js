@@ -1,6 +1,14 @@
 import Contacticons from '@components/Contacticons'
 import Navbar from '@components/Navbar'
 import React from 'react'
+import Image from 'next/image'
+import AS from '../public/as.png'
+import Beauty from '../public/beauty.png'
+import Burger from '../public/burger.png'
+import Dev from '../public/devport.png'
+import Self from '../public/selfbrand1.png'
+import Social from '../public/social1.png'
+import VR from '../public/vr1.png'
 
 const Work = () => {
     return (
@@ -13,10 +21,16 @@ const Work = () => {
                     <h1 className="header">work</h1>
                 </section>
 
-                <section className="w-[70vw] h-[60vh] flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[25vh] mb-[15vh]">
+                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start md:gap-12 mx-auto mt-[25vh] mb-[15vh]">
 
-                    <div className="work1 border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                      md:w-[50%]"></div>
+                    <div className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                      w-screen md:w-[50%]">
+
+                        <Image src={AS}
+                            alt="AS portfolio redesign"
+                        />
+
+                    </div>
                     <div className="md:w-[50%]">
                         <h1 className="header">A New Look</h1>
                         <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
@@ -30,10 +44,14 @@ const Work = () => {
                         </div></div>
                 </section>
 
-                <section className="w-[70vw] h-[60vh] flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className="work2 border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                      md:w-[50%]"></div>
+                    <div className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                     w-screen md:w-[50%]">
+                        <Image src={Burger}
+                            alt="AS portfolio redesign"
+                        />
+                    </div>
                     <div className="md:w-[50%]">
                         <h1 className="header">Just Premium</h1>
                         <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
@@ -46,10 +64,12 @@ const Work = () => {
                                 This website mockup was coded with Next.js.  </p>
                         </div></div>
                 </section>
-                <section className="w-[70vw] h-[60vh] flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className="work3 border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                      md:w-[50%]"></div>
+                    <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                      w-screen md:w-[50%]">  <Image src={Self}
+                            alt="AS portfolio redesign"
+                        /></div>
                     <div className="md:w-[50%]">
                         <h1 className="header">It&apos;s Personal!</h1>
                         <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
@@ -62,10 +82,12 @@ const Work = () => {
                                 Case study coded with React.js. This website is made with Next.js  </p>
                         </div></div>
                 </section>
-                <section className="w-[70vw] h-[60vh] flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className="work4 border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                      md:w-[50%]"></div>
+                    <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                     w-screen  md:w-[50%]">  <Image src={Beauty}
+                            alt="AS portfolio redesign"
+                        /></div>
                     <div className="md:w-[50%]">
                         <h1 className="header">Just Beautiful</h1>
                         <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
@@ -78,10 +100,12 @@ const Work = () => {
                                 Mockup coded with React.js.  </p>
                         </div></div>
                 </section>
-                <section className="w-[70vw] h-[60vh] flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className="work5 border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                      md:w-[50%]"></div>
+                    <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                     w-screen  md:w-[50%]">  <Image src={Social}
+                            alt="AS portfolio redesign"
+                        /></div>
                     <div className="md:w-[50%]">
                         <h1 className="header">Social Media</h1>
                         <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
@@ -94,10 +118,12 @@ const Work = () => {
                                 Let&apos;s grap the user&apos;s attention.  </p>
                         </div></div>
                 </section>
-                <section className="w-[70vw] h-[60vh] flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className="work6 border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                      md:w-[50%]"></div>
+                    <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                     w-screen  md:w-[50%]">  <Image src={VR}
+                            alt="AS portfolio redesign"
+                        /></div>
                     <div className="md:w-[50%]">
                         <h1 className="header">VR Nightclub</h1>
                         <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
@@ -111,10 +137,13 @@ const Work = () => {
                             </p>
                         </div></div>
                 </section>
-                <section className="w-[70vw] h-[60vh] flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className="work7 border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                      md:w-[50%]"></div>
+                    <div className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                   w-screen md:w-[50%]">
+                        <Image src={Dev}
+                            alt="AS portfolio redesign"
+                        /></div>
                     <div className="md:w-[50%]">
                         <h1 className="header">For Tool Fans</h1>
                         <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">

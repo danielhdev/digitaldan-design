@@ -23,7 +23,7 @@ const Hero = () => {
                 <Link href="/Contact">
                     <span className='header bg-zonc-50 p-1 
                     cursor-pointer
-                    '>about </span></Link>
+                    '>contact </span></Link>
 
 
 
