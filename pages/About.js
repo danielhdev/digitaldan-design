@@ -14,9 +14,9 @@ const About = () => {
                 <section className="h-screen flex justify-center items-center">
 
 
-                    <div className="w-[95vw] md:w-[80vw]">
+                    <div className="w-[95vw] md:w-[70vw]">
                         <h1 className="header">About Digitaldan Agency</h1>
-                        <div className="border-t-[1px] border-l-[1px] border-r-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                        <div className="border-[0.15rem] border-r-0 border-b-0 border-amber-600 w-fit">
                             <p className="paragraph md:w-[60ch] 
                             pt-4 pl-6 
                             md:pt-8 md:pl-12 
@@ -31,7 +31,9 @@ const About = () => {
                                 My tools are Figma, Adobe Ae, PS, Ai, Blender, Inkscape and I can code in HTML, CSS and JavaScript.
                                 <br />
                                 <br />
-                                If you are looking for a reliable freelancer and/ or sub contractor, contact me HERE and let&apos;s talk about your project!
+                                If you are looking for a reliable freelancer and/ or sub contractor, contact me
+                                <span className="text-amber-600 font-extrabold">    HERE  </span>
+                                and let&apos;s talk about your project!
                                 <br />
                                 <br />
                             </p>
