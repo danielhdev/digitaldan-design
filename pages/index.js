@@ -1,28 +1,23 @@
 import Head from "next/head";
-import Header from "@components/Header";
-import Footer from "@components/Footer";
-import FeedbackForm from "@components/FeedbackForm";
-import JokeBlock from "@components/JokeBlock";
+import Navbar from "@components/Navbar";
+import Hero from "@components/Hero";
+import Contacticons from "@components/Contacticons";
 
 export default function Home() {
-  return (
-    <div className="container">
-      <Head>
-        <title>Next.js Toolbox</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+  <Head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="digital design brand design web design brands branding" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title>Digitaldan Agency, digital design, brand design, creating digital values</title>
+  </Head>
 
-      <main>
-        <Header title="Next.js Toolbox" />
-        <hr />
-        <p className="description">
-          Here's an example of a Netlify Form! When you fill this out, the
-          submissions can be found in the Netlify Admin site.
-        </p>
-        <FeedbackForm />
-        <JokeBlock />
-      </main>
-      <Footer />
+
+  return (
+    <div>
+      <Navbar />
+      <Contacticons />
+      <Hero />
     </div>
   );
 }
