@@ -1,5 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
-  font-family: 'octarineregular';
+  font-family: 'octarine';
   src: url('../Fonts/octarine-bold-webfont.woff2') format('woff2'),
     url('../Fonts/octarine-bold-webfont.woff') format('woff');
   font-weight: normal;
@@ -16,7 +20,7 @@
 }
 
 @font-face {
-  font-family: 'octarineregular';
+  font-family: 'octarine';
   src: url('../Fonts/octarine-bold-webfont.woff2') format('woff2'),
     url('../Fonts/octarine-bold-webfont.woff') format('woff');
   font-weight: normal;
@@ -41,9 +45,42 @@ body {
 
 * {
   box-sizing: border-box;
+  --stone: #383630;
 }
-
-.herocontainer {
+.container {
+  min-height: 100vh;
+  height: auto;
+}
+.iconsize {
+  font-size: 1.7vw;
+  opacity: 70%;
 }
 .navbarcontainer {
+  position: fixed;
+  width: 100vw;
+  text-decoration: none;
+}
+
+nav > a {
+  font-family: 'Oxygen';
+  text-decoration: none;
+  color: var(--stone);
+}
+@media (max-width: 500px) {
+  .iconsize {
+    font-size: 8vw;
+    opacity: 80%;
+  }
+}
+@media (max-width: 1000px) {
+  .iconsize {
+    font-size: 5vw;
+    opacity: 80%;
+  }
+}
+@media (min-width: 1500px) {
+  .iconsize {
+    font-size: 2vw;
+    opacity: 80%;
+  }
 }

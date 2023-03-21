@@ -1,6 +1,7 @@
 import Head from "next/head";
-
 import Navbar from "@components/Navbar";
+import Hero from "@components/Hero";
+import Contacticons from "@components/Contacticons";
 
 export default function Home() {
   <Head>
@@ -15,6 +16,8 @@ export default function Home() {
   return (
     <div className="container">
       <Navbar />
+      <Contacticons />
+      <Hero />
     </div>
   );
 }
