@@ -14,7 +14,7 @@ export default function Home() {
 
 
   return (
-    <div className="container">
+    <div className="w-screen h-auto">
       <Navbar />
       <Contacticons />
       <Hero />
