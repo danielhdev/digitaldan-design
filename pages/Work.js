@@ -30,7 +30,7 @@ const Work = () => {
                     <h1 className="header">work</h1>
                 </section>
 
-                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start md:gap-12 mx-auto mt-[25vh] mb-[15vh]">
+                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start md:gap-12 mx-auto mt-[25vh] mb-[15vh]">
 
                     <motion.div animate={firstImg} className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
                       w-screen md:w-[50%]">
@@ -60,7 +60,7 @@ const Work = () => {
                         </div></div>
                 </section>
 
-                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
                      w-screen md:w-[50%]">
@@ -88,7 +88,7 @@ const Work = () => {
                                 This website mockup was coded with Next.js.  </motion.p>
                         </div></div>
                 </section>
-                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
                       w-screen md:w-[50%]">
@@ -115,7 +115,7 @@ const Work = () => {
                                 Case study coded with React.js. This website is made with Next.js  </motion.p>
                         </div></div>
                 </section>
-                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
                      w-screen  md:w-[50%]">
@@ -142,7 +142,7 @@ const Work = () => {
                                 Mockup coded with React.js.  </motion.p>
                         </div></div>
                 </section>
-                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
                      w-screen  md:w-[50%]">
@@ -163,7 +163,7 @@ const Work = () => {
                                 Let&apos;s grap the user&apos;s attention.  </motion.p>
                         </div></div>
                 </section>
-                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
                      w-screen  md:w-[50%]">  <Image src={VR}
@@ -182,7 +182,7 @@ const Work = () => {
                             </motion.p>
                         </div></div>
                 </section>
-                <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
                    w-screen md:w-[50%]">
