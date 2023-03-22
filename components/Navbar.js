@@ -9,7 +9,10 @@ const Navbar = () => {
                 <Link href="/">
                     <span className="font-[octarine] tracking-widest cursor-pointer
                     text-[5.5vw]
-                    md:text-[2vw]"> d.d</span>
+                    md:text-[3.5vw]
+                    lg:text-[2.5vw]
+                    
+                    "> d.d</span>
                 </Link>
                 <div className="link space-x-[4vw]">
                     <Link href="/Work">work</Link>

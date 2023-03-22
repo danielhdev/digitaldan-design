@@ -26,14 +26,14 @@ const Work = () => {
     return (
         <>
             <main className="h-auto pb-[20vh] flex flex-col">
-                <section className="absolute top-[10vh] md:left-[10vw]">
+                <section className="absolute top-[10vh] lg:left-[10vw]">
                     <h1 className="header">work</h1>
                 </section>
 
-                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start md:gap-12 mx-auto mt-[25vh] mb-[15vh]">
+                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto mt-[25vh] mb-[15vh]">
 
                     <motion.div animate={firstImg} className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                      w-screen md:w-[50%]">
+                      w-screen lg:w-[50%]">
 
                         <Link href="https://asprototype.netlify.app/"
                         >
@@ -47,10 +47,10 @@ const Work = () => {
                         </Link>
 
                     </motion.div>
-                    <div className="md:w-[50%]">
+                    <div className="w-screen lg:w-[50%]">
                         <h1 className="header mt-[5vh] md:mt-0">A New Look</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <motion.p whileInView={paragraphAnimate} className="paragraph md:w-[40ch] pt-3 pr-8 ">
+                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Some branding and a new portfolio site for one of the best photographers on unsplash.com. His old portfolio looks a bit dated and too minimal.
                                 <br />
                                 <br />
@@ -60,10 +60,10 @@ const Work = () => {
                         </div></div>
                 </section>
 
-                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="lg:w-[80vw] h-auto py-[10vh] flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                     w-screen md:w-[50%]">
+                     w-screen lg:w-[50%]">
 
                         <Link href="https://digitaldanrestaurant.netlify.app/"
                         >
@@ -76,10 +76,10 @@ const Work = () => {
                                 /></a>
                         </Link>
                     </div>
-                    <div className="md:w-[50%]">
+                    <div className="lg:w-[50%]">
                         <h1 className="header">Just Premium</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <motion.p whileInView={paragraphAnimate} className="paragraph md:w-[40ch] pt-3 pr-8 ">
+                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Redesign of a Berlin upscale burger joints' online presense. The old one was looking like an outdated template and didn't match the owner&apos;s strive for classy fast food.
                                 <br />
                                 <br />
@@ -88,13 +88,13 @@ const Work = () => {
                                 This website mockup was coded with Next.js.  </motion.p>
                         </div></div>
                 </section>
-                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                      w-screen md:w-[50%]">
+                      w-screen lg:w-[50%]">
                         <Link href="https://dd-agency-branding.netlify.app/"
                         >
-                            <a
+                            <a target={'_blank'}
                                 rel={'noreferrer noopener'}
 
                             ><Image src={Self}
@@ -103,10 +103,10 @@ const Work = () => {
                                 /></a>
                         </Link>
                     </div>
-                    <div className="md:w-[50%]">
+                    <div className="lg:w-[50%]">
                         <h1 className="header">It&apos;s Personal!</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <motion.p whileInView={paragraphAnimate} className="paragraph md:w-[40ch] pt-3 pr-8 ">
+                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Branding Digitaldan agency in light of the post-covid restart. AI was glad to help out with ideas.
                                 <br />
                                 <br />
@@ -115,10 +115,10 @@ const Work = () => {
                                 Case study coded with React.js. This website is made with Next.js  </motion.p>
                         </div></div>
                 </section>
-                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                     w-screen  md:w-[50%]">
+                     w-screen  lg:w-[50%]">
                         <Link href="https://food-health-one-seven.vercel.app/"
                         >
                             <a target={'_blank'}
@@ -130,10 +130,10 @@ const Work = () => {
                                 /></a>
                         </Link>
                     </div>
-                    <div className="md:w-[50%]">
+                    <div className="lg:w-[50%]">
                         <h1 className="header">Just Beautiful</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <motion.p whileInView={paragraphAnimate} className="paragraph md:w-[40ch] pt-3 pr-8 ">
+                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Designing a landing page for the launch of new skin care product line. Testing colors, layout and scroll animations.
                                 <br />
                                 <br />
@@ -142,50 +142,50 @@ const Work = () => {
                                 Mockup coded with React.js.  </motion.p>
                         </div></div>
                 </section>
-                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                     w-screen  md:w-[50%]">
+                     w-screen  lg:w-[50%]">
 
                         <Image src={Social}
                             alt="AS portfolio redesign"
                         />
                     </div>
-                    <div className="md:w-[50%]">
+                    <div className="lg:w-[50%]">
                         <h1 className="header">Social Media</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <motion.p whileInView={paragraphAnimate} className="paragraph md:w-[40ch] pt-3 pr-8 ">
+                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Stand out from the noise with stylish ads, headers and other images for your social media accounts.
                                 <br />
                                 <br />
 
 
-                                Let&apos;s grap the user&apos;s attention.  </motion.p>
+                                Made with Adobe Ai.  </motion.p>
                         </div></div>
                 </section>
-                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                     w-screen  md:w-[50%]">  <Image src={VR}
+                     w-screen  lg:w-[50%]">  <Image src={VR}
                             alt="AS portfolio redesign"
                         /></div>
-                    <div className="md:w-[50%]">
+                    <div className="lg:w-[50%]">
                         <h1 className="header">VR Nightclub</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <motion.p whileInView={paragraphAnimate} className="paragraph md:w-[40ch] pt-3 pr-8 ">
-                                Order VR assets like these digital items for a virtual reality night club in the game Second Life.
+                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
+                                Assets virtual reality night club in the game Second Life.
 
                                 <br />
                                 <br />
 
-                                Stand out with style.
+                                Inkscape and Photoshop.
                             </motion.p>
                         </div></div>
                 </section>
-                <section className="md:w-[80vw] h-auto flex flex-col md:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                   w-screen md:w-[50%]">
+                   w-screen lg:w-[50%]">
                         <Link href="https://ddshowcase3.netlify.app/"
                         >
                             <a target={'_blank'}
@@ -197,10 +197,10 @@ const Work = () => {
                                 /></a>
                         </Link>
                     </div>
-                    <div className="md:w-[50%]">
+                    <div className="lg:w-[50%]">
                         <h1 className="header">For Tool Fans</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <motion.p whileInView={paragraphAnimate} className="paragraph md:w-[40ch] pt-3 pr-8 ">
+                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Portfolio site, find the animation that gave the mysterious headline its name.
                                 <br />
                                 <br />
