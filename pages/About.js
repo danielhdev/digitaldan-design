@@ -30,16 +30,20 @@ const About = () => {
                                 I'm Daniel Hubschmann from Germany,<br /> senior digital designer with over 20 years of experience.
                                 <br />
                                 <br />
-                                Offering web and app design, digital graphics for ads, events or presentations and I will also do brand design for my clients.
+                                Offering <span className=" text-amber-600">web design </span> ,
+                                digital <span className=" text-amber-600">graphics design</span>{' '}
+                                for ads, events or presentations and <span className=" text-amber-600">brand design </span>.
                                 <br />
                                 <br />
-                                My tools are Figma, Adobe Ae, PS, Ai, Blender, Inkscape. I can code in HTML, CSS, JavaScript and am making use of AI for my work.
+                                My tools are <span className=" text-amber-600">Figma, Adobe Ae, Ps, Ai, Blender, Inkscape</span>.
+                                I can code in <span className=" text-amber-600">HTML, CSS, JavaScript </span>
+                                and am making use of <span className=" text-amber-600">AI</span> for my work.
                                 <br />
                                 <br />
                                 If you are looking for a reliable freelancer and/ or sub contractor, please contact me{' '}
 
                                 <Link href="/Contact">
-                                    <span className="text-amber-600 font-extrabold cursor-pointer">
+                                    <span className="text-amber-600 font-extrabold cursor-pointer underline">
                                         HERE  </span></Link>
                                 and let&apos;s talk about your project!
                                 <br />
