@@ -30,9 +30,9 @@ const About = () => {
                                 I'm Daniel Hubschmann from Germany,<br /> senior digital designer with over 20 years of experience.
                                 <br />
                                 <br />
-                                Offering <span className=" text-amber-600">web design </span> ,
+                                Offering <span className=" text-amber-600">web design</span> ,
                                 digital <span className=" text-amber-600">graphics design</span>{' '}
-                                for ads, events or presentations and <span className=" text-amber-600">brand design </span>.
+                                for ads, events or presentations and <span className=" text-amber-600">brand design</span>.
                                 <br />
                                 <br />
                                 My tools are <span className=" text-amber-600">Figma, Adobe Ae, Ps, Ai, Blender, Inkscape</span>.
