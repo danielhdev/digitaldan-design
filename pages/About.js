@@ -20,7 +20,7 @@ const About = () => {
 
 
                     <div className="w-[95vw] md:w-[70vw]">
-                        <motion.h1 animate={titleAnimate} className="header">About Digitaldan Agency</motion.h1>
+                        <motion.h1 animate={titleAnimate} className="header">About</motion.h1>
                         <motion.div animate={paragraphAnimate} className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 w-fit">
                             <p className="paragraph md:w-[60ch] text-[var(--stone)] font-bold
                             pt-4 pr-6 
