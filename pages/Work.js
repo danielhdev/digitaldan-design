@@ -94,7 +94,7 @@ const Work = () => {
                       w-screen md:w-[50%]">
                         <Link href="https://dd-agency-branding.netlify.app/"
                         >
-                            <a target={'_blank'}
+                            <a
                                 rel={'noreferrer noopener'}
 
                             ><Image src={Self}
