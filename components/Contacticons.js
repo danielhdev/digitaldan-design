@@ -1,13 +1,37 @@
 import React from 'react'
 import { ImLinkedin, ImTwitter, ImMail2 } from 'react-icons/im'
-
+import Link from 'next/link'
 const Contacticons = () => {
     return (
-        <div className='iconsize fixed bottom-5 left-[70vw] md:left-[85vw]
-        flex flex-row justify-end space-x-[5vw] md:space-x-[3vw]'>
-            <ImMail2 />
-            <ImTwitter />
-            <ImLinkedin />
+        <div className='iconsize fixed bottom-5 left-[65vw] md:left-[85vw]
+        flex flex-row justify-end space-x-[6vw] md:space-x-[3vw] z-50'>
+
+            <Link href="mailto:d.huebschmann@tutanota.com"  >
+                <a
+
+                    method="get"
+                    encType="text/plain">
+                    <ImMail2
+                        className='cursor-pointer'
+                    /></a>
+            </Link>
+            <Link
+                href="https://twitter.com/digitaldan_de">
+                <a target="_blank"
+                    rel="noopener noreferrer" >
+                    <ImTwitter
+                        className='cursor-pointer'
+                    /></a></Link>
+            <Link
+                href="https://linkedin.com/in/daniel-huebschmann-175b66236/"
+            >
+                <a target="_blank"
+                    rel="noopener noreferrer" >
+
+                    <ImLinkedin
+                        className='cursor-pointer'
+                    /></a>
+            </Link>
         </div>
     )
 }

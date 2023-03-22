@@ -5,14 +5,17 @@ const Navbar = () => {
     return (
         <div className="navbarcontainer">
             <nav className="flex justify-start w-[90vw] mx-auto space-x-[5vw]
-            top-0 z-50 mix-blend-difference">
+            top-0">
                 <Link href="/">
                     <span className="font-[octarine] tracking-widest cursor-pointer
-                    text-[1.5vw]"> d.d</span>
+                    text-[5.5vw]
+                    md:text-[2vw]"> d.d</span>
                 </Link>
-                <Link href="/Work">work</Link>
-                <Link href="About">about </Link>
-                <Link href="/Contact">contact</Link>
+                <div className="link space-x-[4vw]">
+                    <Link href="/Work">work</Link>
+                    <Link href="/About">about</Link>
+                    <Link href="/Contact">contact</Link>
+                </div>
 
             </nav>
 
