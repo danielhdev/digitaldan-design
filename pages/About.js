@@ -27,18 +27,18 @@ const About = () => {
                             md:pt-8 md:pr-12 
                             
                             ">
-                                Daniel Hubschmann from Germany. Senior digital designer that has changed to creative development in the recent years.
+                                Daniel Hubschmann from Germany. Senior digital designer with over 20 years experience.
+                                I offer    <span className="text-amber-600 font-extrabold cursor-pointer">
+                                    brand design, app and web design, digital graphic design for ads, events and presentations
+                                </span>.
                                 <br />
                                 <br />
-                                My background makes me your designer/ developer hybrid and freelance partner for agencies and start ups worldwide.
+                                Tools Figma, Abobe Ai/ Ps/ Ae, Blender, Inkscape. I can code with
+                                HTML, CSS, JavaScript and am making use of AI for my work.
                                 <br />
                                 <br />
-                                My tools range from Figma and Adobe products to CSS, JavaScript and backend tech like Firebase. I am making use of AI for my work.
-                                <br />
-                                <br />
-                                My current daily rate is 500 Euros.
+                                My current daily rate is 400 Euros.
                                 If you are looking for a reliable freelancer and/ or sub contractor, please contact me{' '}
-
                                 <Link href="/Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer underline">
                                         HERE  </span></Link>

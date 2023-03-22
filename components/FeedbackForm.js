@@ -33,7 +33,7 @@ export default function FeedbackForm() {
             </motion.li>
           </a>
           <a
-            href="https://www.motion.linkedin.com/in/daniel-huebschmann-175b66236/"
+            href="https://www.linkedin.com/in/daniel-huebschmann-175b66236/"
             target="_blank"
             rel="noopener noreferrer"
           >
