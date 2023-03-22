@@ -63,7 +63,12 @@ export default function FeedbackForm() {
             </motion.li></a>
         </ul>
       </main>
-      <section className="text-center text-zinc-50 ml-[30vw]
+      <section className="text-center text-zinc-50 
+      
+      ml-[50vw]
+      md:ml-[30vw]
+      
+      
       text-[2vw]
       md:text-[1.5vw]
       lg:text-[1vw]
