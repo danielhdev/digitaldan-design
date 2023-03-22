@@ -19,27 +19,24 @@ const About = () => {
                 <section className="h-screen flex justify-center items-center">
 
 
-                    <div className="w-[95vw] md:w-[70vw]">
+                    <div className="w-[95vw] lg:w-[70vw]">
                         <motion.h1 animate={titleAnimate} className="header">About</motion.h1>
                         <motion.div animate={paragraphAnimate} className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 w-fit">
-                            <p className="paragraph md:w-[60ch] text-[var(--stone)] font-bold
+                            <p className="paragraph lg:w-[60ch] text-[var(--stone)] font-bold
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                             
                             ">
-                                I'm Daniel Hubschmann from Germany,<br /> senior digital designer with over 20 years of experience.
+                                Daniel Hubschmann from Germany. Senior digital designer that has changed to creative development in the recent years.
                                 <br />
                                 <br />
-                                Offering <span className=" text-amber-600">web design</span> ,
-                                digital <span className=" text-amber-600">graphics design</span>{' '}
-                                for ads, events or presentations and <span className=" text-amber-600">brand design</span>.
+                                My background makes me your designer/ developer hybrid and freelance partner for agencies and start ups worldwide.
                                 <br />
                                 <br />
-                                My tools are <span className=" text-amber-600">Figma, Adobe Ae, Ps, Ai, Blender, Inkscape</span>.
-                                I can code in <span className=" text-amber-600">HTML, CSS, JavaScript </span>
-                                and am making use of <span className=" text-amber-600">AI</span> for my work.
+                                My tools range from Figma and Adobe products to CSS, JavaScript and backend tech like Firebase. I am making use of AI for my work.
                                 <br />
                                 <br />
+                                My current daily rate is 500 Euros.
                                 If you are looking for a reliable freelancer and/ or sub contractor, please contact me{' '}
 
                                 <Link href="/Contact">

@@ -136,6 +136,7 @@ html.lenis {
   .iconsize {
     font-size: 6vw;
     opacity: 80%;
+    left: 65vw;
   }
   .header {
     font-family: 'octarine';
@@ -168,6 +169,7 @@ html.lenis {
   .iconsize {
     font-size: 4vw;
     opacity: 80%;
+    left: 70vw;
   }
   .header {
     font-family: 'octarine';
@@ -199,6 +201,7 @@ html.lenis {
   .iconsize {
     font-size: 1.8vw;
     opacity: 80%;
+    left: 84vw;
   }
   .header {
     font-family: 'octarine';
