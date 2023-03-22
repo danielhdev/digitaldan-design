@@ -28,8 +28,8 @@ const About = () => {
                             
                             ">
                                 Daniel Hubschmann from Germany. Senior digital designer with over 20 years experience.
-                                I offer    <span className="text-amber-600 font-extrabold cursor-pointer">
-                                    brand design, app and web design, digital graphic design for ads, events and presentations
+                                I offer a wide range of skills:{' '}<span className="text-amber-600 font-extrabold cursor-pointer">
+                                    Brand design, app and web design, digital graphic design for ads, events and presentations
                                 </span>.
                                 <br />
                                 <br />
@@ -37,7 +37,7 @@ const About = () => {
                                 HTML, CSS, JavaScript and am making use of AI for my work.
                                 <br />
                                 <br />
-                                My current daily rate is 400 Euros.
+                                My current daily rate is 400 Euros. Higher rates for director and lead roles. All rates negotiable.
                                 If you are looking for a reliable freelancer and/ or sub contractor, please contact me{' '}
                                 <Link href="/Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer underline">
