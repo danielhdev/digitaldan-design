@@ -18,6 +18,11 @@ const Work = () => {
         transition: { delay: 0.2, duration: 1 },
 
     }
+    const firstImg = {
+        opacity: [0, 1],
+        transition: { delay: 0.4, duration: 1 },
+
+    }
 
     return (
         <>
@@ -28,7 +33,7 @@ const Work = () => {
 
                 <section className="md:w-[70vw] h-auto flex flex-col md:flex-row justify-start md:gap-12 mx-auto mt-[25vh] mb-[15vh]">
 
-                    <div className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                    <motion.div animate={firstImg} className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
                       w-screen md:w-[50%]">
 
                         <Link href="https://asprototype.netlify.app/"
@@ -42,7 +47,7 @@ const Work = () => {
                                 /></a>
                         </Link>
 
-                    </div>
+                    </motion.div>
                     <div className="md:w-[50%]">
                         <h1 className="header mt-[5vh] md:mt-0">A New Look</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
