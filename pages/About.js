@@ -28,7 +28,7 @@ const About = () => {
                             
                             ">
                                 Daniel Hubschmann from Germany. Senior digital designer with over 20 years experience.
-                                I offer a wide range of skills:<span className="text-amber-600 font-extrabold cursor-pointer">
+                                I offer a wide range of skills:{' '}<span className="text-amber-600 font-extrabold cursor-pointer">
                                     Brand design, app and web design, digital graphic design for ads, events and presentations
                                 </span>.
                                 <br />
