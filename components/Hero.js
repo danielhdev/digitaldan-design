@@ -24,7 +24,7 @@ const Hero = () => {
                     Daniel Hubschmann<br /> Senior Digital Designer</motion.div>
 
             </section>
-            <div className="herobg bg-cover bg-center bg-no-repeat w-screen h-[50vh]
+            <div className="herobg bg-cover bg-center bg-no-repeat w-screen h-[55vh]
             flex flex-col justify-center items-center 
             " >
 
