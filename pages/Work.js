@@ -48,7 +48,7 @@ const Work = () => {
 
                     </motion.div>
                     <div className="w-screen lg:w-[50%]">
-                        <h1 className="header mt-[5vh] md:mt-0">A New Look</h1>
+                        <h1 className="header mt-[5vh] lg:mt-0">A New Look</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Some branding and a new portfolio site for one of the best photographers on unsplash.com. His old portfolio looks a bit dated.
