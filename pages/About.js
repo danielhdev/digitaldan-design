@@ -17,7 +17,7 @@ const About = () => {
         <>
             <main className="relative">
                 <section className="h-screen flex justify-center items-center">
-                    <h1 className="aboutbgdd tracking-widest absolute top-[10vw] right-[12vw] opacity-25">d.d</h1>
+                    <h1 className="aboutbgdd tracking-widest absolute top-[10vw] right-[12vw] opacity-10">d.d</h1>
 
                     <div className="aboutcontainer w-[95vw] lg:w-[70vw]">
                         <motion.h1 animate={titleAnimate} className="header">About</motion.h1>
@@ -27,20 +27,21 @@ const About = () => {
                             md:pt-8 md:pr-12 
                             
                             ">
-                                Daniel Hubschmann from Germany. <br />Senior multidisciplinary designer with over 20 years experience.
+                                Daniel Hubschmann from Germany. <br />Senior designer with over 20 years experience.
+                                I added creative web development to my skillset in the recent years. Striving to get great design to screens of all sizes.
                                 <br />
                                 <br />
 
                                 Skills:{' '}<span className="text-amber-600 font-extrabold">
-                                    App/ web/ UI design, brand & graphic design
+                                    App/ web/ UI design, animation & development
                                 </span>.
                                 <br />
 
-                                Tools: <span className="text-amber-600 font-extrabold">Figma, Abobe Ai/ Ps/ Ae, Blender, Inkscape.
-                                    <br />HTML, CSS, JavaScript, DALL-E and other AIs</span>.
+                                Tools: <span className="text-amber-600 font-extrabold">Figma, Abobe Ai/ Ps/ Ae, Inkscape,
+                                    HTML, CSS, JavaScript, BaaS like Firebase, headless CMS, DALL-E and other AIs</span>.
                                 <br />
                                 <br />
-                                Looking forward to working with agencies around the world.
+
                                 If you are in search of a reliable freelancer or sub contractor, please contact me{' '}
                                 <Link href="/Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer underline">
