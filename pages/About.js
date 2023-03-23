@@ -27,8 +27,8 @@ const About = () => {
                             md:pt-8 md:pr-12 
                             
                             ">
-                                Daniel Hubschmann from Germany. <br />Senior designer with over 20 years experience.
-                                I added creative web development to my skillset in the recent years. Striving to get great design to screens of all sizes.
+                                Daniel Hubschmann from Germany. <br />Senior graphic and web designer with over two decades experience.
+                                I added web development to my skillset in the recent years. Always striving to get great designs to screens.
                                 <br />
                                 <br />
 
