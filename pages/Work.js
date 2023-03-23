@@ -42,7 +42,7 @@ const Work = () => {
 
                             ><Image src={AS}
                                 alt="AS portfolio redesign"
-                                priority="true"
+                                priority
                                 className="cursor-pointer"
                                 /></a>
                         </Link>
@@ -73,6 +73,7 @@ const Work = () => {
 
                             ><Image src={Burger}
                                 alt="AS portfolio redesign"
+                                priority
                                 className="cursor-pointer"
                                 /></a>
                         </Link>
