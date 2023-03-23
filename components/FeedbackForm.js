@@ -14,8 +14,8 @@ export default function FeedbackForm() {
 
   return (
     <section className="flex flex-col justify-center items-center">
-      <main className="border-l-0 border-b-0 border-stone-50 border-[0.15rem] pt-8 pr-10 w-fit
-    text-zinc-50">
+      <main className="border-l-0 border-b-0 border-black border-[0.15rem] pt-8 pr-10 w-fit
+    text-black">
         <ul>
           <a
             href="mailto:d.huebschmann@tutanota.com"
@@ -63,7 +63,7 @@ export default function FeedbackForm() {
             </motion.li></a>
         </ul>
       </main>
-      <section className="text-center text-zinc-50 
+      <section className="text-center text-stone-50 
       
       ml-[50vw]
       md:ml-[30vw]
@@ -77,7 +77,7 @@ export default function FeedbackForm() {
       ">
         design & code &copy; {date} <br />Daniel Hubschmann<br />
         <Link href="/Imprint">
-          <span className="text-amber-500">
+          <span className="cursor-pointer">
             imprint</span>
         </Link>
       </section>

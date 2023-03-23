@@ -58,35 +58,6 @@ body {
   background-size: cover;
 }
 
-.work1 {
-  background: url('/as.png') center no-repeat;
-  background-size: cover;
-}
-.work2 {
-  background: url('/burger.png') center no-repeat;
-  background-size: cover;
-}
-.work3 {
-  background: url('/selfbrand1.png') center no-repeat;
-  background-size: cover;
-}
-.work4 {
-  background: url('/beauty.png') center no-repeat;
-  background-size: cover;
-}
-.work5 {
-  background: url('/social1.png') center no-repeat;
-  background-size: cover;
-}
-.work6 {
-  background: url('/vr1.png') center no-repeat;
-  background-size: cover;
-}
-.work7 {
-  background: url('/devport.png') center no-repeat;
-  background-size: cover;
-}
-
 .contactli {
   font-size: 4vw;
   line-height: 1.2em;
@@ -101,7 +72,8 @@ body {
 .iconsize {
   font-size: 1.4vw;
   opacity: 80%;
-  color: var(--stone);
+  color: white;
+  mix-blend-mode: difference;
 }
 .header {
   font-family: 'octarine';
@@ -148,7 +120,6 @@ html.lenis {
     font-size: 5vw;
     padding-left: 2vw;
   }
-
   .contactli {
     font-size: 11vw;
     line-height: 1.4em;
@@ -159,8 +130,12 @@ html.lenis {
     line-height: 1.2em;
     font-family: 'octarine';
   }
+
   .link {
     font-size: 5vw;
+  }
+  .logo {
+    font-size: 6vw;
   }
 }
 
@@ -184,7 +159,9 @@ html.lenis {
   .link {
     font-size: 4vw;
   }
-
+  .logo {
+    font-size: 4.5vw;
+  }
   .contactli {
     font-size: 7vw;
     line-height: 1.2em;
@@ -216,7 +193,9 @@ html.lenis {
   .link {
     font-size: 1.4vw;
   }
-
+  .logo {
+    font-size: 1.8vw;
+  }
   .contactli {
     font-size: 3.5vw;
     line-height: 1.4em;
@@ -258,5 +237,8 @@ html.lenis {
     font-size: 4vw;
     line-height: 1.4em;
     font-family: 'octarine';
+  }
+  .logo {
+    font-size: 2vw;
   }
 }
