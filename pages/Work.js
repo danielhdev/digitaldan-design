@@ -42,6 +42,7 @@ const Work = () => {
 
                             ><Image src={AS}
                                 alt="AS portfolio redesign"
+                                priority="true"
                                 className="cursor-pointer"
                                 /></a>
                         </Link>
