@@ -29,15 +29,15 @@ function Application({ Component, pageProps }) {
       <Head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="Digital design, brand design, graphic design, web design, app design" />
-        <meta name="description" content="Digitaldan Agency, Daniel Hubschmann, senior digital designer. 
-        I offer a wide range of design skills including app design, web design, brand design and graphic design for ads, events and presentations." />
+        <meta name="keywords" content="web design, app design, user interface, ui, web development" />
+        <meta name="description" content="Digitaldan Agency, Daniel Hubschmann, senior web and user interface designer. 
+        I create and develop your next app or website. With over 20 years experience I will help you to conquer the user's screen." />
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Senior Digital Designer, Daniel Hubschmann, Digitaldan Agency, Creating Digital Values.</title>
+        <title>Senior Web Designer, Daniel Hubschmann, Digitaldan Web Design Agency.</title>
       </Head>
       <Navbar />
       <Contacticons />
