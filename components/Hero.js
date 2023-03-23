@@ -21,15 +21,15 @@ const Hero = () => {
             <section className="absolute top-[16vh] left-[2.5vw] md:left-[10vw]">
                 <h1 className="header">digital.dan agency</h1>
                 <motion.div animate={titleAnimate} className="paragraph">
-                    Daniel Hubschmann<br /> Senior Digital Designer</motion.div>
+                    Daniel Hubschmann<br /> Senior Brand & Digital Designer</motion.div>
 
             </section>
-            <div className="herobg bg-cover bg-center bg-no-repeat w-screen h-[55vh]
+            <div className="herobg2 bg-cover bg-center bg-no-repeat w-screen h-[55vh]
             flex flex-col justify-center items-center 
             " >
 
 
-                <motion.div animate={frameAnimate} className="border-l-0 border-b-0 border-stone-900 text-stone-900
+                <motion.div animate={frameAnimate} className="border-l-0 border-b-0 border-amber-500 text-amber-500
                  border-[0.15rem] pt-5 pr-[4vw] w-fit z-40
                 flex flex-col">
                     <Link href="/Work">
