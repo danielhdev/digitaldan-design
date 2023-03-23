@@ -68,6 +68,11 @@ body {
   line-height: 1.2em;
   font-family: 'octarine';
 }
+.heroli:hover {
+  color: transparent;
+  -webkit-text-stroke: 2px #00ffff;
+  transition: ease-out 0.4s;
+}
 
 .iconsize {
   font-size: 1.4vw;
@@ -75,6 +80,7 @@ body {
   color: white;
   mix-blend-mode: difference;
 }
+
 .header {
   font-family: 'octarine';
   font-size: 2vw;
@@ -102,7 +108,10 @@ html.lenis {
   color: white;
   mix-blend-mode: difference;
 }
-
+.logo:hover {
+  color: #39ff14;
+  transition: ease-out 0.4s;
+}
 /* smartphones */
 @media (max-width: 500px) {
   .iconsize {
