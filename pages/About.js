@@ -27,13 +27,13 @@ const About = () => {
                     <div className="aboutcontainer w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate} className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 w-fit">
-                            <section className="paragraph lg:w-[60ch] text-[var(--stone)]
+                            <section className="paragraph lg:w-[60ch] text-[var(--stone)] font-bold
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                             
                             ">
-                                Daniel Hubschmann from Germany. <br />Senior graphic and web designer with over two decades experience.
-                                I added web development to my skillset in the recent years.
+                                Daniel Hubschmann (Germany), freelance senior graphic and web designer with over two decades of experience.
+                                I added web development to my skills in the recent years.
                                 <br />
                                 <br />
                                 <span className="font-bold">
@@ -50,11 +50,11 @@ const About = () => {
                                 <br />
                                 <br />
 
-                                I&apos;m your reliable web designer/ web developer hybrid, available for contract and freelance work.
-                                Please contact me{' '}
+                                I&apos;m your reliable web designer and  web developer hybrid,
+                                please {' '}
                                 <Link href="/Contact">
-                                    <span className="text-amber-600 font-extrabold cursor-pointer underline">
-                                        HERE</span></Link>{' '}
+                                    <span className="text-amber-600 font-extrabold cursor-pointer underline uppercase">
+                                        contact me   HERE</span></Link>{' '}
                                 and let&apos;s talk about your project!
                                 <br />
                                 <br />
