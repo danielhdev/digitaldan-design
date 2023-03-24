@@ -136,7 +136,7 @@ const Work = () => {
                         <h1 className="header">Just Beautiful</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Designing a landing page for the launch of new skin care product line. Testing colors, layout and scroll animations.
+                                Designing a landing page for the launch of a new skin care product line. The mockup is testing colors, layout and scroll animations.
                                 <br />
                                 <br />
 
