@@ -18,10 +18,10 @@ const Hero = () => {
 
     return (
         <main className="h-screen pt-[32vh] relative">
-            <section className="absolute top-[16vh] left-[2.5vw] md:left-[10vw]">
+            <section className="absolute top-[16vh] md:top-[12vh] left-[2.5vw] md:left-[10vw]">
                 <h1 className="header">digital.dan agency</h1>
                 <motion.div animate={titleAnimate} className="paragraph">
-                    Daniel Hubschmann<br /> Senior Web/ UI Designer & Developer</motion.div>
+                    Daniel Hubschmann<br /> Senior UI/ Web Designer & Developer</motion.div>
 
             </section>
             <div className="herobg2 bg-cover bg-center bg-no-repeat w-screen h-[55vh]
