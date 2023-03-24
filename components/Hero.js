@@ -29,7 +29,7 @@ const Hero = () => {
             " >
 
 
-                <motion.div animate={frameAnimate} className="border-l-0 border-b-0 border-amber-500 text-amber-500
+                <motion.div animate={frameAnimate} className="border-l-0 border-b-0 border-amber-400 text-amber-400
                  border-[0.15rem] pt-5 pr-[4vw] w-fit z-40
                 flex flex-col">
                     <Link href="/Work">
