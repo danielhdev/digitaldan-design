@@ -27,7 +27,7 @@ const About = () => {
                     <div className="aboutcontainer w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate} className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 w-fit">
-                            <p className="paragraph lg:w-[60ch] text-[var(--stone)]
+                            <section className="paragraph lg:w-[60ch] text-[var(--stone)]
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                             
@@ -38,24 +38,25 @@ const About = () => {
                                 <br />
 
                                 Skills:{' '}<span className="text-amber-700 font-extrabold">
-                                    App/ web/ UI design & development. Including user journeys, wireframing, branding, visual design and animations.
+                                    App/ web/ UI design & development. Including user journeys, wireframing, branding, visual design and animations
                                 </span>.
                                 <br />
-                                <br />
+
 
                                 Tools: <span className="text-amber-700 font-extrabold">Figma, Abobe Ai/ Ps/ Ae, Inkscape,
-                                    HTML, CSS, JavaScript, BaaS like Firebase, headless CMS. I have experience with more tech like Webflow and am using AIs in my work.</span>.
+                                    HTML, CSS, JavaScript, BaaS like Firebase, headless CMS. I have experience with more tech like Webflow and am using AIs</span>.
                                 <br />
                                 <br />
 
-                                If you are in search of a reliable freelancer or sub contractor, please contact me{' '}
+                                I&apos;m your reliable web designer/ web developer hybrid, available for contract and freelance work.
+                                Please contact me{' '}
                                 <Link href="/Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer underline">
                                         HERE</span></Link>{' '}
                                 and let&apos;s talk about your project!
                                 <br />
                                 <br />
-                            </p>
+                            </section>
                         </motion.div>
                     </div>
                 </section>
