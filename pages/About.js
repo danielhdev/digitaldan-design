@@ -38,13 +38,13 @@ const About = () => {
                                 <br />
 
                                 Skills:{' '}<span className="text-amber-700 font-extrabold">
-                                    App/ web/ UI design & development. Including user journeys, wireframing, branding, visual design and animations.
+                                    App/ web/ UI design & development. Including user journeys, wireframing, branding, visual design and animations
                                 </span>.
                                 <br />
                                 <br />
 
                                 Tools: <span className="text-amber-700 font-extrabold">Figma, Abobe Ai/ Ps/ Ae, Inkscape,
-                                    HTML, CSS, JavaScript, BaaS like Firebase, headless CMS. I have experience with more tech like Webflow and am using AIs in my work.</span>.
+                                    HTML, CSS, JavaScript, BaaS like Firebase, headless CMS. I have experience with more tech like Webflow and am using AIs</span>.
                                 <br />
                                 <br />
 
