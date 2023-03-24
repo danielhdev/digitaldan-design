@@ -17,7 +17,7 @@ const About = () => {
         <>
             <main className="relative">
                 <section className="h-screen flex justify-center items-center">
-                    <section className="absolute top-[10vh] lg:left-[10vw]">
+                    <section className="absolute top-[10vh] left-[5vw] lg:left-[10vw]">
                         <motion.h1 animate={titleAnimate}
                             className="header"
                         >about</motion.h1>
