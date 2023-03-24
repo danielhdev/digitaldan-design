@@ -8,7 +8,7 @@ import Burger from '../public/burger.png'
 import Dev from '../public/devport.png'
 import Self from '../public/selfbrand1.png'
 import Social from '../public/social1.png'
-import VR from '../public/vr1.png'
+
 
 const Work = () => {
     const paragraphAnimate = {
@@ -136,7 +136,7 @@ const Work = () => {
                         <h1 className="header">Just Beautiful</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Designing a landing page for the launch of new skin care product line. Testing colors, layout and scroll animations.
+                                Designing a landing page for the launch of a new skin care product line. The mockup is testing colors, layout and scroll animations.
                                 <br />
                                 <br />
 
@@ -165,25 +165,7 @@ const Work = () => {
                                 Made with Adobe Ai.  </motion.p>
                         </div></div>
                 </section>
-                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                     w-screen  lg:w-[50%]">  <Image src={VR}
-                            alt="AS portfolio redesign"
-                        /></div>
-                    <div className="lg:w-[50%]">
-                        <h1 className="header">VR Nightclub</h1>
-                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Assets for a virtual reality night club in the game Second Life.
-
-                                <br />
-                                <br />
-
-                                Inkscape and Photoshop.
-                            </motion.p>
-                        </div></div>
-                </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
