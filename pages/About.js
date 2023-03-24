@@ -36,15 +36,17 @@ const About = () => {
                                 I added web development to my skillset in the recent years.
                                 <br />
                                 <br />
+                                <span className="font-bold">
+                                    Skills:</span>{' '}
+                                App/ web/ UI design & development.
+                                Including customer journeys, wireframing, branding, visual design and animations.
 
-                                Skills:{' '}<span className="text-amber-700 font-extrabold">
-                                    App/ web/ UI design & development. Including user journeys, wireframing, branding, visual design and animations
-                                </span>.
                                 <br />
 
-
-                                Tools: <span className="text-amber-700 font-extrabold">Figma, Abobe Ai/ Ps/ Ae, Inkscape,
-                                    HTML, CSS, JavaScript, BaaS like Firebase, headless CMS. I have experience with more tech like Webflow and am using AIs</span>.
+                                <span className="font-bold">
+                                    Tools:</span>{' '}Figma, Abobe Ai/ Ps/ Ae, Inkscape,
+                                HTML, CSS, JavaScript, BaaS like Firebase,
+                                headless CMS. I have experience with more tech like Webflow and am using AIs.
                                 <br />
                                 <br />
 
