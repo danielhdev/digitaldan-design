@@ -47,7 +47,7 @@ const About = () => {
                                     Skills:</span>{' '}
                                 <li>  App/ web/ UI design & development </li>
                                 <li> Customer journeys, wireframes</li>
-                                <li>branding</li>
+                                <li>Branding</li>
 
                                 <li>Visual design & animations  </li>
                                 <br />
