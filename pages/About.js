@@ -16,15 +16,18 @@ const About = () => {
     return (
         <>
             <main className="relative">
-                <section className="h-screen flex justify-center items-center">
-                    <section className="absolute top-[10vh] left-[5vw] lg:left-[10vw]">
-                        <motion.h1 animate={titleAnimate}
-                            className="header"
-                        >about</motion.h1>
-                    </section>
+                <section className="absolute top-[10vh] lg:left-[10vw]">
+                    <motion.h1 animate={titleAnimate}
+                        className="header"
+                    >about</motion.h1>
+                </section>
+
+                <section className="h-screen  md:h-[120vh]
+                flex justify-center items-center">
+
                     <h1 className="aboutbgdd tracking-widest absolute top-[10vw] right-[12vw] opacity-10">d.d</h1>
 
-                    <div className="aboutcontainer w-[95vw] lg:w-[70vw]">
+                    <div className="aboutcontainer h-auto w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate} className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 w-fit">
                             <section className="paragraph lg:w-[60ch] text-[var(--stone)] font-bold
@@ -32,29 +35,36 @@ const About = () => {
                             md:pt-8 md:pr-12 
                             
                             ">
-                                Daniel Hubschmann (Germany), freelance senior graphic and web designer with over two decades of experience.
-                                I added web development to my skills in the recent years.
+                                I&apos;m Daniel Hubschmann (Germany), freelance senior graphic and
+                                web designer with over two decades of experience.
+
                                 <br />
                                 <br />
                                 <span className="font-bold">
+
+                                    <ul className="list-disc"></ul>
+
                                     Skills:</span>{' '}
-                                App/ web/ UI design & development.
-                                Including customer journeys, wireframing, branding, visual design and animations.
+                                <li>  App/ web/ UI design & development </li>
+                                <li> Customer journey maps, wireframes, branding</li>
 
+                                <li>Visual design & animations  </li>
                                 <br />
-
                                 <span className="font-bold">
-                                    Tools:</span>{' '}Figma, Abobe Ai/ Ps/ Ae, Inkscape,
-                                HTML, CSS, JavaScript, BaaS like Firebase,
-                                headless CMS. I have experience with more tech like Webflow and am using AIs.
+                                    Tools:</span>{' '}
+                                <li> Figma, Abobe Ai/ Ps/ Ae, Inkscape </li>
+                                <li>HTML, CSS, JavaScript & JS frameworks</li>
+                                <li>  BaaS like Firebase,
+                                    headless CMS </li>
+                                <br />
+                                My Daily rates are 400 Euro for designer roles, 500 Euro for design and development combined. Discounts for longer (10 days+) contracts.
                                 <br />
                                 <br />
-
-                                I&apos;m your reliable web designer and  web developer hybrid,
-                                please {' '}
+                                Please {' '}
                                 <Link href="/Contact">
-                                    <span className="text-amber-600 font-extrabold cursor-pointer underline uppercase">
-                                        contact me   HERE</span></Link>{' '}
+                                    <span className="text-amber-600 font-extrabold cursor-pointer uppercase
+                                    border-[0.15rem] border-amber-600 p-[0.15rem]">
+                                        contact me HERE</span></Link>{' '}
                                 and let&apos;s talk about your project!
                                 <br />
                                 <br />

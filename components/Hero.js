@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
+import { BsGlobe } from 'react-icons/bs'
 
 const Hero = () => {
     const titleAnimate = {
@@ -18,10 +19,11 @@ const Hero = () => {
 
     return (
         <main className="h-screen pt-[32vh] relative">
-            <section className="absolute top-[16vh] md:top-[12vh] left-[2.5vw] md:left-[10vw]">
+            <section className="absolute top-[12vh] md:top-[10vh] left-[2.5vw] md:left-[10vw]">
                 <h1 className="header">digital.dan agency</h1>
                 <motion.div animate={titleAnimate} className="paragraph">
-                    Daniel Hubschmann<br /> Senior UI/ Web Designer & Developer</motion.div>
+                    Daniel Hubschmann - Freelancer<br /> Senior UI/ Web Designer & Developer <br />
+                    <span className="flex gap-2 items-center"> Supporting Other Agencies Around the Globe<BsGlobe /></span>  </motion.div>
 
             </section>
             <div className="herobg2 bg-cover bg-center bg-no-repeat w-screen h-[55vh]
@@ -30,7 +32,7 @@ const Hero = () => {
 
 
                 <motion.div animate={frameAnimate} className="border-l-0 border-b-0 border-amber-500 text-amber-500
-                 border-[0.15rem] pt-5 pr-[4vw] w-fit z-40
+                 border-[0.15rem] pt-5 pr-[3vw] w-fit z-40
                 flex flex-col">
                     <Link href="/Work">
                         <motion.span className='text-inherit p-1 
