@@ -55,20 +55,18 @@ const About = () => {
                                     Tools:</span>{' '}
                                 <li> Figma, Abobe Ai/ Ps/ Ae, Inkscape </li>
                                 <li>HTML, CSS, JavaScript & JS frameworks</li>
+                                <li>Wordpress & Webflow</li>
                                 <li>  BaaS like Firebase,
                                     headless CMS </li>
                                 <br />
-                                Freelance rates 400 Euro/ day for short gigs (less than 10 days), including design and development.
-                                Longer contracts negotiable.
-                                <br />
-                                <br />
+                                I work remote around the world.<br />
 
                                 Please {' '}
                                 <Link href="/Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
                                     border-[0.15rem] border-amber-600 p-[0.1rem]">
-                                        contact me HERE</span></Link>{' '}
-                                and let&apos;s talk about your project!
+                                        contact me</span></Link>{' '} for my rates
+                                or let&apos;s talk about your project!
                                 <br />
                                 <br />
                             </section>
