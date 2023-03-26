@@ -47,10 +47,10 @@ const About = () => {
                                     Skills:</span>{' '}
                                 <li>  App/ web/ UI design & development </li>
                                 <li> Customer journeys, wireframes</li>
-                                <li>Branding</li>
+                                <li>Brand design</li>
 
                                 <li>Visual design & animations  </li>
-                                <br />
+
                                 <span className="font-bold">
                                     Tools:</span>{' '}
                                 <li> Figma, Abobe Ai/ Ps/ Ae, Inkscape </li>
@@ -58,13 +58,15 @@ const About = () => {
                                 <li>  BaaS like Firebase,
                                     headless CMS </li>
                                 <br />
-                                My Daily rates are 400 Euro for designer roles, 500 Euro for design and development combined. Discounts for longer (10 days+) contracts.
+                                Freelance rates 400 Euro/ day for short gigs ( less than 10 days), including design and development.
+                                Longer contracts negotiable.
                                 <br />
                                 <br />
+
                                 Please {' '}
                                 <Link href="/Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
-                                    border-[0.15rem] border-amber-600 p-[0.15rem]">
+                                    border-[0.15rem] border-amber-600 p-[0.1rem]">
                                         contact me HERE</span></Link>{' '}
                                 and let&apos;s talk about your project!
                                 <br />

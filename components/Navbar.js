@@ -14,7 +14,7 @@ const Navbar = () => {
                 </Link>
                 <div className="link space-x-[4vw] mix-blend-difference">
                     <Link href="/Work">work</Link>
-                    <Link href="/About">about</Link>
+                    <Link href="/About">service</Link>
                     <Link href="/Contact">contact</Link>
                 </div>
 
