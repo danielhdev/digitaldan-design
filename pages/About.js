@@ -58,7 +58,7 @@ const About = () => {
                                 <li>  BaaS like Firebase,
                                     headless CMS </li>
                                 <br />
-                                Freelance rates 400 Euro/ day for short gigs ( less than 10 days), including design and development.
+                                Freelance rates 400 Euro/ day for short gigs (less than 10 days), including design and development.
                                 Longer contracts negotiable.
                                 <br />
                                 <br />
