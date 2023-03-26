@@ -22,7 +22,7 @@ const Hero = () => {
             <section className="absolute top-[12vh] md:top-[10vh] left-[2.5vw] md:left-[10vw]">
                 <h1 className="header">digital.dan agency</h1>
                 <motion.div animate={titleAnimate} className="paragraph">
-                    Daniel Hubschmann - Freelancer<br /> Senior UI/ Web Designer & Developer <br />
+                    UI/ Web Design & Development <br />
                     <span className="flex gap-2 items-center"> Supporting Other Agencies Around the Globe<BsGlobe /></span>  </motion.div>
 
             </section>
@@ -31,7 +31,7 @@ const Hero = () => {
             " >
 
 
-                <motion.div animate={frameAnimate} className="border-l-0 border-b-0 border-amber-500 text-amber-500
+                <motion.div animate={frameAnimate} className="border-l-0 border-b-0 border-amber-400 text-amber-400
                  border-[0.15rem] pt-5 pr-[3vw] w-fit z-40
                 flex flex-col">
                     <Link href="/Work">
@@ -51,7 +51,7 @@ const Hero = () => {
                             transition={{ delay: 0.6, duration: 0.5 }}
                             viewport={{ once: true }}
 
-                        >about </motion.span></Link>
+                        >service </motion.span></Link>
                     <Link href="/Contact">
                         <motion.span className=' text-inherit p-1 
                     cursor-pointer heroli
