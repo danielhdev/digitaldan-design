@@ -36,7 +36,7 @@ const About = () => {
                             
                             ">
                                 I&apos;m Daniel Hubschmann (Germany), freelance senior web designer now creative developer.
-                                Over two decades in design help me to get your ideas to your user&apos;s screens with a trained eye.
+                                I'm your dev in love with CSS and design, helping you to get your ideas to the user&apos;s screens.
 
                                 <br />
                                 <br />
