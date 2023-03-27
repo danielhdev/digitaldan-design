@@ -16,7 +16,7 @@ const About = () => {
     return (
         <>
             <main className="relative">
-                <section className="absolute top-[10vh] lg:left-[10vw]">
+                <section className="absolute top-[10vh] lg:left-[10vw] border-[0.15rem] border-l-0 border-b-0 border-amber-600 w-fit pr-[1rem]">
                     <motion.h1 animate={titleAnimate}
                         className="header"
                     >about</motion.h1>
@@ -25,11 +25,11 @@ const About = () => {
                 <section className="h-screen  md:h-[120vh]
                 flex justify-center items-center">
 
-                    <h1 className="aboutbgdd tracking-widest absolute top-[10vw] right-[12vw] opacity-10">d.d</h1>
+                    <h1 className="aboutbgdd tracking-wide absolute top-[10vw] right-[12vw] opacity-10">d.d</h1>
 
                     <div className="aboutcontainer h-auto w-[95vw] lg:w-[70vw]">
 
-                        <motion.div animate={paragraphAnimate} className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 w-fit">
+                        <motion.div animate={paragraphAnimate} className="">
                             <section className="paragraph lg:w-[60ch] text-[var(--stone)] font-bold
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
@@ -47,7 +47,7 @@ const About = () => {
                                     Skills:</span>{' '}
                                 <li> App/ web/ UI development </li>
                                 <li> Interactive/ UI animations  </li>
-
+                                <br />
                                 <span className="font-bold">
                                     Tools:</span>{' '}
                                 <li>HTML, CSS, JavaScript & JS frameworks</li>
@@ -58,12 +58,14 @@ const About = () => {
                                 <li> Chat GPT and other AIs</li>
                                 <br />
                                 I work remotly around the world and onsite in Berlin/ Germany.<br />
-                                Current daily rate 500 Euros, discounts for longer contracts (10+ days).<br />
+                                Current daily rate 500 Euros, discounts for longer contracts (10+ days).
+                                <br />
+                                <br />
 
                                 Please {' '}
                                 <Link href="/Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
-                                    border-[0.15rem] border-amber-600 p-[0.1rem]">
+                                    border-[0.15rem] border-amber-600 px-[0.1rem]">
                                         contact me</span></Link>{' '} and let&apos;s talk about your project!
                                 <br />
                                 <br />
