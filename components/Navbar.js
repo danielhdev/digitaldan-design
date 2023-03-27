@@ -1,7 +1,21 @@
 import React from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
+
+
+const menu = [
+
+    { title: 'work', path: '/Work' },
+    { title: 'service', path: '/About' },
+    { title: 'contact', path: '/Contact' },
+
+]
+
 
 const Navbar = () => {
+    const router = useRouter();
+
+
     return (
         <div className="navbarcontainer">
             <nav className="flex justify-start w-[90vw] mx-auto space-x-[5vw]
@@ -12,15 +26,25 @@ const Navbar = () => {
                     
                     "> d.d</span>
                 </Link>
-                <div className="link space-x-[4vw] mix-blend-difference">
-                    <Link href="/Work">work</Link>
-                    <Link href="/About">service</Link>
-                    <Link href="/Contact">contact</Link>
-                </div>
 
+                {menu.map((item, index) => {
+
+                    return (
+                        <Link key={index} href={item.path}>
+
+                            <a className=
+                                {`link ${router.pathname === item.path ? 'text-sky-400' : ''}`}
+
+                            >
+                                {item.title}
+                            </a>
+                        </Link>
+                    )
+                }
+                )}
             </nav>
 
-        </div>
+        </div >
     )
 }
 
