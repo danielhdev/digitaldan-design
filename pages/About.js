@@ -16,11 +16,6 @@ const About = () => {
     return (
         <>
             <main className="relative">
-                <section className="absolute top-[10vh] lg:left-[10vw] border-[0.15rem] border-l-0 border-b-0 border-amber-600 w-fit pr-[1rem]">
-                    <motion.h1 animate={titleAnimate}
-                        className="header"
-                    >about</motion.h1>
-                </section>
 
                 <section className="h-screen  md:h-[120vh]
                 flex justify-center items-center">
@@ -39,23 +34,20 @@ const About = () => {
                                 I'm your dev in love with CSS and design, helping you to get your ideas to the user&apos;s screens.
 
                                 <br />
-                                <br />
-                                <span className="font-bold">
-
-                                    <ul className="list-disc"></ul>
-
-                                    Skills:</span>{' '}
-                                <li> App/ web/ UI development </li>
-                                <li> Interactive/ UI animations  </li>
-                                <br />
-                                <span className="font-bold">
-                                    Tools:</span>{' '}
-                                <li>HTML, CSS, JavaScript & JS frameworks</li>
-                                <li>Wordpress & Webflow</li>
-                                <li>  BaaS like Firebase,
-                                    headless CMS </li>
-                                <li> Gsap, Framer Motion</li>
-                                <li> Chat GPT and other AIs</li>
+                                <br /><ul className="list border-[0.15rem] border-l-0 border-b-0 border-amber-600 w-fit pt-[1rem] pr-[2rem]">
+                                    <span className="font-bold">Skills:</span>{' '}
+                                    <li> App/ web/ UI development </li>
+                                    <li> Interactive/ UI animations  </li>
+                                    <br />
+                                    <span className="font-bold">
+                                        Tools:</span>{' '}
+                                    <li>HTML, CSS, JavaScript & JS frameworks</li>
+                                    <li>Wordpress & Webflow</li>
+                                    <li>  BaaS like Firebase,
+                                        headless CMS </li>
+                                    <li> Gsap, Framer Motion</li>
+                                    <li> Chat GPT and other AIs</li>
+                                </ul>
                                 <br />
                                 I work remotly around the world and onsite in Berlin/ Germany.<br />
                                 Current daily rate 500 Euros, discounts for longer contracts (10+ days).

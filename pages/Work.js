@@ -25,12 +25,10 @@ const Work = () => {
 
     return (
         <>
-            <main className="h-auto pb-[20vh] flex flex-col">
-                <section className="absolute top-[10vh] lg:left-[10vw]">
-                    <h1 className="header">work</h1>
-                </section>
+            <main className="h-auto py-[10vh] flex flex-col">
 
-                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto mt-[25vh] mb-[15vh]">
+
+                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">
 
                     <motion.div animate={firstImg} className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
                       w-screen lg:w-[50%]">
