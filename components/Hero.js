@@ -23,7 +23,7 @@ const Hero = () => {
                 <h1 className="header">digital.dan agency</h1>
                 <motion.div animate={titleAnimate} className="paragraph">
                     UI/ Web Design & Development <br />
-                    <span className="flex gap-2 items-center"> Supporting Other Agencies Around the Globe<BsGlobe /></span>  </motion.div>
+                    <span className="flex gap-2 items-center"> Digital Values For The World<BsGlobe /></span>  </motion.div>
 
             </section>
             <div className="herobg2 bg-cover bg-center bg-no-repeat w-screen h-[55vh]
