@@ -10,8 +10,6 @@ const menu = [
     { title: 'contact', path: '/Contact' },
 
 ]
-
-
 const Navbar = () => {
     const router = useRouter();
 
