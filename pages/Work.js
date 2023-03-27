@@ -52,12 +52,12 @@ const Work = () => {
                         <h1 className="header mt-[5vh] lg:mt-0">A New Look</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Some branding and a new portfolio site for one of the best photographers on unsplash.com. His old portfolio looks a bit dated.
+                                Some branding and a new portfolio site for one of the best photographers on unsplash.com.
                                 <br />
                                 <br />
 
 
-                                Styleguide and mockup coded with React.  </motion.p>
+                                Style guide and mockup coded with React.  </motion.p>
                         </div></div>
                 </section>
 
@@ -136,7 +136,7 @@ const Work = () => {
                         <h1 className="header">Just Beautiful</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Designing a landing page for the launch of a new skin care product line. The mockup is testing colors, layout and scroll animations.
+                                Designing a landing page for the launch of a new skin care product line. Testing image sizes, layout, scroll animations. Removed shifts on mobile and jumps during page transitions.
                                 <br />
                                 <br />
 
@@ -144,7 +144,7 @@ const Work = () => {
                                 Mockup coded with React.js.  </motion.p>
                         </div></div>
                 </section>
-                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                {/* <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
                      w-screen  lg:w-[50%]">
@@ -164,7 +164,7 @@ const Work = () => {
 
                                 Made with Adobe Ai.  </motion.p>
                         </div></div>
-                </section>
+                </section> */}
 
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
@@ -190,7 +190,7 @@ const Work = () => {
                                 <br />
 
 
-                                Mockup coded with Next.js.  </motion.p>
+                                Mockup coded with Next.js, Framer Motion, Tailwind CSS.  </motion.p>
                         </div></div>
                 </section>
 

@@ -22,7 +22,7 @@ const Hero = () => {
             <section className="absolute top-[12vh] md:top-[10vh] left-[2.5vw] md:left-[10vw]">
                 <h1 className="header">digital.dan agency</h1>
                 <motion.div animate={titleAnimate} className="paragraph">
-                    UI/ Web Design & Development <br />
+                    App, UI and Web Development <br />
                     <span className="flex gap-2 items-center"> Digital Values For The World<BsGlobe /></span>  </motion.div>
 
             </section>

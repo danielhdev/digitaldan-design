@@ -35,8 +35,8 @@ const About = () => {
                             md:pt-8 md:pr-12 
                             
                             ">
-                                I&apos;m Daniel Hubschmann (Germany), freelance senior graphic and
-                                web designer with over two decades of experience.
+                                I&apos;m Daniel Hubschmann (Germany), freelance senior web designer now creative developer.
+                                Over two decades in design help me to get your ideas to your user&apos;s screens with a trained eye.
 
                                 <br />
                                 <br />
@@ -45,28 +45,26 @@ const About = () => {
                                     <ul className="list-disc"></ul>
 
                                     Skills:</span>{' '}
-                                <li>  App/ web/ UI design & development </li>
-                                <li> Customer journeys, wireframes</li>
-                                <li>Brand design</li>
-
-                                <li>Visual design & animations  </li>
+                                <li> App/ web/ UI development </li>
+                                <li> Interactive/ UI animations  </li>
 
                                 <span className="font-bold">
                                     Tools:</span>{' '}
-                                <li> Figma, Abobe Ai/ Ps/ Ae, Inkscape </li>
                                 <li>HTML, CSS, JavaScript & JS frameworks</li>
                                 <li>Wordpress & Webflow</li>
                                 <li>  BaaS like Firebase,
                                     headless CMS </li>
+                                <li> Gsap, Framer Motion</li>
+                                <li> Chat GPT and other AIs</li>
                                 <br />
-                                I work remote around the world.<br />
+                                I work remotly around the world and onsite in Berlin/ Germany.<br />
+                                Current daily rate 500 Euros, discounts for longer contracts (10+ days).<br />
 
                                 Please {' '}
                                 <Link href="/Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
                                     border-[0.15rem] border-amber-600 p-[0.1rem]">
-                                        contact me</span></Link>{' '} for my rates
-                                or let&apos;s talk about your project!
+                                        contact me</span></Link>{' '} and let&apos;s talk about your project!
                                 <br />
                                 <br />
                             </section>
