@@ -22,7 +22,7 @@ const Hero = () => {
             <section className="absolute top-[12vh] md:top-[10vh] left-[2.5vw] md:left-[10vw]">
                 <h1 className="header">digital.dan agency</h1>
                 <motion.div animate={titleAnimate} className="paragraph">
-                    Daniel Hubschmann, Creative Developer <br />
+                    Daniel Hubschmann, Senior UI/ Web Designer <br />
                     <span className="flex gap-2 items-center"> Your Ideas On The World&apos;s Screens<BsGlobe /></span>  </motion.div>
 
             </section>
