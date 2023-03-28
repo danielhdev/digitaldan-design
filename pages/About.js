@@ -23,30 +23,30 @@ const About = () => {
                             md:pt-8 md:pr-12 
                                                         ">
                                 I&apos;m Daniel Hubschmann (Germany), senior web designer with over two decades of experience.
-                                I have become a developer in the recent years and will help to bring designs to the user&apos;s screens.
+                                I can take a project all the way from wireframes to developing the frontend in JavaScript.
                                 <br />
                                 <br />
                                 I work remote around the world, onsite in Berlin/ Germany.
-                                Daily rate 500 Euros, discounts for longer contracts (10+ days).
+                                Daily rate 400 Euros, discounts for longer contracts (10+ days).
                                 <br />
                                 <br />
                                 Please {' '}
                                 <Link href="/Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
                                     border-[0.15rem] border-amber-600 px-[0.1rem]">
-                                        contact me</span></Link>{' '} and let&apos;s talk about how I can support you!
+                                        contact</span></Link>{' '} me and let&apos;s talk about how I can support you!
                                 <br />
                                 <br />
 
                                 <ul className="list-disc border-[0.15rem] border-l-0 border-b-0 border-amber-600 pt-[1rem] pl-[2rem]">
                                     <span className="font-bold">Skills & Tools:</span>{' '}
-                                    <li> App/ web/ UI development </li>
-                                    <li> UI animations  </li>
+                                    <li>App/ web/ UI design </li>
+                                    <li>Visual & brand design </li>
+                                    <li>Customer journeys & wireframing </li>
+                                    <li>Figma, Adobe Ae/ Ps/ Ai, Blender, Inkscape </li>
                                     <li>HTML, CSS, JavaScript & JS frameworks</li>
                                     <li>Wordpress & Webflow</li>
-                                    <li>BaaS like Firebase,
-                                        headless CMS </li>
-                                    <li> Chat GPT and other AIs</li>
+                                    <li>Chat GPT & other AIs</li>
                                 </ul>
                                 <br />
                                 <br />
