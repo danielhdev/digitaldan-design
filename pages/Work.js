@@ -134,12 +134,12 @@ const Work = () => {
                         <h1 className="header">Just Beautiful</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Designing a landing page for the launch of a new skin care product line. Testing image sizes, layout, scroll animations. Removed shifts on mobile and jumps during page transitions.
+                                Landing page template for beauty products. With scroll animations, contact form and ready to connect to a shop.
                                 <br />
                                 <br />
 
 
-                                Mockup coded with React.js.  </motion.p>
+                                Coded with React.js.  </motion.p>
                         </div></div>
                 </section>
                 {/* <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
@@ -183,12 +183,12 @@ const Work = () => {
                         <h1 className="header">For Tool Fans</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Portfolio site, find the animation that gave the mysterious headline its name.
+                                Customizable portfolio template. Find the animation that gave the mysterious headline its name.
                                 <br />
                                 <br />
 
 
-                                Mockup coded with Next.js, Framer Motion, Tailwind CSS.  </motion.p>
+                                Coded with Next.js, Framer Motion, Tailwind.  </motion.p>
                         </div></div>
                 </section>
 
