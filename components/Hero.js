@@ -22,8 +22,8 @@ const Hero = () => {
             <section className="absolute top-[12vh] md:top-[10vh] left-[2.5vw] md:left-[10vw]">
                 <h1 className="header">digital.dan agency</h1>
                 <motion.div animate={titleAnimate} className="paragraph">
-                    App, UI and Web Development <br />
-                    <span className="flex gap-2 items-center"> Digital Values For The World<BsGlobe /></span>  </motion.div>
+                    Daniel Hubschmann, Creative Developer <br />
+                    <span className="flex gap-2 items-center"> Your Ideas On The World&apos;s Screens<BsGlobe /></span>  </motion.div>
 
             </section>
             <div className="herobg2 bg-cover bg-center bg-no-repeat w-screen h-[55vh]
@@ -62,10 +62,6 @@ const Hero = () => {
                             viewport={{ once: true }}
                         >contact </motion.span></Link>
                 </motion.div>
-
-
-
-
             </div>
         </main>
     )
