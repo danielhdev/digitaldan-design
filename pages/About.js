@@ -11,9 +11,9 @@ const About = () => {
 
     return (
         <>
-            <main className="relative">
+            <main className="relative h-auto py-[15vh] md:py-[5vh]">
                 <div className="aboutbgdd tracking-wide top-[10vw] right-[12vw] opacity-10 absolute">d.d</div>
-                <section className="h-screen
+                <section className="
                 flex justify-center items-center">
                     <div className="aboutcontainer h-auto w-[95vw] lg:w-[70vw]">
 
@@ -26,6 +26,7 @@ const About = () => {
                                 My focus is on graphic and any kind of digital design.
                                 <br />
                                 <br />
+
                                 <ul className="list-disc border-[0.15rem] border-l-0 border-b-0 border-amber-600 pt-[1rem] pl-[2rem]">
                                     <span className="font-bold">Skills</span>{' '}
                                     <li>App/ web/ UI design </li>
@@ -39,7 +40,8 @@ const About = () => {
                                     <li>Chat GPT & other AIs</li>
                                 </ul>
                                 <br />
-                                <br />
+
+
                                 I work remote around the world, onsite in Berlin/ Germany.
                                 Daily rate 400 Euros, discounts for longer contracts (10+ days).
                                 <br />
