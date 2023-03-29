@@ -21,8 +21,8 @@ const Hero = () => {
             <section className="absolute top-[12vh] md:top-[10vh] left-[2.5vw] md:left-[10vw]">
                 <h1 className="header">digital.dan agency</h1>
                 <motion.div animate={titleAnimate} className="paragraph">
-                    Daniel Hubschmann, Freelance  <br />
-                    Senior Graphic, UI & Web Designer  </motion.div>
+                    Daniel Hubschmann <br />
+                    Freelance Senior UI & Web Designer  </motion.div>
 
             </section>
             <div className="herobg2 bg-cover bg-center bg-no-repeat w-screen h-[55vh]
