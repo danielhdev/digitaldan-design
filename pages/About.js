@@ -22,8 +22,8 @@ const About = () => {
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                                                         ">
-                                I&apos;m Daniel Hubschmann (Germany), senior web designer with over two decades of experience.
-                                I can take a project all the way from wireframes to developing the frontend in JavaScript.
+                                I&apos;m Daniel Hubschmann (Germany), senior graphic and web designer with over two decades of experience.
+                                My knowledge of frontend development make my designs easy to put into production.
                                 <br />
                                 <br />
                                 I work remote around the world, onsite in Berlin/ Germany.
@@ -44,8 +44,8 @@ const About = () => {
                                     <li>Visual & brand design </li>
                                     <li>Customer journeys & wireframing </li>
                                     <li>Figma, Adobe Ae/ Ps/ Ai, Blender, Inkscape </li>
-                                    <li>HTML, CSS, JavaScript & JS frameworks</li>
-                                    <li>Wordpress & Webflow</li>
+                                    <li>HTML, CSS & basic JavaScript</li>
+                                    <li>Webflow & Wordpress</li>
                                     <li>Chat GPT & other AIs</li>
                                 </ul>
                                 <br />
