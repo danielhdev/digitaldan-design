@@ -22,7 +22,7 @@ const Hero = () => {
                 <h1 className="header">digital.dan agency</h1>
                 <motion.div animate={titleAnimate} className="paragraph">
                     Daniel Hubschmann <br />
-                    Freelance Senior UI & Web Designer  </motion.div>
+                    Freelance Senior Graphic, UI & Web Designer  </motion.div>
 
             </section>
             <div className="herobg2 bg-cover bg-center bg-no-repeat w-screen h-[55vh]

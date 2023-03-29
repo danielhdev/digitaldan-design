@@ -22,11 +22,23 @@ const About = () => {
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                                                         ">
-                                I&apos;m Daniel Hubschmann (Germany), senior UI and web designer with over two decades of experience.
-                                My knowledge of frontend development make my designs easy to put into production.
+                                I&apos;m Daniel Hubschmann (Germany), senior multidisciplinary designer with over two decades of experience.
+                                My focus is on graphic and any kind of digital design.
                                 <br />
                                 <br />
-                                I work remote around the world, onsite in Berlin/ Germany.
+                                <ul className="list-disc border-[0.15rem] border-l-0 border-b-0 border-amber-600 pt-[1rem] pl-[2rem]">
+                                    <span className="font-bold">Skills</span>{' '}
+                                    <li>App/ web/ UI design </li>
+                                    <li>Visual & brand design </li>
+                                    <li>Customer journeys & wireframing </li>
+                                    <span className="font-bold">Tools</span>{' '}
+                                    <li>Figma, Adobe Ae/ Ps/ Ai, Blender, Inkscape </li>
+                                    <li>HTML, CSS & basic JavaScript</li>
+                                    <li>Chat GPT & other AIs</li>
+                                </ul>
+                                <br />
+                                <br />
+                                I work remote jobs around the world, onsite in Berlin/ Germany.
                                 Daily rate 400 Euros, discounts for longer contracts (10+ days).
                                 <br />
                                 <br />
@@ -37,17 +49,6 @@ const About = () => {
                                         contact</span></Link>{' '} me and let&apos;s talk about how I can support you!
                                 <br />
                                 <br />
-
-                                <ul className="list-disc border-[0.15rem] border-l-0 border-b-0 border-amber-600 pt-[1rem] pl-[2rem]">
-                                    <span className="font-bold">Skills & Tools:</span>{' '}
-                                    <li>App/ web/ UI design </li>
-                                    <li>Visual & brand design </li>
-                                    <li>Customer journeys & wireframing </li>
-                                    <li>Figma, Adobe Ae/ Ps/ Ai, Blender, Inkscape </li>
-                                    <li>HTML, CSS & basic JavaScript</li>
-                                    <li>Webflow & Wordpress</li>
-                                    <li>Chat GPT & other AIs</li>
-                                </ul>
                                 <br />
                                 <br />
                             </section>
