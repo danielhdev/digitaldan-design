@@ -29,8 +29,10 @@ const About = () => {
                                 <ul className="list-disc border-[0.15rem] border-l-0 border-b-0 border-amber-600 pt-[1rem] pl-[2rem]">
                                     <span className="font-bold">Skills</span>{' '}
                                     <li>App/ web/ UI design </li>
-                                    <li>Visual & brand design </li>
                                     <li>Customer journeys & wireframing </li>
+                                    <li>Graphic design </li>
+                                    <li>Brand design </li>
+                                    <br />
                                     <span className="font-bold">Tools</span>{' '}
                                     <li>Figma, Adobe Ae/ Ps/ Ai, Blender, Inkscape </li>
                                     <li>HTML, CSS & basic JavaScript</li>
@@ -38,7 +40,7 @@ const About = () => {
                                 </ul>
                                 <br />
                                 <br />
-                                I work remote jobs around the world, onsite in Berlin/ Germany.
+                                I work remote around the world, onsite in Berlin/ Germany.
                                 Daily rate 400 Euros, discounts for longer contracts (10+ days).
                                 <br />
                                 <br />
