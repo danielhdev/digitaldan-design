@@ -22,7 +22,7 @@ const About = () => {
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                                                         ">
-                                I&apos;m Daniel Hubschmann (Germany), senior graphic and web designer with over two decades of experience.
+                                I&apos;m Daniel Hubschmann (Germany), senior UI and web designer with over two decades of experience.
                                 My knowledge of frontend development make my designs easy to put into production.
                                 <br />
                                 <br />
