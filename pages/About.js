@@ -22,28 +22,26 @@ const About = () => {
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                                                         ">
-                                I&apos;m Daniel Hubschmann (Germany), senior multidisciplinary designer with over two decades of experience.
-                                My focus is on graphic and any kind of digital design.
+                                I&apos;m Daniel Hubschmann (Germany), senior web designer with over two decades of experience. I changed careers to creative development in recent years, making me a good partner for agencies.
+                                I&apos;m your dev not afraid of CSS and design.
                                 <br />
                                 <br />
 
                                 <ul className="list-disc border-[0.15rem] border-l-0 border-b-0 border-amber-600 pt-[1rem] pl-[2rem]">
-                                    <span className="font-bold">Skills</span>{' '}
-                                    <li>App/ web/ UI design </li>
-                                    <li>Customer journeys & wireframing </li>
-                                    <li>Graphic design </li>
-                                    <li>Brand design </li>
-                                    <br />
-                                    <span className="font-bold">Tools</span>{' '}
-                                    <li>Figma, Adobe Ae/ Ps/ Ai, Blender, Inkscape </li>
-                                    <li>HTML, CSS & basic JavaScript</li>
+                                    <span className="font-bold">Skills & Tools</span>{' '}
+                                    <li>App, UI, web development</li>
+
+                                    <li>HTML, CSS & JavaScript</li>
+                                    <li>Gsap & Framer Motion</li>
+                                    <li>React & Next.js</li>
+                                    <li>Firebase & headless CMS (Contentful)</li>
+                                    <li>Figma</li>
                                     <li>Chat GPT & other AIs</li>
                                 </ul>
                                 <br />
-
-
+                                <br />
                                 I work remote around the world, onsite in Berlin/ Germany.
-                                Daily rate 400 Euros, discounts for longer contracts (10+ days).
+                                Daily rate 500 Euros, discounts for longer contracts (10+ days).
                                 <br />
                                 <br />
                                 Please {' '}
