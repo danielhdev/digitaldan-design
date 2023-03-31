@@ -34,14 +34,14 @@ const About = () => {
                                     <li>HTML, CSS & JavaScript</li>
                                     <li>Gsap & Framer Motion</li>
                                     <li>React & Next.js</li>
-                                    <li>Firebase & headless CMS (Craft CMS)</li>
+                                    <li>Firebase & headless CMS (Sanity)</li>
                                     <li>Figma</li>
                                     <li>Chat GPT & other AIs</li>
                                 </ul>
                                 <br />
                                 <br />
                                 I work remote around the world, onsite in Berlin/ Germany.
-                                Daily rate 500 Euros, discounts for longer contracts (10+ days).
+                                Daily rate 500 Euros, discounts for longer contracts.
                                 <br />
                                 <br />
                                 Please {' '}
