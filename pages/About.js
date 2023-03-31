@@ -34,7 +34,7 @@ const About = () => {
                                     <li>HTML, CSS & JavaScript</li>
                                     <li>Gsap & Framer Motion</li>
                                     <li>React & Next.js</li>
-                                    <li>Firebase & headless CMS (Contentful)</li>
+                                    <li>Firebase & headless CMS (Craft CMS)</li>
                                     <li>Figma</li>
                                     <li>Chat GPT & other AIs</li>
                                 </ul>
