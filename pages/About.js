@@ -27,8 +27,9 @@ const About = () => {
                                 <br />
                                 <br />
 
-                                <ul className="list-disc border-[0.15rem] border-l-0 border-b-0 border-amber-600 pt-[1rem] pl-[2rem]">
-                                    <span className="font-bold">Skills & Tools</span>{' '}
+                                <ul className="list-disc border-[0.15rem] border-l-0 border-b-0 border-amber-600 
+                                pt-[1rem] pl-[2rem]">
+                                    <span className="font-bold header">Skills & Tools</span>{' '}
                                     <li>App, UI, web development</li>
 
                                     <li>HTML, CSS & JavaScript</li>
@@ -41,7 +42,7 @@ const About = () => {
                                 <br />
                                 <br />
                                 I work remote around the world, onsite in Berlin/ Germany.
-                                Daily rate 500 Euros, discounts for longer contracts.
+                                Freelance rate 60 Euro/ hour, discounts for longer contracts.
                                 <br />
                                 <br />
                                 Please {' '}
