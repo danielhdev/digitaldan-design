@@ -57,8 +57,8 @@ body {
   background: url('/heroimg.png') center no-repeat;
   background-size: cover;
 }
-.herobg2 {
-  background: url('/heroimg2.png') center no-repeat;
+.contactbg {
+  background: url('/contactimg.png') center no-repeat;
   background-size: cover;
 }
 
