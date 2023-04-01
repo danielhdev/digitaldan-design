@@ -22,15 +22,15 @@ const Hero = () => {
                 <h1 className="header">digital.dan agency</h1>
                 <motion.div animate={titleAnimate} className="paragraph">
                     Daniel Hubschmann <br />
-                    Freelance Creative Developer<br /> Bringing Your Ideas To Screens  </motion.div>
+                    Freelance Creative Developer<br />Web Development For Creative Agencies  </motion.div>
 
             </section>
-            <div className="herobg2 bg-cover bg-center bg-no-repeat w-screen h-[55vh]
+            <div className="herobg bg-cover bg-center bg-no-repeat w-screen h-[55vh]
             flex flex-col justify-center items-center 
             " >
 
 
-                <motion.div animate={frameAnimate} className="border-l-0 border-b-0 border-amber-400 text-amber-400
+                <motion.div animate={frameAnimate} className="border-l-0 border-b-0 border-[var(--stone)] text-[var(--stone)]
                  border-[0.15rem] pt-5 pr-[3vw] w-fit z-40
                 flex flex-col">
                     <Link href="/Work">
