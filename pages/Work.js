@@ -8,7 +8,7 @@ import Beauty from '../public/beauty.png'
 import Burger from '../public/burger.png'
 import Dev from '../public/devport.png'
 import Self from '../public/selfbrand1.png'
-import Social from '../public/social1.png'
+
 
 
 const Work = () => {
@@ -28,7 +28,8 @@ const Work = () => {
         <>
             <main className="h-auto md:py-[10vh] flex flex-col">
 
-                <h1 className="paragraph mx-auto mt-[4rem]">Please click/ tab on the images for the links.  </h1>
+                <h1 className="paragraph mx-auto mt-[4rem] text-center">Please click/ tap on the images for the links.<br />Links open in a new tab.  </h1>
+
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">
 
                     <motion.div animate={firstImg} className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
@@ -170,27 +171,7 @@ const Work = () => {
                                 Coded with React.js.  </motion.p>
                         </div></div>
                 </section>
-                {/* <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                     w-screen  lg:w-[50%]">
-
-                        <Image src={Social}
-                            alt="AS portfolio redesign"
-                        />
-                    </div>
-                    <div className="lg:w-[50%]">
-                        <h1 className="header">Social Media</h1>
-                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Stand out from the noise with stylish ads, headers and other images for your social media accounts.
-                                <br />
-                                <br />
-
-
-                                Made with Adobe Ai.  </motion.p>
-                        </div></div>
-                </section> */}
 
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
