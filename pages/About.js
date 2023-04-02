@@ -32,19 +32,23 @@ const About = () => {
                                 pt-[1rem] pl-[2rem]">
                                     <span className="header">Web Design with Figma</span>{' '}
                                     <li>You can rely on my long experience in this field.</li>
-                                    <li>I will help you turn visitors into customers.</li>
-                                    <br />
-                                    <br />
+                                    <li>I will help you turn visitors into customers.</li></ul>
+                                <br />
+                                <br />
 
+
+                                <ul className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 
+                                pt-[1rem] pl-[2rem]">
                                     <span className="header">Web Development</span>{' '}
                                     <li>with HTML, CSS, JavaScript and JavaScript libraries,</li>
                                     <li>Firebase or Prismic CMS as backend solutions.</li>
-                                    <li>Animations and interactive design included.</li>
+                                    <li>Animations and interactive design included.</li></ul>
 
-                                    <br />
-                                    <br />
+                                <br />
+                                <br />
 
-
+                                <ul className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 
+                                pt-[1rem] pl-[2rem]">
                                     <span className="header">Both</span>{' '}
                                     <li>I can design and develop your website, taking</li>
                                     <li>it from wireframes all the way to deployment.</li>
