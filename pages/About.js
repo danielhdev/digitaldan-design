@@ -22,43 +22,42 @@ const About = () => {
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                                                         ">
-                                I&apos;m Daniel Hubschmann (Germany), senior web designer with over two decades of experience. I changed careers to creative web development in recent years.
+                                Daniel Hubschmann (Germany), senior web designer with two decades of experience. I added creative web development in recent years.
                                 <br />
                                 <br />
-                                With this background I develop for creative agencies around the world.
-                                I&apos;m your dev in love with animations, CSS and design.
+                                My Services:
                                 <br />
                                 <br />
-                                I work remote around the world, onsite in Berlin/ Germany.
-                                Freelance rate 60 Euro/ hour, discounts for longer contracts.
+                                <ul className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 
+                                pt-[1rem] pl-[2rem]">
+                                    <span className="header">Web Design with Figma</span>{' '}
+                                    <li>You can rely on my long experience in this field.</li>
+                                    <li>I will help you turn visitors into customers.</li>
+                                    <br />
+                                    <br />
+
+                                    <span className="header">Web Development</span>{' '}
+                                    <li>with HTML, CSS, JavaScript and JavaScript libraries,</li>
+                                    <li>Firebase or Prismic CMS as backend solutions.</li>
+                                    <li>Animations and interactive design included.</li>
+
+                                    <br />
+                                    <br />
+
+
+                                    <span className="header">Both</span>{' '}
+                                    <li>I can design and develop your website, taking</li>
+                                    <li>it from wireframes all the way to deployment.</li>
+
+                                </ul>
+
                                 <br />
                                 <br />
                                 Please {' '}
                                 <Link href="/Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
                                     border-[0.15rem] border-amber-600 px-[0.1rem]">
-                                        contact</span></Link>{' '} me and let&apos;s talk about how I can support you!
-
-                                <br />
-                                <br />
-                                <br />
-                                <ul className="list-disc border-[0.15rem] border-l-0 border-b-0 border-amber-600 
-                                pt-[1rem] pl-[2rem]">
-                                    <span className="header">Service & Tools</span>{' '}
-                                    <li>App, UI, web development</li>
-                                    <li>Consultation web design and development</li>
-                                    <li>Content management</li>
-                                    <li>HTML, CSS & JavaScript</li>
-                                    <li>React & Next.js</li>
-                                    <li>Gsap & Framer Motion</li>
-                                    <li>Firebase & headless CMS (Sanity)</li>
-                                    <li>Figma</li>
-                                    <li>Chat GPT & other AIs</li>
-                                </ul>
-
-                                <br />
-                                <br />
-
+                                        contact</span></Link>{' '} me and let&apos;s talk about your project!
 
                             </section>
                         </motion.div>
