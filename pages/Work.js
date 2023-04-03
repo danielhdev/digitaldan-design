@@ -57,7 +57,7 @@ const Work = () => {
                                 <br />
 
 
-                                Style guide and mockup coded with React.  </motion.p>
+                                Coded with React.  </motion.p>
                         </div></div>
                 </section>
 
@@ -87,7 +87,7 @@ const Work = () => {
                                 <br />
 
 
-                                This website mockup was coded with Next.js.  </motion.p>
+                                Project coded with Next.js.  </motion.p>
                         </div></div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
@@ -197,7 +197,7 @@ const Work = () => {
                                 <br />
 
 
-                                Coded with Next.js, Framer Motion, Tailwind.  </motion.p>
+                                Made with Next.js, Framer Motion, Tailwind.  </motion.p>
                         </div></div>
                 </section>
 

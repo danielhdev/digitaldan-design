@@ -18,23 +18,19 @@ const About = () => {
                     <div className="aboutcontainer h-auto w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate}>
-                            <section className="paragraph lg:w-[60ch] text-[var(--stone)] font-bold 
+                            <section className="paragraph lg:w-[65ch] text-[var(--stone)] font-bold 
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                                                         ">
-                                Daniel Hubschmann (Germany), senior web designer with two decades of experience. I added creative web development in recent years.
+                                Daniel Hubschmann (Germany), senior web designer with two decades of experience.
+                                I changed careers to web development in recent years.
+                                My background makes me your partner for bringing designs on user screens.
                                 <br />
                                 <br />
                                 My Services:
                                 <br />
                                 <br />
-                                <ul className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 
-                                pt-[1rem] pl-[2rem]">
-                                    <span className="header">Web Design with Figma</span>{' '}
-                                    <li>You can rely on my long experience in this field.</li>
-                                    <li>I will help you turn visitors into customers.</li></ul>
-                                <br />
-                                <br />
+
 
 
                                 <ul className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 
@@ -49,9 +45,9 @@ const About = () => {
 
                                 <ul className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 
                                 pt-[1rem] pl-[2rem]">
-                                    <span className="header">Both</span>{' '}
-                                    <li>I can design and develop your website, taking</li>
-                                    <li>it from wireframes all the way to deployment.</li>
+                                    <span className="header">Web Consulting</span>{' '}
+                                    <li>With my long experience creating websites </li>
+                                    <li>I can help you improve your current online presence.</li>
 
                                 </ul>
 
