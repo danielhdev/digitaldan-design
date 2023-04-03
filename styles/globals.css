@@ -54,11 +54,11 @@ body {
 /* backgroundimages */
 
 .herobg {
-  background: url('/herodd.png') center no-repeat;
+  background: url('/herodd2.png') center no-repeat;
   background-size: cover;
 }
 .contactbg {
-  background: url('/contactdd.png') center no-repeat;
+  background: url('/herodd2.png') center no-repeat;
   background-size: cover;
 }
 
@@ -67,20 +67,11 @@ body {
   font-family: 'octarine';
 }
 
-.contactli {
-  font-size: 4vw;
-  line-height: 1.2em;
-  font-family: 'octarine';
-}
-.heroli {
-  font-size: 4vw;
-  line-height: 1.2em;
-  font-family: 'octarine';
-}
 .contactli:hover,
-.heroli:hover {
-  color: transparent;
-  -webkit-text-stroke: 2px #ff89ff;
+.heroli1:hover,
+.heroli2:hover,
+.heroli3:hover {
+  -webkit-text-stroke: 4px #ff89ff;
   transition: ease-out 0.4s;
 }
 
@@ -143,13 +134,54 @@ html.lenis {
     font-size: 4vw;
     padding-left: 2vw;
   }
-  .contactli {
-    font-size: 11vw;
-    line-height: 1.4em;
+  .heroheader {
+    font-family: 'octarine';
+    font-size: calc(7vw - 0.25vw);
+    padding-left: 2vw;
+  }
+  .herosubheader {
+    font-family: 'Oxygen';
+    font-size: 4vw;
+    padding-left: 2vw;
+  }
+
+  .heroli1 {
+    -webkit-text-stroke: 4px #ffe900;
+    font-size: calc(32vw - 0.25vw);
+    line-height: 1.2em;
     font-family: 'octarine';
   }
-  .heroli {
-    font-size: 11vw;
+
+  .heroli2 {
+    -webkit-text-stroke: 3px #ffbf00;
+    font-size: calc(22vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+
+  .heroli3 {
+    -webkit-text-stroke: 4px #ffe900;
+    font-size: calc(22vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+  .contactli1 {
+    -webkit-text-stroke: 3px #ffe900;
+    font-size: calc(18vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+
+  .contactli2 {
+    -webkit-text-stroke: 3px #ffbf00;
+    font-size: calc(18vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+
+  .contactli3 {
+    -webkit-text-stroke: 4px #ffe900;
+    font-size: calc(18vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
@@ -179,6 +211,16 @@ html.lenis {
     font-size: 2.75vw;
     padding-left: 1.5vw;
   }
+  .heroheader {
+    font-family: 'octarine';
+    font-size: calc(4vw - 0.25vw);
+    padding-left: 2vw;
+  }
+  .herosubheader {
+    font-family: 'Oxygen';
+    font-size: 2.5vw;
+    padding-left: 2vw;
+  }
   .link {
     font-size: 3.5vw;
   }
@@ -190,8 +232,41 @@ html.lenis {
     line-height: 1.2em;
     font-family: 'octarine';
   }
-  .heroli {
-    font-size: 7vw;
+  .heroli1 {
+    -webkit-text-stroke: 4px #ffe900;
+    font-size: calc(22vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+  .heroli2 {
+    -webkit-text-stroke: 3px #ffbf00;
+    font-size: calc(16vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+  .heroli3 {
+    -webkit-text-stroke: 4px #ffe900;
+    font-size: calc(16vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+  .contactli1 {
+    -webkit-text-stroke: 3px #ffe900;
+    font-size: calc(14vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+
+  .contactli2 {
+    -webkit-text-stroke: 3px #ffbf00;
+    font-size: calc(14vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+
+  .contactli3 {
+    -webkit-text-stroke: 4px #ffe900;
+    font-size: calc(14vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
@@ -216,6 +291,16 @@ html.lenis {
     font-size: 1.35vw;
     padding-left: 1.5vw;
   }
+  .heroheader {
+    font-family: 'octarine';
+    font-size: calc(2vw - 0.25vw);
+    padding-left: 2vw;
+  }
+  .herosubheader {
+    font-family: 'Oxygen';
+    font-size: 1.2vw;
+    padding-left: 2vw;
+  }
   .link {
     font-size: 1.4vw;
   }
@@ -227,9 +312,42 @@ html.lenis {
     line-height: 1.4em;
     font-family: 'octarine';
   }
-  .heroli {
-    font-size: 3.5vw;
-    line-height: 1.4em;
+  .heroli1 {
+    -webkit-text-stroke: 4px #ffe900;
+    font-size: calc(10vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+  .heroli2 {
+    -webkit-text-stroke: 3px #ffbf00;
+    font-size: calc(8vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+  .heroli3 {
+    -webkit-text-stroke: 4px #ffe900;
+    font-size: calc(8vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+  .contactli1 {
+    -webkit-text-stroke: 3px #ffe900;
+    font-size: calc(9vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+
+  .contactli2 {
+    -webkit-text-stroke: 3px #ffbf00;
+    font-size: calc(9vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+
+  .contactli3 {
+    -webkit-text-stroke: 4px #ffe900;
+    font-size: calc(9vw - 0.25vw);
+    line-height: 1.2em;
     font-family: 'octarine';
   }
 }
@@ -249,6 +367,34 @@ html.lenis {
     font-family: 'Oxygen';
     font-size: 1.5vw;
     padding-left: 1.5vw;
+  }
+  .heroheader {
+    font-family: 'octarine';
+    font-size: calc(2vw - 0.25vw);
+    padding-left: 2vw;
+  }
+  .herosubheader {
+    font-family: 'Oxygen';
+    font-size: 1.2vw;
+    padding-left: 2vw;
+  }
+  .heroli1 {
+    -webkit-text-stroke: 4px #ffe900;
+    font-size: calc(10vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+  .heroli2 {
+    -webkit-text-stroke: 3px #ffbf00;
+    font-size: calc(8vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+  .heroli3 {
+    -webkit-text-stroke: 4px #ffe900;
+    font-size: calc(8vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
   }
   .link {
     font-size: 1.8vw;
