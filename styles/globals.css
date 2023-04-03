@@ -54,11 +54,11 @@ body {
 /* backgroundimages */
 
 .herobg {
-  background: url('/heroimg.png') center no-repeat;
+  background: url('/herodd.png') center no-repeat;
   background-size: cover;
 }
 .contactbg {
-  background: url('/contactimg.png') center no-repeat;
+  background: url('/contactdd.png') center no-repeat;
   background-size: cover;
 }
 
@@ -94,7 +94,7 @@ body {
 .header {
   font-family: 'octarine';
   font-size: 2vw;
-  color: var(--stone);
+
   mix-blend-mode: darken;
 }
 .paragraph {
