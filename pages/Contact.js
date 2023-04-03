@@ -10,11 +10,11 @@ const Contact = () => {
 
 
 
-        <main className="h-screen  flex justify-center items-center">
+        <main className="h-screen  flex justify-center items-center contactbg">
 
 
-            <section className='contactbg flex flex-col md:flex-row justify-center items-center
-            h-auto w-full py-[12vh] backdrop-blur-2xl'>
+            <section className=' flex flex-col md:flex-row justify-center items-center
+            h-auto w-full py-[12vh]'>
 
                 <div className="w-[full landscape:w-[50vw]  rounded-full">
                     <FeedbackForm />
