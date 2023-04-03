@@ -38,13 +38,12 @@ const About = () => {
                                     <span className="header">Web Development</span>{' '}
                                     <li>with HTML, CSS, JavaScript and JavaScript libraries,</li>
                                     <li>Firebase or Prismic CMS as backend solutions.</li>
-                                    <li>Animations and interactive design included.</li></ul>
+                                    <li>Animations and interactive design included.</li>
 
-                                <br />
-                                <br />
+                                    <br />
+                                    <br />
 
-                                <ul className="border-[0.15rem] border-l-0 border-b-0 border-amber-600 
-                                pt-[1rem] pl-[2rem]">
+
                                     <span className="header">Web Consulting</span>{' '}
                                     <li>With my long experience creating websites </li>
                                     <li>I can help you improve your current online presence.</li>
