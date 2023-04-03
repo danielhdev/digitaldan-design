@@ -146,21 +146,21 @@ html.lenis {
 
   .heroli1 {
     -webkit-text-stroke: 4px #ffe900;
-    font-size: calc(32vw - 0.25vw);
+    font-size: calc(18vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .heroli2 {
     -webkit-text-stroke: 3px #ffbf00;
-    font-size: calc(22vw - 0.25vw);
+    font-size: calc(18vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .heroli3 {
     -webkit-text-stroke: 4px #ffe900;
-    font-size: calc(22vw - 0.25vw);
+    font-size: calc(18vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
