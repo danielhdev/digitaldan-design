@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <div className="navbarcontainer">
-            <nav className="flex justify-start w-[90vw] mx-auto space-x-[3.5vw]
+            <nav className="flex justify-start w-[90vw] mx-auto space-x-[4vw]
             top-0">
                 <Link href="/">
                     <span className="font-[octarine] tracking-widest cursor-pointer mix-blend-difference

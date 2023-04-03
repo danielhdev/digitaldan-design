@@ -17,7 +17,7 @@ const Hero = () => {
     }
 
     return (
-        <main className="h-screen flex justify-center items-center relative herobg bg-cover bg-center bg-no-repeat ">
+        <main className="h-screen flex justify-center items-center relative darkbg bg-cover bg-center bg-no-repeat ">
             <section className="absolute top-[12vh] md:top-[10vh] left-[2.5vw]
             mix-blend-difference text-zinc-50">
                 <h1 className="heroheader">digital.dan agency</h1>
