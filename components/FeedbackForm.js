@@ -29,7 +29,7 @@ export default function FeedbackForm() {
               transition={{ delay: 0.5, duration: 0.5 }}
               viewport={{ once: true }}
             >
-              Email
+              email
             </motion.li>
           </a>
           <a
@@ -44,7 +44,7 @@ export default function FeedbackForm() {
               transition={{ delay: 0.6, duration: 0.5 }}
               viewport={{ once: true }}
             >
-              LinkedIn
+              linkedin
             </motion.li>
           </a>
           <a
@@ -59,7 +59,7 @@ export default function FeedbackForm() {
               transition={{ delay: 0.6, duration: 0.5 }}
               viewport={{ once: true }}
             >
-              Twitter
+              twitter
             </motion.li></a>
         </ul>
       </main>
