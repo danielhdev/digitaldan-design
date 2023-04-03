@@ -53,18 +53,15 @@ body {
 
 /* backgroundimages */
 
-.herobg {
+.darkbg {
   background: url('/herodd2.png') center no-repeat;
+  opacity: 90%;
   background-size: cover;
 }
-.contactbg {
-  background: url('/herodd2.png') center no-repeat;
+.lightbg {
+  background: url('/heroddbr.png') center no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-}
-
-.aboutbgdd {
-  font-size: clamp(4vw, 12vw - 10%, 14vw);
-  font-family: 'octarine';
 }
 
 .contactli1:hover,
@@ -74,7 +71,7 @@ body {
 .heroli2:hover,
 .heroli3:hover {
   -webkit-text-stroke: 4px #ff89ff;
-  transition: ease-out 0.4s;
+  transition: 0.5s ease-out 0.4s;
 }
 
 .iconsize {

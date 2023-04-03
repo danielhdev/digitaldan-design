@@ -26,8 +26,16 @@ const Work = () => {
 
     return (
         <>
-            <main className="h-auto md:py-[10vh] flex flex-col">
-
+            <main className="h-auto py-[16vh] flex flex-col">
+                <motion.h1
+                    className="contactli1 ml-[5%]"
+                    initial={{ y: 10, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.5, duration: 0.5 }}
+                    viewport={{ once: true }}
+                >
+                    work
+                </motion.h1>
                 <h1 className="paragraph mx-auto mt-[4rem] text-center">Please click/ tap on the images for the links.<br />Links open in a new tab.  </h1>
 
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">

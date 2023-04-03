@@ -10,7 +10,7 @@ const Contact = () => {
 
 
 
-        <main className="h-screen  flex justify-center items-center contactbg">
+        <main className="h-screen  flex justify-center items-center darkbg">
 
 
             <section className=' flex flex-col md:flex-row justify-center items-center
