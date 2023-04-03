@@ -20,10 +20,10 @@ const Hero = () => {
         <main className="h-screen flex justify-center items-center relative herobg bg-cover bg-center bg-no-repeat ">
             <section className="absolute top-[12vh] md:top-[10vh] left-[2.5vw]
             mix-blend-difference text-zinc-50">
-                <h1 className="header">digital.dan agency</h1>
-                <motion.div animate={titleAnimate} className="paragraph">
+                <h1 className="heroheader">digital.dan agency</h1>
+                <motion.div animate={titleAnimate} className="herosubheader">
                     Daniel Hubschmann<br />
-                    Freelance Creative Web Developer<br />  </motion.div>
+                    Freelance Web Developer<br />  </motion.div>
 
             </section>
             <div className=" w-screen h-[55vh]
@@ -31,12 +31,12 @@ const Hero = () => {
             " >
 
 
-                <motion.div animate={frameAnimate} className="border-l-0 border-b-0 border-[var(--stone)] text-[var(--stone)]
-                 border-[0.15rem] pt-5 pr-[3vw] w-fit z-40
+                <motion.div animate={frameAnimate} className="
+                pt-5 pr-[3vw] w-fit z-40
                 flex flex-col">
                     <Link href="/Work">
                         <motion.span className='text-inherit p-1 
-                    cursor-pointer heroli
+                    cursor-pointer heroli1 
                     '
                             initial={{ y: 20, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
@@ -45,7 +45,7 @@ const Hero = () => {
                         >work </motion.span></Link>
                     <Link href="/About">
                         <motion.span className=' text-inherit p-1 
-                    cursor-pointer heroli'
+                    cursor-pointer heroli2'
                             initial={{ y: 20, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             transition={{ delay: 0.6, duration: 0.5 }}
@@ -54,7 +54,7 @@ const Hero = () => {
                         >service </motion.span></Link>
                     <Link href="/Contact">
                         <motion.span className=' text-inherit p-1 
-                    cursor-pointer heroli
+                    cursor-pointer heroli3
                     '
                             initial={{ y: 20, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}

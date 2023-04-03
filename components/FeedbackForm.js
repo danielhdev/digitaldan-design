@@ -14,7 +14,7 @@ export default function FeedbackForm() {
 
   return (
     <section className="flex flex-col justify-center items-center">
-      <main className="border-l-0 border-b-0 border-black border-[0.15rem] pt-8 pr-10 w-fit
+      <main className=" pt-8 pr-10 w-fit
     text-black">
         <ul>
           <a
@@ -23,7 +23,7 @@ export default function FeedbackForm() {
             encType="text/plain"
           >
             <motion.li
-              className="contactli"
+              className="contactli1"
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.5 }}
@@ -38,7 +38,7 @@ export default function FeedbackForm() {
             rel="noopener noreferrer"
           >
             <motion.li
-              className="contactli"
+              className="contactli2"
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.5 }}
@@ -53,7 +53,7 @@ export default function FeedbackForm() {
             rel="noopener noreferrer"
           >
             <motion.li
-              className="contactli"
+              className="contactli3"
               initial={{ y: 20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.5 }}
@@ -63,7 +63,7 @@ export default function FeedbackForm() {
             </motion.li></a>
         </ul>
       </main>
-      <section className="text-center text-black 
+      <section className="text-center text-amber-300 
       
       ml-[50vw]
       md:ml-[30vw]
