@@ -25,13 +25,13 @@ const Hero = () => {
                     Freelance Web Developer<br />  </motion.div>
 
             </section>
-            <div className=" w-[50vw] h-fit 
+            <div className=" w-[45vw] h-fit 
             flex flex-col justify-end items-end text-center
             " >
 
 
                 <motion.div animate={frameAnimate} className="
-                pt-5 pr-[3vw] w-fit z-40 border-t-[2px] border-r-[2px] border-amber-300 
+                pt-5 pr-[2vw] w-fit z-40 border-t-[2px] border-r-[2px] border-amber-300 
                 flex flex-col">
 
                     <Link href="/About">
