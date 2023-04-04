@@ -13,21 +13,21 @@ const About = () => {
         <>
             <main className="relative h-auto py-[10vh]">
                 <motion.h1
-                    className="contactli1 ml-[5%]"
+                    className="aboutheader ml-[5%]"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
                     viewport={{ once: true }}
                 >
                     service
-                </motion.h1>
+                </motion.h1 >
 
                 <section className="
                 flex justify-center items-center">
-                    <div className="aboutcontainer h-auto w-[95vw] lg:w-[70vw]">
+                    <div className="aboutcontainer h-auto py-[5rem] w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate}>
-                            <section className="paragraph lg:w-[65ch] text-[var(--stone)] font-bold 
+                            <section className="h-auto py-[5vh] paragraph lg:w-[65ch] text-[var(--stone)] font-bold 
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                                                         ">
@@ -41,6 +41,7 @@ const About = () => {
                                 I love working with creative agencies around the world, developing digital products from "just" great to cutting edge.
                                 <br />
                                 <br />
+                                I'm a JavaScript/ Jamstack fullstack developer fit in CSS and UI animations.
                                 Please {' '}
                                 <Link href="/Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
@@ -49,34 +50,11 @@ const About = () => {
 
                                 <br />
                                 <br />
-                                My Services:
-                                <br />
-                                <br />
-
-
-
-                                <ul className="border-[0.15rem] border-l-0 border-b-0 border-stone-600 
-                                pt-[1rem] pl-[2rem]">
-                                    <span className="header">App, Web, UI Development</span>{' '}
-                                    <li>with HTML, CSS, JavaScript and JavaScript libraries,</li>
-                                    <li>Firebase or headless CMS as backend solutions.</li>
-                                    <li>Animations and interactive design included.</li>
-
-                                    <br />
-                                    <br />
-
-
-                                    <span className="header">Web Consulting</span>{' '}
-                                    <li>With my long experience creating websites </li>
-                                    <li>I can help you improve and optimize your project.</li>
-
-                                </ul>
-
-                                <br />
-                                <br />
-
-
                             </section>
+
+
+
+
                         </motion.div>
                     </div>
                 </section>

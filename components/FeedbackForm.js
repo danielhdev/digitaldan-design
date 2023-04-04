@@ -16,7 +16,7 @@ export default function FeedbackForm() {
     <section className="flex flex-col justify-center items-center">
       <main className=" pt-8 pr-10 w-fit
     text-black">
-        <ul>
+        <ul className="text-center">
           <a
             href="mailto:d.huebschmann@tutanota.com"
             method="get"
@@ -65,8 +65,8 @@ export default function FeedbackForm() {
       </main>
       <section className="text-center text-amber-300 
       
-      ml-[50vw]
-      md:ml-[30vw]
+      mr-[50vw]
+      md:mr-[30vw]
       
     
       sm:text-[3vw]
