@@ -120,6 +120,9 @@ html.lenis {
   color: #39ff14;
   transition: ease-out 0.4s;
 }
+.scroll {
+  font-size: calc(1.35vw + 20%);
+}
 /* smartphones */
 @media (max-width: 500px) {
   .workheader,

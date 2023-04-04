@@ -6,23 +6,27 @@ const Contact = () => {
 
 
 
-    return (<>
+    return (
+
+        <>
 
 
 
-        <main className="h-screen  flex justify-center items-center bg-stone-900">
+            <main id="Contact"
+
+                className="h-screen  flex justify-center items-center bg-stone-900">
 
 
-            <section className=' flex flex-col md:flex-row justify-center items-center
+                <section className=' flex flex-col md:flex-row justify-center items-center
             h-auto w-full py-[12vh]'>
 
-                <div className="w-[full landscape:w-[50vw]  rounded-full">
-                    <FeedbackForm />
+                    <div className="w-[full landscape:w-[50vw]  rounded-full">
+                        <FeedbackForm />
 
-                </div>
-            </section></main>
+                    </div>
+                </section></main>
 
-    </>
+        </>
     )
 }
 

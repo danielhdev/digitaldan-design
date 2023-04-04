@@ -34,25 +34,28 @@ const Hero = () => {
                 pt-5 pr-[2vw] w-fit z-40 border-t-[2px] border-r-[2px] border-amber-300 
                 flex flex-col">
 
-                    <Link href="/About">
+                    <Link href="#About">
                         <span className=' text-inherit p-1 
                     cursor-pointer heroli2'
 
                         >service </span></Link>
-                    <Link href="/Work">
+                    <Link href="#Work">
                         <span className='text-inherit p-1 
                     cursor-pointer heroli1 
                     '
 
                         >work </span></Link>
-                    <Link href="/Contact">
+                    <Link href="#Contact">
                         <span className=' text-inherit p-1 
                     cursor-pointer heroli3
                     '
 
                         >contact </span></Link>
                 </motion.div>
-            </div>
+
+
+                <div className="text-stone-50 scroll">
+                    scroll please</div> </div>
         </main>
     )
 }
