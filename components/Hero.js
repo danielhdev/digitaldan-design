@@ -20,7 +20,7 @@ const Hero = () => {
         justify-center items-center relative bg-stone-900">
             <section className="mix-blend-difference text-zinc-50 z-50">
                 <h1 className="heroheader">digital.dan agency</h1>
-                <motion.div animate={titleAnimate} className="herosubheader">
+                <motion.div animate={titleAnimate} className="paragraph">
                     Daniel Hubschmann<br />
                     Freelance Web Developer<br />  </motion.div>
 
@@ -54,7 +54,7 @@ const Hero = () => {
                 </motion.div>
 
 
-                <div className="text-stone-50 scroll">
+                <div className="text-stone-50 paragraph">
                     scroll please</div> </div>
         </main>
     )
