@@ -11,13 +11,15 @@ const About = () => {
 
     return (
         <>
-            <main className="relative h-auto py-[10vh]">
+            <main
+                id="About"
+                className="relative h-auto py-[10vh]">
                 <motion.h1
                     className="aboutheader ml-[5%]"
                     initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
+                    whileInView={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    viewport={{ once: true }}
+
                 >
                     service
                 </motion.h1 >

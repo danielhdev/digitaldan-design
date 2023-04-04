@@ -26,13 +26,14 @@ const Work = () => {
 
     return (
         <>
-            <main className="h-auto py-[10vh] flex flex-col">
+            <main id="Work"
+
+                className="h-auto py-[10vh] flex flex-col">
                 <motion.h1
                     className="workheader ml-[5%]"
                     initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
+                    whileInView={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-                    viewport={{ once: true }}
                 >
                     work
                 </motion.h1>

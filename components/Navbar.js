@@ -5,9 +5,9 @@ import { useRouter } from 'next/router'
 
 const menu = [
 
-    { title: 'work', path: '/Work' },
-    { title: 'service', path: '/About' },
-    { title: 'contact', path: '/Contact' },
+    { title: 'work', path: '#Work' },
+    { title: 'service', path: '#About' },
+    { title: 'contact', path: '#Contact' },
 
 ]
 const Navbar = () => {
