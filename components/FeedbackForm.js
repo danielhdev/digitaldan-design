@@ -24,8 +24,8 @@ export default function FeedbackForm() {
           >
             <motion.li
               className="contactli1"
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.5 }}
               viewport={{ once: true }}
             >
@@ -39,8 +39,8 @@ export default function FeedbackForm() {
           >
             <motion.li
               className="contactli2"
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.5 }}
               viewport={{ once: true }}
             >
@@ -54,8 +54,8 @@ export default function FeedbackForm() {
           >
             <motion.li
               className="contactli3"
-              initial={{ y: 20, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.5 }}
               viewport={{ once: true }}
             >
