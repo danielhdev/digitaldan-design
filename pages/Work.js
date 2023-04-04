@@ -29,8 +29,8 @@ const Work = () => {
             <main className="h-auto py-[16vh] flex flex-col">
                 <motion.h1
                     className="contactli1 ml-[5%]"
-                    initial={{ y: 10, opacity: 0 }}
-                    animate={{ y: 0, opacity: 1 }}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
                     viewport={{ once: true }}
                 >
