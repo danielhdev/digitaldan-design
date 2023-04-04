@@ -71,7 +71,15 @@ body {
 .heroli2:hover,
 .heroli3:hover {
   -webkit-text-stroke: 4px #ff89ff;
-  transition: 0.5s ease-out 0.4s;
+  transition: 0.25s ease-out 0.4s;
+}
+.contactli1,
+.contactli2,
+.contactli3,
+.heroli1,
+.heroli2,
+.heroli3 {
+  -webkit-text-stroke: 3px #ffe900;
 }
 
 .iconsize {
@@ -114,6 +122,15 @@ html.lenis {
 }
 /* smartphones */
 @media (max-width: 500px) {
+  .workheader,
+  .aboutheader {
+    font-size: calc(16px + 20vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+    -webkit-text-stroke: 3px var(--stone);
+    color: transparent;
+  }
+
   .aboutbgdd {
     display: none;
   }
@@ -145,42 +162,36 @@ html.lenis {
   }
 
   .heroli1 {
-    -webkit-text-stroke: 4px #ffe900;
-    font-size: calc(18vw - 0.25vw);
+    font-size: calc(35vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .heroli2 {
-    -webkit-text-stroke: 3px #ffbf00;
-    font-size: calc(18vw - 0.25vw);
+    font-size: calc(25vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .heroli3 {
-    -webkit-text-stroke: 4px #ffe900;
-    font-size: calc(18vw - 0.25vw);
+    font-size: calc(25vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
   .contactli1 {
-    -webkit-text-stroke: 3px #ffe900;
-    font-size: calc(18vw - 0.25vw);
+    font-size: calc(30vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .contactli2 {
-    -webkit-text-stroke: 3px #ffbf00;
-    font-size: calc(18vw - 0.25vw);
+    font-size: calc(22vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .contactli3 {
-    -webkit-text-stroke: 4px #ffe900;
-    font-size: calc(18vw - 0.25vw);
+    font-size: calc(25vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
@@ -195,6 +206,14 @@ html.lenis {
 
 /* small tablets, laptops & desktop monitors */
 @media (min-width: 500px) {
+  .workheader,
+  .aboutheader {
+    font-size: calc(16px + 20vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+    -webkit-text-stroke: 4px var(--stone);
+    color: transparent;
+  }
   .iconsize {
     font-size: 4vw;
     opacity: 80%;
@@ -226,52 +245,50 @@ html.lenis {
   .logo {
     font-size: 4.25vw;
   }
-  .contactli {
-    font-size: 7vw;
-    line-height: 1.2em;
-    font-family: 'octarine';
-  }
+
   .heroli1 {
-    -webkit-text-stroke: 4px #ffe900;
-    font-size: calc(22vw - 0.25vw);
+    font-size: calc(30vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
   .heroli2 {
-    -webkit-text-stroke: 3px #ffbf00;
-    font-size: calc(16vw - 0.25vw);
+    font-size: calc(20vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
   .heroli3 {
-    -webkit-text-stroke: 4px #ffe900;
-    font-size: calc(16vw - 0.25vw);
+    font-size: calc(20vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
   .contactli1 {
-    -webkit-text-stroke: 3px #ffe900;
-    font-size: calc(14vw - 0.25vw);
+    font-size: calc(28vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .contactli2 {
-    -webkit-text-stroke: 3px #ffbf00;
-    font-size: calc(14vw - 0.25vw);
+    font-size: calc(20vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .contactli3 {
-    -webkit-text-stroke: 4px #ffe900;
-    font-size: calc(14vw - 0.25vw);
+    font-size: calc(23vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 }
 /* medium tablets, laptops & desktop monitors */
 @media (min-width: 950px) {
+  .workheader,
+  .aboutheader {
+    font-size: calc(16px + 9vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+    -webkit-text-stroke: 4px var(--stone);
+    color: transparent;
+  }
   .iconsize {
     font-size: 1.8vw;
     opacity: 80%;
@@ -306,45 +323,34 @@ html.lenis {
   .logo {
     font-size: 1.8vw;
   }
-  .contactli {
-    font-size: 3.5vw;
-    line-height: 1.4em;
-    font-family: 'octarine';
-  }
   .heroli1 {
-    -webkit-text-stroke: 4px #ffe900;
-    font-size: calc(10vw - 0.25vw);
-    line-height: 1.2em;
+    font-size: calc(9vw - 0.25vw);
+    line-height: 0.8em;
     font-family: 'octarine';
   }
   .heroli2 {
-    -webkit-text-stroke: 3px #ffbf00;
-    font-size: calc(8vw - 0.25vw);
-    line-height: 1.2em;
+    font-size: calc(9vw - 0.25vw);
+    line-height: 0.8em;
     font-family: 'octarine';
   }
   .heroli3 {
-    -webkit-text-stroke: 4px #ffe900;
-    font-size: calc(8vw - 0.25vw);
-    line-height: 1.2em;
+    font-size: calc(9vw - 0.25vw);
+    line-height: 0.8em;
     font-family: 'octarine';
   }
   .contactli1 {
-    -webkit-text-stroke: 3px #ffe900;
     font-size: calc(9vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .contactli2 {
-    -webkit-text-stroke: 3px #ffbf00;
     font-size: calc(9vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .contactli3 {
-    -webkit-text-stroke: 4px #ffe900;
     font-size: calc(9vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
@@ -378,19 +384,16 @@ html.lenis {
     padding-left: 2vw;
   }
   .heroli1 {
-    -webkit-text-stroke: 4px #ffe900;
     font-size: calc(10vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
   .heroli2 {
-    -webkit-text-stroke: 3px #ffbf00;
     font-size: calc(8vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
   .heroli3 {
-    -webkit-text-stroke: 4px #ffe900;
     font-size: calc(8vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
