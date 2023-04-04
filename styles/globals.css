@@ -120,9 +120,7 @@ html.lenis {
   color: #39ff14;
   transition: ease-out 0.4s;
 }
-.scroll {
-  font-size: calc(1.35vw + 20%);
-}
+
 /* smartphones */
 @media (max-width: 500px) {
   .workheader,
@@ -156,12 +154,6 @@ html.lenis {
   .heroheader {
     font-family: 'octarine';
     font-size: calc(8vw - 0.25vw);
-  }
-  .herosubheader {
-    font-family: 'Oxygen';
-    font-size: 4vw;
-    padding-left: 2vw;
-    margin-bottom: 4rem;
   }
 
   .heroli1 {
