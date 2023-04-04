@@ -16,17 +16,17 @@ const Hero = () => {
     }
 
     return (
-        <main className="h-screen flex justify-center items-center relative bg-stone-900">
-            <section className="absolute top-[12vh] md:top-[10vh] left-[2.5vw]
-            mix-blend-difference text-zinc-50 z-50">
+        <main className="h-screen flex flex-col
+        justify-center items-center relative bg-stone-900">
+            <section className="mix-blend-difference text-zinc-50 z-50">
                 <h1 className="heroheader">digital.dan agency</h1>
                 <motion.div animate={titleAnimate} className="herosubheader">
                     Daniel Hubschmann<br />
                     Freelance Web Developer<br />  </motion.div>
 
             </section>
-            <div className=" w-screen h-[55vh] 
-            flex flex-col justify-center items-center text-center
+            <div className=" w-[50vw] h-fit 
+            flex flex-col justify-end items-end text-center
             " >
 
 
