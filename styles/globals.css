@@ -162,36 +162,36 @@ html.lenis {
   }
 
   .heroli1 {
-    font-size: calc(35vw - 0.25vw);
-    line-height: 1.2em;
+    font-size: calc(20vw - 0.25vw);
+    line-height: 1em;
     font-family: 'octarine';
   }
 
   .heroli2 {
-    font-size: calc(25vw - 0.25vw);
-    line-height: 1.2em;
+    font-size: calc(20vw - 0.25vw);
+    line-height: 1em;
     font-family: 'octarine';
   }
 
   .heroli3 {
-    font-size: calc(25vw - 0.25vw);
-    line-height: 1.2em;
+    font-size: calc(20vw - 0.25vw);
+    line-height: 1em;
     font-family: 'octarine';
   }
   .contactli1 {
-    font-size: calc(30vw - 0.25vw);
+    font-size: calc(20vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .contactli2 {
-    font-size: calc(22vw - 0.25vw);
+    font-size: calc(20vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .contactli3 {
-    font-size: calc(25vw - 0.25vw);
+    font-size: calc(20vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
@@ -208,7 +208,7 @@ html.lenis {
 @media (min-width: 500px) {
   .workheader,
   .aboutheader {
-    font-size: calc(16px + 20vw);
+    font-size: calc(16px + 15vw);
     line-height: 1.2em;
     font-family: 'octarine';
     -webkit-text-stroke: 4px var(--stone);
@@ -247,34 +247,34 @@ html.lenis {
   }
 
   .heroli1 {
-    font-size: calc(30vw - 0.25vw);
+    font-size: calc(15vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
   .heroli2 {
-    font-size: calc(20vw - 0.25vw);
+    font-size: calc(15vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
   .heroli3 {
-    font-size: calc(20vw - 0.25vw);
+    font-size: calc(15vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
   .contactli1 {
-    font-size: calc(28vw - 0.25vw);
+    font-size: calc(15vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .contactli2 {
-    font-size: calc(20vw - 0.25vw);
+    font-size: calc(15vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .contactli3 {
-    font-size: calc(23vw - 0.25vw);
+    font-size: calc(15vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
