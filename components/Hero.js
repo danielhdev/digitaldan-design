@@ -16,7 +16,7 @@ const Hero = () => {
     }
 
     return (
-        <main className="h-screen flex justify-center items-center relative darkbg">
+        <main className="h-screen flex justify-center items-center relative bg-stone-900">
             <section className="absolute top-[12vh] md:top-[10vh] left-[2.5vw]
             mix-blend-difference text-zinc-50 z-50">
                 <h1 className="heroheader">digital.dan agency</h1>
@@ -25,13 +25,13 @@ const Hero = () => {
                     Freelance Web Developer<br />  </motion.div>
 
             </section>
-            <div className=" w-screen h-[55vh]
+            <div className=" w-screen h-[55vh] 
             flex flex-col justify-center items-center text-center
             " >
 
 
                 <motion.div animate={frameAnimate} className="
-                pt-5 pr-[3vw] w-fit z-40
+                pt-5 pr-[3vw] w-fit z-40 border-t-[2px] border-r-[2px] border-amber-300 
                 flex flex-col">
 
                     <Link href="/About">
