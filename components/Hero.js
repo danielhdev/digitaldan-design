@@ -25,7 +25,7 @@ const Hero = () => {
                     Freelance Web Developer<br />  </motion.div>
 
             </section>
-            <div className=" w-[45vw] h-fit 
+            <div className=" md:w-[45vw] h-fit 
             flex flex-col justify-end items-end text-center
             " >
 
