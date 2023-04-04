@@ -152,13 +152,14 @@ html.lenis {
   }
   .heroheader {
     font-family: 'octarine';
-    font-size: calc(7vw - 0.25vw);
+    font-size: calc(8vw - 0.25vw);
     padding-left: 2vw;
   }
   .herosubheader {
     font-family: 'Oxygen';
     font-size: 4vw;
     padding-left: 2vw;
+    margin-bottom: 4rem;
   }
 
   .heroli1 {
@@ -231,13 +232,14 @@ html.lenis {
   }
   .heroheader {
     font-family: 'octarine';
-    font-size: calc(4vw - 0.25vw);
+    font-size: calc(7.5vw - 0.25vw);
     padding-left: 2vw;
   }
   .herosubheader {
     font-family: 'Oxygen';
     font-size: 2.5vw;
     padding-left: 2vw;
+    margin-bottom: 4rem;
   }
   .link {
     font-size: 3.5vw;
@@ -248,34 +250,34 @@ html.lenis {
 
   .heroli1 {
     font-size: calc(10vw - 0.25vw);
-    line-height: 1.2em;
+    line-height: 1em;
     font-family: 'octarine';
   }
   .heroli2 {
     font-size: calc(10vw - 0.25vw);
-    line-height: 1.2em;
+    line-height: 1em;
     font-family: 'octarine';
   }
   .heroli3 {
     font-size: calc(10vw - 0.25vw);
-    line-height: 1.2em;
+    line-height: 1em;
     font-family: 'octarine';
   }
   .contactli1 {
     font-size: calc(10vw - 0.25vw);
-    line-height: 1.2em;
+    line-height: 1em;
     font-family: 'octarine';
   }
 
   .contactli2 {
     font-size: calc(10vw - 0.25vw);
-    line-height: 1.2em;
+    line-height: 1em;
     font-family: 'octarine';
   }
 
   .contactli3 {
     font-size: calc(10vw - 0.25vw);
-    line-height: 1.2em;
+    line-height: 1em;
     font-family: 'octarine';
   }
 }
@@ -283,7 +285,7 @@ html.lenis {
 @media (min-width: 950px) {
   .workheader,
   .aboutheader {
-    font-size: calc(16px + 6vw);
+    font-size: calc(16px + 4vw);
     line-height: 1.2em;
     font-family: 'octarine';
     -webkit-text-stroke: 4px var(--stone);
@@ -309,13 +311,14 @@ html.lenis {
   }
   .heroheader {
     font-family: 'octarine';
-    font-size: calc(2vw - 0.25vw);
+    font-size: calc(16px + 4vw);
     padding-left: 2vw;
   }
   .herosubheader {
     font-family: 'Oxygen';
     font-size: 1.2vw;
     padding-left: 2vw;
+    margin-bottom: 2rem;
   }
   .link {
     font-size: 1.4vw;
@@ -324,34 +327,34 @@ html.lenis {
     font-size: 1.8vw;
   }
   .heroli1 {
-    font-size: calc(6vw - 0.25vw);
+    font-size: calc(4vw - 0.25vw);
     line-height: 0.8em;
     font-family: 'octarine';
   }
   .heroli2 {
-    font-size: calc(6vw - 0.25vw);
+    font-size: calc(4vw - 0.25vw);
     line-height: 0.8em;
     font-family: 'octarine';
   }
   .heroli3 {
-    font-size: calc(6vw - 0.25vw);
+    font-size: calc(4vw - 0.25vw);
     line-height: 0.8em;
     font-family: 'octarine';
   }
   .contactli1 {
-    font-size: calc(6vw - 0.25vw);
+    font-size: calc(4vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .contactli2 {
-    font-size: calc(6vw - 0.25vw);
+    font-size: calc(4vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
 
   .contactli3 {
-    font-size: calc(6vw - 0.25vw);
+    font-size: calc(4vw - 0.25vw);
     line-height: 1.2em;
     font-family: 'octarine';
   }
@@ -359,6 +362,17 @@ html.lenis {
 
 /* widescreen monitors */
 @media (min-width: 1500px) {
+  .heroheader {
+    font-family: 'octarine';
+    font-size: calc(16px + 4vw);
+    padding-left: 2vw;
+  }
+  .herosubheader {
+    font-family: 'Oxygen';
+    font-size: 1.2vw;
+    padding-left: 2vw;
+  }
+
   .iconsize {
     font-size: 1.8vw;
     opacity: 80%;
@@ -373,16 +387,7 @@ html.lenis {
     font-size: 1.5vw;
     padding-left: 1.5vw;
   }
-  .heroheader {
-    font-family: 'octarine';
-    font-size: calc(2vw - 0.25vw);
-    padding-left: 2vw;
-  }
-  .herosubheader {
-    font-family: 'Oxygen';
-    font-size: 1.2vw;
-    padding-left: 2vw;
-  }
+
   .heroli1 {
     font-size: calc(10vw - 0.25vw);
     line-height: 1.2em;
@@ -414,5 +419,37 @@ html.lenis {
   }
   .logo {
     font-size: 2vw;
+  }
+  .heroli1 {
+    font-size: calc(4vw - 0.25vw);
+    line-height: 0.8em;
+    font-family: 'octarine';
+  }
+  .heroli2 {
+    font-size: calc(4vw - 0.25vw);
+    line-height: 0.8em;
+    font-family: 'octarine';
+  }
+  .heroli3 {
+    font-size: calc(4vw - 0.25vw);
+    line-height: 0.8em;
+    font-family: 'octarine';
+  }
+  .contactli1 {
+    font-size: calc(4vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+
+  .contactli2 {
+    font-size: calc(4vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
+  }
+
+  .contactli3 {
+    font-size: calc(4vw - 0.25vw);
+    line-height: 1.2em;
+    font-family: 'octarine';
   }
 }
