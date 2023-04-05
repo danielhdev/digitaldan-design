@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+
 import { motion } from 'framer-motion'
 
 const Hero = () => {
@@ -9,9 +9,9 @@ const Hero = () => {
         transition: { delay: 0.4, duration: 0.5 }
 
     }
-    const frameAnimate = {
+    const scrollAnimate = {
         opacity: [0, 1],
-        transition: { delay: 0.2, duration: 1 }
+        transition: { delay: 0.6, duration: 1.5, repeat: 2 }
 
     }
 
@@ -30,32 +30,12 @@ const Hero = () => {
             " >
 
 
-                <motion.div animate={frameAnimate} className="
-                pt-5 pr-[2vw] w-fit z-40 border-t-[2px] border-r-[2px] border-amber-300 
-                flex flex-col">
-
-                    <Link href="#About">
-                        <span className=' text-inherit p-1 
-                    cursor-pointer heroli2'
-
-                        >service </span></Link>
-                    <Link href="#Work">
-                        <span className='text-inherit p-1 
-                    cursor-pointer heroli1 
-                    '
-
-                        >work </span></Link>
-                    <Link href="#Contact">
-                        <span className=' text-inherit p-1 
-                    cursor-pointer heroli3
-                    '
-
-                        >contact </span></Link>
-                </motion.div>
 
 
-                <div className="text-stone-50 paragraph">
-                    scroll please</div> </div>
+                <motion.div animate={scrollAnimate} className="text-stone-50 paragraph">
+                    scroll please</motion.div>
+
+            </div>
         </main>
     )
 }

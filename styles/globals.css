@@ -66,19 +66,13 @@ body {
 
 .contactli1:hover,
 .contactli2:hover,
-.contactli3:hover,
-.heroli1:hover,
-.heroli2:hover,
-.heroli3:hover {
+.contactli3:hover {
   -webkit-text-stroke: 2px #ff89ff;
   transition: 0.25s ease-out 0.4s;
 }
 .contactli1,
 .contactli2,
-.contactli3,
-.heroli1,
-.heroli2,
-.heroli3 {
+.contactli3 {
   -webkit-text-stroke: 2px #ffe900;
 }
 
@@ -154,6 +148,8 @@ html.lenis {
   .heroheader {
     font-family: 'octarine';
     font-size: calc(8vw - 0.25vw);
+    -webkit-text-stroke: 2px #ffe900;
+    color: transparent;
   }
 
   .heroli1 {
@@ -227,6 +223,8 @@ html.lenis {
   .heroheader {
     font-family: 'octarine';
     font-size: calc(7.5vw - 0.25vw);
+    -webkit-text-stroke: 2px #ffe900;
+    color: transparent;
   }
   .herosubheader {
     font-family: 'Oxygen';
