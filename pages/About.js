@@ -33,19 +33,18 @@ const About = () => {
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                                                         ">
-                                Daniel Hubschmann (Germany), freelancer and senior web designer with two decades of experience.
-                                I changed careers to web development in recent years.
+                                Daniel Hubschmann (Germany), freelancer, senior web designer and creative developer with two decades of experience.
 
                                 <br />
                                 <br />
 
 
-                                I love working with creative agencies around the world, developing digital products from "just" great to cutting edge.
+                                My agency supports  other creative agencies around the world, developing digital products from "just" great to cutting edge.
                                 <br />
                                 <br />
                                 I'm a JavaScript/ Jamstack fullstack developer fit in CSS and UI animations.
                                 Please {' '}
-                                <Link href="/Contact">
+                                <Link href="#Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
                                     border-[0.15rem] border-amber-600 px-[0.1rem]">
                                         contact</span></Link>{' '} me and let&apos;s talk about your project!
