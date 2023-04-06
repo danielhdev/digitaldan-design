@@ -20,11 +20,21 @@ const Hero = () => {
         justify-center items-center relative bg-stone-900">
             <section className="mix-blend-difference text-zinc-50 z-50">
                 <h1 className="heroheader">digital.dan agency</h1>
-                <motion.div animate={titleAnimate} className="paragraph">
+                <motion.div animate={titleAnimate} className="paragraph pt-[4vh]">
                     Daniel Hubschmann<br />
-                    Freelance Web Developer<br />  </motion.div>
+
+                    <div className="flex flex-row  ">
+                        Freelance
+                        <span className="pl-[1vh]">
+                            Web Developer<br />
+                        </span>
+                    </div>
+
+
+                </motion.div>
 
             </section>
+
             <div className=" md:w-[45vw] h-fit 
             flex flex-col justify-end items-end text-center
             " >
@@ -32,7 +42,7 @@ const Hero = () => {
 
 
 
-                <motion.div animate={scrollAnimate} className="text-stone-50 paragraph">
+                <motion.div animate={scrollAnimate} className="text-stone-50 paragraph pt-[4vh]">
                     scroll please</motion.div>
 
             </div>
