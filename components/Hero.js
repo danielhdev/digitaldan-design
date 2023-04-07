@@ -25,8 +25,10 @@ const Hero = () => {
 
                     <div className="flex flex-row  ">
                         Freelance
-                        <span className="pl-[1vh]">
+                        <span className="pl-[1vh] flex flex-col">
                             Web Developer<br />
+                            Web Designer<br />
+
                         </span>
                     </div>
 
