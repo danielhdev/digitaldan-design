@@ -11,7 +11,7 @@ const menu = [
 
 ]
 const Navbar = () => {
-    const router = useRouter();
+
 
 
     return (
@@ -30,10 +30,7 @@ const Navbar = () => {
                     return (
                         <Link key={index} href={item.path}>
 
-                            <a className=
-                                {`link ${router.pathname === item.path ? 'text-sky-400' : ''}`}
-
-                            >
+                            <a className="link">
                                 {item.title}
                             </a>
                         </Link>
