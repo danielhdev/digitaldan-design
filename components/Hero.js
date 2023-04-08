@@ -16,38 +16,27 @@ const Hero = () => {
     }
 
     return (
-        <main className="h-screen flex flex-col
-        justify-center items-center relative bg-stone-900">
-            <section className="mix-blend-difference text-zinc-50 z-50">
-                <h1 className="heroheader">digital.dan</h1>
-                <motion.div animate={titleAnimate} className="pt-[4vh]">
+        <main className="h-[55vh] flex flex-col 
+        justify-center items-center md:items-start ml-[2.5vw] relative">
+            <section className="mix-blend-difference text-stone-900 z-50">
+
+                <motion.div animate={titleAnimate} className="pt-[4vh] paragraph">
                     Daniel Hubschmann<br />
 
-                    <div className="flex flex-row  ">
+                    <div className="flex flex-row heroheader text-stone-900 ">
                         Freelance
-                        <span className="pl-[1vh] flex flex-col">
+                        <span className="pl-[1vh] flex flex-col text-stone-700">
                             Web Developer<br />
                             Web Designer<br />
 
                         </span>
                     </div>
 
-
                 </motion.div>
 
             </section>
 
-            <div className=" md:w-[45vw] h-fit 
-            flex flex-col justify-end items-end text-center
-            " >
 
-
-
-
-                <motion.div animate={scrollAnimate} className="text-stone-50 paragraph pt-[4vh]">
-                    scroll please</motion.div>
-
-            </div>
         </main>
     )
 }

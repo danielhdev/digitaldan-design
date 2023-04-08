@@ -67,6 +67,7 @@ function Application({ Component, pageProps }) {
           }}
         >
           <Component {...pageProps} />
+
         </motion.div>
       </AnimatePresence>
     </>
