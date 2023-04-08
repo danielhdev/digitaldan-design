@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
+
 
 
 const menu = [
@@ -24,7 +24,7 @@ const Navbar = () => {
                     
                     "> d.d</span>
                 </Link>
-
+                <h1 className="fixedheader fixed right-[1rem] top-[3rem] text-zinc-50 mix-blend-difference opacity-35">digital.dan</h1>
                 {menu.map((item, index) => {
 
                     return (
