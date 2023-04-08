@@ -25,7 +25,7 @@ const Hero = () => {
 
                     <div className="flex flex-row header text-stone-900 ">
                         Freelance
-                        <span className="pl-[1vh] flex flex-col text-stone-700">
+                        <span className="flex flex-col text-stone-700">
                             Web Developer<br />
                             Web Designer<br />
 
