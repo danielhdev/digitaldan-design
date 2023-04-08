@@ -19,8 +19,8 @@ const Hero = () => {
         <main className="h-screen flex flex-col
         justify-center items-center relative bg-stone-900">
             <section className="mix-blend-difference text-zinc-50 z-50">
-                <h1 className="heroheader">digital.dan agency</h1>
-                <motion.div animate={titleAnimate} className="paragraph pt-[4vh]">
+                <h1 className="heroheader">digital.dan</h1>
+                <motion.div animate={titleAnimate} className="pt-[4vh]">
                     Daniel Hubschmann<br />
 
                     <div className="flex flex-row  ">
