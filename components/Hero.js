@@ -23,7 +23,7 @@ const Hero = () => {
                 <motion.div animate={titleAnimate} className="pt-[4vh] paragraph">
                     Daniel Hubschmann<br />
 
-                    <div className="flex flex-row heroheader text-stone-900 ">
+                    <div className="flex flex-row header text-stone-900 ">
                         Freelance
                         <span className="pl-[1vh] flex flex-col text-stone-700">
                             Web Developer<br />

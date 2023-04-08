@@ -29,14 +29,28 @@ const About = () => {
                     <div className="aboutcontainer h-auto py-[5rem] w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate}>
-                            <section className="h-auto py-[5vh] paragraph lg:w-[65ch] text-[var(--stone)] font-bold 
+                            <section className="h-auto py-[5vh] paragraph lg:w-[65ch] text-[var(--stone) 
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                                                         ">
                                 Daniel Hubschmann (Germany), freelancer, web designer and creative developer with two decades of experience.
-                                I'm a JavaScript/ Jamstack fullstack developer fit in CSS and UI animations.You can hire me as a designer, a developer, for both roles and as a consultant.
+                                I'm a JavaScript/ Jamstack fullstack developer fit in CSS and UI animations.
                                 <br />
                                 <br />
+
+                                <ul> You can hire me for
+                                    <li>Art direction</li>
+                                    <li>Web/ UI design</li>
+                                    <li>Web/ UI development</li>
+                                    <li>Web consultation</li>
+
+
+
+                                </ul>
+
+
+                                <br />
+                                <div>One role or combined.</div>
                                 Please {' '}
                                 <Link href="#Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
