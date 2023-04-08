@@ -105,7 +105,7 @@ html.lenis {
 .navbarcontainer {
   position: fixed;
   width: 100vw;
-  height: 100vh;
+
   text-decoration: none;
   z-index: 99;
   color: white;
