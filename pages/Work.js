@@ -37,7 +37,7 @@ const Work = () => {
                 >
                     work
                 </motion.h1>
-                <h1 className="paragraph mx-auto mt-[4rem] text-center">Please click/ tap on the images for the links.<br />Links open in a new tab.  </h1>
+
 
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">
 
