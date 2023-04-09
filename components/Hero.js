@@ -9,28 +9,24 @@ const Hero = () => {
         transition: { delay: 0.4, duration: 0.5 }
 
     }
-    const scrollAnimate = {
-        opacity: [0, 1],
-        transition: { delay: 0.6, duration: 1.5, repeat: 2 }
 
-    }
 
     return (
         <main className="h-[55vh] flex flex-col 
-        justify-center items-center md:items-start ml-[2.5vw] relative">
+        justify-center items-center md:items-start ml-[1.5vw] relative">
             <section className="mix-blend-difference text-stone-900 z-50">
 
-                <motion.div animate={titleAnimate} className="pt-[4vh] paragraph">
-                    Daniel Hubschmann<br />
+                <motion.div animate={titleAnimate} className="pt-[4vh] header text-stone-900
+                ">
+                    <span className="paragraph">Daniel Hubschmann   </span><br />
+                    <span className="flex flex-row text-stone-700 pl-[1.5vw]">
 
-                    <div className="flex flex-row header text-stone-900 ">
                         Freelance
-                        <span className="flex flex-col text-stone-700">
-                            Web Developer<br />
-                            Web Designer<br />
+                        <span className="pl-[1rem]">Web Developer<br />
+                            Web Designer<br /></span>
 
-                        </span>
-                    </div>
+                    </span>
+
 
                 </motion.div>
 
