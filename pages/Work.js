@@ -29,17 +29,10 @@ const Work = () => {
             <main id="Work"
 
                 className="h-auto py-[10vh] flex flex-col">
-                <motion.h1
-                    className="workheader font-bold ml-[5%]"
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{ delay: 0.5, duration: 0.5 }}
-                >
-                    work
-                </motion.h1>
 
 
-                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">
+<section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">
+
 
                     <motion.div animate={firstImg} className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
                       w-screen lg:w-[50%]">
