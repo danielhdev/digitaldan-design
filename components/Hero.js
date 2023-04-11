@@ -13,19 +13,15 @@ const Hero = () => {
 
     return (
         <main className="h-[35vh] flex flex-col 
-        justify-center items-center md:items-start ml-[1.5vw] relative">
-            <section className="mix-blend-difference text-stone-900 z-50">
+        justify-center items-center md:items-start ml-[1.5vw]">
+            <section className="mix-blend-difference text-stone-900 z-50 mt-[10vh]">
 
-                <motion.div animate={titleAnimate} className="pt-[4vh] header text-stone-900
-                ">
+                <motion.div animate={titleAnimate} className="paragraph
+                ">Daniel Hubschmann<br />
+                    <span className="header">Web Developer<br />
+                        Web Designer</span>
 
-                    <span className=" text-stone-700">
 
-
-                        <span>Web Development<br />
-                            Web Design<br /></span>
-
-                    </span>
 
 
                 </motion.div>
