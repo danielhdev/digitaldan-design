@@ -39,7 +39,6 @@ const About = () => {
                                 <br />
 
                                 <ul> You can hire me for
-                                    <li>Art direction</li>
                                     <li>Web/ UI design</li>
                                     <li>Web/ UI development</li>
                                     <li>Web consultation</li>

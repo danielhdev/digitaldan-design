@@ -19,10 +19,10 @@ const Hero = () => {
                 <motion.div animate={titleAnimate} className="pt-[4vh] header text-stone-900
                 ">
 
-                    <span className="flex flex-row text-stone-700 pl-[1.5vw]">
+                    <span className=" text-stone-700">
 
 
-                        <span className="pl-[1rem]">Web Development<br />
+                        <span>Web Development<br />
                             Web Design<br /></span>
 
                     </span>

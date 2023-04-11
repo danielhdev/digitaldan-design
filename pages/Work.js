@@ -59,7 +59,7 @@ const Work = () => {
                                 <br />
 
 
-                                Coded with React.  </motion.p>
+                                Art direction, design, development with React.  </motion.p>
                         </div></div>
                 </section>
 
@@ -84,12 +84,12 @@ const Work = () => {
                         <h1 className="header">Just Premium</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Redesign of a Berlin upscale burger joints' online presense. The old one was an outdated template and didn't match the owner&apos;s strive for classy fast food.
+                                Redesign of a Berlin burger joints' online presense. The old one was an outdated template and didn't match the owner&apos;s strive for classy fast food.
                                 <br />
                                 <br />
 
 
-                                Project coded with Next.js.  </motion.p>
+                                Art direction, graphic and web design, development with Next.js.  </motion.p>
                         </div></div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
@@ -111,12 +111,12 @@ const Work = () => {
                         <h1 className="header">It&apos;s Personal!</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Branding Digitaldan agency in light of the post-covid restart. AI was glad to help out with ideas.
+                                Branding Digitaldan agency in light of the post-covid restart. AI helped out with ideas.
                                 <br />
                                 <br />
 
 
-                                Case study coded with React.js. This website is made with Next.js  </motion.p>
+                                Art direction, brand and web design, development with React and Next.js.  </motion.p>
                         </div></div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
@@ -138,12 +138,12 @@ const Work = () => {
                         <h1 className="header">Short & Crisp</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                My rule of thumb when creating animations the users can&apos;t control. Loading animation made with Framer Motion.
+                                Rule of thumb for animations the users can&apos;t control. Loading animation.
                                 <br />
                                 <br />
 
 
-                                Project made with Next.js.  </motion.p>
+                                Web design, development with Next.js and Framer Motion.  </motion.p>
                         </div></div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
@@ -170,7 +170,7 @@ const Work = () => {
                                 <br />
 
 
-                                Coded with React.js.  </motion.p>
+                                Art direction, design, development with React.  </motion.p>
                         </div></div>
                 </section>
 
