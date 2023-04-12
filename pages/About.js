@@ -35,7 +35,7 @@ const About = () => {
                                                         ">
                                 Daniel Hubschmann (Germany), freelancer, senior multidisciplinary designer and web developer.
 
-                                Helping out clients with over two decades of experience. In my remote-only design agency I work with professionals from around the world.
+                                Helping out clients with over two decades of experience. In my remote-only agency I work with professionals from around the world.
                                 <br />
                                 <br />
 
