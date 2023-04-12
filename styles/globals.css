@@ -50,6 +50,18 @@ body {
   --stone: #383630;
   /* outline: red solid 2px; */
 }
+*.dark {
+  background-color: #292c33;
+  color: #fff;
+}
+*.light {
+  background-color: #fdfdfd;
+  color: #041320;
+}
+#darkmodeicon {
+  border-radius: 50%;
+  background-color: transparent;
+}
 
 /* backgroundimages */
 
@@ -105,7 +117,6 @@ html.lenis {
 .navbarcontainer {
   position: fixed;
   width: 100vw;
-
   text-decoration: none;
   z-index: 99;
   color: white;
@@ -123,8 +134,6 @@ html.lenis {
     font-size: calc(16px + 12vw);
     line-height: 1.2em;
     font-family: 'octarine';
-    -webkit-text-stroke: 3px var(--stone);
-    color: transparent;
   }
 
   .aboutbgdd {
@@ -139,6 +148,7 @@ html.lenis {
   .header {
     font-family: 'octarine';
     font-size: calc(7vw - 0.25vw);
+    margin-left: 1.5vw;
   }
   .paragraph {
     font-family: 'Oxygen';
@@ -196,8 +206,6 @@ html.lenis {
     font-size: calc(16px + 10vw);
     line-height: 1.2em;
     font-family: 'octarine';
-    -webkit-text-stroke: 4px var(--stone);
-    color: transparent;
   }
   .iconsize {
     font-size: 4vw;
@@ -207,6 +215,7 @@ html.lenis {
   .header {
     font-family: 'octarine';
     font-size: 6vw;
+    margin-left: 1.5vw;
   }
   .paragraph {
     font-family: 'Oxygen';
@@ -267,8 +276,6 @@ html.lenis {
     font-size: calc(16px + 4vw);
     line-height: 1.2em;
     font-family: 'octarine';
-    -webkit-text-stroke: 3px var(--stone);
-    color: transparent;
   }
   .iconsize {
     font-size: 1.8vw;

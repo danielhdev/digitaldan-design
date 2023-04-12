@@ -31,41 +31,11 @@ const Work = () => {
                 className="h-auto py-[10vh] flex flex-col">
 
 
-                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">
-
-
-                    <motion.div animate={firstImg} className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
-                      w-screen lg:w-[50%]">
-
-                        <Link href="https://asprototype.netlify.app/"
-                        >
-                            <a target={'_blank'}
-                                rel={'noreferrer noopener'}
-
-                            ><Image src={AS}
-                                alt="AS portfolio redesign"
-                                priority
-                                className="cursor-pointer"
-                                /></a>
-                        </Link>
-
-                    </motion.div>
-                    <div className="w-screen lg:w-[50%]">
-                        <h1 className="header mt-[5vh] lg:mt-0">A New Look</h1>
-                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
-                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Some branding and a new portfolio site for one of the best photographers on unsplash.com.
-                                <br />
-                                <br />
-
-
-                                Art direction, design, development with React.  </motion.p>
-                        </div></div>
-                </section>
+               
 
                 <section className="lg:w-[80vw] h-auto py-[10vh] flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                    <div className="border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[0.5rem] 
                      w-screen lg:w-[50%]">
 
                         <Link href="https://digitaldanrestaurant.netlify.app/"
@@ -82,7 +52,7 @@ const Work = () => {
                     </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">Just Premium</h1>
-                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Redesign of a Berlin burger joints' online presense. The old one was an outdated template and didn't match the owner&apos;s strive for classy fast food.
                                 <br />
@@ -94,7 +64,7 @@ const Work = () => {
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                    <div className=" border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[0.5rem] 
                       w-screen lg:w-[50%]">
                         <Link href="https://dd-agency-branding.netlify.app/"
                         >
@@ -109,7 +79,8 @@ const Work = () => {
                     </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">It&apos;s Personal!</h1>
-                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 
+                        border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Branding Digitaldan agency in light of the post-covid restart. AI helped out with ideas.
                                 <br />
@@ -121,7 +92,7 @@ const Work = () => {
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                    <div className=" border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[0.5rem] 
                       w-screen lg:w-[50%]">
 
 
@@ -133,7 +104,7 @@ const Work = () => {
                     </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">Social Media</h1>
-                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Ad campaigns for social media. Bringing classic, proven design rules into the 21st century.
                                 <br />
@@ -143,9 +114,40 @@ const Work = () => {
                                 Art direction, graphic design, digital design.  </motion.p>
                         </div></div>
                 </section>
+                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">
+
+
+<motion.div animate={firstImg} className="border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[0.5rem] 
+  w-screen lg:w-[50%]">
+
+    <Link href="https://asprototype.netlify.app/"
+    >
+        <a target={'_blank'}
+            rel={'noreferrer noopener'}
+
+        ><Image src={AS}
+            alt="AS portfolio redesign"
+            priority
+            className="cursor-pointer"
+            /></a>
+    </Link>
+
+</motion.div>
+<div className="w-screen lg:w-[50%]">
+    <h1 className="header mt-[5vh] lg:mt-0">A New Look</h1>
+    <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
+        <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
+            Some branding and a new portfolio site for one of the best photographers on unsplash.com.
+            <br />
+            <br />
+
+
+            Art direction, design, development with React.  </motion.p>
+    </div></div>
+</section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                    <div className=" border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[0.5rem] 
                      w-screen  lg:w-[50%]">
                         <Link href="https://food-health-one-seven.vercel.app/"
                         >
@@ -160,7 +162,7 @@ const Work = () => {
                     </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">Just Beautiful</h1>
-                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Landing page template for beauty products. With scroll animations, contact form and ready to connect to a shop.
                                 <br />
@@ -174,7 +176,7 @@ const Work = () => {
 
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
+                    <div className="border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[0.5rem] 
                    w-screen lg:w-[50%]">
                         <Link href="https://ddshowcase3.netlify.app/"
                         >
@@ -189,7 +191,7 @@ const Work = () => {
                     </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">For Tool Fans</h1>
-                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Customizable portfolio template. Find the animation that gave the mysterious headline its name.
                                 <br />
