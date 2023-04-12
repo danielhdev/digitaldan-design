@@ -16,12 +16,11 @@ const Hero = () => {
         justify-center items-center md:items-start ml-[1.5vw]">
             <section className="mix-blend-difference text-stone-900 z-50 mt-[10vh]">
 
-                <motion.div animate={titleAnimate} className="paragraph
-                ">Daniel Hubschmann<br />
-                    <span className="header">Web Developer<br />
-                        Web Designer</span>
-
-
+                <motion.div animate={titleAnimate} className="paragraph font-bold
+                ">
+                    Graphic Design<br />
+                    Brand Design<br />
+                    Digital Design & Development<br />
 
 
                 </motion.div>
