@@ -24,12 +24,12 @@ const About = () => {
                     service
                 </motion.h1 >
 
-                <section className="
+                <section className="paragraph
                 flex justify-center items-center">
                     <div className="aboutcontainer h-auto py-[5rem] w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate}>
-                            <section className="h-auto py-[5vh] paragraph lg:w-[65ch] text-[var(--stone) 
+                            <section className="h-auto py-[5vh] lg:w-[65ch] text-[var(--stone) 
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                                                         ">
@@ -39,7 +39,7 @@ const About = () => {
                                 <br />
                                 <br />
 
-                                <ul>  <span className="font-bold">My services</span>
+                                <ul>  <span className="font-bold">Services</span>
                                     <li>Art direction</li>
                                     <li>Graphic design</li>
                                     <li>Brand design</li>
@@ -52,7 +52,7 @@ const About = () => {
                                 <Link href="#Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
                                     border-[0.15rem] border-amber-600 px-[0.1rem]">
-                                        contact</span></Link>{' '} me and let&apos;s talk about your project!
+                                        contact</span></Link>{' '} me <br/>and let&apos;s talk about your project!
 
                                 <br />
                                 <br />

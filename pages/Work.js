@@ -33,9 +33,10 @@ const Work = () => {
 
                
 
-                <section className="lg:w-[80vw] h-auto py-[10vh] flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="lg:w-[80vw] h-auto py-[10vh] flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] 
+                mb-[15vh]">
 
-                    <div className="border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[0.5rem] 
+                    <div className="border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[0.5rem] 
                      w-screen lg:w-[50%]">
 
                         <Link href="https://digitaldanrestaurant.netlify.app/"
@@ -52,7 +53,8 @@ const Work = () => {
                     </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">Just Premium</h1>
-                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[1rem] w-fit">
+                        <div className="border-t-[1px] border-r-[1px] 
+                        border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Redesign of a Berlin burger joints' online presense. The old one was an outdated template and didn't match the owner&apos;s strive for classy fast food.
                                 <br />
