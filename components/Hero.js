@@ -12,17 +12,17 @@ const Hero = () => {
 
 
     return (
-        <main className="h-[35vh] flex flex-col 
+        <main className="h-[80vh] flex flex-col 
         justify-center items-center md:items-start ml-[1.5vw]">
             <section className="mix-blend-difference text-stone-900 z-50 mt-[10vh]">
 
-                <motion.div animate={titleAnimate} className="paragraph font-bold
+                <motion.div animate={titleAnimate} className="headertagline
                 ">
 
                     Digital Design & Development<br />
                     Graphic Design<br />
-                    Brand Design<br />
-                    <h1 className="headertagline text-stone-900">We design - you sell!</h1>
+                    Brand Design<br /><br />
+                    <h1 className="workheader font-bold text-stone-900">We design,<br/> you sell</h1>
                 </motion.div>
 
             </section>
