@@ -33,23 +33,21 @@ const About = () => {
                             pt-4 pr-6 
                             md:pt-8 md:pr-12 
                                                         ">
-                                Daniel Hubschmann (Germany), freelancer, web designer and creative developer with two decades of experience.
-                                I'm a JavaScript/ Jamstack fullstack developer fit in CSS and UI animations.
+                                Daniel Hubschmann (Germany), freelancer, senior multidisciplinary designer and web developer.
+
+                                Helping out clients and other agencies with over two decades of experience.
+
                                 <br />
                                 <br />
 
-                                <ul> You can hire me for
-                                    <li>Web/ UI design</li>
-                                    <li>Web/ UI development</li>
-                                    <li>Web consultation</li>
-
-
-
+                                <ul> My services
+                                    <li>Art direction</li>
+                                    <li>Brand design</li>
+                                    <li>Web/ UI/ digital design</li>
+                                    <li>Web development</li>
                                 </ul>
-
-
                                 <br />
-                                <div>One role or combined.</div>
+
                                 Please {' '}
                                 <Link href="#Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
