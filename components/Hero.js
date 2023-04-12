@@ -18,16 +18,14 @@ const Hero = () => {
 
                 <motion.div animate={titleAnimate} className="paragraph font-bold
                 ">
+
+                    Digital Design & Development<br />
                     Graphic Design<br />
                     Brand Design<br />
-                    Digital Design & Development<br />
-
-
+                    <h1 className="headertagline text-stone-900">We design - you sell!</h1>
                 </motion.div>
 
             </section>
-
-
         </main>
     )
 }
