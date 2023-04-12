@@ -13,7 +13,7 @@ const Hero = () => {
 
     return (
         <main className="h-[90vh] flex flex-col 
-        justify-center items-center md:items-start ml-[1.5vw]">
+        justify-center items-start ml-[1.5vw]">
             <section className="z-50 mt-[15vh]">
 
                 <motion.div animate={titleAnimate} className="paragraph">
