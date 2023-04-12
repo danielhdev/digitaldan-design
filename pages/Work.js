@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import React from 'react'
 import Image from 'next/image'
 import AS from '../public/as.png'
-import Anime from '../public/anime.png'
+import Social from '../public/social.png'
 import Beauty from '../public/beauty.png'
 import Burger from '../public/burger.png'
 import Dev from '../public/devport.png'
@@ -128,22 +128,22 @@ const Work = () => {
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}
 
-                            ><Image src={Anime}
-                                alt="Loading animation"
+                            ><Image src={Social}
+                                alt="Social media ads"
                                 className="cursor-pointer"
                                 /></a>
                         </Link>
                     </div>
                     <div className="lg:w-[50%]">
-                        <h1 className="header">Short & Crisp</h1>
+                        <h1 className="header">Social Media</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Rule of thumb for animations the users can&apos;t control. Loading animation.
+                              Ad campaigns for social media. Bringing classic, proven design rules into the 21st century.
                                 <br />
                                 <br />
 
 
-                                Web design, development with Next.js and Framer Motion.  </motion.p>
+                                Art direction, graphic design, digital design.  </motion.p>
                         </div></div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
