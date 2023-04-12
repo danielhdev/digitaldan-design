@@ -31,7 +31,7 @@ const Work = () => {
                 className="h-auto py-[10vh] flex flex-col">
 
 
-<section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">
+                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">
 
 
                     <motion.div animate={firstImg} className="border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
@@ -123,22 +123,19 @@ const Work = () => {
 
                     <div className=" border-r-0 border-b-0 border-stone-800/50 border-[0.5rem] 
                       w-screen lg:w-[50%]">
-                        <Link href="https://real-estate-hero-animation.vercel.app/"
-                        >
-                            <a target={'_blank'}
-                                rel={'noreferrer noopener'}
 
-                            ><Image src={Social}
-                                alt="Social media ads"
-                                className="cursor-pointer"
-                                /></a>
-                        </Link>
+
+                        <Image src={Social}
+                            alt="Social media ads"
+                            className="cursor-pointer"
+                        />
+
                     </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">Social Media</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                              Ad campaigns for social media. Bringing classic, proven design rules into the 21st century.
+                                Ad campaigns for social media. Bringing classic, proven design rules into the 21st century.
                                 <br />
                                 <br />
 
