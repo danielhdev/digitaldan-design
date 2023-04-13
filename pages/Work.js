@@ -56,12 +56,12 @@ const Work = () => {
                         <div className="border-t-[1px] border-r-[1px] 
                         border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Redesign of a Berlin burger joints' online presense. The old one was an outdated template and didn't match the owner&apos;s strive for classy fast food.
+                                Redesign of a Berlin burger joints' website. Replacing an outdated template that doesn&apos;t match the owner&apos;s strive for classy fast food.
                                 <br />
                                 <br />
 
 
-                                Art direction, graphic and web design, development with Next.js.  </motion.p>
+                                Art direction, graphic and digital design, development with Next.js.  </motion.p>
                         </div></div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
@@ -89,7 +89,7 @@ const Work = () => {
                                 <br />
 
 
-                                Art direction, brand and web design, development with React and Next.js.  </motion.p>
+                                Art direction, brand and digital design, development with React and Next.js.</motion.p>
                         </div></div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
@@ -144,7 +144,7 @@ const Work = () => {
             <br />
 
 
-            Art direction, design, development with React.  </motion.p>
+            Art direction, brand, digital & graphic design, development with React.  </motion.p>
     </div></div>
 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
@@ -171,7 +171,7 @@ const Work = () => {
                                 <br />
 
 
-                                Art direction, design, development with React.  </motion.p>
+                                Art direction, digital design, development with React.  </motion.p>
                         </div></div>
                 </section>
 
@@ -200,7 +200,7 @@ const Work = () => {
                                 <br />
 
 
-                                Made with Next.js, Framer Motion, Tailwind.  </motion.p>
+                                Digital design, development with Next.js, Framer Motion, Tailwind.  </motion.p>
                         </div></div>
                 </section>
 
