@@ -18,10 +18,11 @@ const Hero = () => {
 
                 <motion.div animate={titleAnimate} className="paragraph">
 
-                    Digital Design & Development<br />
+                   
+                    <span className="aboutheader font-bold">We design,<br /> you sell.<br/></span>
+                     Digital Design & Development<br />
                     Graphic & Brand Design
                     <br />
-                    <span className="aboutheader font-bold">We design,<br /> you sell</span>
                     <br />
                     <h2 className="link text-amber-900 dark:text-amber-400">scroll please</h2>
                 </motion.div>

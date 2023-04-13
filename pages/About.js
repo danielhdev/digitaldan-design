@@ -43,8 +43,9 @@ const About = () => {
                                     <li>Art direction</li>
                                     <li>Graphic design</li>
                                     <li>Brand design</li>
-                                    <li>Web/ UI/ digital design</li>
-                                    <li>Web development</li>
+                                    <li>Digital design, this includes products like</li>
+                                    <li>websites, apps, landing pages, ads and UIs </li>
+                                    <li>Digital development</li>
                                 </ul>
                                 <br />
 
