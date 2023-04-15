@@ -53,7 +53,7 @@ const About = () => {
                                 <Link href="#Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
                                     border-[0.15rem] border-amber-600 px-[0.1rem]">
-                                        contact</span></Link>{' '} me <br/>and let&apos;s talk about your project!
+                                        contact</span></Link>{' '} me <br />and let&apos;s talk about your project!
 
                                 <br />
                                 <br />
