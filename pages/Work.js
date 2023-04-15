@@ -29,11 +29,7 @@ const Work = () => {
             <main id="Work"
 
                 className="h-auto py-[10vh] flex flex-col">
-
-
-               
-
-                <section className="lg:w-[80vw] h-auto py-[10vh] flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] 
+            <section className="lg:w-[80vw] h-auto py-[10vh] flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] 
                 mb-[15vh]">
 
                     <div className="border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[0.5rem] 
@@ -47,7 +43,7 @@ const Work = () => {
                             ><Image src={Burger}
                                 alt="AS portfolio redesign"
                                 priority
-                                className="cursor-pointer"
+                                className="workimg cursor-pointer"
                                 /></a>
                         </Link>
                     </div>
@@ -75,7 +71,7 @@ const Work = () => {
 
                             ><Image src={Self}
                                 alt="AS portfolio redesign"
-                                className="cursor-pointer"
+                                className="workimg cursor-pointer"
                                 /></a>
                         </Link>
                     </div>
@@ -100,7 +96,7 @@ const Work = () => {
 
                         <Image src={Social}
                             alt="Social media ads"
-                            className="cursor-pointer"
+                            className="workimg cursor-pointer"
                         />
 
                     </div>
@@ -130,7 +126,7 @@ const Work = () => {
         ><Image src={AS}
             alt="AS portfolio redesign"
             priority
-            className="cursor-pointer"
+            className="workimg cursor-pointer"
             /></a>
     </Link>
 
@@ -158,7 +154,7 @@ const Work = () => {
 
                             ><Image src={Beauty}
                                 alt="AS portfolio redesign"
-                                className="cursor-pointer"
+                                className="workimg cursor-pointer"
                                 /></a>
                         </Link>
                     </div>
@@ -187,7 +183,7 @@ const Work = () => {
 
                             ><Image src={Dev}
                                 alt="AS portfolio redesign"
-                                className="cursor-pointer"
+                                className="workimg cursor-pointer"
                                 /></a>
                         </Link>
                     </div>
