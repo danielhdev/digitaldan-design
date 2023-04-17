@@ -1,8 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
+const menu = [
 
+    { title: 'work', path: '/Work' },
+    { title: 'service', path: '/About' },
+    { title: 'contact', path: '/Contact' }
+]
 const Navbar = () => {
+    const router = useRouter()
     const [theme, setTheme] = useState('dark');
     const toggleTheme = () => {
         if (theme === 'dark') {
@@ -29,6 +36,22 @@ const Navbar = () => {
                 
                 dark:text-zinc-50 dark:opacity-25">digital.dan</h1>
 
+                    <ul className="flex flex-row items-center space-x-[4vw]">
+                        {menu.map((item, index) => {
+
+                            return (
+                                <Link key={index} href={item.path}>
+
+                                    <a className=
+                                        {`link ${router.pathname === item.path ? 'text-amber-200' : ''}`}
+
+                                    >
+                                        {item.title}
+                                    </a>
+                                </Link>
+                            )
+                        }
+                        )}</ul>
                     <section className={`MyApp ${theme}`} id="darkmodeicon">
                         <div onClick={toggleTheme}>
                             <div

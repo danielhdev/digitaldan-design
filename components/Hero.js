@@ -1,6 +1,7 @@
 import React from 'react'
-
-import { easeIn, motion } from 'framer-motion'
+import { BsArrowUpRight } from 'react-icons/bs'
+import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 const Hero = () => {
     const wedesignAnimate = {
@@ -25,9 +26,9 @@ const Hero = () => {
 
 
     return (
-        <main className="h-[90vh] flex flex-col 
+        <main className="h-screen flex flex-col 
         justify-center items-start ml-[3rem]">
-            <section className="z-50 mt-[15vh]">
+            <motion.section className="z-50 mt-[15vh]">
 
                 <div className="paragraph">
 
@@ -40,10 +41,24 @@ const Hero = () => {
                         Brand & Graphic Design</motion.h2>
                     <br />
                     <br />
-                    <h2 className="link text-amber-900 dark:text-amber-400">scroll please</h2>
+                    <motion.section animate={wedesignAnimate2}
+                        className="flex flex-row gap-5 md:gap-[10vw] header">
+
+                        <Link href="/Work">
+                            <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer"> work <BsArrowUpRight /></h2>
+                        </Link>
+
+                        <Link href="/About">
+                            <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer">service <BsArrowUpRight /></h2>
+                        </Link>
+
+                        <Link href="/Contact">
+                            <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer">contact <BsArrowUpRight /> </h2>
+                        </Link>
+                    </motion.section>
                 </div>
 
-            </section>
+            </motion.section>
         </main>
     )
 }
