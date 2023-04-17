@@ -42,7 +42,7 @@ const Hero = () => {
                     <br />
                     <br />
                     <motion.section animate={wedesignAnimate2}
-                        className="flex flex-row gap-5 md:gap-[10vw] header">
+                        className="flex flex-row gap-5 md:gap-[10vw] paragraphw">
 
                         <Link href="/Work">
                             <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer"> work <BsArrowUpRight /></h2>

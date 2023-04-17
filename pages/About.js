@@ -56,7 +56,7 @@ const About = () => {
                                 <br />
                             </section>
                             <section
-                                className="flex flex-row gap-5 md:gap-[10vw] header justify-center">
+                                className="flex flex-row gap-5 md:gap-[10vw] paragraph justify-center">
 
                                 <Link href="/">
                                     <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer"> home <BsArrowUpRight /></h2>

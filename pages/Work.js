@@ -230,7 +230,7 @@ const Work = () => {
                         </Link></div>
                 </section>
                 <section
-                    className="flex flex-row gap-5 md:gap-[10vw] header">
+                    className="flex flex-row gap-5 md:gap-[10vw] paragraph">
 
                     <Link href="/">
                         <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer"> home <BsArrowUpRight /></h2>
