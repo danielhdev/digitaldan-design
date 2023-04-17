@@ -1,9 +1,9 @@
 import '@styles/globals.css'
 import Contacticons from '@components/Contacticons'
-import Navbar from '@components/Navbar'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
+import Navbar from "@components/Navbar"
 import Lenis from '@studio-freight/lenis'
 
 

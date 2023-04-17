@@ -29,51 +29,57 @@ const Work = () => {
             <main id="Work"
 
                 className="h-auto py-[10vh] flex flex-col">
-            <section className="lg:w-[80vw] h-auto py-[10vh] flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] 
+                <section className="lg:w-[80vw] h-auto py-[10vh] flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] 
                 mb-[15vh]">
 
                     <div className="border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[0.5rem] 
                      w-screen lg:w-[50%]">
 
-                        <Link href="https://digitaldanrestaurant.netlify.app/"
-                        >
-                            <a target={'_blank'}
-                                rel={'noreferrer noopener'}
+                        <Image src={Burger}
+                            alt="AS portfolio redesign"
+                            priority
+                            className="workimg"
+                        />
 
-                            ><Image src={Burger}
-                                alt="AS portfolio redesign"
-                                priority
-                                className="workimg cursor-pointer"
-                                /></a>
-                        </Link>
                     </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">Just Premium</h1>
                         <div className="border-t-[1px] border-r-[1px] 
                         border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Redesign of a Berlin burger joints' website. Replacing an outdated template that doesn&apos;t match the owner&apos;s strive for classy fast food.
+                                Redesign of a Berlin upscale burger joints' website. Replacing an outdated template.
                                 <br />
                                 <br />
+                            </motion.p>
+                            <Link href="/Cases/Ubg"
+                            >
+                                <a className="paragraph cursor-pointer"
+                                >Case study </a>
+                            </Link>
+                            <br />
+                            <br />
+                            <Link href="https://digitaldanrestaurant.netlify.app/"
+                            >
+                                <a target={'_blank'}
+                                    rel={'noreferrer noopener'}
 
 
-                                Art direction, graphic and digital design, development with Next.js.  </motion.p>
-                        </div></div>
+                                    className="paragraph cursor-pointer"
+                                >Website</a>
+                            </Link>
+                        </div>
+                    </div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className=" border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[0.5rem] 
                       w-screen lg:w-[50%]">
-                        <Link href="https://dd-agency-branding.netlify.app/"
-                        >
-                            <a target={'_blank'}
-                                rel={'noreferrer noopener'}
 
-                            ><Image src={Self}
-                                alt="AS portfolio redesign"
-                                className="workimg cursor-pointer"
-                                /></a>
-                        </Link>
+                        <Image src={Self}
+                            alt="AS portfolio redesign"
+                            className="workimg"
+                        />
+
                     </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">It&apos;s Personal!</h1>
@@ -86,7 +92,17 @@ const Work = () => {
 
 
                                 Art direction, brand and digital design, development with React and Next.js.</motion.p>
-                        </div></div>
+                            <br />
+                        </div>
+                        <Link href="https://dd-agency-branding.netlify.app/"
+                        >
+                            <a target={'_blank'}
+                                rel={'noreferrer noopener'}
+
+
+                                className="paragraph cursor-pointer"
+                            >Case study (new tab)</a>
+                        </Link></div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
@@ -96,7 +112,7 @@ const Work = () => {
 
                         <Image src={Social}
                             alt="Social media ads"
-                            className="workimg cursor-pointer"
+                            className="workimg"
                         />
 
                     </div>
@@ -115,48 +131,52 @@ const Work = () => {
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">
 
 
-<motion.div animate={firstImg} className="border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[0.5rem] 
+                    <motion.div animate={firstImg} className="border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[0.5rem] 
   w-screen lg:w-[50%]">
 
-    <Link href="https://asprototype.netlify.app/"
-    >
-        <a target={'_blank'}
-            rel={'noreferrer noopener'}
-
-        ><Image src={AS}
-            alt="AS portfolio redesign"
-            priority
-            className="workimg cursor-pointer"
-            /></a>
-    </Link>
-
-</motion.div>
-<div className="w-screen lg:w-[50%]">
-    <h1 className="header mt-[5vh] lg:mt-0">A New Look</h1>
-    <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
-        <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-            Some branding and a new portfolio site for one of the best photographers on unsplash.com.
-            <br />
-            <br />
 
 
-            Art direction, brand, digital & graphic design, development with React.  </motion.p>
-    </div></div>
-</section>
-                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                        <Image src={AS}
+                            alt="AS portfolio redesign"
+                            priority
+                            className="workimg"
+                        />
 
-                    <div className=" border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[0.5rem] 
-                     w-screen  lg:w-[50%]">
-                        <Link href="https://food-health-one-seven.vercel.app/"
+
+
+                    </motion.div>
+                    <div className="w-screen lg:w-[50%]">
+                        <h1 className="header mt-[5vh] lg:mt-0">A New Look</h1>
+                        <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
+                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
+                                Some branding and a new portfolio site for one of the best photographers on unsplash.com.
+                                <br />
+                                <br />
+
+
+                                Art direction, brand, digital & graphic design, development with React.  </motion.p>
+                        </div><br />
+                        <Link href="https://asprototype.netlify.app/"
                         >
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}
 
-                            ><Image src={Beauty}
-                                alt="AS portfolio redesign"
-                                className="workimg cursor-pointer"
-                                /></a>
+
+                                className="paragraph"
+                            >Website</a>
                         </Link>
+
+                    </div>
+                </section>
+                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+
+                    <div className=" border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[0.5rem] 
+                     w-screen  lg:w-[50%]">
+                        <Image src={Beauty}
+                            alt="AS portfolio redesign"
+                            className="workimg"
+                        />
+
                     </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">Just Beautiful</h1>
@@ -168,7 +188,16 @@ const Work = () => {
 
 
                                 Art direction, digital design, development with React.  </motion.p>
-                        </div></div>
+                        </div><br />
+                        <Link href="https://food-health-one-seven.vercel.app/"
+                        >
+                            <a target={'_blank'}
+                                rel={'noreferrer noopener'}
+
+
+                                className="paragraph"
+                            >Website</a>
+                        </Link></div>
                 </section>
 
 
@@ -176,16 +205,10 @@ const Work = () => {
 
                     <div className="border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[0.5rem] 
                    w-screen lg:w-[50%]">
-                        <Link href="https://ddshowcase3.netlify.app/"
-                        >
-                            <a target={'_blank'}
-                                rel={'noreferrer noopener'}
-
-                            ><Image src={Dev}
-                                alt="AS portfolio redesign"
-                                className="workimg cursor-pointer"
-                                /></a>
-                        </Link>
+                        <Image src={Dev}
+                            alt="AS portfolio redesign"
+                            className="workimg"
+                        />
                     </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">For Tool Fans</h1>
@@ -197,7 +220,16 @@ const Work = () => {
 
 
                                 Digital design, development with Next.js, Framer Motion, Tailwind.  </motion.p>
-                        </div></div>
+                        </div><br />
+                        <Link href="https://ddshowcase3.netlify.app/"
+                        >
+                            <a target={'_blank'}
+                                rel={'noreferrer noopener'}
+
+
+                                className="paragraph cursor-pointer"
+                            >Website</a>
+                        </Link></div>
                 </section>
 
 

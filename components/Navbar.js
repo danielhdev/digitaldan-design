@@ -1,13 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 
-const menu = [
 
-    { title: 'work', path: '#Work' },
-    { title: 'service', path: '#About' },
-    { title: 'contact', path: '#Contact' },
-
-]
 const Navbar = () => {
     const [theme, setTheme] = useState('dark');
     const toggleTheme = () => {
@@ -20,8 +14,6 @@ const Navbar = () => {
     useEffect(() => {
         document.body.className = theme;
     }, [theme]);
-
-
     return (
         <>
             <div className="navbarcontainer">
@@ -34,19 +26,9 @@ const Navbar = () => {
                     "> d.d</span>
                     </Link>
                     <h1 className="fixedheader fixed right-[3rem] top-[3rem] mix-blend-difference opacity-35 
+                
                 dark:text-zinc-50 dark:opacity-25">digital.dan</h1>
-                    {menu.map((item, index) => {
 
-                        return (
-                            <Link key={index} href={item.path}>
-
-                                <a className="link">
-                                    {item.title}
-                                </a>
-                            </Link>
-                        )
-                    }
-                    )}
                     <section className={`MyApp ${theme}`} id="darkmodeicon">
                         <div onClick={toggleTheme}>
                             <div

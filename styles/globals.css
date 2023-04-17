@@ -124,7 +124,9 @@ html.lenis {
   .aboutbgdd {
     display: none;
   }
-
+.fonts{
+  font-size: calc(16px + 5vw)
+}
   .iconsize {
     font-size: 6vw;
     opacity: 80%;
@@ -202,6 +204,9 @@ html.lenis {
   font-size: 4vw;
   padding-left: 1.5vw;
 }
+.fonts{
+  font-size: calc(16px + 5vw)
+}
 .fixedheader {
   font-family: 'octarine';
   font-size: calc(7vw - 0.25vw);
@@ -272,6 +277,9 @@ html.lenis {
     font-family: 'Oxygen';
     font-size: 1.6vw;
     padding-left: 1.5vw;
+  }
+  .fonts{
+    font-size: calc(16px + 2.5vw)
   }
   .fixedheader {
     font-family: 'octarine';
