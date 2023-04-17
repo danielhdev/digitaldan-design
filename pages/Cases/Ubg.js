@@ -16,19 +16,16 @@ const Ubg = () => {
         <>
             <main className="md:py-[15vh] flex flex-col md:p-[5rem]">
 
-                <h1 className="workheader w-[95vw] font-bold my-[15vh] p-2">
-                    Case Study:<br />
-                    Upper Burger Grill/<br /> Berlin
-                </h1 >
-
-
-
                 <section className="w-[75vw] flex flex-col justify-start  
-                p-4 my-[5vh] md:my-[15vh]">
-                    <h1 className="font-[octarine] header">
-                        Services
-                    </h1>
-                    <ul className="paragraph font-bold md:ml-[10vw] pt-[5vh]">
+                p-4 my-[5vh] mt-[10vh]">
+                    <h1 className="aboutheader w-[95vw] font-bold p-2">
+                        Case Study:<br />
+                        Upper Burger Grill/<br /> Berlin
+                    </h1 >
+
+
+
+                    <ul className="paragraph font-bold md:ml-[10vw]">
 
                         <li>Art Direction</li>
                         <li>Graphic Design</li>
@@ -149,10 +146,6 @@ const Ubg = () => {
                         <Image src={Bull}
                             alt="Image of the new site on a laptop"
                         /></div>
-
-                    <div className="paragraph text-center">
-                        <a href="/">back to the homepage</a>
-                    </div>
                 </section>
 
 
