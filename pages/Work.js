@@ -8,7 +8,7 @@ import Beauty from '../public/beauty.png'
 import Burger from '../public/burger.png'
 import Dev from '../public/devport.png'
 import Self from '../public/selfbrand1.png'
-
+import { BsArrowUpRight } from 'react-icons/bs'
 
 
 const Work = () => {
@@ -26,9 +26,7 @@ const Work = () => {
 
     return (
         <>
-            <main id="Work"
-
-                className="h-auto py-[10vh] flex flex-col">
+            <main id="Work" className="h-auto pb-[10vh] flex flex-col justify-center items-center">
                 <section className="lg:w-[80vw] h-auto py-[10vh] flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] 
                 mb-[15vh]">
 
@@ -231,7 +229,21 @@ const Work = () => {
                             >Website</a>
                         </Link></div>
                 </section>
+                <section
+                    className="flex flex-row gap-5 md:gap-[10vw] header">
 
+                    <Link href="/">
+                        <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer"> home <BsArrowUpRight /></h2>
+                    </Link>
+
+                    <Link href="/About">
+                        <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer">service <BsArrowUpRight /></h2>
+                    </Link>
+
+                    <Link href="/Contact">
+                        <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer">contact <BsArrowUpRight /> </h2>
+                    </Link>
+                </section>
 
             </main>
         </>

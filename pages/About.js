@@ -1,4 +1,4 @@
-
+import { BsArrowUpRight } from 'react-icons/bs'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 
@@ -13,7 +13,7 @@ const About = () => {
         <>
             <main
                 id="About"
-                className="relative h-auto py-[10vh]">
+                className="h-auto pt-[5rem] flex flex-col justify-center">
                 <motion.h1
                     className="aboutheader font-bold ml-[5%]"
                     initial={{ opacity: 0 }}
@@ -23,14 +23,12 @@ const About = () => {
                     service
                 </motion.h1 >
 
-                <section className="paragraph
-                flex justify-center items-center">
-                    <div className="aboutcontainer h-auto w-[95vw] lg:w-[70vw]">
+                <section className="paragraph flex justify-center items-center md:py-[5rem]">
+                    <div className="aboutcontainer w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate}>
-                            <section className="h-auto py-[5vh] lg:w-[65ch] text-[var(--stone) 
-                            pt-4 pr-6 
-                            md:pt-8 md:pr-12 
+                            <section className="h-auto py-[5vh] lg:w-[65ch] text-[var(--stone) px-[4vw]
+                         
                                                         ">
                                 Daniel Hubschmann (Germany), freelancer, senior multidisciplinary designer and web developer.
 
@@ -50,12 +48,27 @@ const About = () => {
 
                                 Please {' '}
                                 <Link href="/Contact">
-                                    <span className="text-amber-600 font-extrabold cursor-pointer uppercase
-                                    border-[0.15rem] border-amber-600 px-[0.1rem]">
+                                    <span className="dark:text-amber-400 text-amber-900 font-extrabold cursor-pointer uppercase
+                                    border-[0.15rem] dark:border-amber-400 border-amber-900 px-[0.1rem]">
                                         contact</span></Link>{' '} me <br />and let&apos;s talk about your project!
 
                                 <br />
                                 <br />
+                            </section>
+                            <section
+                                className="flex flex-row gap-5 md:gap-[10vw] header justify-center">
+
+                                <Link href="/">
+                                    <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer"> home <BsArrowUpRight /></h2>
+                                </Link>
+
+                                <Link href="/Work">
+                                    <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer">work <BsArrowUpRight /></h2>
+                                </Link>
+
+                                <Link href="/Contact">
+                                    <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer">contact <BsArrowUpRight /> </h2>
+                                </Link>
                             </section>
                         </motion.div>
                     </div>
