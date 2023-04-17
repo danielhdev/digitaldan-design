@@ -19,14 +19,13 @@ const About = () => {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.5 }}
-
                 >
                     service
                 </motion.h1 >
 
                 <section className="paragraph
                 flex justify-center items-center">
-                    <div className="aboutcontainer h-auto py-[5rem] w-[95vw] lg:w-[70vw]">
+                    <div className="aboutcontainer h-auto w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate}>
                             <section className="h-auto py-[5vh] lg:w-[65ch] text-[var(--stone) 
@@ -39,18 +38,18 @@ const About = () => {
                                 <br />
                                 <br />
 
-                                <ul>  <span className="font-bold">Services</span>
+                                <ul className="list-disc">
+
+                                    <li>Digital design, including products like<br /> websites, apps, landing pages, ads and UIs </li>
+                                    <li>Digital development</li>
                                     <li>Art direction</li>
                                     <li>Graphic design</li>
                                     <li>Brand design</li>
-                                    <li>Digital design, this includes products like</li>
-                                    <li>websites, apps, landing pages, ads and UIs </li>
-                                    <li>Digital development</li>
                                 </ul>
                                 <br />
 
                                 Please {' '}
-                                <Link href="#Contact">
+                                <Link href="/Contact">
                                     <span className="text-amber-600 font-extrabold cursor-pointer uppercase
                                     border-[0.15rem] border-amber-600 px-[0.1rem]">
                                         contact</span></Link>{' '} me <br />and let&apos;s talk about your project!
@@ -58,10 +57,6 @@ const About = () => {
                                 <br />
                                 <br />
                             </section>
-
-
-
-
                         </motion.div>
                     </div>
                 </section>
