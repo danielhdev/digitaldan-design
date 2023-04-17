@@ -55,21 +55,6 @@ const About = () => {
                                 <br />
                                 <br />
                             </section>
-                            <section
-                                className="flex flex-row gap-5 md:gap-[10vw] paragraph justify-center">
-
-                                <Link href="/">
-                                    <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer"> home <BsArrowUpRight /></h2>
-                                </Link>
-
-                                <Link href="/Work">
-                                    <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer">work <BsArrowUpRight /></h2>
-                                </Link>
-
-                                <Link href="/Contact">
-                                    <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer">contact <BsArrowUpRight /> </h2>
-                                </Link>
-                            </section>
                         </motion.div>
                     </div>
                 </section>
