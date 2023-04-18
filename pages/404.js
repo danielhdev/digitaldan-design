@@ -4,22 +4,20 @@ import { motion } from 'framer-motion'
 
 
 const pageNotFound = () => {
-    const borderCollapse = {
-        rotate: ['0deg', '55deg'],
-        y: [0, 100],
-        transition: { delay: 0.5, duration: 0.3, type: 'spring', stiffness: '200' }
+    const Collapse = {
+        rotate: ['0deg', '15deg'],
+        y: [0, 10],
+        transition: { delay: 0.75, duration: 0.3, type: 'spring', stiffness: '200' }
     }
 
     return (
-        <main className="h-screen w-full flex flex-col justify-center items-center relative">
+        <main className="h-screen w-full flex flex-col justify-center items-center text-center">
 
-            <div className="absolute w-[300px] h-[300px] border-t-[2px] rounded-full
-            border-[var(--stone)] dark:border-amber-400"></div>
-            <motion.div animate={borderCollapse} className="absolute w-[300px] h-[300px] rounded-full
-            border-r-[2px] border-[var(--stone)] dark:border-amber-400
-            "></motion.div>
-            <h1 className="font-[octarine] header z-20">404</h1>
-            <h1 className="font-[octarine] header z-20">page not found</h1>
+            <div></div>
+            <div className="
+            "></div>
+            <h1 className="font-[octarine] workheader z-20">404</h1>
+            <motion.h1 animate={Collapse} className="font-[octarine] workheader z-20">page not found</motion.h1>
             <h2 className="font-[Oxygen] text-[2vw] z-20 text-amber-600">
                 <Link href="/">
                     go back
