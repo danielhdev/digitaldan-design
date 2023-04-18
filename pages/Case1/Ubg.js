@@ -1,14 +1,14 @@
 import Image from 'next/image'
-import Before from '../Cases/before.png'
-import Laptop1 from '../Cases/laptop1.png'
-import Laptop2 from '../Cases/laptop2.png'
-import Laptop3 from '../Cases/laptop3.png'
-import Laptop4 from '../Cases/laptop4.png'
+import Before from './before.png'
+import Laptop1 from './laptop1.png'
+import Laptop2 from './laptop2.png'
+import Laptop3 from './laptop3.png'
+import Laptop4 from './laptop4.png'
 
-import Mobile1 from '../Cases/mobile1.png'
-import Mobile2 from '../Cases/mobile2.png'
-import Mobile3 from '../Cases/mobile3.png'
-import Bull from '../Cases/bull.png'
+import Mobile1 from './mobile1.png'
+import Mobile2 from './mobile2.png'
+import Mobile3 from './mobile3.png'
+import Bull from './bull.png'
 
 const Ubg = () => {
 
