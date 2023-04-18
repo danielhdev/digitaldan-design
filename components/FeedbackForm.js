@@ -14,8 +14,8 @@ export default function FeedbackForm() {
 
   return (
     <section className="flex flex-col justify-center items-center">
-      <main className="border-t-[1px] border-r-[2px] border-zinc-100 dark:border-stone-900
-    text-black rounded-full">
+      <main className="pt-3 pr-9 border-t-[1px] border-r-[2px] border-zinc-100 dark:border-stone-900
+    text-black">
         <ul className="text-center">
           <a
             href="mailto:d.huebschmann@tutanota.com"
