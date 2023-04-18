@@ -10,7 +10,7 @@ const DDbranding = () => {
                 p-4 my-[5vh] mt-[10vh]">
                     <h1 className="aboutheader w-[95vw] font-bold p-2">
                         Case Study:<br />
-                        Upper Burger Grill/<br /> Berlin
+                        Digitaldan Agency/<br /> Personal Branding
                     </h1 >
 
 
@@ -19,8 +19,8 @@ const DDbranding = () => {
 
                         <li>Art Direction</li>
                         <li>Graphic Design</li>
-                        <li>Web Design</li>
-                        <li>Web Development</li>
+                        <li>Digital Design</li>
+                        <li>Digital Development</li>
                     </ul>
 
 
@@ -35,18 +35,21 @@ const DDbranding = () => {
 
                 <article className="md:ml-[10vw] md:w-[70ch] p-4">
                     <p className="whitespace-normal paragraph font-[Oxygen] pt-[5vh]">
-                        <span className="font-bold">Upper Burger Grill </span>
-                        is an upscale burger restaurant in the heart of Berlin, close to Gedächtniskirche.
-                        The successful grill house was founded in 2016 and their outdated website hadn&apos;t changed since.
-                        Time for a new site that matched their young and modern presence in social media like Instagram.</p>
+                        <span className="font-bold">A new brand design for the post-covid restart:<br/></span>
+                        I used my personal style that can be best described as expressive minimalism, based on the teachings of the 20th century greats like Vignelli.
+                        <br/>
+                        <br/>
+                        I also used AI for the first time. Agencies might fall behind if they don't start using its benefits now.
+                        </p>
                     <br />
                     <br />
                     <ul className="list-disc paragraph">
-                        <h1>Updates</h1>
-                        <li>A fresh color scheme</li>
-                        <li>De-cluttering the landing page & site map</li>
-                        <li>A modern, responsive layout</li>
-                        <li>Custom CMS, easy to use for non-tech staff</li>
+                        <h1>Features</h1>
+                        <li>The work section offers the option to either glance over the projects or visit links to study more details.</li>
+                        <li>Important information provided in short texts.</li>
+                        <li>Several contact options throughout the page.</li>
+                        <li>Some images and ideas provided by DALL-E.</li>
+                  
                     </ul>
 
                 </article>
@@ -55,11 +58,11 @@ const DDbranding = () => {
                         Typography
                     </h1>
                     <div className="h-auto flex justify-center items-start flex-col ml-[10vw]">
-                        <h1 className="fonts font-[Times] font-light my-[2.5vh]">
-                            Headlines: Times
+                        <h1 className="fonts font-[octarine] font-light my-[2.5vh]">
+                            Octarine
                         </h1>
-                        <h1 className="fonts font-[Roboto] font-light my-[2.5vh]">
-                            Texts: Roboto
+                        <h1 className="fonts font-[Oxygen] font-light my-[2.5vh]">
+                            Oxygen
                         </h1>
                     </div>
                 </section>
@@ -68,12 +71,18 @@ const DDbranding = () => {
                     <h1 className="font-[octarine] header">
                         Brand Colors
                     </h1>
-                    <h2 className="paragraph py-[10vh] md:ml-[10vw]">Orange</h2>
+                    <h2 className="paragraph py-[10vh] md:ml-[10vw]">Amber</h2>
                     <div
                         className="md:w-[55vw] h-auto flex flex-row
           paragraph md:ml-[10vw]"
                     >
-                        <div className="h-[30vh] flex-1 bg-[#ff8547] text-stone-900">
+                        <div className="h-[30vh] flex-1 bg-[#ffbf00] text-stone-900">
+                            #ff8547
+                        </div>
+                        <div className="h-[30vh] flex-1 bg-[#ffd400] text-stone-900">
+                            #ff8547
+                        </div>
+                        <div className="h-[30vh] flex-1 bg-[#ffe900] text-stone-900">
                             #ff8547
                         </div>
 
@@ -90,17 +99,50 @@ const DDbranding = () => {
                         <div className="h-[30vh] flex-auto bg-[#383630] text-zinc">
                             #383630
                         </div>
-                        <div className="h-[30vh] flex-auto bg-[#f3f5f6] text-stone-900 border-[1px] border-stone border-solid">
+                        <div className="h-[30vh] flex-auto bg-[#f3f5f6] text-stone-900 border-[1px] border-stone-900 border-solid">
                             #f3f5f6
                         </div>
                     </div>
                 </section>
-                <section>
+                <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4">
+                    <h1 className="font-[octarine] header">
+                        Logo
+                    </h1>
+                    <h2 className="paragraph py-[10vh] md:ml-[10vw]">The circles the font uses will be part of the branding.</h2>
+                    <div
+                        className="md:w-[55vw] h-auto flex flex-row
+          workheader md:ml-[10vw]"
+                    >
+                        <div className="grid place-content-center p-2 h-[50vh] bg-[#f3f5f6] text-stone-900">
+                            digital.dan
+                        </div>
+                        <div className="grid place-content-center p-2 h-[50vh] flex-1 bg-[#383630] text-zinc-100 tracking-widest">
+                            d.d
+                        </div>
                     
+
+                    </div>
                 </section>
+                <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4">
+                    <h1 className="font-[octarine] header">
+                        AI
+                    </h1>
+                    <h2 className="paragraph py-[10vh] md:ml-[10vw]">DALL-E images using Octarines circles and round elements <br/>for social media branding.</h2>
+                    <div
+                        className="md:w-[55vw] h-auto flex flex-row
+          workheader md:ml-[10vw]"
+                    >
+                        <div className="grid place-content-center p-2 h-[50vh] bg-[#f3f5f6] text-stone-900">
+                            digital.dan
+                        </div>
+                        <div className="grid place-content-center p-2 h-[50vh] flex-1 bg-[#383630] text-zinc-100 tracking-widest">
+                            d.d
+                        </div>
+                    
 
-
-
+                    </div>
+                </section>
+               
             </main>
         </>
     );

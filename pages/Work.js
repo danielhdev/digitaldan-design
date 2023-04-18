@@ -48,7 +48,7 @@ const Work = () => {
                                 <br />
                                 <br />
                             </motion.p>
-                            <Link href="/Cases/Ubg"
+                            <Link href="/Case1/Ubg"
                             >
                                 <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> case study <BsArrowUpRight /></h2>
                             </Link>
@@ -82,7 +82,7 @@ const Work = () => {
                                 Branding Digitaldan agency in light of the post-covid restart. AI helped out with ideas.
                                 <br /></motion.p>
                         </div>
-                        <Link href="/Cases/DDbranding"
+                        <Link href="/Case2/DDbranding"
                         >
                             <a className="paragraph cursor-pointer"
                             >
