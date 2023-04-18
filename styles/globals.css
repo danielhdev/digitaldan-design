@@ -124,9 +124,9 @@ html.lenis {
   .aboutbgdd {
     display: none;
   }
-.fonts{
-  font-size: calc(16px + 5vw)
-}
+  .fonts {
+    font-size: calc(16px + 5vw);
+  }
   .iconsize {
     font-size: 6vw;
     opacity: 80%;
@@ -144,11 +144,6 @@ html.lenis {
     color: transparent;
   }
   .headertagline {
-    font-family: 'octarine';
-    font-size: calc(7vw - 0.25vw);
-    color: var(--stone);
-  }
-  .heroheader {
     font-family: 'octarine';
     font-size: calc(7vw - 0.25vw);
     color: var(--stone);
@@ -202,10 +197,10 @@ html.lenis {
 .paragraph {
   font-family: 'Oxygen';
   font-size: 4vw;
-  padding-left: 1.5vw;
+  padding: 3.5vw;
 }
-.fonts{
-  font-size: calc(16px + 5vw)
+.fonts {
+  font-size: calc(16px + 5vw);
 }
 .fixedheader {
   font-family: 'octarine';
@@ -213,15 +208,11 @@ html.lenis {
   -webkit-text-stroke: 2.5px var(--stone);
   color: transparent;
 }
-.headertagline {
-  font-family: 'octarine';
-  font-size: calc(7vw - 0.25vw);
-  color: var(--stone);
-}
+
 .heroheader {
   font-family: 'octarine';
-  font-size: calc(7vw - 0.25vw);
-  color: var(--stone);
+  font-size: calc(16px + 12vw);
+  line-height: 8vh;
 }
 .herosubheader {
   font-family: 'Oxygen';
@@ -278,8 +269,8 @@ html.lenis {
     font-size: 1.6vw;
     padding-left: 1.5vw;
   }
-  .fonts{
-    font-size: calc(16px + 2.5vw)
+  .fonts {
+    font-size: calc(16px + 2.5vw);
   }
   .fixedheader {
     font-family: 'octarine';
@@ -294,8 +285,8 @@ html.lenis {
   }
   .heroheader {
     font-family: 'octarine';
-    font-size: calc(4vw - 0.25vw);
-    color: var(--stone);
+    font-size: calc(8.5vw - 25%);
+    line-height: 6rem;
   }
   .herosubheader {
     font-family: 'Oxygen';
