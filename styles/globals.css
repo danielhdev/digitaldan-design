@@ -267,7 +267,7 @@ html.lenis {
   .paragraph {
     font-family: 'Oxygen';
     font-size: 1.6vw;
-    padding-left: 1.5vw;
+    padding: 1.5vw;
   }
   .fonts {
     font-size: calc(16px + 2.5vw);
@@ -346,7 +346,7 @@ html.lenis {
   .paragraph {
     font-family: 'Oxygen';
     font-size: 1.75vw;
-    padding-left: 1.5vw;
+    padding-left: 2vw;
   }
 
   .link {
