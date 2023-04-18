@@ -121,7 +121,7 @@ const Ubg = () => {
                         <Image src={Laptop1}
                             alt="Image of the new site on a laptop"
                         /></div>
-                    <div className="md:w-[45%] flex justify-center md:ml-[10vw] my-[15vh]">
+                    <div className="md:w-[55%] flex justify-center md:ml-[10vw] my-[15vh]">
                         <Image src={Laptop4}
                             alt="Image of the new site on a laptop"
                         /></div>
@@ -134,7 +134,7 @@ const Ubg = () => {
                             alt="Image of the new site on a laptop"
                         /></div>
 
-                    <div className="md:w-[45%] flex justify-center my-[15vh] md:ml-[15vw]">
+                    <div className="md:w-[55%] flex justify-center my-[15vh] md:ml-[15vw]">
                         <Image src={Mobile3}
                             alt="Image of the new site on a laptop"
                         /></div>

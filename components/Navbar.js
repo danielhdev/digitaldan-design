@@ -32,9 +32,9 @@ const Navbar = () => {
                     
                     "> d.d</span>
                     </Link>
-                    <h1 className="fixedheader fixed right-[3rem] top-[3rem] mix-blend-difference opacity-35 
+                    <h1 className="fixedheader fixed right-[3rem] top-[3rem] opacity-40 
                 
-                dark:text-zinc-50 dark:opacity-25">digital.dan</h1>
+                dark:text-zinc-50/50 dark:opacity-20">digital.dan</h1>
 
                     <ul className="flex flex-row items-center space-x-[4vw]">
                         {menu.map((item, index) => {
