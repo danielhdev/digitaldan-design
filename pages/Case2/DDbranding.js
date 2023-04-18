@@ -2,8 +2,8 @@ import Image from 'next/image'
 import Desktop from './desktop1.png'
 import Mobile from './mobile1.png'
 import Tablet from './tablet1.png'
-import Twi from './twi 23.png'
-import Li from './li 23.png'
+import Twi from './twi23.png'
+import Li from './li23.png'
 import AI from './ai1.png'
 import Back from '@components/Back'
 
@@ -120,10 +120,10 @@ const DDbranding = () => {
                         className="md:w-[55vw] h-auto flex flex-col md:flex-row
           workheader md:ml-[10vw]"
                     >
-                        <div className="grid place-content-center p-2 h-[50vh] flex-1 bg-[#f3f5f6] text-stone-900">
+                        <div className="grid place-content-center p-8 md:p-2 h-[50vh] flex-1 bg-[#f3f5f6] text-stone-900">
                             digital.dan
                         </div>
-                        <div className="grid place-content-center p-2 h-[50vh] flex-1 bg-[#383630] text-zinc-100 tracking-widest">
+                        <div className="grid place-content-center p-8 md:p-2 h-[50vh] flex-1 bg-[#383630] text-zinc-100 tracking-widest">
                             d.d
                         </div>
 
