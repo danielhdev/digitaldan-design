@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import Before from './before.png'
 import Laptop1 from './laptop1.png'
 import Laptop2 from './laptop2.png'
