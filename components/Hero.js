@@ -28,7 +28,7 @@ const Hero = () => {
     return (
         <main className="h-screen flex flex-col 
         justify-center items-start ml-[3rem]">
-            <motion.section className="z-50 mt-[15vh]">
+            <motion.section className="z-50">
 
                 <div className="paragraph">
 

@@ -23,11 +23,11 @@ const About = () => {
                     service
                 </motion.h1 >
 
-                <section className="paragraph flex justify-center items-center md:py-[5rem]">
+                <section className="paragraph flex justify-center items-center md:py-[2.5rem]">
                     <div className="aboutcontainer w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate}>
-                            <section className="h-auto py-[5vh] lg:w-[65ch] text-[var(--stone) px-[4vw]
+                            <section className="h-auto pt-[10vh] pb-[15vh] lg:w-[65ch] text-[var(--stone) px-[4vw]
                          
                                                         ">
                                 Daniel Hubschmann (Germany), freelancer, senior multidisciplinary designer and web developer.
@@ -36,9 +36,9 @@ const About = () => {
                                 <br />
                                 <br />
 
-                                <ul className="list-disc">
+                                <ul className="header list-disc">
 
-                                    <li>Digital design, including products like<br /> websites, apps, landing pages, ads and UIs </li>
+                                    <li>Digital design <br/> including websites, apps, landing pages, ads and UIs </li>
                                     <li>Digital development</li>
                                     <li>Art direction</li>
                                     <li>Graphic design</li>

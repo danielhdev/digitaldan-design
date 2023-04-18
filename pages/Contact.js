@@ -1,11 +1,7 @@
-
 import FeedbackForm from '@components/FeedbackForm'
 
 
 const Contact = () => {
-
-
-
     return (
 
         <>
@@ -15,9 +11,8 @@ const Contact = () => {
                 <section className=' flex flex-col md:flex-row justify-center items-center
             h-auto w-full py-[12vh]'>
 
-                    <div className="w-[full landscape:w-[50vw]  rounded-full">
+                    <div className="w-[full] landscape:w-[50vw] rounded-full">
                         <FeedbackForm />
-
                     </div>
                 </section></main>
         </>

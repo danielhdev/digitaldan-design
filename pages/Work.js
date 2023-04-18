@@ -10,7 +10,6 @@ import Dev from '../public/devport.png'
 import Self from '../public/selfbrand1.png'
 import { BsArrowUpRight } from 'react-icons/bs'
 
-
 const Work = () => {
     const paragraphAnimate = {
         opacity: [0, 1],
@@ -49,21 +48,17 @@ const Work = () => {
                                 <br />
                                 <br />
                             </motion.p>
-                            <Link href="/Cases/Ubg"
+                            <Link href="/Case1/Ubg"
                             >
-                                <a className="paragraph cursor-pointer"
-                                >Case study </a>
+                                <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> case study <BsArrowUpRight /></h2>
                             </Link>
                             <br />
                             <br />
                             <Link href="https://digitaldanrestaurant.netlify.app/"
                             >
                                 <a target={'_blank'}
-                                    rel={'noreferrer noopener'}
-
-
-                                    className="paragraph cursor-pointer"
-                                >Website</a>
+                                    rel={'noreferrer noopener'}>
+                                    <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> website <BsArrowUpRight /> </h2></a>
                             </Link>
                         </div>
                     </div>
@@ -85,21 +80,16 @@ const Work = () => {
                         border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Branding Digitaldan agency in light of the post-covid restart. AI helped out with ideas.
-                                <br />
-                                <br />
-
-
-                                Art direction, brand and digital design, development with React and Next.js.</motion.p>
-                            <br />
+                                <br /></motion.p>
                         </div>
-                        <Link href="https://dd-agency-branding.netlify.app/"
+                        <Link href="/Case2/DDbranding"
                         >
-                            <a target={'_blank'}
-                                rel={'noreferrer noopener'}
+                            <a className="paragraph cursor-pointer"
+                            >
 
+                                <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> case study <BsArrowUpRight /></h2>
 
-                                className="paragraph cursor-pointer"
-                            >Case study (new tab)</a>
+                            </a>
                         </Link></div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
