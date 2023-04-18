@@ -33,16 +33,14 @@ const Hero = () => {
                 <div className="paragraph">
 
 
-                    <motion.h1 animate={wedesignAnimate} className="aboutheader font-bold">We design,</motion.h1>
-                    <motion.h1 animate={wedesignAnimate2} className="aboutheader font-bold">you sell.</motion.h1><br />
-
+                    <motion.h1 animate={wedesignAnimate} className="heroheader font-bold">We design,</motion.h1>
+                    <motion.h1 animate={wedesignAnimate2} className="heroheader font-bold">you sell.</motion.h1>
+                    <br />
                     <motion.h2 animate={servicesAnimate}>
                         Digital Design & Development<br />
-                        Brand & Graphic Design</motion.h2>
-                    <br />
-                    <br />
+                        Brand & Graphic Design</motion.h2><br/>
                     <motion.section animate={wedesignAnimate2}
-                        className="flex flex-row gap-5 md:gap-[10vw] paragraphw">
+                        className="flex flex-row gap-8 paragraphw">
 
                         <Link href="/Work">
                             <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer"> work <BsArrowUpRight /></h2>

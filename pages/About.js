@@ -38,7 +38,7 @@ const About = () => {
 
                                 <ul className="header list-disc">
 
-                                    <li>Digital design <br/> including websites, apps, landing pages, ads and UIs </li>
+                                    <li>Digital design of <br /> websites, apps, <br />advertising and UIs </li>
                                     <li>Digital development</li>
                                     <li>Art direction</li>
                                     <li>Graphic design</li>
