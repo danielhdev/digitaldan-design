@@ -147,11 +147,8 @@ const Work = () => {
                         <Link href="https://asprototype.netlify.app/"
                         >
                             <a target={'_blank'}
-                                rel={'noreferrer noopener'}
-
-
-                                className="paragraph"
-                            >Website</a>
+                                rel={'noreferrer noopener'}>
+                                <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> case study (new tab) <BsArrowUpRight /> </h2></a>
                         </Link>
 
                     </div>
@@ -180,12 +177,10 @@ const Work = () => {
                         <Link href="https://food-health-one-seven.vercel.app/"
                         >
                             <a target={'_blank'}
-                                rel={'noreferrer noopener'}
-
-
-                                className="paragraph"
-                            >Website</a>
-                        </Link></div>
+                                rel={'noreferrer noopener'}>
+                                <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> website (new tab) <BsArrowUpRight /> </h2></a>
+                        </Link>
+                    </div>
                 </section>
 
 
@@ -209,16 +204,20 @@ const Work = () => {
 
                                 Digital design, development with Next.js, Framer Motion, Tailwind.  </motion.p>
                         </div><br />
+
                         <Link href="https://ddshowcase3.netlify.app/"
                         >
                             <a target={'_blank'}
-                                rel={'noreferrer noopener'}
-
-
-                                className="paragraph cursor-pointer"
-                            >Website</a>
-                        </Link></div>
+                                rel={'noreferrer noopener'}>
+                                <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> website (new tab) <BsArrowUpRight /> </h2></a>
+                        </Link>
+                    </div>
+                
                 </section>
+            
+            
+          
+            
             </main>
         </>
     )

@@ -4,11 +4,11 @@ import Laptop1 from './laptop1.png'
 import Laptop2 from './laptop2.png'
 import Laptop3 from './laptop3.png'
 import Laptop4 from './laptop4.png'
-
 import Mobile1 from './mobile1.png'
 import Mobile2 from './mobile2.png'
 import Mobile3 from './mobile3.png'
 import Bull from './bull.png'
+import Back from '@components/Back'
 
 const Ubg = () => {
 
@@ -29,8 +29,8 @@ const Ubg = () => {
 
                         <li>Art Direction</li>
                         <li>Graphic Design</li>
-                        <li>Web Design</li>
-                        <li>Web Development</li>
+                        <li>Digital Design</li>
+                        <li>Digital Development</li>
                     </ul>
 
 
@@ -121,7 +121,7 @@ const Ubg = () => {
                         <Image src={Laptop1}
                             alt="Image of the new site on a laptop"
                         /></div>
-                    <div className="md:w-[95%] flex justify-center my-[15vh]">
+                    <div className="md:w-[45%] flex justify-center md:ml-[10vw] my-[15vh]">
                         <Image src={Laptop4}
                             alt="Image of the new site on a laptop"
                         /></div>
@@ -134,7 +134,7 @@ const Ubg = () => {
                             alt="Image of the new site on a laptop"
                         /></div>
 
-                    <div className="md:w-[75%] flex justify-center my-[15vh]">
+                    <div className="md:w-[45%] flex justify-center my-[15vh] md:ml-[15vw]">
                         <Image src={Mobile3}
                             alt="Image of the new site on a laptop"
                         /></div>
@@ -148,7 +148,7 @@ const Ubg = () => {
                         /></div>
                 </section>
 
-
+                <Back />
 
             </main>
         </>

@@ -1,4 +1,11 @@
 import Image from 'next/image'
+import Desktop from './desktop1.png'
+import Mobile from './mobile1.png'
+import Tablet from './tablet1.png'
+import Twi from './twi 23.png'
+import Li from './li 23.png'
+import AI from './ai1.png'
+import Back from '@components/Back'
 
 const DDbranding = () => {
 
@@ -35,12 +42,12 @@ const DDbranding = () => {
 
                 <article className="md:ml-[10vw] md:w-[70ch] p-4">
                     <p className="whitespace-normal paragraph font-[Oxygen] pt-[5vh]">
-                        <span className="font-bold">A new brand design for the post-covid restart:<br/></span>
+                        <span className="font-bold">A new brand design for the post-covid restart:<br /></span>
                         I used my personal style that can be best described as expressive minimalism, based on the teachings of the 20th century greats like Vignelli.
-                        <br/>
-                        <br/>
+                        <br />
+                        <br />
                         I also used AI for the first time. Agencies might fall behind if they don't start using its benefits now.
-                        </p>
+                    </p>
                     <br />
                     <br />
                     <ul className="list-disc paragraph">
@@ -49,7 +56,7 @@ const DDbranding = () => {
                         <li>Important information provided in short texts.</li>
                         <li>Several contact options throughout the page.</li>
                         <li>Some images and ideas provided by DALL-E.</li>
-                  
+
                     </ul>
 
                 </article>
@@ -108,18 +115,18 @@ const DDbranding = () => {
                     <h1 className="font-[octarine] header">
                         Logo
                     </h1>
-                    <h2 className="paragraph py-[10vh] md:ml-[10vw]">The circles the font uses will be part of the branding.</h2>
+                    <h2 className="paragraph py-[10vh] md:ml-[10vw]">The circles the font Octarine is made of will be part of public branding.</h2>
                     <div
-                        className="md:w-[55vw] h-auto flex flex-row
+                        className="md:w-[55vw] h-auto flex flex-col md:flex-row
           workheader md:ml-[10vw]"
                     >
-                        <div className="grid place-content-center p-2 h-[50vh] bg-[#f3f5f6] text-stone-900">
+                        <div className="grid place-content-center p-2 h-[50vh] flex-1 bg-[#f3f5f6] text-stone-900">
                             digital.dan
                         </div>
                         <div className="grid place-content-center p-2 h-[50vh] flex-1 bg-[#383630] text-zinc-100 tracking-widest">
                             d.d
                         </div>
-                    
+
 
                     </div>
                 </section>
@@ -127,22 +134,42 @@ const DDbranding = () => {
                     <h1 className="font-[octarine] header">
                         AI
                     </h1>
-                    <h2 className="paragraph py-[10vh] md:ml-[10vw]">DALL-E images using Octarines circles and round elements <br/>for social media branding.</h2>
-                    <div
-                        className="md:w-[55vw] h-auto flex flex-row
-          workheader md:ml-[10vw]"
-                    >
-                        <div className="grid place-content-center p-2 h-[50vh] bg-[#f3f5f6] text-stone-900">
-                            digital.dan
-                        </div>
-                        <div className="grid place-content-center p-2 h-[50vh] flex-1 bg-[#383630] text-zinc-100 tracking-widest">
-                            d.d
-                        </div>
-                    
-
-                    </div>
+                    <h2 className="paragraph py-[10vh] md:ml-[10vw]">DALL-E images using Octarines circles and round elements <br />for social media branding.</h2>
+                    <div className="md:w-[75%] flex justify-end my-[10vh] md:ml-[10vw]">
+                        <Image src={AI}
+                            alt="Image of AI generated images using circles and balls"
+                        /></div>
+                    <div className="md:w-[75%] flex justify-end my-[15vh] md:ml-[10vw]">
+                        <Image src={Twi}
+                            alt="Image of a Twitter profile header"
+                        /></div>
+                    <div className="md:w-[75%] flex justify-end mt-[15vh] md:ml-[10vw]">
+                        <Image src={Li}
+                            alt="Image of a LinkedIn profile header"
+                        /></div>
                 </section>
-               
+
+
+                <section className="h-auto w-[95vw] my-[5vh] md:my-[10vh] p-2">
+                    <h1 className="font-[octarine] header">
+                        Website
+                    </h1>
+
+                    <div className="md:w-[35%] flex justify-end my-[15vh] md:ml-[20vw]">
+                        <Image src={Mobile}
+                            alt="Image of a LinkedIn profile header"
+                        /></div>
+                    <div className="md:w-[75%] flex justify-end my-[15vh] mx-auto">
+                        <Image src={Desktop}
+                            alt="Image of a LinkedIn profile header"
+                        /></div>
+                    <div className="md:w-[55%] flex justify-end my-[15vh] md:ml-[10vw]">
+                        <Image src={Tablet}
+                            alt="Image of a LinkedIn profile header"
+                        /></div>
+
+                </section>
+                <Back />
             </main>
         </>
     );
