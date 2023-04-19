@@ -52,8 +52,6 @@ const Work = () => {
                             >
                                 <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> case study <BsArrowUpRight /></h2>
                             </Link>
-                            <br />
-                            <br />
                             <Link href="https://digitaldanrestaurant.netlify.app/"
                             >
                                 <a target={'_blank'}
@@ -139,18 +137,13 @@ const Work = () => {
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Some branding and a new portfolio site for one of the best photographers on unsplash.com.
                                 <br />
-                                <br />
-
-
-                                Art direction, brand, digital & graphic design, development with React.  </motion.p>
+                         
+ </motion.p>
                         </div><br />
-                        <Link href="https://asprototype.netlify.app/"
+                        <Link href="/Case3/AS"
                         >
-                            <a target={'_blank'}
-                                rel={'noreferrer noopener'}>
-                                <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> case study (new tab) <BsArrowUpRight /> </h2></a>
+                            <a><h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> case study <BsArrowUpRight /> </h2></a>
                         </Link>
-
                     </div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">

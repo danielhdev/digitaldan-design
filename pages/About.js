@@ -8,28 +8,21 @@ const About = () => {
         y: [5, 0],
         transition: { delay: 0.2, duration: 0.6 }
     }
-
     return (
         <>
             <main
                 id="About"
                 className="h-auto pt-[5rem] flex flex-col justify-center">
-                <motion.h1
-                    className="aboutheader font-bold ml-[5%]"
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{ delay: 0.5, duration: 0.5 }}
-                >
-                    service
-                </motion.h1 >
+
 
                 <section className="paragraph flex justify-center items-center md:py-[2.5rem]">
                     <div className="aboutcontainer w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate}>
-                            <section className="h-auto pt-[10vh] pb-[15vh] lg:w-[65ch] text-[var(--stone) px-[4vw]
+                            <section className="h-auto pt-[10vh] md:pt-[5vh] pb-[15vh] lg:w-[65ch] text-[var(--stone) px-[4vw]
                          
                                                         ">
+                                <h1 className="header">About</h1><br />
                                 Daniel Hubschmann (Germany), freelancer, senior multidisciplinary designer and web developer.
 
                                 Helping out clients with my over two decades of experience. In my remote-only agency I work with professionals from around the world.
@@ -38,7 +31,7 @@ const About = () => {
 
                                 <ul className="header list-disc">
 
-                                    <li>Digital design of <br /> websites, apps, <br />advertising and UIs </li>
+                                    <li>Digital design of <br /> websites, apps, <br />ads and events </li>
                                     <li>Digital development</li>
                                     <li>Art direction</li>
                                     <li>Graphic design</li>
