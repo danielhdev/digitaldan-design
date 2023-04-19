@@ -123,7 +123,7 @@ const DDbranding = () => {
                     </h1>
                     <h2 className="paragraph py-[10vh] md:ml-[10vw]">DALL-E images using Octarines circles and round elements <br />for social media branding.</h2>
                     <div className="md:w-[75%] flex justify-end my-[10vh] md:ml-[10vw]">
-                        <img src='ai.png'
+                        <img src='ai1.png'
                             alt="Image of AI generated images using circles and balls"
                         /></div>
                     <div className="md:w-[75%] flex justify-end my-[15vh] md:ml-[10vw]">
