@@ -1,11 +1,4 @@
-import Image from 'next/image'
-import Twitter from './Twitter2.png'
-import Mobile1 from './mobile1.png'
-import Mobile2 from './mobile2.png'
-import Mobile3 from './mobile3.png'
-import Wide1 from './wide1.png'
-import Wide2 from './wide2.png'
-import Wide4 from './wide4.png'
+
 import Back from '@components/Back'
 
 const AS = () => {
@@ -102,7 +95,7 @@ const AS = () => {
                     </h1>
                     <h2 className="paragraph py-[10vh] md:ml-[10vw]">Twitter profile header.</h2>
                     <div className="md:w-[75%] flex justify-end my-[10vh] md:ml-[10vw]">
-                        <Image src={Twitter}
+                        <img src='Twitter2.png'
                             alt="Image of AI generated images using circles and balls"
                         /></div>
            </section>
@@ -114,28 +107,28 @@ const AS = () => {
                     </h1>
 
                     <div className="md:w-[65%] flex justify-end my-[15vh]">
-                        <Image src={Wide1}
+                        <img src='wide1.png'
                             alt="Image of a LinkedIn profile header"
                         /></div>
                     <div className="md:w-[75%] flex justify-end my-[15vh] mx-auto">
-                        <Image src={Mobile1}
+                        <img src='mobile1.png'
                             alt="Image of a LinkedIn profile header"
                         /></div>
         
                     <div className="md:w-[65%] flex justify-end my-[15vh] md:ml-[10vw]">
-                        <Image src={Wide2}
+                        <img src='wide2.png'
                             alt="Image of a LinkedIn profile header"
                         /></div>
      <div className="md:w-[25%] flex justify-end my-[15vh] md:ml-[35vw]">
-                        <Image src={Mobile3}
+                        <img src='mobile3.png'
                             alt="Image of a LinkedIn profile header"
                         /></div>
      <div className="md:w-[25%] flex justify-end my-[15vh] md:ml-[15vw]">
-                        <Image src={Mobile2}
+                        <img src='mobile2.png'
                             alt="Image of a LinkedIn profile header"
                         /></div>
                                   <div className="md:w-[75%] flex justify-end my-[15vh] md:ml-[10vw]">
-                        <Image src={Wide4}
+                        <img src='wide4.png'
                             alt="Image of a LinkedIn profile header"
                         /></div>
                 </section>
