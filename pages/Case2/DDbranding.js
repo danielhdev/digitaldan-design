@@ -1,10 +1,3 @@
-import Image from 'next/image'
-import Desktop from './desktop1.png'
-import Mobile from './mobile1.png'
-import Tablet from './tablet1.png'
-import Twi from './twi23.png'
-import Li from './li23.png'
-import AI from './ai1.png'
 import Back from '@components/Back'
 
 const DDbranding = () => {
@@ -19,18 +12,12 @@ const DDbranding = () => {
                         Case Study:<br />
                         Digitaldan Agency/<br /> Personal Branding
                     </h1 >
-
-
-
                     <ul className="paragraph font-bold md:ml-[10vw]">
-
                         <li>Art Direction</li>
                         <li>Graphic Design</li>
                         <li>Digital Design</li>
                         <li>Digital Development</li>
                     </ul>
-
-
                 </section>
 
                 <section className="my-[5vh]"></section>
@@ -136,35 +123,33 @@ const DDbranding = () => {
                     </h1>
                     <h2 className="paragraph py-[10vh] md:ml-[10vw]">DALL-E images using Octarines circles and round elements <br />for social media branding.</h2>
                     <div className="md:w-[75%] flex justify-end my-[10vh] md:ml-[10vw]">
-                        <Image src={AI}
+                        <img src='ai.png'
                             alt="Image of AI generated images using circles and balls"
                         /></div>
                     <div className="md:w-[75%] flex justify-end my-[15vh] md:ml-[10vw]">
-                        <Image src={Twi}
+                        <img src='twi23.png'
                             alt="Image of a Twitter profile header"
                         /></div>
                     <div className="md:w-[75%] flex justify-end mt-[15vh] md:ml-[10vw]">
-                        <Image src={Li}
+                        <img src='li23.png'
                             alt="Image of a LinkedIn profile header"
                         /></div>
                 </section>
-
-
                 <section className="h-auto w-[95vw] my-[5vh] md:my-[10vh] p-2">
                     <h1 className="font-[octarine] header">
                         Website
                     </h1>
 
                     <div className="md:w-[35%] flex justify-end my-[15vh] md:ml-[20vw]">
-                        <Image src={Mobile}
+                        <img src='mobile1.png'
                             alt="Image of a LinkedIn profile header"
                         /></div>
                     <div className="md:w-[75%] flex justify-end my-[15vh] mx-auto">
-                        <Image src={Desktop}
+                        <img src='desktop1.png'
                             alt="Image of a LinkedIn profile header"
                         /></div>
                     <div className="md:w-[55%] flex justify-end my-[15vh] md:ml-[10vw]">
-                        <Image src={Tablet}
+                        <img src='tablet1.png'
                             alt="Image of a LinkedIn profile header"
                         /></div>
 

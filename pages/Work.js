@@ -1,13 +1,6 @@
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import React from 'react'
-import Image from 'next/image'
-import AS from '../public/as.png'
-import Social from '../public/social.png'
-import Beauty from '../public/beauty.png'
-import Burger from '../public/burger.png'
-import Dev from '../public/devport.png'
-import Self from '../public/selfbrand1.png'
 import { BsArrowUpRight } from 'react-icons/bs'
 
 const Work = () => {
@@ -32,9 +25,8 @@ const Work = () => {
                     <div className="border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[0.5rem] 
                      w-screen lg:w-[50%]">
 
-                        <Image src={Burger}
-                            alt="AS portfolio redesign"
-                            priority
+                        <img src='/burger.png'
+                            alt="Upper Burger portfolio redesign"
                             className="workimg"
                         />
 
@@ -66,7 +58,7 @@ const Work = () => {
                     <div className=" border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[0.5rem] 
                       w-screen lg:w-[50%]">
 
-                        <Image src={Self}
+                        <img src='/selfbrand1.png'
                             alt="AS portfolio redesign"
                             className="workimg"
                         />
@@ -96,7 +88,7 @@ const Work = () => {
                       w-screen lg:w-[50%]">
 
 
-                        <Image src={Social}
+                        <img src='/social.png'
                             alt="Social media ads"
                             className="workimg"
                         />
@@ -122,7 +114,7 @@ const Work = () => {
 
 
 
-                        <Image src={AS}
+                        <img src='/as.png'
                             alt="AS portfolio redesign"
                             priority
                             className="workimg"
@@ -137,8 +129,8 @@ const Work = () => {
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Some branding and a new portfolio site for one of the best photographers on unsplash.com.
                                 <br />
-                         
- </motion.p>
+
+                            </motion.p>
                         </div><br />
                         <Link href="/Case3/AS"
                         >
@@ -150,7 +142,7 @@ const Work = () => {
 
                     <div className=" border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[0.5rem] 
                      w-screen  lg:w-[50%]">
-                        <Image src={Beauty}
+                        <img src='/beauty.png'
                             alt="AS portfolio redesign"
                             className="workimg"
                         />
@@ -181,7 +173,7 @@ const Work = () => {
 
                     <div className="border-r-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[0.5rem] 
                    w-screen lg:w-[50%]">
-                        <Image src={Dev}
+                        <img src='/devport.png'
                             alt="AS portfolio redesign"
                             className="workimg"
                         />
@@ -205,12 +197,12 @@ const Work = () => {
                                 <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> website (new tab) <BsArrowUpRight /> </h2></a>
                         </Link>
                     </div>
-                
+
                 </section>
-            
-            
-          
-            
+
+
+
+
             </main>
         </>
     )

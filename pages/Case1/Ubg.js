@@ -1,13 +1,3 @@
-import Image from 'next/image'
-import Before from './before.png'
-import Laptop1 from './laptop1.png'
-import Laptop2 from './laptop2.png'
-import Laptop3 from './laptop3.png'
-import Laptop4 from './laptop4.png'
-import Mobile1 from './mobile1.png'
-import Mobile2 from './mobile2.png'
-import Mobile3 from './mobile3.png'
-import Bull from './bull.png'
 import Back from '@components/Back'
 
 const Ubg = () => {
@@ -109,41 +99,41 @@ const Ubg = () => {
                     <h1 className="header">Before</h1>
 
                     <div className="md:w-[95%] flex justify-center my-[15vh]">
-                        <Image src={Before}
+                       <img src='before.png'
                             alt="Image of the old website" />
                     </div>
                     <h1 className="header">Redesign</h1>
                     <div className="md:w-[75%] flex justify-end my-[15vh] md:ml-[10vw]">
-                        <Image src={Mobile1}
+                       <img src='mobile1.png'
                             alt="Image of the new site on a smart phone"
                         /></div>
                     <div className="md:w-[95%] flex justify-center my-[15vh]">
-                        <Image src={Laptop1}
+                       <img src='laptop1.png'
                             alt="Image of the new site on a laptop"
                         /></div>
                     <div className="md:w-[55%] flex justify-center md:ml-[10vw] my-[15vh]">
-                        <Image src={Laptop4}
+                       <img src='laptop4.png'
                             alt="Image of the new site on a laptop"
                         /></div>
                     <div className="md:w-[85%] flex justify-center md:ml-[5rem] my-[15vh]">
-                        <Image src={Laptop3}
+                       <img src='laptop3.png'
                             alt="Image of the new site on a laptop"
                         /></div>
                     <div className="flex justify-center my-[15vh]">
-                        <Image src={Laptop2}
+                       <img src='laptop2.png'
                             alt="Image of the new site on a laptop"
                         /></div>
 
                     <div className="md:w-[55%] flex justify-center my-[15vh] md:ml-[15vw]">
-                        <Image src={Mobile3}
+                       <img src='mobile3.png'
                             alt="Image of the new site on a laptop"
                         /></div>
                     <div className="md:w-[95%] flex justify-end my-[15vh]">
-                        <Image src={Mobile2}
+                       <img src='mobile2.png'
                             alt="Image of the new site on mobile"
                         /></div>
                     <div className="w-[50%] md:w-[25%] mx-auto my-[15vh]">
-                        <Image src={Bull}
+                       <img src='bull.png'
                             alt="Image of the new site on a laptop"
                         /></div>
                 </section>
