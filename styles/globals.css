@@ -35,6 +35,13 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Russo';
+  src: url('../Fonts/russo-one.woff2') format('woff2'),
+    url('../Fonts/russo-one.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 html,
 body {
