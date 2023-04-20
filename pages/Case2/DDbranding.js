@@ -104,7 +104,7 @@ const DDbranding = () => {
                     </h1>
                     <h2 className="paragraph py-[10vh] md:ml-[10vw]">The circles the font Octarine is made of will be part of public branding.</h2>
                     <div
-                        className="md:w-[55vw] h-auto flex flex-col md:flex-row
+                        className="md:w-[55vw] h-auto flex flex-col md:flex-row border-[1px] border-stone-900
           workheader md:ml-[10vw]"
                     >
                         <div className="grid place-content-center p-8 md:p-2 h-[50vh] flex-1 bg-[#f3f5f6] text-stone-900">
