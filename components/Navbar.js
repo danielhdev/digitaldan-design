@@ -32,7 +32,7 @@ const Navbar = () => {
                     
                     "> d.d</span>
                     </Link>
-                    <h1 className="fixedheader fixed right-[3rem] top-[3rem] opacity-80 
+                    <h1 className="fixedheader fixed right-[1rem] md:right-[3rem] top-[3rem] opacity-80 
                 
                 dark:text-zinc-50 dark:opacity-20">digital.dan</h1>
 
