@@ -281,7 +281,7 @@ html.lenis {
   }
   .fixedheader {
     font-family: 'octarine';
-    font-size: calc(4vw - 0.25vw);
+    font-size: calc(4vw - 16px);
     -webkit-text-stroke: 2.5px var(--stone);
     color: transparent;
   }

@@ -25,17 +25,18 @@ const About = () => {
                                 <h1 className="header">About</h1><br />
                                 Daniel Hubschmann (Germany), freelancer, senior multidisciplinary designer and web developer.
 
-                                Helping out clients with my over two decades of experience. In my remote-only agency I work with professionals from around the world.
+                                Helping clients with my over two decades of experience. In my remote-only agency I work with professionals from around the world.
                                 <br />
                                 <br />
 
                                 <ul className="header list-disc">
-
-                                    <li>Digital design of <br /> websites, apps, <br />ads and events </li>
-                                    <li>Digital development</li>
+                                    Services:
                                     <li>Art direction</li>
-                                    <li>Graphic design</li>
                                     <li>Brand design</li>
+                                    <li>Digital design <br /> (Websites, apps, ads, <br />presentations and events) </li>
+                                    <li>Digital development <br />(JavaScript or other tools)</li>
+                                    <li>Graphic design</li>
+
                                 </ul>
                                 <br />
 

@@ -33,13 +33,12 @@ const DDbranding = () => {
                         I used my personal style that can be best described as expressive minimalism, based on the teachings of the 20th century greats like Vignelli.
                         <br />
                         <br />
-                        I also used AI for the first time. Agencies might fall behind if they don't start using its benefits now.
+                        I also used AI for the first time: DALL-E provided some of the images.
                     </p>
                     <br />
                     <br />
                     <ul className="list-disc paragraph">
                         <h1>Features</h1>
-                        <li>The work section offers the option to either glance over the projects or visit links to study more details.</li>
                         <li>Important information provided in short texts.</li>
                         <li>Several contact options throughout the page.</li>
                         <li>Some images and ideas provided by DALL-E.</li>
@@ -102,7 +101,7 @@ const DDbranding = () => {
                     <h1 className="font-[octarine] header">
                         Logo
                     </h1>
-                    <h2 className="paragraph py-[10vh] md:ml-[10vw]">The circles the font Octarine is made of will be part of public branding.</h2>
+                    <h2 className="paragraph py-[10vh] md:ml-[10vw]">The circles Octarine is made of will be part of public branding.</h2>
                     <div
                         className="md:w-[55vw] h-auto flex flex-col md:flex-row border-[1px] border-stone-900
           workheader md:ml-[10vw]"
