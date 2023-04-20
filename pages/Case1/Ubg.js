@@ -90,52 +90,58 @@ const Ubg = () => {
                         <div className="h-[30vh] flex-auto bg-[#383630] text-zinc">
                             #383630
                         </div>
-                        <div className="h-[30vh] flex-auto bg-[#f3f5f6] text-stone-900 border-[1px] border-stone border-solid">
+                        <div className="h-[30vh] flex-auto bg-[#f3f5f6] text-stone-900 border-[1px] border-stone-900">
                             #f3f5f6
                         </div>
                     </div>
                 </section>
                 <section>
-                    <h1 className="header">Before</h1>
+                    <h1 className="header mx-auto">Before</h1>
 
                     <div className="md:w-[95%] flex justify-center my-[15vh]">
-                       <img src='before.png'
+                        <img src='before.png'
                             alt="Image of the old website" />
                     </div>
                     <h1 className="header">Redesign</h1>
-                    <div className="md:w-[75%] flex justify-end my-[15vh] md:ml-[10vw]">
-                       <img src='mobile1.png'
+                    <div className="md:w-[85%] flex justify-end my-[15vh]">
+                        <img src='wide1.png'
                             alt="Image of the new site on a smart phone"
                         /></div>
-                    <div className="md:w-[95%] flex justify-center my-[15vh]">
-                       <img src='laptop1.png'
+                    <div className="md:w-[65%] flex justify-center my-[15vh]">
+                        <img src='mob1.png'
                             alt="Image of the new site on a laptop"
                         /></div>
                     <div className="md:w-[55%] flex justify-center md:ml-[10vw] my-[15vh]">
-                       <img src='laptop4.png'
+                        <img src='wide2.png'
                             alt="Image of the new site on a laptop"
                         /></div>
                     <div className="md:w-[85%] flex justify-center md:ml-[5rem] my-[15vh]">
-                       <img src='laptop3.png'
+                        <img src='mob2.png'
                             alt="Image of the new site on a laptop"
                         /></div>
                     <div className="flex justify-center my-[15vh]">
-                       <img src='laptop2.png'
-                            alt="Image of the new site on a laptop"
-                        /></div>
-
-                    <div className="md:w-[55%] flex justify-center my-[15vh] md:ml-[15vw]">
-                       <img src='mobile3.png'
+                        <img src='wide3.png'
                             alt="Image of the new site on a laptop"
                         /></div>
                     <div className="md:w-[95%] flex justify-end my-[15vh]">
-                       <img src='mobile2.png'
+                        <img src='wide5.png'
                             alt="Image of the new site on mobile"
                         /></div>
-                    <div className="w-[50%] md:w-[25%] mx-auto my-[15vh]">
-                       <img src='bull.png'
+                    <div className="md:w-[95%] flex justify-end my-[15vh]">
+                        <img src='wide4.png'
+                            alt="Image of the new site on mobile"
+                        /></div>
+
+                    <div className="md:w-[75%] flex justify-center my-[15vh] md:ml-[5vw]">
+                        <img src='mob3.png'
                             alt="Image of the new site on a laptop"
                         /></div>
+
+                    <div className="w-[50%] md:w-[25%] mx-auto my-[15vh]">
+                        <img src='bull.png'
+                            alt="Image of the new site on a laptop"
+                        /></div>
+
                 </section>
 
                 <Back />
