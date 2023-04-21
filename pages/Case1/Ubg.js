@@ -99,12 +99,12 @@ const Ubg = () => {
                     <h1 className="header mx-auto">Before</h1>
 
                     <div className="md:w-[95%] flex justify-center my-[15vh]">
-                        <img src='before.png'
+                        <img src='before.jpg'
                             alt="Image of the old website" />
                     </div>
                     <h1 className="header">Redesign</h1>
                     <div className="md:w-[85%] flex justify-end my-[15vh]">
-                        <img src='wide1.png'
+                        <img src='wide1.jpg'
                             alt="Image of the new site on a smart phone"
                         /></div>
                     <div className="md:w-[65%] flex justify-center my-[15vh]">
@@ -112,19 +112,19 @@ const Ubg = () => {
                             alt="Image of the new site on a laptop"
                         /></div>
                     <div className="md:w-[55%] flex justify-center md:ml-[10vw] my-[15vh]">
-                        <img src='wide2.png'
+                        <img src='wide2.jpg'
                             alt="Image of the new site on a laptop"
                         /></div>
                     <div className="md:w-[85%] flex justify-center md:ml-[5rem] my-[15vh]">
-                        <img src='mob2.png'
+                        <img src='mob2.jpg'
                             alt="Image of the new site on a laptop"
                         /></div>
                     <div className="flex justify-center my-[15vh]">
-                        <img src='wide3.png'
+                        <img src='wide3.jpg'
                             alt="Image of the new site on a laptop"
                         /></div>
                     <div className="md:w-[95%] flex justify-end my-[15vh]">
-                        <img src='wide5.png'
+                        <img src='wide5.jpg'
                             alt="Image of the new site on mobile"
                         /></div>
                     <div className="md:w-[95%] flex justify-end my-[15vh]">
@@ -133,7 +133,7 @@ const Ubg = () => {
                         /></div>
 
                     <div className="md:w-[75%] flex justify-center my-[15vh] md:ml-[5vw]">
-                        <img src='mob3.png'
+                        <img src='mob3.jpg'
                             alt="Image of the new site on a laptop"
                         /></div>
 
