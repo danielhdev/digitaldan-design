@@ -8,7 +8,7 @@ const Ubg = () => {
 
                 <section className="w-[75vw] flex flex-col justify-start  
                 p-4 my-[5vh] mt-[10vh]">
-                    <h1 className="aboutheader w-[95vw] font-bold p-2">
+                    <h1 className="header w-[95vw] font-bold p-2">
                         Case Study:<br />
                         Upper Burger Grill/<br /> Berlin
                     </h1 >
