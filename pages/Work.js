@@ -69,7 +69,7 @@ const Work = () => {
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 
                         border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Branding Digitaldan agency in light of the post-covid restart. AI helped out with ideas.
+                                Brand design for a picky client: myself. AI helped out with ideas.
                                 <br /></motion.p>
                         </div>
                         <Link href="/Case2/DDbranding"

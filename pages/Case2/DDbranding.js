@@ -29,21 +29,13 @@ const DDbranding = () => {
 
                 <article className="md:ml-[10vw] md:w-[70ch] p-4">
                     <p className="whitespace-normal paragraph font-[Oxygen] pt-[5vh]">
-                        <span className="font-bold">A new brand design for the post-covid restart:<br /></span>
+                        <span className="font-bold">A new brand design for my agency:<br /></span>
                         I used my personal style that can be best described as expressive minimalism, based on the teachings of the 20th century greats like Vignelli.
-                        <br />
-                        <br />
-                        I also used AI for the first time: DALL-E provided some of the images.
+                        Also used AI for the first time: DALL-E provided some of the images.
                     </p>
                     <br />
                     <br />
-                    <ul className="list-disc paragraph">
-                        <h1>Features</h1>
-                        <li>Important information provided in short texts.</li>
-                        <li>Several contact options throughout the page.</li>
-                        <li>Some images and ideas provided by DALL-E.</li>
-
-                    </ul>
+        
 
                 </article>
                 <section className="h-auto w-[95vw]">
@@ -136,7 +128,7 @@ const DDbranding = () => {
                             alt="Image of a LinkedIn profile header"
                         /></div>
                 </section>
-                <section className="h-auto w-[95vw] my-[5vh] md:my-[10vh] p-2">
+                <section className="h-auto w-[95vw] my-[5vh] md:my-[10vh] p-1">
                     <h1 className="font-[octarine] header">
                         Website
                     </h1>
