@@ -116,7 +116,6 @@ const Work = () => {
 
                         <img src='/as.png'
                             alt="AS portfolio redesign"
-                            priority
                             className="workimg"
                         />
 
