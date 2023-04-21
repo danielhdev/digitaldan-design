@@ -52,7 +52,7 @@ const DDbranding = () => {
                     </div>
                 </section>
 
-                <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4">
+                <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4 mx-auto">
                     <h1 className="font-[octarine] header">
                         Brand Colors
                     </h1>
@@ -73,7 +73,7 @@ const DDbranding = () => {
 
                     </div>
                 </section>
-                <section className="w-[95vw] h-auto mb-[10vh]">
+                <section className="w-[95vw] h-auto mb-[10vh] mx-auto">
                     <h2 className="paragraph py-[10vh] md:ml-[10vw]">
                         Stone & Zinc
                     </h2>
@@ -89,7 +89,7 @@ const DDbranding = () => {
                         </div>
                     </div>
                 </section>
-                <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4">
+                <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4 mx-auto">
                     <h1 className="font-[octarine] header">
                         Logo
                     </h1>
@@ -108,7 +108,7 @@ const DDbranding = () => {
 
                     </div>
                 </section>
-                <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4">
+                <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4 mx-auto">
                     <h1 className="font-[octarine] header">
                         AI
                     </h1>
@@ -128,7 +128,7 @@ const DDbranding = () => {
                             alt="Image of a LinkedIn profile header"
                         /></div>
                 </section>
-                <section className="h-auto w-[95vw] my-[5vh] md:my-[10vh] p-1">
+                <section className="h-auto w-[95vw] my-[5vh] md:my-[10vh] p-1 mx-auto">
                     <h1 className="font-[octarine] header">
                         Website
                     </h1>
