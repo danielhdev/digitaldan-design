@@ -40,18 +40,18 @@ const Hero = () => {
                         Digital Design & Development<br />
                         Brand & Graphic Design</motion.h2><br/>
                     <motion.section animate={wedesignAnimate2}
-                        className="flex flex-row gap-8 paragraphw font-bold">
+                        className="flex flex-row gap-8 link font-bold uppercase">
 
                         <Link href="/Work">
-                            <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer"> work <BsArrowUpRight /></h2>
+                            <h2 className=" text-amber-500 cursor-pointer"> work <BsArrowUpRight /></h2>
                         </Link>
 
                         <Link href="/About">
-                            <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer">service <BsArrowUpRight /></h2>
+                            <h2 className=" text-orange-500 cursor-pointer">service <BsArrowUpRight /></h2>
                         </Link>
 
                         <Link href="/Contact">
-                            <h2 className=" text-amber-900 dark:text-amber-400 cursor-pointer">contact <BsArrowUpRight /> </h2>
+                            <h2 className=" text-red-600 cursor-pointer">contact <BsArrowUpRight /> </h2>
                         </Link>
                     </motion.section>
                 </div>
