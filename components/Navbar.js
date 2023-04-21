@@ -10,7 +10,7 @@ const menu = [
 ]
 const Navbar = () => {
     const router = useRouter()
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('dark');
     const toggleTheme = () => {
         if (theme === 'dark') {
             setTheme('light');
@@ -43,7 +43,7 @@ const Navbar = () => {
                                 <Link key={index} href={item.path}>
 
                                     <a className=
-                                        {`link ${router.pathname === item.path ? 'text-amber-200' : ''}`}
+                                        {`link ${router.pathname === item.path ? 'text-amber-100' : ''}`}
 
                                     >
                                         {item.title}
