@@ -42,13 +42,13 @@ const Work = () => {
                             </motion.p>
                             <Link href="/Case1/Ubg"
                             >
-                                <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> case study <BsArrowUpRight /></h2>
+                                <h2 className="paragraph text-amber-500 cursor-pointer"> case study <BsArrowUpRight /></h2>
                             </Link>
                             <Link href="https://digitaldanrestaurant.netlify.app/"
                             >
                                 <a target={'_blank'}
                                     rel={'noreferrer noopener'}>
-                                    <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> website <BsArrowUpRight /> </h2></a>
+                                    <h2 className="paragraph text-amber-500 cursor-pointer"> website <BsArrowUpRight /> </h2></a>
                             </Link>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const Work = () => {
                             <a className="paragraph cursor-pointer"
                             >
 
-                                <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> case study <BsArrowUpRight /></h2>
+                                <h2 className="paragraph text-amber-500 cursor-pointer"> case study <BsArrowUpRight /></h2>
 
                             </a>
                         </Link></div>
@@ -134,7 +134,7 @@ const Work = () => {
                         </div><br />
                         <Link href="/Case3/AS"
                         >
-                            <a><h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> case study <BsArrowUpRight /> </h2></a>
+                            <a><h2 className="paragraph text-amber-500 cursor-pointer"> case study <BsArrowUpRight /> </h2></a>
                         </Link>
                     </div>
                 </section>
@@ -163,7 +163,7 @@ const Work = () => {
                         >
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}>
-                                <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> website (new tab) <BsArrowUpRight /> </h2></a>
+                                <h2 className="paragraph text-amber-500 cursor-pointer"> website (new tab) <BsArrowUpRight /> </h2></a>
                         </Link>
                     </div>
                 </section>
@@ -194,7 +194,7 @@ const Work = () => {
                         >
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}>
-                                <h2 className="paragraph text-amber-900 dark:text-amber-400 cursor-pointer"> website (new tab) <BsArrowUpRight /> </h2></a>
+                                <h2 className="paragraph text-amber-500 cursor-pointer"> website (new tab) <BsArrowUpRight /> </h2></a>
                         </Link>
                     </div>
 
