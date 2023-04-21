@@ -33,11 +33,11 @@ const About = () => {
                                     <li>Art direction</li>
                                     <li>Brand design</li>
                                     <li>Digital design <br /> (Websites, apps, ads, <br />presentations and events) </li>
-                                    <li>Digital development <br />(JavaScript or other tools)</li>
+                                    <li>Digital development <br />(JavaScript and other tools)</li>
                                     <li>Graphic design</li>
                                 </ul>
                                 <br />  <Link href="/Contact">
-                                    <h2 className="header text-red-600 cursor-pointer">contact <BsArrowUpRight /> </h2>
+                                    <h2 className="header text-amber-600 cursor-pointer">contact <BsArrowUpRight /> </h2>
                                 </Link>
                             </section>
                         </motion.div>
