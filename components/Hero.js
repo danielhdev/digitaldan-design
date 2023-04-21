@@ -27,7 +27,7 @@ const Hero = () => {
 
     return (
         <main className="h-screen flex flex-col 
-        justify-center items-start ml-[3rem]">
+        justify-center items-center">
             <motion.section className="z-50">
 
                 <div className="paragraph">
@@ -38,12 +38,12 @@ const Hero = () => {
                     <br />
                     <motion.h2 animate={servicesAnimate}>
                         Digital Design & Development<br />
-                        Brand & Graphic Design</motion.h2><br/>
+                        Brand & Graphic Design</motion.h2><br />
                     <motion.section animate={wedesignAnimate2}
                         className="flex flex-row gap-8 link font-bold uppercase">
 
                         <Link href="/Work">
-                            <h2 className=" text-amber-500 cursor-pointer"> work <BsArrowUpRight /></h2>
+                            <h2 className=" text-amber-600 cursor-pointer"> work <BsArrowUpRight /></h2>
                         </Link>
 
                         <Link href="/About">
