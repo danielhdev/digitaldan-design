@@ -14,7 +14,7 @@ export default function FeedbackForm() {
 
   return (
     <section className="flex flex-col justify-center items-center">
-      <main className="pt-3 pr-9 border-t-[1px] border-r-[2px] border-zinc-100 dark:border-stone-900
+      <main className="pt-3 pr-9 border-t-[1px] border-r-[2px] border-zinc-900 dark:border-stone-100
     text-black">
         <ul className="text-center">
           <a
@@ -64,7 +64,7 @@ export default function FeedbackForm() {
             </motion.li></a>
         </ul>
       </main>
-      <section className="text-center text-stone-50 dark:text-stone-900
+      <section className="text-center text-stone-900 dark:text-stone-100
       
       ml-[50vw]
       md:ml-[30vw]

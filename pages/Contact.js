@@ -7,7 +7,7 @@ const Contact = () => {
         <>
             <main id="Contact"
 
-                className="h-screen  flex justify-center items-center bg-stone-900 dark:bg-zinc-50">
+                className="h-screen  flex justify-center items-center">
                 <section className=' flex flex-col md:flex-row justify-center items-center
             h-auto w-full py-[12vh]'>
 
