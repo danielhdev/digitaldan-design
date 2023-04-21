@@ -8,7 +8,7 @@ const DDbranding = () => {
 
                 <section className="w-[75vw] flex flex-col justify-start  
                 p-4 my-[5vh] mt-[10vh]">
-                    <h1 className="aboutheader w-[95vw] font-bold p-2">
+                    <h1 className="header w-[95vw] font-bold p-2">
                         Case Study:<br />
                         Digitaldan Agency/<br /> Personal Branding
                     </h1 >
@@ -20,8 +20,8 @@ const DDbranding = () => {
                     </ul>
                 </section>
 
-                <section className="my-[5vh]"></section>
-                <div className="w-[75vw] flex justify-start ">
+                <section className="my-[5vh]">
+                <div className="w-[95vw]">
                     <h1 className="font-[octarine] header p-4">
                         Design Thoughts
                     </h1>
@@ -137,15 +137,18 @@ const DDbranding = () => {
                         <img src='mobile1.png'
                             alt="Image of a LinkedIn profile header"
                         /></div>
-                    <div className="md:w-[75%] flex justify-end my-[15vh] mx-auto">
+                    <div className="md:w-[75%] flex justify-end my-[15vh] mx-auto
+                    border-[1px] border-zinc-100">
                         <img src='desktop1.png'
                             alt="Image of a LinkedIn profile header"
                         /></div>
                     <div className="md:w-[65%] flex justify-end my-[15vh] md:ml-[10vw]">
                         <img src='tablet1.png'
                             alt="Image of a LinkedIn profile header"
-                        /></div>
+                        /></div>  
 
+                </section>
+              
                 </section>
                 <Back />
             </main>
