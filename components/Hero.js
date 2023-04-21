@@ -43,15 +43,15 @@ const Hero = () => {
                         className="flex flex-row gap-8 link font-bold uppercase">
 
                         <Link href="/Work">
-                            <h2 className=" text-amber-600 cursor-pointer"> work <BsArrowUpRight /></h2>
+                            <h2 className=" text-amber-100 cursor-pointer"> work <BsArrowUpRight /></h2>
                         </Link>
 
                         <Link href="/About">
-                            <h2 className=" text-orange-500 cursor-pointer">service <BsArrowUpRight /></h2>
+                            <h2 className=" text-orange-100 cursor-pointer">service <BsArrowUpRight /></h2>
                         </Link>
 
                         <Link href="/Contact">
-                            <h2 className=" text-red-600 cursor-pointer">contact <BsArrowUpRight /> </h2>
+                            <h2 className=" text-red-100 cursor-pointer">contact <BsArrowUpRight /> </h2>
                         </Link>
                     </motion.section>
                 </div>

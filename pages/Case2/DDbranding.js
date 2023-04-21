@@ -75,14 +75,14 @@ const DDbranding = () => {
                 </section>
                 <section className="w-[95vw] h-auto mb-[10vh] mx-auto">
                     <h2 className="paragraph py-[10vh] md:ml-[10vw]">
-                        Stone & Zinc
+                        Zinc
                     </h2>
                     <div
                         className="md:w-[55vw] h-auto  flex flex-row justify-center 
           paragraph md:ml-[10vw]"
                     >
-                        <div className="h-[30vh] flex-auto bg-[#020617] text-zinc border-[1px] border-stone-100 border-solid">
-                            #383630
+                        <div className="h-[30vh] flex-auto bg-[#09090b] text-zinc border-[1px] border-stone-100 border-solid">
+                        #09090b
                         </div>
                         <div className="h-[30vh] flex-auto bg-[#f3f5f6] text-stone-900 border-[1px] border-stone-900 border-solid">
                             #f3f5f6
