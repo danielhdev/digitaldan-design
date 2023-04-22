@@ -10,7 +10,7 @@ const menu = [
 ]
 const Navbar = () => {
     const router = useRouter()
-    const [theme, setTheme] = useState('dark');
+    const [theme, setTheme] = useState('light');
     const toggleTheme = () => {
         if (theme === 'dark') {
             setTheme('light');
