@@ -43,10 +43,10 @@ const AS = () => {
                         <br />
                         <br />
                         <ul className="list-disc paragraph">
-                            <h1>Features & Updates:</h1>
+                            <h1>Updates:</h1>
                             <li>New custom layout representing Ayo&apos;s minimalist and often experimental style.</li>
-                            <li>Brand slogan and name visible on all pages .</li>
-                            <li>More accessible contact options throughout the page.</li>
+                            <li>Brand slogan and name on all pages.</li>
+                            <li>More accessible contact option throughout the page.</li>
 
                         </ul>
 
