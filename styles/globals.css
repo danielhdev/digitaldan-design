@@ -70,7 +70,6 @@ body {
   background-color: transparent;
 }
 
-
 .contactli1:hover,
 .contactli2:hover,
 .contactli3:hover {
@@ -82,21 +81,22 @@ body {
 .contactli3 {
   -webkit-text-stroke: 2px #ffa200;
 }
-
+.header {
+  font-family: 'octarine';
+  font-size: clamp(16px, 2vw + 0.75rem, 7vw);
+  margin-left: 1.5vw;
+}
+.heroheader {
+  font-family: 'octarine';
+  font-size: clamp(16px, calc(16px + 7vw), 12vw);
+  line-height: 90%;
+}
 .iconsize {
   font-size: 1.4vw;
   opacity: 80%;
   color: white;
   mix-blend-mode: difference;
 }
-
-.header {
-  font-family: 'octarine';
-  font-size: 2vw;
-
-  mix-blend-mode: darken;
-}
-
 .lenis.lenis-smooth {
   scroll-behavior: auto;
 }
@@ -136,12 +136,11 @@ html.lenis {
   .iconsize {
     font-size: 6vw;
     opacity: 80%;
-    left: 65vw;
+    right: 6vw;
   }
-  .header {
+  .herolinks {
     font-family: 'octarine';
     font-size: calc(7vw - 0.25vw);
-    margin-left: 1.5vw;
   }
   .fixedheader {
     font-family: 'octarine';
@@ -195,10 +194,10 @@ html.lenis {
     left: 70vw;
   }
 }
-.header {
+
+.herolinks {
   font-family: 'octarine';
-  font-size: 6vw;
-  margin-left: 1.5vw;
+  font-size: clamp(2vw, calc(6vw - 15%), 8vw);
 }
 .paragraph {
   font-family: 'Oxygen';
@@ -215,11 +214,6 @@ html.lenis {
   color: transparent;
 }
 
-.heroheader {
-  font-family: 'octarine';
-  font-size: calc(16px + 12vw);
-  line-height: 8vh;
-}
 .herosubheader {
   font-family: 'Oxygen';
   font-size: 2.5vw;
@@ -261,12 +255,13 @@ html.lenis {
   .iconsize {
     font-size: 1.8vw;
     opacity: 80%;
-    left: 84vw;
+    right: 3vw;
   }
   .aboutcontainer {
     width: 50vw;
   }
-  .header {
+
+  .herolinks {
     font-family: 'octarine';
     font-size: 2.5vw;
   }
@@ -289,11 +284,7 @@ html.lenis {
     font-size: calc(2.5vw - 0.25vw);
     color: var(--stone);
   }
-  .heroheader {
-    font-family: 'octarine';
-    font-size: calc(8.5vw - 25%);
-    line-height: 6rem;
-  }
+
   .herosubheader {
     font-family: 'Oxygen';
     font-size: 1.2vw;
@@ -327,10 +318,6 @@ html.lenis {
 
 /* widescreen monitors */
 @media (min-width: 1500px) {
-  .heroheader {
-    font-family: 'octarine';
-    font-size: calc(4.5vw - 0.25vw);
-  }
   .herosubheader {
     font-family: 'Oxygen';
     font-size: 1.2vw;
@@ -345,7 +332,7 @@ html.lenis {
     font-size: 1.8vw;
     opacity: 80%;
   }
-  .header {
+  .herolinks {
     font-family: 'octarine';
     font-size: 2vw;
   }
