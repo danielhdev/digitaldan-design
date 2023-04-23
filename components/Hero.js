@@ -30,31 +30,31 @@ const Hero = () => {
         justify-center items-center">
             <motion.section className="z-50">
 
-                <div className="paragraph">
+                <section className="paragraph dark:bg-[#fdfdfd] bg-[#09090b] py-5">
 
+                    <div className="dark:text-[#041320] text-[#fff]">
+                        <motion.h1 animate={wedesignAnimate} className="heroheader font-bold">We Design</motion.h1>
+                        <motion.h1 animate={wedesignAnimate2} className="heroheader font-bold">Quality.</motion.h1>
+                        <br />
+                        <motion.h2 animate={servicesAnimate}>
+                            Digital Design & Development<br />
+                            Brand & Graphic Design</motion.h2></div>
 
-                    <motion.h1 animate={wedesignAnimate} className="heroheader font-bold">We design,</motion.h1>
-                    <motion.h1 animate={wedesignAnimate2} className="heroheader font-bold">you sell.</motion.h1>
-                    <br />
-                    <motion.h2 animate={servicesAnimate}>
-                        Digital Design & Development<br />
-                        Brand & Graphic Design</motion.h2><br />
-                    <motion.section animate={wedesignAnimate2}
-                        className="flex flex-row gap-8 herolinks font-bold">
+                </section>   <motion.section animate={wedesignAnimate2}
+                    className="flex flex-row justify-between herolinks font-bold">
 
-                        <Link href="/Work">
-                            <h2 className=" text-amber-600 cursor-pointer"> work <BsArrowUpRight /></h2>
-                        </Link>
+                    <Link href="/Work">
+                        <h2 className=" text-amber-600 cursor-pointer"> work <BsArrowUpRight /></h2>
+                    </Link>
 
-                        <Link href="/About">
-                            <h2 className=" text-amber-600 cursor-pointer">service <BsArrowUpRight /></h2>
-                        </Link>
+                    <Link href="/About">
+                        <h2 className=" text-amber-600 cursor-pointer">service <BsArrowUpRight /></h2>
+                    </Link>
 
-                        <Link href="/Contact">
-                            <h2 className=" text-amber-600 cursor-pointer">contact <BsArrowUpRight /> </h2>
-                        </Link>
-                    </motion.section>
-                </div>
+                    <Link href="/Contact">
+                        <h2 className=" text-amber-600 cursor-pointer">contact <BsArrowUpRight /> </h2>
+                    </Link>
+                </motion.section>
 
             </motion.section>
         </main>

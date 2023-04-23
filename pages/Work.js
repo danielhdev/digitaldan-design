@@ -42,13 +42,13 @@ const Work = () => {
                             </motion.p>
                             <Link href="/Case1/Ubg"
                             >
-                                <h2 className="header text-amber-600 cursor-pointer"> case study <BsArrowUpRight /></h2>
+                                <h2 className="header text-amber-600 cursor-pointer pl-[1.5vw] md:pl-0"> case study <BsArrowUpRight /></h2>
                             </Link>
                             <Link href="https://digitaldanrestaurant.netlify.app/"
                             >
                                 <a target={'_blank'}
                                     rel={'noreferrer noopener'}>
-                                    <h2 className="header text-amber-600 cursor-pointer"> website <BsArrowUpRight /> </h2></a>
+                                    <h2 className="header text-amber-600 cursor-pointer pl-[1.5vw] md:pl-0"> website (new tab) <BsArrowUpRight /> </h2></a>
                             </Link>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const Work = () => {
                         <h1 className="header">It&apos;s Personal!</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 
                         border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
-                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
+                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
                                 Brand design for a picky client: myself. AI helped out with ideas.
                                 <br /></motion.p>
                         </div>
@@ -76,9 +76,7 @@ const Work = () => {
                         >
                             <a className="cursor-pointer"
                             >
-
-                                <h2 className="header text-amber-600 cursor-pointer"> case study <BsArrowUpRight /></h2>
-
+                                <h2 className="header text-amber-600 cursor-pointer pl-[1.5vw] md:pl-0"> case study <BsArrowUpRight /></h2>
                             </a>
                         </Link></div>
                 </section>
@@ -99,10 +97,6 @@ const Work = () => {
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Ad campaigns for social media. Bringing classic, proven design rules into the 21st century.
-                                <br />
-                                <br />
-
-
                                 Art direction, graphic design, digital design.  </motion.p>
                         </div></div>
                 </section>
@@ -133,7 +127,7 @@ const Work = () => {
                         </div><br />
                         <Link href="/Case3/AS"
                         >
-                            <a><h2 className="header text-amber-600 cursor-pointer"> case study <BsArrowUpRight /> </h2></a>
+                            <a><h2 className="header text-amber-600 cursor-pointer pl-[1.5vw] md:pl-0"> case study <BsArrowUpRight /> </h2></a>
                         </Link>
                     </div>
                 </section>
@@ -151,18 +145,13 @@ const Work = () => {
                         <h1 className="header">Just Beautiful</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Landing page template for beauty products. With scroll animations, contact form and ready to connect to a shop.
-                                <br />
-                                <br />
-
-
-                                Art direction, digital design, development with React.  </motion.p>
+                                Landing page for beauty products. Art direction, digital design, development with React.  </motion.p>
                         </div><br />
                         <Link href="https://food-health-one-seven.vercel.app/"
                         >
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}>
-                                <h2 className="header text-amber-600 cursor-pointer"> website (new tab) <BsArrowUpRight /> </h2></a>
+                                <h2 className="header text-amber-600 cursor-pointer pl-[1.5vw] md:pl-0"> website (new tab) <BsArrowUpRight /> </h2></a>
                         </Link>
                     </div>
                 </section>
@@ -181,19 +170,14 @@ const Work = () => {
                         <h1 className="header">For Tool Fans</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Customizable portfolio template. Find the animation that gave the mysterious headline its name.
-                                <br />
-                                <br />
-
-
-                                Digital design, development with Next.js, Framer Motion, Tailwind.  </motion.p>
+                                Customizable portfolio template. Digital design, development with Next.js, Framer Motion, Tailwind CSS.  </motion.p>
                         </div><br />
 
                         <Link href="https://ddshowcase3.netlify.app/"
                         >
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}>
-                                <h2 className="header text-amber-600 cursor-pointer"> website (new tab) <BsArrowUpRight /> </h2></a>
+                                <h2 className="header text-amber-600 cursor-pointer pl-[1.5vw] md:pl-0"> website (new tab) <BsArrowUpRight /> </h2></a>
                         </Link>
                     </div>
                 </section>
