@@ -13,19 +13,22 @@ const About = () => {
             <main
                 id="About"
                 className="h-auto pt-[2.5rem] flex flex-col justify-center">
-
-
                 <section className="paragraph flex justify-center items-center md:py-[2.5rem]">
                     <div className="aboutcontainer w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate}>
                             <section className="h-auto pt-[10vh] md:pt-[5vh] pb-[15vh] lg:w-[65ch] text-[var(--stone) px-[4vw]
                          
-                                                        ">
-                                <h1 className="header">About</h1><br />
-                                Daniel Hubschmann (Germany), freelancer, senior multidisciplinary designer and web developer.
+                                                        ">    <h1 className="header">About</h1>
 
-                                Helping clients with my over two decades of experience. In my remote-only agency I work with professionals from around the world.
+                                <p className="paragraph font-bold">"...Every detail is important because the end result is the sum of all details..." "...Quality is there or is not there, and if it is not there we have lost our time..."
+                                    <br /> <span className="italic">Massimo Vignelli, from The Vignelli Canon</span> </p>
+                                Daniel Hubschmann (Germany), freelancer, senior multidisciplinary designer and web developer.
+                                Helping clients with my over two decades of experience.   In my remote-only agency I work with professionals from around the world.
+                                <br />  <br />
+                                <span className="font-bold">I believe in timeless design over trends, using classic rules.
+                                    Your investment will pay out for many years thanks to great, timeless design.</span>
+                                <br />
                                 <br />
                                 <br />
                                 <ul className="header list-disc">

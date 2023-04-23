@@ -87,7 +87,7 @@ const Ubg = () => {
                             className="md:w-[55vw] h-auto  flex flex-row justify-center 
           paragraph md:ml-[10vw]"
                         >
-                            <div className="h-[30vh] flex-auto bg-[#383630] text-zinc">
+                            <div className="h-[30vh] flex-auto bg-[#383630] text-stone-100 text-zinc">
                                 #383630
                             </div>
                             <div className="h-[30vh] flex-auto bg-[#f3f5f6] text-stone-900 border-[1px] border-stone-900">

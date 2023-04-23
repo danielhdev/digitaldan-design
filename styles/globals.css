@@ -86,11 +86,7 @@ body {
   font-size: clamp(16px, 2vw + 0.75rem, 7vw);
   margin-left: 1.5vw;
 }
-.heroheader {
-  font-family: 'octarine';
-  font-size: clamp(16px, calc(16px + 7vw), 12vw);
-  line-height: 90%;
-}
+
 .iconsize {
   font-size: 1.4vw;
   opacity: 80%;
@@ -137,6 +133,11 @@ html.lenis {
     font-size: 6vw;
     opacity: 80%;
     right: 6vw;
+  }
+  .heroheader {
+    font-family: 'octarine';
+    font-size: clamp(16px, calc(16px + 14vw), 16vw);
+    line-height: 90%;
   }
   .herolinks {
     font-family: 'octarine';
@@ -194,7 +195,11 @@ html.lenis {
     left: 70vw;
   }
 }
-
+.heroheader {
+  font-family: 'octarine';
+  font-size: clamp(16px, calc(16px + 14vw), 16vw);
+  line-height: 90%;
+}
 .herolinks {
   font-family: 'octarine';
   font-size: clamp(2vw, calc(6vw - 15%), 8vw);
@@ -260,7 +265,11 @@ html.lenis {
   .aboutcontainer {
     width: 50vw;
   }
-
+  .heroheader {
+    font-family: 'octarine';
+    font-size: clamp(16px, calc(16px + 9vw), 10vw);
+    line-height: 90%;
+  }
   .herolinks {
     font-family: 'octarine';
     font-size: 2.5vw;
