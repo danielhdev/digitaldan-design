@@ -23,23 +23,20 @@ const Hero = () => {
         transition: { delay: 1.1, duration: 0.75 }
 
     }
-
-
     return (
         <main className="h-screen flex flex-col 
         justify-center items-center">
-            <motion.section className="z-50">
+            <motion.section className="z-50 w-full px-[1rem] md:px-[2rem]">
 
-                <section className="paragraph dark:bg-[#fdfdfd] bg-[#09090b] py-5">
+                <section className="paragraph bg-orange-500 dark:bg-zinc-100">
 
-                    <div className="dark:text-[#041320] text-[#fff]">
+                    <div className="text-[#041320]">
                         <motion.h1 animate={wedesignAnimate} className="heroheader font-bold">We Design</motion.h1>
                         <motion.h1 animate={wedesignAnimate2} className="heroheader font-bold">Quality.</motion.h1>
                         <br />
                         <motion.h2 animate={servicesAnimate}>
                             Digital Design & Development<br />
                             Brand & Graphic Design</motion.h2></div>
-
                 </section>   <motion.section animate={wedesignAnimate2}
                     className="flex flex-row justify-between herolinks font-bold">
 
