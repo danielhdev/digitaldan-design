@@ -17,18 +17,19 @@ const About = () => {
                     <div className="aboutcontainer w-[95vw] lg:w-[70vw]">
 
                         <motion.div animate={paragraphAnimate}>
-                            <section className="h-auto pt-[10vh] md:pt-[5vh] pb-[15vh] lg:w-[65ch] text-[var(--stone) px-[4vw]
-                         
-                                                        ">    <h1 className="header">About</h1>
-
-                                <p className="paragraph font-bold">"...Every detail is important because the end result is the sum of all details..." "...Quality is there or is not there, and if it is not there we have lost our time..."
-                                    <br /> <span className="italic">Massimo Vignelli, from The Vignelli Canon</span> </p>
+                            <section className="h-auto py-[10vh] lg:w-[65ch] text-[var(--stone) px-[4vw]">
+                                <h1 className="header">About</h1>
+                                <br />
+                                "...Every detail is important because the end result is the sum of all details..." "...Quality is there or is not there, and if it is not there we have lost our time..."
+                                <br /> <span className="italic">Massimo Vignelli, from The Vignelli Canon</span>
+                                <br/>
+                                <br/>
                                 Daniel Hubschmann (Germany), freelancer, senior multidisciplinary designer and web developer.
                                 Helping clients with my over two decades of experience.   In my remote-only agency I work with professionals from around the world.
-                                <br />  <br />
-                                <span className="font-bold">I believe in timeless design over trends, using classic rules.
-                                    Your investment will pay out for many years thanks to great, timeless design.</span>
                                 <br />
+                                <br />
+                                <span className="font-bold">I believe in timeless design over trends, using classic rules.
+                                    Your investment will pay off for many years thanks to great, timeless design.</span>
                                 <br />
                                 <br />
                                 <ul className="header list-disc">
