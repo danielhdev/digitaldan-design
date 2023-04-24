@@ -25,7 +25,7 @@ const Hero = () => {
     }
     return (
         <main className="h-screen flex flex-col 
-        justify-center items-center mt-[1rem]">
+        justify-center items-center pt-[1rem]">
             <motion.section className="z-50 w-full md:px-[2rem]">
 
                 <section className="paragraph bg-orange-500 dark:bg-zinc-100">
