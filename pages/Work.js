@@ -36,7 +36,7 @@ const Work = () => {
                         <div className="border-t-[1px] border-r-[1px] 
                         border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Redesign of a Berlin upscale burger joints' website. Replacing an outdated template.
+                                Redesign of a Berlin upscale burger joints' website.
                                 <br />
                                 <br />
                             </motion.p>
@@ -69,7 +69,7 @@ const Work = () => {
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 
                         border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                Brand design for a picky client: myself. AI helped out with ideas.
+                                Website and ads for a picky client: myself. AI helped out with ideas.
                                 <br /></motion.p>
                         </div>
                         <Link href="/Case2/DDbranding"
@@ -97,7 +97,7 @@ const Work = () => {
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50  border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Ad campaigns for social media. Bringing classic, proven design rules into the 21st century.
-                                Art direction, graphic design, digital design.  </motion.p>
+                                Art direction & digital design.  </motion.p>
                         </div></div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">
@@ -120,7 +120,7 @@ const Work = () => {
                         <h1 className="header mt-[5vh] lg:mt-0">A New Look</h1>
                         <div className="border-t-[1px] border-r-[1px] border-l-0 border-b-0 border-stone-800/50 dark:border-zinc-50 border-[1rem] w-fit">
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Some branding and a new portfolio site for one of the best photographers on unsplash.com.
+                                A new portfolio site and social media marketing assets for a popular unsplash.com photographer.
                                 <br />
 
                             </motion.p>

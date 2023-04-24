@@ -17,10 +17,9 @@ const Ubg = () => {
 
                     <ul className="paragraph font-bold md:ml-[10vw]">
 
-                        <li>Art Direction</li>
-                        <li>Graphic Design</li>
-                        <li>Digital Design</li>
-                        <li>Digital Development</li>
+        
+                        <li>Digital design with Figma</li>
+                        <li>Digital development with Next.js & Strapi CMS</li>
                     </ul>
 
 
@@ -34,7 +33,7 @@ const Ubg = () => {
                     </div>
 
                     <article className="md:ml-[10vw] md:w-[70ch] p-4">
-                        <p className="whitespace-normal paragraph font-[Oxygen] pt-[5vh]">
+                        <p className="whitespace-normal paragraph font-[Oxygen] py-[15vh]">
                             <span className="font-bold">Upper Burger Grill </span>
                             is an upscale burger restaurant in the heart of Berlin, close to Gedächtniskirche.
                             The successful grill house was founded in 2016 and their outdated website hadn&apos;t changed since.
@@ -50,51 +49,9 @@ const Ubg = () => {
                         </ul>
 
                     </article>
-                    <section className="h-auto w-[95vw]">
-                        <h1 className="font-[octarine] header my-[5vh] md:my-[15vh] p-4">
-                            Typography
-                        </h1>
-                        <div className="h-auto flex justify-center items-start flex-col ml-[10vw]">
-                            <h1 className="fonts font-[Times] font-light my-[2.5vh]">
-                                Headlines: Times
-                            </h1>
-                            <h1 className="fonts font-[Roboto] font-light my-[2.5vh]">
-                                Texts: Roboto
-                            </h1>
-                        </div>
-                    </section>
-
-                    <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4">
-                        <h1 className="font-[octarine] header">
-                            Brand Colors
-                        </h1>
-                        <h2 className="paragraph py-[10vh] md:ml-[10vw]">Orange</h2>
-                        <div
-                            className="md:w-[55vw] h-auto flex flex-row
-          paragraph md:ml-[10vw]"
-                        >
-                            <div className="h-[30vh] flex-1 bg-[#ff8547] text-stone-900">
-                                #ff8547
-                            </div>
-
-                        </div>
-                    </section>
-                    <section className="w-[95vw] h-auto mb-[10vh]">
-                        <h2 className="paragraph py-[10vh] md:ml-[10vw]">
-                            Stone & Zinc
-                        </h2>
-                        <div
-                            className="md:w-[55vw] h-auto  flex flex-row justify-center 
-          paragraph md:ml-[10vw]"
-                        >
-                            <div className="h-[30vh] flex-auto bg-[#383630] text-stone-100 text-zinc">
-                                #383630
-                            </div>
-                            <div className="h-[30vh] flex-auto bg-[#f3f5f6] text-stone-900 border-[1px] border-stone-900">
-                                #f3f5f6
-                            </div>
-                        </div>
-                    </section>
+                  
+                  
+                  
                     <section>
                         <h1 className="header mx-auto">Before</h1>
 

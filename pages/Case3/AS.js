@@ -13,20 +13,11 @@ const AS = () => {
                         Case Study:<br />
                         Armed Shutter<br /> Photography/ Texas
                     </h1 >
-
-
-
                     <ul className="paragraph font-bold md:ml-[10vw]">
-
-                        <li>Art Direction</li>
-                        <li>Brand Design</li>
                         <li>Digital Design</li>
                         <li>Digital Development</li>
                     </ul>
-
-
                 </section>
-
                 <section className="my-[5vh]">
                     <div className="w-[95vw] flex justify-start">
                         <h1 className="font-[octarine] header p-4">
@@ -51,43 +42,6 @@ const AS = () => {
                         </ul>
 
                     </article>
-                    <section className="h-auto w-[95vw]">
-                        <h1 className="font-[octarine] header my-[5vh] md:my-[15vh] p-4">
-                            Typography
-                        </h1>
-                        <div className="h-auto flex justify-center items-start flex-col ml-[10vw]">
-                            <h1 className="fonts font-[Russo] font-light my-[2.5vh]">
-                                Russo One
-                            </h1>
-                            <h1 className="fonts font-[Ubuntu] font-light my-[2.5vh]">
-                                Ubuntu
-                            </h1>
-                        </div>
-                    </section>
-
-                    <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4">
-                        <h1 className="font-[octarine] header">
-                            Brand Colors
-                        </h1>
-                        <div className="py-[10vh]"></div>
-                        <div
-                            className="md:w-[55vw] h-auto flex flex-row
-          paragraph md:ml-[10vw]"
-                        >
-                            <div className="h-[30vh] flex-auto bg-[#f84242] text-stone-900">
-                                #f84242
-                            </div>
-                        </div>
-                        <div
-                            className="md:w-[55vw] h-auto flex-row justify-center 
-          paragraph md:ml-[10vw]"
-                        >
-                            <div className="h-[30vh] flex-auto bg-[#202023] text-zinc-100">
-                                #202023
-                            </div>
-
-                        </div>
-                    </section>
 
                     <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4">
                         <h1 className="font-[octarine] header">
@@ -99,13 +53,10 @@ const AS = () => {
                                 alt="Image of AI generated images using circles and balls"
                             /></div>
                     </section>
-
-
                     <section className="h-auto w-[95vw] my-[5vh] md:my-[10vh] p-2">
                         <h1 className="font-[octarine] header">
                             Website
                         </h1>
-
                         <div className="md:w-[95%] flex justify-end my-[15vh]">
                             <img src='wide1.png'
                                 alt="Image of a LinkedIn profile header"
