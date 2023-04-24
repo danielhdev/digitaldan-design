@@ -15,11 +15,7 @@ const Hero = () => {
         transition: { delay: 1, duration: 0.75 },
         ease: "ease-in"
     }
-    const servicesAnimate = {
-        opacity: [0, 1],
-        y: [-5, 0],
-        transition: { delay: 1.1, duration: 0.75 }
-    }
+
     return (
         <main className="h-screen flex flex-col 
         justify-center items-center py-[1rem]">
@@ -28,15 +24,9 @@ const Hero = () => {
                     <div className="text-[#041320] flex flex-col md:flex-row">
                         <div className="flex flex-col md:justify-center md:items-center flex-1">
                             <motion.h1 animate={wedesignAnimate} className="heroheader">
-                                Digital <br />First<br />Agency
+                                digital.dan agency<br />quality<br />code & design
                             </motion.h1>
                         </div>
-                        <motion.h2 animate={servicesAnimate} className="lg:w-[30%] header text-zinc-100 dark:text-zinc-900
-                        flex-1">
-                            digital.dan<br />
-                            Quality<br />
-                            Design & Development
-                        </motion.h2>
                     </div>
                 </section>   <motion.section animate={wedesignAnimate2}
                     className="flex flex-row justify-between herolinks font-bold px-[2rem]">
