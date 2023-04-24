@@ -24,7 +24,7 @@ const Hero = () => {
                     <div className="text-[#041320] flex flex-col md:flex-row">
                         <div className="flex flex-col md:justify-center md:items-center flex-1">
                             <motion.h1 animate={wedesignAnimate} className="heroheader">
-                                digital.dan agency <br />quality<br />code & design
+                                digital.dan agency<br />quality<br />code & design
                             </motion.h1>
                         </div>
                     </div>
