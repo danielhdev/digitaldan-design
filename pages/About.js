@@ -30,7 +30,7 @@ const About = () => {
                                 <h1 className="header">Agency for creative agencies</h1>
                                 <br />
                                 <div>Helping creative agencies around to world turning their ideas into well performing code.
-                                    In addition my agency offers digital design services to help you reduce your work load.</div>
+                                    In addition my agency offers digital design services to help you reduce your workload.</div>
                                 <br />
                                 <ul className="header list-disc">
                                     Services:
