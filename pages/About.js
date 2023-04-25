@@ -23,7 +23,7 @@ const About = () => {
                                 <br /> <span className="italic">Massimo Vignelli, from The Vignelli Canon</span>
                                 <br />
                                 <br />
-                                Daniel Hubschmann (Germany), freelancer, senior digital designer and web developer.
+                                Daniel Hubschmann, Germany, freelancer, senior digital designer and web developer.
                                 After over two decades in design I changed careers to fullstack web development in recent years.
                                 <br />
                                 <br />
