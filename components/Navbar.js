@@ -4,6 +4,7 @@ import { useRouter } from 'next/router'
 
 const menu = [
 
+    { title: 'home', path: '/' },
     { title: 'work', path: '/Work' },
     { title: 'service', path: '/About' },
     { title: 'contact', path: '/Contact' }
@@ -28,9 +29,7 @@ const Navbar = () => {
             top-0">
                     <Link href="/">
                         <span className="font-[octarine] tracking-widest cursor-pointer mix-blend-difference
-                logo
-                    
-                    "> d.d</span>
+                logo"> d.d</span>
                     </Link>
                     <h1 className="fixedheader fixed right-[1rem] md:right-[3rem] top-[3rem] opacity-80 
                 
@@ -38,12 +37,11 @@ const Navbar = () => {
 
                     <ul className="flex flex-row items-center space-x-[4vw]">
                         {menu.map((item, index) => {
-
                             return (
                                 <Link key={index} href={item.path}>
 
                                     <a className=
-                                        {`link ${router.pathname === item.path ? 'text-amber-100' : ''}`}
+                                        {`link ${router.pathname === item.path ? 'text-sky-400' : ''}`}
 
                                     >
                                         {item.title}
