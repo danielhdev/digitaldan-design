@@ -250,7 +250,7 @@ html.lenis {
   }
   .heroheader {
     font-family: 'octarine';
-    font-size: clamp(16px, calc(16px + 6vw), 8vw);
+    font-size: clamp(16px, calc(16px + 5vw), 6vw);
     line-height: 110%;
   }
   .herolinks {

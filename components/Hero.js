@@ -20,7 +20,7 @@ const Hero = () => {
         <main className="h-screen flex flex-col 
         justify-center items-center py-[1rem]">
             <motion.section className="z-50 w-full md:px-[2rem]">
-                <section className="paragraph bg-orange-500 dark:bg-zinc-100">
+                <section className="paragraph border-orange-500 border-t-[1px] border-r-[1px] bg-zinc-100">
                     <div className="text-[#041320] flex flex-col md:flex-row">
                         <div className="flex flex-col md:justify-center md:items-center flex-1">
                             <motion.h1 animate={wedesignAnimate} className="heroheader">
