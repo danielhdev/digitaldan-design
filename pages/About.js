@@ -39,12 +39,14 @@ const About = () => {
                                     Services:
                                     <li>Digital development <br />(React/ JavaScript)</li>
                                     <li>Digital design <br /> (Websites, apps, ads, <br />presentations and events) </li>
-
                                     <br />  <Link href="/Contact">
-                                        <ArrowLinks>
-                                            contact <BsArrowUpRight /> </ArrowLinks>
-
-                                    </Link></ul>
+                                        <a>
+                                            <ArrowLinks>
+                                                contact <BsArrowUpRight />
+                                            </ArrowLinks>
+                                        </a>
+                                    </Link>
+                                </ul>
                             </section>
                         </motion.div>
                     </div>
