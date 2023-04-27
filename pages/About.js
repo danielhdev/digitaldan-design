@@ -30,15 +30,14 @@ const About = () => {
                                     After over two decades in design I changed careers to fullstack web development in recent years.</div></Borders>
                                 <br />
                                 <br />
-                                <h1 className="header">Agency for creative agencies</h1>
+                                <h1 className="header">Your Coders For Hire</h1>
                                 <br />
                                 <Borders>
-                                    <div className="pt-2 pr-1">Helping creative agencies around to world turning their ideas into well performing code.
-                                        In addition my agency offers digital design services to help you reduce your workload.</div></Borders>
+                                    <div className="pt-2 pr-1">No matter if creative agency or start up: I will help you turn your ideas into code. I work with other freelance developers to cover every kind of project.</div></Borders>
                                 <br />
                                 <ul className="header list-disc py-[5vh] md:py-[10vh]">
                                     Services:
-                                    <li>Digital development <br />(JavaScript and other tools)</li>
+                                    <li>Digital development <br />(React/ JavaScript)</li>
                                     <li>Digital design <br /> (Websites, apps, ads, <br />presentations and events) </li>
 
                                     <br />  <Link href="/Contact">
