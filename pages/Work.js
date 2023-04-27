@@ -37,14 +37,15 @@ const Work = () => {
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                     Redesign of a Berlin upscale burger joints' website.
                                     <br />
-                                    <br />
                                 </motion.p></Borders>
                             <br />
+
                             <Link href="/Case1/Ubg"
                             >
-                                <ArrowLinks>
-                                    case study <BsArrowUpRight /></ArrowLinks>
+
+                                <a> <ArrowLinks>    case study <BsArrowUpRight />  </ArrowLinks></a>
                             </Link>
+
                             <Link href="https://digitaldanrestaurant.netlify.app/"
                             >
                                 <a target={'_blank'}
