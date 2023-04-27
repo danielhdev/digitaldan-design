@@ -1,6 +1,8 @@
 import { BsArrowUpRight } from 'react-icons/bs'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
+import Borders from '@components/Borders'
+import ArrowLinks from '@components/ArrowLinks'
 
 const About = () => {
     const paragraphAnimate = {
@@ -19,27 +21,31 @@ const About = () => {
                             <section className="h-auto py-[10vh] lg:w-[65ch] text-[var(--stone) px-[4vw]">
                                 <h1 className="header">About</h1>
                                 <br />
-                                "...Every detail is important because the end result is the sum of all details..." "...Quality is there or is not there, and if it is not there we have lost our time..."
-                                <br /> <span className="italic">Massimo Vignelli, from The Vignelli Canon</span>
-                                <br />
-                                <br />
-                                Daniel Hubschmann, Germany, freelancer, senior digital designer and web developer.
-                                After over two decades in design I changed careers to fullstack web development in recent years.
+                                <Borders><div className="pt-2 pr-1">
+                                    "...Every detail is important because the end result is the sum of all details..." "...Quality is there or is not there, and if it is not there we have lost our time..."
+                                    <br /> <span className="italic">Massimo Vignelli, from The Vignelli Canon</span>
+                                    <br />
+                                    <br />
+                                    Daniel Hubschmann, Germany, freelancer, senior digital designer and web developer.
+                                    After over two decades in design I changed careers to fullstack web development in recent years.</div></Borders>
                                 <br />
                                 <br />
                                 <h1 className="header">Agency for creative agencies</h1>
                                 <br />
-                                <div>Helping creative agencies around to world turning their ideas into well performing code.
-                                    In addition my agency offers digital design services to help you reduce your workload.</div>
+                                <Borders>
+                                    <div className="pt-2 pr-1">Helping creative agencies around to world turning their ideas into well performing code.
+                                        In addition my agency offers digital design services to help you reduce your workload.</div></Borders>
                                 <br />
-                                <ul className="header list-disc">
+                                <ul className="header list-disc py-[5vh] md:py-[10vh]">
                                     Services:
                                     <li>Digital development <br />(JavaScript and other tools)</li>
                                     <li>Digital design <br /> (Websites, apps, ads, <br />presentations and events) </li>
-                                </ul>
-                                <br />  <Link href="/Contact">
-                                    <h2 className="header text-amber-600 cursor-pointer">contact <BsArrowUpRight /> </h2>
-                                </Link>
+
+                                    <br />  <Link href="/Contact">
+                                        <ArrowLinks>
+                                            contact <BsArrowUpRight /> </ArrowLinks>
+
+                                    </Link></ul>
                             </section>
                         </motion.div>
                     </div>
