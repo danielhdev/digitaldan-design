@@ -31,29 +31,28 @@ const About = () => {
                                 <Borders>
                                     <div className="pt-2 pr-1">Through my background I can help agencies, start ups and everyone else get their design on user screens.</div></Borders>
                                 <br />
-                                <ul className="herolinks list-disc py-[5vh] md:py-[10vh]">
+                                <ul className="herolinks list-disc paaaa-[5vh] md:p-[10vh]">
                                     Services:
                                     <li>Developing designs after<br />your ideas and systems</li>
                                     <li>Developing the digital part of brand and marketing projects</li>
                                     <li>UI animations and interactions</li>
                                     <li>Optimizing architectures, performance and loading speeds</li>
-                                    <li>Development with JavaScript and <br />JavaScript libraries</li>
-                                    <li>User Consent Management</li>
-                                    <li>Creating Headless CMS <br />(Strapi and others)</li>
-                                    <li>E-commerce development <br /></li>
-                                    <br />  <Link href="/Contact">
-                                        <a>
-                                            <ArrowLinks>
-                                                contact <BsArrowUpRight />
-                                            </ArrowLinks>
-                                        </a>
-                                    </Link>
+
                                 </ul>
+                                <Borders>
+                                    <ul className="herolinks list-disc p-[5vh] md:p-[10vh]
+                                text-zinc-50 bg-zinc-900">
+
+                                        <li>Development with JavaScript and <br />JavaScript libraries</li>
+                                        <li>User Consent Management</li>
+                                        <li>Creating Headless CMS <br />(Strapi and others)</li>
+                                        <li>E-commerce development <br /></li>
+                                        <br />
+                                    </ul></Borders>
                             </section>
                         </motion.div>
                     </div>
                 </section>
-
             </main >
         </>
     )
