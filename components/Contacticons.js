@@ -4,11 +4,10 @@ import Link from 'next/link'
 const Contacticons = () => {
     return (
         <div className='iconsize fixed bottom-5
-        flex flex-row justify-end space-x-[6vw] md:space-x-[4vw] z-50'>
+        flex flex-row justify-end space-x-[6vw] md:space-x-[7vw] z-50'>
 
             <Link href="mailto:d.huebschmann@tutanota.com"  >
                 <a
-
                     method="get"
                     encType="text/plain">
                     <ImMail2

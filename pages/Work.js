@@ -16,7 +16,6 @@ const Work = () => {
         transition: { delay: 0.4, duration: 1 },
 
     }
-
     return (
         <>
             <main id="Work" className="h-auto pb-[10vh] flex flex-col justify-center items-center">
@@ -39,13 +38,10 @@ const Work = () => {
                                     <br />
                                 </motion.p></Borders>
                             <br />
-
                             <Link href="/Case1/Ubg"
                             >
-
-                                <a> <ArrowLinks>    case study <BsArrowUpRight />  </ArrowLinks></a>
+                                <a> <ArrowLinks>case study <BsArrowUpRight />  </ArrowLinks></a>
                             </Link>
-
                             <Link href="https://digitaldanrestaurant.netlify.app/"
                             >
                                 <a target={'_blank'}
@@ -59,7 +55,6 @@ const Work = () => {
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
                     <div className="lg:w-[50%]">
-
                         <img src='/selfbrand1.png'
                             alt="AS portfolio redesign"
                             className="workimg lg:w-[75%]"
@@ -153,31 +148,11 @@ const Work = () => {
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}>
                                 <ArrowLinks>
-                                    website (new tab) <BsArrowUpRight /></ArrowLinks></a>
+                                    website (new tab) <BsArrowUpRight />
+                                </ArrowLinks></a>
                         </Link>
                     </div>
                 </section>
-                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
-
-                    <div className="lg:w-[50%]">
-                        <img src='/social.png'
-                            alt="Social media ads"
-                            className="workimg lg:w-[75%]"
-                        />
-
-                    </div>
-                    <div className="lg:w-[50%]">
-                        <h1 className="header">Social Media</h1>
-                        <div className="w-fit">
-                            <Borders>
-                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Ad campaigns for social media. Bringing classic, proven design rules into the 21st century.
-                                    Art direction & digital design.  </motion.p></Borders>
-
-                        </div>
-                    </div>
-                </section>
-
             </main>
         </>
     )
