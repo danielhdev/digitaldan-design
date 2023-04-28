@@ -16,7 +16,6 @@ const Work = () => {
         transition: { delay: 0.4, duration: 1 },
 
     }
-
     return (
         <>
             <main id="Work" className="h-auto pb-[10vh] flex flex-col justify-center items-center">
@@ -41,7 +40,7 @@ const Work = () => {
                             <br />
                             <Link href="/Case1/Ubg"
                             >
-                                <a> <ArrowLinks>    case study <BsArrowUpRight />  </ArrowLinks></a>
+                                <a> <ArrowLinks>case study <BsArrowUpRight />  </ArrowLinks></a>
                             </Link>
                             <Link href="https://digitaldanrestaurant.netlify.app/"
                             >
