@@ -22,7 +22,7 @@ const About = () => {
                                 <h1 className="header">About</h1>
                                 <br />
                                 <Borders><div className="pt-2 pr-1">
-                                    "...Every detail is important because the end result is the sum of all details..." "...Quality is there or is not there, and if it is not there we have lost our time..."
+                                    "...Quality is there or is not there, and if it is not there we have lost our time..."
                                     <br /> <span className="italic">Massimo Vignelli, from The Vignelli Canon</span>
                                     <br />
                                     <br />
@@ -30,15 +30,21 @@ const About = () => {
                                     After over two decades in design I changed careers to fullstack web development in recent years.</div></Borders>
                                 <br />
                                 <br />
-                                <h1 className="header">Your Coders For Hire</h1>
+                                <h1 className="header">Your Creative Coder For Hire</h1>
                                 <br />
                                 <Borders>
-                                    <div className="pt-2 pr-1">No matter if creative agency or start up: I will help you turn your ideas into code. I work with other freelance developers to cover every kind of project.</div></Borders>
+                                    <div className="pt-2 pr-1">Through my background I can help agencies, start ups and everyone else to get their design on user screens.</div></Borders>
                                 <br />
                                 <ul className="header list-disc py-[5vh] md:py-[10vh]">
                                     Services:
-                                    <li>Digital development <br />(React/ JavaScript)</li>
-                                    <li>Digital design <br /> (Websites, apps, ads, <br />presentations and events) </li>
+                                    <li>Developing designs after<br />your ideas and systems</li>
+                                    <li>Developing the digital part of brand and marketing projects</li>
+                                    <li>UI animations & interactions</li>
+                                    <li>Optimizing architectures, performance & loading speeds</li>
+                                    <li>Development with JavaScript & JavaScript libraries</li>
+                                    <li>User Consent Management</li>
+                                    <li>Creating Headless CMS <br />(Strapi & others)</li>
+                                    <li>E-commerce development <br /></li>
                                     <br />  <Link href="/Contact">
                                         <a>
                                             <ArrowLinks>
