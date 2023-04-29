@@ -1,6 +1,8 @@
 import About from "@components/About";
 import Contact from "@components/Contact";
 import Hero from "@components/Hero";
+import ParallaxSection from "@components/ParallaxSection";
+import Services from "@components/Services";
 import Work from "@components/Work";
 
 
@@ -9,9 +11,14 @@ export default function Home() {
     <>
       <div>
         <Hero />
+        <ParallaxSection>Work</ParallaxSection>
         <Work />
         <About />
+        <ParallaxSection>Services</ParallaxSection>
+        <Services />
+        <ParallaxSection>Contact</ParallaxSection>
         <Contact />
-      </div></>
+      </div>
+    </>
   );
 }

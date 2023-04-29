@@ -5,6 +5,8 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Navbar from "@components/Navbar"
 import Lenis from '@studio-freight/lenis'
+import { ParallaxProvider } from 'react-scroll-parallax'
+import Menu from '@components/Menu'
 
 
 function Application({ Component, pageProps }) {
@@ -38,37 +40,43 @@ function Application({ Component, pageProps }) {
         <link rel="manifest" href="/site.webmanifest" />
         <title>Digitaldan Web Development</title>
       </Head>
+
+
       <Navbar />
+      <Menu />
       <Contacticons />
       <AnimatePresence mode='wait'
         onExitComplete={() => window.scrollTo(0, 0)}>
-        <motion.div
-          key={router.route}
-          initial="startPt"
-          animate="animatePt"
-          exit="exitPt"
-          transition={{
-            duration: 0.4,
-            ease: 'easeOut'
-          }}
-          variants={{
-            startPt: {
-              opacity: 0,
-              translateX: '3px',
-            },
-            animatePt: {
-              opacity: 1,
-              translateX: '0px'
-            },
-            exitPt: {
-              opacity: 0,
-              translateX: '-3px',
-            }
-          }}
-        >
-          <Component {...pageProps} />
 
-        </motion.div>
+        <ParallaxProvider>
+          <motion.div
+            key={router.route}
+            initial="startPt"
+            animate="animatePt"
+            exit="exitPt"
+            transition={{
+              duration: 0.4,
+              ease: 'easeOut'
+            }}
+            variants={{
+              startPt: {
+                opacity: 0,
+                translateX: '3px',
+              },
+              animatePt: {
+                opacity: 1,
+                translateX: '0px'
+              },
+              exitPt: {
+                opacity: 0,
+                translateX: '-3px',
+              }
+            }}
+          >
+            <Component {...pageProps} />
+
+          </motion.div>
+        </ParallaxProvider>
       </AnimatePresence>
     </>
   )
