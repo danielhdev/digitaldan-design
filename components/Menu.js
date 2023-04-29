@@ -8,13 +8,13 @@ import { GiTireIronCross } from 'react-icons/gi'
 
 const variants = {
     hidden: {
-        x: '200vw',
-        transition: { duration: 0.7 },
+        y: '-200vh',
+        transition: { duration: 0.4 },
     },
     visible: {
-        x: 0,
-        transition: { duration: 0.7 },
-        ease: "ease-in"
+        y: 0,
+        transition: { duration: 0.5 },
+        ease: "easeIn"
     },
 };
 
@@ -24,7 +24,6 @@ const menu = [
     { title: 'Contact', path: '/#Contact' }
 ]
 const Menu = () => {
-
     const [isOpen, setIsOpen] = useState(false);
     const toggleModal = () => {
         setIsOpen(!isOpen);
@@ -32,7 +31,7 @@ const Menu = () => {
 
     return (
         <>
-            < div className="w-fit text-center fixed mt-[0.2rem] right-[2rem] md:right-[4rem] z-40">
+            < div className="w-fit text-center fixed mt-[0.2rem] right-[1rem] md:right-[3rem] z-40">
                 <button
                     className="hover:text-amber-200 focus:outline-none header"
                     onClick={toggleModal}
@@ -48,6 +47,7 @@ const Menu = () => {
                             initial="hidden"
                             animate="visible"
                             exit="hidden"
+                            onClick={toggleModal}
                         >
                             <ul className="w-full flex flex-col justify-start items-start space-y-[4vw] p-[3rem]">
                                 {menu.map((item, index) => {
