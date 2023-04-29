@@ -11,9 +11,9 @@ const Services = () => {
     return (
         <>
 
-            <main id="About">
+            <main id="About" className='h-auto py-[5rem]'>
                 <section className="flex justify-start px-4">
-                    <motion.ul whileInView={stagger} className="herolinks list-disc p-[5vh] md:p-[10vh] mt-[5rem] md:w-[75vw]">
+                    <motion.ul whileInView={stagger} className="herolinks list-disc p-[5vh] md:p-[10vh] md:w-[75vw]">
                         <li>Developing your design on point</li>
                         <li>Developing the digital part of brand and marketing projects</li>
                         <li>UI animations and interactions</li>
