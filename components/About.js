@@ -16,10 +16,10 @@ const About = () => {
                     <div>
                         <motion.div animate={paragraphAnimate}>
                             <section className="h-auto py-[10vh] text-[var(--stone) px-[4vw]
-                            md:w-[60vw]">
+                            md:w-[60vw] portrait:w-full">
                                 <h1 className="header">About</h1>
                                 <br />
-                                <Borders><div className="pt-2 pr-1">
+                                <Borders><div className="p-2">
                                     Daniel Hubschmann, Germany, freelancer, senior digital designer and web developer.
                                     After over two decades in design I changed careers to fullstack web development in recent years.</div></Borders>
                                 <br />
@@ -27,7 +27,7 @@ const About = () => {
                                 <h1 className="header">Your Creative Coder For Hire</h1>
                                 <br />
                                 <Borders>
-                                    <div className="pt-2 pr-1">Through my background I can help agencies,
+                                    <div className="p-2">Through my background I can help agencies,
                                         start ups and everyone else get their design on user screens.</div>
                                 </Borders>
                                 <br />
