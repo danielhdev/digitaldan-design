@@ -82,8 +82,6 @@ body {
 }
 
 .iconsize {
-  font-size: 1.4vw;
-  opacity: 80%;
   color: white;
   mix-blend-mode: difference;
 }
@@ -123,9 +121,9 @@ html.lenis {
     font-size: calc(16px + 5vw);
   }
   .iconsize {
-    font-size: 6vw;
+    font-size: 5vw;
     opacity: 80%;
-    right: 6vw;
+    right: 4vw;
   }
   .heroheader {
     font-family: 'octarine';
@@ -186,9 +184,9 @@ html.lenis {
     font-family: 'octarine';
   }
   .iconsize {
-    font-size: 4vw;
+    font-size: 3vw;
     opacity: 80%;
-    left: 70vw;
+    right: 2rem;
   }
 }
 .heroheader {
@@ -257,7 +255,7 @@ html.lenis {
     font-family: 'octarine';
   }
   .iconsize {
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     opacity: 80%;
     right: 3vw;
   }
@@ -332,8 +330,9 @@ html.lenis {
     font-size: calc(3vw - 0.25vw);
   }
   .iconsize {
-    font-size: 1.8vw;
+    font-size: 1.3vw;
     opacity: 80%;
+    right: 3rem;
   }
   .herolinks {
     font-family: 'octarine';
