@@ -1,42 +1,79 @@
-
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Borders from '@components/Borders'
+import ArrowLinks from './ArrowLinks'
+import { BsArrowUpRight } from 'react-icons/bs'
 
 const About = () => {
     const paragraphAnimate = {
         opacity: [0, 1],
-        y: [5, 0],
-        transition: { delay: 0.2, duration: 0.6 }
+        y: [15, 0],
+        transition: { delay: 0.2, duration: 1 },
     }
     return (
         <>
             <main
                 className="h-auto flex flex-col justify-center">
+
                 <section className="paragraph flex justify-center items-center md:py-[2.5rem]">
+
+
                     <div>
-                        <motion.div animate={paragraphAnimate}>
+                        <div>
                             <section className="h-auto py-[10vh] text-[var(--stone) px-[4vw]
                             md:w-[60vw] portrait:w-full">
-                                <h1 className="header">About</h1>
-                                <br />
-                                <Borders><div className="p-2">
-                                    Daniel Hubschmann, Germany, freelancer, senior digital designer and web developer.
-                                    After over two decades in design I changed careers to fullstack web development in recent years.</div></Borders>
-                                <br />
-                                <br />
-                                <h1 className="header">Your Creative Coder For Hire</h1>
+                                <h1 className="header">Your Coder For Hire</h1>
                                 <br />
                                 <Borders>
-                                    <div className="p-2">Through my background I can help agencies,
-                                        start ups and everyone else get their design on user screens.</div>
+                                    <motion.p whileInView={paragraphAnimate} className="p-2">
+                                        I'm Daniel Hubschmann, Germany, freelancer, senior digital designer
+                                        and fullstack web developer.
+                                    </motion.p>
+
+                                    <motion.p className="p-2 " whileInView={paragraphAnimate}>
+                                        Through my background I can help you to get your design on screens.
+                                        Looking for a dev for the digital part of your campaign? Let&apos;s chat!
+                                        <br />
+                                        <br />
+                                        Please scroll or choose a link:
+                                    </motion.p>
                                 </Borders>
+
+
+                                <div className='py-[2rem]'>
+                                    <ArrowLinks>
+                                        <Link href="#Work"
+                                        >
+                                            <a>
+                                                <ArrowLinks
+                                                >
+                                                    Show me your work! <BsArrowUpRight /> </ArrowLinks>  </a>
+                                        </Link>
+                                        <Link href="#About"
+                                        >
+                                            <a>
+                                                <ArrowLinks >
+                                                    What services do you offer? <BsArrowUpRight /> </ArrowLinks>  </a>
+                                        </Link>
+                                        <Link href="#Contact"
+                                        >
+                                            <a  >
+                                                <ArrowLinks >
+                                                    How can I contact you? <BsArrowUpRight /> </ArrowLinks>  </a>
+                                        </Link>
+                                    </ArrowLinks>
+                                </div>
                                 <br />
+
                             </section>
 
-
-                        </motion.div>
+                        </div>
                     </div>
                 </section>
+
+
+
+
             </main >
         </>
     )

@@ -1,10 +1,8 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
-import { RxHamburgerMenu } from 'react-icons/rx'
+import { FaGripLines } from 'react-icons/fa'
 import { GiTireIronCross } from 'react-icons/gi'
-
-
 
 const variants = {
     hidden: {
@@ -34,10 +32,10 @@ const Menu = () => {
             < div className="w-fit text-center fixed mt-[0.2rem] right-[1rem] md:right-[3rem] z-40">
                 <button
                     className="hover:text-amber-200 focus:outline-none header"
-                    onClick={toggleModal}
-                >
-                    {!isOpen ? <RxHamburgerMenu /> : <GiTireIronCross />}
-                </button></div>
+                    onClick={toggleModal}>
+                    {!isOpen ? <FaGripLines /> : <span className="dark:text-zinc-800"><GiTireIronCross /></span>}
+                </button>
+            </div>
             <div>
                 <AnimatePresence>
                     {isOpen && (

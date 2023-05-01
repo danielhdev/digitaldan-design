@@ -11,11 +11,6 @@ const Work = () => {
         transition: { delay: 0.2, duration: 1 },
 
     }
-    const firstImg = {
-        opacity: [0, 1],
-        transition: { delay: 0.4, duration: 1 },
-
-    }
     return (
         <>
             <main id="Work" className="h-auto flex flex-col justify-center items-center">
@@ -77,12 +72,12 @@ const Work = () => {
                         </Link></div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start lg:gap-12 mx-auto my-[15vh]">
-                    <motion.div animate={firstImg} className="lg:w-[50%]">
+                    <div className="lg:w-[50%]">
                         <img src='/as.png'
                             alt="AS portfolio redesign"
                             className="workimg lg:w-[75%]"
                         />
-                    </motion.div>
+                    </div>
                     <div className="w-screen lg:w-[50%]">
                         <h1 className="header mt-[5vh] lg:mt-0">A New Look</h1>
                         <div className="w-fit">
