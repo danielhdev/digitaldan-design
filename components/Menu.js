@@ -29,11 +29,12 @@ const Menu = () => {
 
     return (
         <>
-            < div className="w-fit text-center fixed mt-[0.2rem] right-[1rem] md:right-[3rem] z-40">
+            < div className="w-fit text-center fixed mt-[0.2rem] right-[1rem] md:right-[3rem] z-40
+            text-zinc-50 mix-blend-difference">
                 <button
                     className="hover:text-amber-200 focus:outline-none header"
                     onClick={toggleModal}>
-                    {!isOpen ? <FaGripLines /> : <span className="dark:text-zinc-800"><GiTireIronCross /></span>}
+                    {!isOpen ? <FaGripLines /> : <GiTireIronCross />}
                 </button>
             </div>
             <div>
