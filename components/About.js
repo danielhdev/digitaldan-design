@@ -13,33 +13,34 @@ const About = () => {
     return (
         <>
             <main
-                className="h-auto flex flex-col justify-center">
+                className="h-auto flex flex-col justify-center py-[10vh]">
 
                 <section className="paragraph flex justify-center items-center md:py-[2.5rem]
                 ">
                     <div>
                         <div>
-                            <section className="h-auto py-[10vh] text-[var(--stone)
-                            grid md:grid-cols-2 md:w-[80vw] w-full grid-cols-1">
-                                <h1 className="header">Your Coder For Hire</h1>
-                                <br />
-                                <Borders>
-                                    <motion.p whileInView={paragraphAnimate} className="p-5">
-                                        I'm Daniel Hubschmann, Germany, freelancer, senior digital designer
-                                        and fullstack web developer.
-                                    </motion.p>
+                            <section className="text-[var(--stone)
+                            grid lg:grid-cols-2 md:w-[80vw] w-full grid-cols-1">
 
-                                    <motion.p whileInView={paragraphAnimate} className="p-5">
-                                        Through my background I can help you to get your design on screens.
-                                        Looking for a dev for the digital part of your campaign? Let&apos;s chat!
-                                        <br />
-                                        <br />
-                                        Please scroll or choose a link:
-                                    </motion.p>
-                                </Borders>
+                                <div>
+                                    <h1 className="header">Your Coder For Hire</h1>
+                                    <br />
+                                    <Borders>
+                                        <motion.p whileInView={paragraphAnimate} className="p-5">
+                                            I'm Daniel Hubschmann, Germany, freelancer, senior digital designer
+                                            and fullstack web developer.
+                                        </motion.p>
 
-
-                                <div className='p-[2rem] portrait:px-0'>
+                                        <motion.p whileInView={paragraphAnimate} className="p-5">
+                                            Through my background I can help you to get your design on screens.
+                                            Looking for a dev for the digital part of your campaign? Let&apos;s chat!
+                                            <br />
+                                            <br />
+                                            Please scroll or choose a link:
+                                        </motion.p>
+                                    </Borders>
+                                </div>
+                                <div className='md:pt-5 grid place-content-end'>
                                     <ArrowLinks>
                                         <Link href="#Work"
                                         >
