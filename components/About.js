@@ -15,22 +15,21 @@ const About = () => {
             <main
                 className="h-auto flex flex-col justify-center">
 
-                <section className="paragraph flex justify-center items-center md:py-[2.5rem]">
-
-
+                <section className="paragraph flex justify-center items-center md:py-[2.5rem]
+                ">
                     <div>
                         <div>
-                            <section className="h-auto py-[10vh] text-[var(--stone) px-[4vw]
-                            md:w-[60vw] portrait:w-full">
+                            <section className="h-auto py-[10vh] text-[var(--stone)
+                            grid md:grid-cols-2 md:w-[80vw] w-full grid-cols-1">
                                 <h1 className="header">Your Coder For Hire</h1>
                                 <br />
                                 <Borders>
-                                    <motion.p whileInView={paragraphAnimate} className="p-2">
+                                    <motion.p whileInView={paragraphAnimate} className="p-5">
                                         I'm Daniel Hubschmann, Germany, freelancer, senior digital designer
                                         and fullstack web developer.
                                     </motion.p>
 
-                                    <motion.p className="p-2 " whileInView={paragraphAnimate}>
+                                    <motion.p whileInView={paragraphAnimate} className="p-5">
                                         Through my background I can help you to get your design on screens.
                                         Looking for a dev for the digital part of your campaign? Let&apos;s chat!
                                         <br />
@@ -40,7 +39,7 @@ const About = () => {
                                 </Borders>
 
 
-                                <div className='py-[2rem]'>
+                                <div className='p-[2rem] portrait:px-0'>
                                     <ArrowLinks>
                                         <Link href="#Work"
                                         >
