@@ -96,7 +96,7 @@ html.lenis {
 }
 .navbarcontainer {
   position: fixed;
-  padding-left: 4rem;
+  padding-left: 3rem;
   text-decoration: none;
   z-index: 30;
   color: white;
@@ -129,6 +129,11 @@ html.lenis {
     font-family: 'octarine';
     font-size: clamp(16px, calc(16px + 14vw), 16vw);
     line-height: 10%;
+  }
+  .header {
+    font-family: 'octarine';
+    font-size: clamp(16px, 9vw + 0.75rem, 10vw);
+    margin-left: 1.5vw;
   }
   .herolinks {
     font-family: 'octarine';
@@ -193,6 +198,11 @@ html.lenis {
   font-family: 'octarine';
   font-size: clamp(16px, calc(16px + 14vw), 16vw);
   line-height: 70%;
+}
+.header {
+  font-family: 'octarine';
+  font-size: clamp(16px, 8vw + 0.75rem, 10vw);
+  margin-left: 1.5vw;
 }
 .herosubtext {
   font-family: 'octarine';
@@ -266,6 +276,11 @@ html.lenis {
     font-family: 'octarine';
     font-size: clamp(16px, calc(16px + 7vw), 8vw);
     line-height: 80%;
+  }
+  .header {
+    font-family: 'octarine';
+    font-size: clamp(16px, 2vw + 0.75rem, 3vw);
+    margin-left: 1.5vw;
   }
   .herosubtext {
     font-family: 'octarine';
