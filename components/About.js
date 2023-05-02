@@ -23,7 +23,7 @@ const About = () => {
                             grid lg:grid-cols-2 md:w-[80vw] w-full grid-cols-1">
 
                                 <div>
-                                    <h1 className="header">Your Coder For Hire</h1>
+                                    <h1 className="header">Coder For Hire</h1>
                                     <br />
                                     <Borders>
                                         <motion.p whileInView={paragraphAnimate} className="p-5">
