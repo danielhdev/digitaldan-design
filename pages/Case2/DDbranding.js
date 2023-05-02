@@ -13,7 +13,7 @@ const DDbranding = () => {
                         Digitaldan Agency/<br /> Personal Branding
                     </h1 >
                     <ul className="paragraph font-bold md:ml-[10vw]">
-                   
+
                         <li>Digital design with Figma</li>
                         <li>Digital development with Next.js</li>
                     </ul>
@@ -31,7 +31,7 @@ const DDbranding = () => {
                             I used my personal style that can be best described as expressive minimalism, based on the teachings of the 20th century greats like Vignelli.
                             Also used AI for the first time: DALL-E provided some of the images.
                         </p>
-                    </article>          
+                    </article>
                     <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4 mx-auto">
                         <h1 className="font-[octarine] header">
                             Social Media Assets
@@ -56,7 +56,7 @@ const DDbranding = () => {
                         <h1 className="font-[octarine] header">
                             Website
                         </h1>
-               <div className="md:w-[45%] flex justify-end my-[15vh] md:ml-[15vw]">
+                        <div className="md:w-[55%] flex justify-end my-[15vh] lg:ml-[15vw]">
                             <img src='mobile1.png'
                                 alt="Image of a LinkedIn profile header"
                             /></div>
@@ -65,8 +65,12 @@ const DDbranding = () => {
                             <img src='desktop1.png'
                                 alt="Image of a LinkedIn profile header"
                             /></div>
-                        <div className="md:w-[65%] flex justify-end my-[15vh] md:ml-[10vw]">
+                        <div className="md:w-[35%] flex justify-end my-[15vh] md:ml-[10vw]">
                             <img src='tablet1.png'
+                                alt="Image of a LinkedIn profile header"
+                            /></div>
+                        <div className="md:w-[45%] flex justify-end my-[15vh] lg:ml-[20rem]">
+                            <img src='tablet2.png'
                                 alt="Image of a LinkedIn profile header"
                             /></div>
 
