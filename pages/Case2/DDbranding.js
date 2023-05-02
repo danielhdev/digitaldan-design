@@ -69,7 +69,7 @@ const DDbranding = () => {
                             <img src='tablet1.png'
                                 alt="Image of a LinkedIn profile header"
                             /></div>
-                        <div className="md:w-[45%] flex justify-end my-[15vh] lg:ml-[20rem]">
+                        <div className="md:w-[45%] flex justify-end my-[15vh] lg:ml-[20nrem]">
                             <img src='tablet2.png'
                                 alt="Image of a LinkedIn profile header"
                             /></div>
