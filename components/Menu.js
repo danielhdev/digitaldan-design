@@ -61,7 +61,6 @@ const Menu = () => {
                                 )}
                             </ul>
                         </motion.div>)}
-
                 </AnimatePresence>
 
             </div>
