@@ -16,7 +16,7 @@ const Navbar = () => {
     }, [theme]);
     return (
         <>
-            <div className="navbarcontainer">
+            <div className="navbarcontainer z-10">
                 <nav className="flex items-center w-fit mx-auto space-x-[5vw] top-0">
                     <Link href="/">
                         <span className="font-[octarine] cursor-pointer mix-blend-difference

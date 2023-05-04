@@ -98,7 +98,6 @@ html.lenis {
   position: fixed;
   padding-left: 3rem;
   text-decoration: none;
-  z-index: 30;
   color: white;
   mix-blend-mode: difference;
 }
