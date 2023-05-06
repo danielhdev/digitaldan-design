@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
-import ScrollArrow from './ScrollArrow'
-
+import ArrowLinks from './ArrowLinks'
+import { BsArrowUpRight } from 'react-icons/bs'
+import Link from 'next/link'
 
 const Hero = () => {
     const wedesignAnimate = {
@@ -17,21 +18,44 @@ const Hero = () => {
     }
 
     return (
-        <main className="h-screen flex flex-col 
+        <main className="h-screen flex flex-col
         justify-center items-center py-[1rem]">
             <motion.section className="w-full md:px-[2rem]">
-                <section className="p-4">
+                <section className="p-4 flex portrait:flex-col">
                     <motion.h1 animate={wedesignAnimate} className="heroheader
-                        flex flex-col justify-between">
-                        <div className="py-[1.5vw] mt-[1.5rem]">
+                        flex flex-col">
+                        <div className="mt-[1.5rem]">
                             digital.dan
                         </div>
-                        <motion.div animate={wedesignAnimate2} className="font-bold herosubtext">
-                            Daniel Hubschmann (Germany) <br />
-                            Freelance web developer <br />Turning your design into code
+                        <motion.div animate={wedesignAnimate2} className="font-bold herosubtext mt-[1rem]
+                        md:mt-[0.5rem]">
+                            Digital Agency <br />
+                            Digital Design & Marketing  <br />Success is just one great image away
                         </motion.div>
                     </motion.h1>
-                    <ScrollArrow />
+                    <div className='md:w-[50%] md:pt-12 grid place-content-center'>
+                        <ArrowLinks>
+                            <Link href="#Work"
+                            >
+                                <a>
+                                    <ArrowLinks
+                                    >
+                                        work <BsArrowUpRight /> </ArrowLinks>  </a>
+                            </Link>
+                            <Link href="#About"
+                            >
+                                <a>
+                                    <ArrowLinks >
+                                        services <BsArrowUpRight /> </ArrowLinks>  </a>
+                            </Link>
+                            <Link href="#Contact"
+                            >
+                                <a  >
+                                    <ArrowLinks >
+                                        contact <BsArrowUpRight /> </ArrowLinks>  </a>
+                            </Link>
+                        </ArrowLinks>
+                    </div>
                 </section>
             </motion.section>
         </main>

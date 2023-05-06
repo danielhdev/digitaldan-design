@@ -11,12 +11,11 @@ export default function Home() {
     <>
       <div>
         <Hero />
-        <About />
-        <ParallaxSection>Work</ParallaxSection>
+        <ParallaxSection>work</ParallaxSection>
         <Work />
-        <ParallaxSection>Services</ParallaxSection>
+        <ParallaxSection>services</ParallaxSection>
         <Services />
-        <ParallaxSection>Contact</ParallaxSection>
+        <ParallaxSection>contact</ParallaxSection>
         <Contact />
       </div>
     </>

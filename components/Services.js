@@ -1,35 +1,32 @@
-import { motion } from 'framer-motion'
-
 const Services = () => {
-    const stagger = {
-        opacity: [0, 1],
-        transition: {
-            staggerChildren: 0.5
-        }
 
-    }
     return (
         <>
-
             <main id="About" className='h-auto py-[5rem]'>
                 <section className="flex justify-start px-4 mb-[2rem]">
-                    <motion.ul whileInView={stagger} className="herolinks text-zinc-800 bg-zinc-100 
+                    <ul className="herolinks 
                     list-disc p-[5vh] md:p-[10vh] landscape:w-[75vw]">
-                        <li>Developing your design on point</li>
-                        <li>Developing the digital part of brand and marketing projects</li>
-                        <li>UI animations and interactions</li>
-                        <li>Optimizing architectures, performance and loading speeds</li>
-                    </motion.ul></section>
+                        <li>Daniel Hubschmann (Germany)</li>
+                        <li>Web, graphic & digital designer for over 20 years</li>
+                        <li>Design is great way to create cool stuff,
+                            get results for clients and make money for all of us</li>
+                    </ul></section>
                 <section className="flex md:justify-end px-4">
                     <ul className="herolinks list-disc p-[5vh] md:p-[10vh]
-                      text-zinc-800 bg-zinc-100 landscape:w-[75vw] mb-[4rem]">
+                      landscape:w-[75vw] mb-[4rem]">
 
-                        <li>Development with JavaScript and <br />
-                            JavaScript libraries like React</li>
-                        <li>User Consent Management</li>
-                        <li>Creating Headless CMS (Strapi and others)</li>
-                        <li>E-commerce development <br /></li>
+                        Services
+                        <li>Digital design and marketing</li>
+                        <li>Creating ads, brands identities, <br />websites, social media marketing </li>
+                        <li>Digital design for events and presentations</li>
+                        <li>Web development</li>
                         <br />
+                        Your creative force for hire!<br />
+                        Let&apos;s talk about your project:
+
+
+
+
                     </ul>
                 </section>
             </main>

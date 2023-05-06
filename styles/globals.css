@@ -140,7 +140,7 @@ html.lenis {
   }
   .herosubtext {
     font-family: 'octarine';
-    font-size: clamp(16px, 1vw + 0.75rem, 2vw);
+    font-size: clamp(16px, 1vw + 0.85rem, 2vw);
     margin: 2rem 0;
     line-height: 110%;
   }

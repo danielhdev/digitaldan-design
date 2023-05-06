@@ -17,9 +17,9 @@ const variants = {
 };
 
 const menu = [
-    { title: 'Work', path: '/#Work' },
-    { title: 'Service', path: '/#About' },
-    { title: 'Contact', path: '/#Contact' }
+    { title: 'work', path: '/#Work' },
+    { title: 'services', path: '/#About' },
+    { title: 'contact', path: '/#Contact' }
 ]
 const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
