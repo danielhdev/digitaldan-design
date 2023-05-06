@@ -31,14 +31,14 @@ function Application({ Component, pageProps }) {
       <Head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="Web development, digital development, app development" />
-        <meta name="description" content="Digitaldan Web Development Agency, Daniel Hubschmann, Freelance Web Developer. Your Web Developer For Hire." />
+        <meta name="keywords" content="Digital design, web design, digital marketing" />
+        <meta name="description" content="Digitaldan Agency offers digital design, web design, digital marketing, social media marketing" />
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Digitaldan Web Development</title>
+        <title>Digitaldan Design and Marketing</title>
       </Head>
 
 
