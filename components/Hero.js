@@ -44,11 +44,11 @@ const Hero = () => {
                                 >
                                     Upper Burger Grill <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
-                        <Link href="/Case3/AS"
+                        <Link href="https://asprototype.netlify.app/"
                         >
                             <a>
                                 <ArrowLinks >
-                                    Photographer portfolio <BsArrowUpRight /> </ArrowLinks>  </a>
+                                    Photographer portfolio (new tab) <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
                         <Link href="https://food-health-one-seven.vercel.app/"
                         >
