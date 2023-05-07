@@ -31,19 +31,18 @@ function Application({ Component, pageProps }) {
       <Head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="Digital design, web design, digital marketing" />
-        <meta name="description" content="Digitaldan Agency offers digital design, web design, digital marketing, social media marketing" />
+        <meta name="keywords" content="web development, web developer, UI developer, UI development, app developer, app Development. " />
+        <meta name="description" content="Digitaldan Agency app, web + UI development, specialized in coding UI design, interaction and motion." />
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Digitaldan Design and Marketing</title>
+        <title>Digitaldan Web Development</title>
       </Head>
 
 
       <Navbar />
-      <Menu />
       <Contacticons />
       <AnimatePresence mode='wait'
         onExitComplete={() => window.scrollTo(0, 0)}>

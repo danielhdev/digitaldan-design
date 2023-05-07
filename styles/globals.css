@@ -141,7 +141,6 @@ html.lenis {
   .herosubtext {
     font-family: 'octarine';
     font-size: clamp(16px, 1vw + 0.85rem, 2vw);
-    margin: 2rem 0;
     line-height: 110%;
   }
   .navbarcontainer {
@@ -195,8 +194,8 @@ html.lenis {
 }
 .heroheader {
   font-family: 'octarine';
-  font-size: clamp(16px, calc(16px + 14vw), 16vw);
-  line-height: 70%;
+  font-size: clamp(16px, calc(16px + 15vw), 15vw);
+  line-height: 120%;
 }
 .header {
   font-family: 'octarine';
@@ -207,8 +206,7 @@ html.lenis {
   font-family: 'octarine';
   font-size: clamp(16px, 1.25vw + 0.75rem, 2.25vw);
   line-height: 110%;
-  padding: 2rem 0;
-  padding-left: 0.5rem;
+  padding: 0.75rem 0;
 }
 .herolinks {
   font-family: 'octarine';
@@ -217,7 +215,7 @@ html.lenis {
 .paragraph {
   font-family: 'Oxygen';
   font-size: 4vw;
-  padding: 3.5vw;
+  padding: 0.5vw;
 }
 .fonts {
   font-size: calc(16px + 5vw);
@@ -273,7 +271,7 @@ html.lenis {
   }
   .heroheader {
     font-family: 'octarine';
-    font-size: clamp(16px, calc(16px + 7vw), 8vw);
+    font-size: clamp(16px, calc(16px + 6vw), 7vw);
     line-height: 80%;
   }
   .header {
@@ -293,7 +291,7 @@ html.lenis {
   .paragraph {
     font-family: 'Oxygen';
     font-size: 1.6vw;
-    padding: 1.5vw;
+    padding: 0.5vw;
   }
   .fonts {
     font-size: calc(16px + 2.5vw);
@@ -355,7 +353,7 @@ html.lenis {
   .paragraph {
     font-family: 'Oxygen';
     font-size: 1.75vw;
-    padding-left: 2vw;
+    padding-left: 0.5vw;
   }
   .link {
     font-size: 1.8vw;
