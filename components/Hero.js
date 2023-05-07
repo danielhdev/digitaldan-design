@@ -30,7 +30,7 @@ const Hero = () => {
                         <motion.div animate={wedesignAnimate2} className="font-bold herosubtext
                         mt-[0.5rem]">
                             Daniel Hubschmann (Germany) <br />
-                            Freelance Web Developer<br />
+                            Freelance App, Web & UI Developer<br />
                             Bringing your design on user screens<br />
                             Let&apos;s chat about your project!
                         </motion.div>
