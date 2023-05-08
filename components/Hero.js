@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import ArrowLinks from './ArrowLinks'
 import { BsArrowUpRight } from 'react-icons/bs'
 import Link from 'next/link'
+import ScrollArrow from './ScrollArrow'
 
 const Hero = () => {
     const wedesignAnimate = {
@@ -30,43 +31,16 @@ const Hero = () => {
                         <motion.div animate={wedesignAnimate2} className="font-bold herosubtext
                         mt-[0.5rem]">
                             Daniel Hubschmann (Germany) <br />
-                            Freelance App, Web & UI Developer<br />
-                            Bringing your design on user screens<br />
-                            Let&apos;s chat about your project!
+                            Freelance senior digital designer<br />
+                            Your success is one great image away<br />
+
                         </motion.div>
                     </motion.h1>
-                    <div className='md:w-[50%] grid lg:place-content-center'>
 
-                        <Link href="/Case1/Ubg"
-                        >
-                            <a>
-                                <ArrowLinks
-                                >
-                                    Upper Burger Grill <BsArrowUpRight /> </ArrowLinks>  </a>
-                        </Link>
-                        <Link href="https://asprototype.netlify.app/"
-                        >
-                            <a>
-                                <ArrowLinks >
-                                    Photographer portfolio (new tab) <BsArrowUpRight /> </ArrowLinks>  </a>
-                        </Link>
-                        <Link href="https://food-health-one-seven.vercel.app/"
-                        >
-                            <a target={'_blank'}
-                                rel={'noreferrer noopener'}> <ArrowLinks >Beauty landing page (new tab)
-                                    <BsArrowUpRight /> </ArrowLinks>  </a>
-                        </Link>
-                        <Link href="https://ddshowcase3.netlify.app/"
-                        >
-                            <a target={'_blank'}
-                                rel={'noreferrer noopener'}>
-                                <ArrowLinks>
-                                    Developer portfolio (new tab) <BsArrowUpRight />
-                                </ArrowLinks></a>
-                        </Link>
-
-                    </div>
                 </section>
+                <div className='grid place-content-center'>
+                    <ScrollArrow />
+                </div>
             </motion.section>
         </main>
     )
