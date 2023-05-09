@@ -16,7 +16,7 @@ const Services = () => {
                       landscape:w-[75vw] mb-[4rem]">
 
                         Services
-                        <li>Digital design and marketing</li>
+                        <li>Digital graphic design</li>
                         <li>Visual brands identities</li>
                         <li>Apps, websites, landing pages</li>
                         <li>Social media ads & content</li>
