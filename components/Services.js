@@ -8,8 +8,8 @@ const Services = () => {
                     list-disc p-[5vh] md:p-[10vh] landscape:w-[75vw]">
                         <li>Daniel Hubschmann (Germany)</li>
                         <li>Web, graphic & digital designer for over 20 years</li>
-                        <li>Design is great way to create cool stuff,
-                            get results for clients and make money for all of us</li>
+                        <li>Design: create cool stuff,
+                            get results and make money for all of us, no fluff, no phrases.</li>
                     </ul></section>
                 <section className="flex md:justify-end px-4">
                     <ul className="herolinks list-disc p-[5vh] md:p-[10vh]
@@ -17,8 +17,8 @@ const Services = () => {
 
                         Services
                         <li>Digital design and marketing</li>
-                        <li>Creating visual brands identities, <br />websites and social media ads </li>
-                        <li>Digital design for events, presentations, billboards</li>
+                        <li>Creating visual brands identities, <br />websites, social media ads </li>
+                        <li>Digital design for events,<br /> presentations, billboards</li>
                         <li>Web development</li>
                         <br />
                         Your creative force for hire!<br />
