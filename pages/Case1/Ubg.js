@@ -1,4 +1,5 @@
 import Back from '@components/Back'
+import Casestudyimage from '@components/Casestudyimage';
 
 const Ubg = () => {
 
@@ -17,7 +18,7 @@ const Ubg = () => {
 
                     <ul className="paragraph font-bold md:ml-[10vw]">
 
-        
+
                         <li>Digital design with Figma</li>
                         <li>Digital development with Next.js & Strapi CMS</li>
                     </ul>
@@ -49,51 +50,34 @@ const Ubg = () => {
                         </ul>
 
                     </article>
-                  
-                  
-                  
                     <section>
                         <h1 className="header mx-auto">Before</h1>
+                        <Casestudyimage>
+                            <img src="./bef1.png" alt="Upper Burger Before Image 1" />
+                        </Casestudyimage>
+                        <Casestudyimage>
+                            <img src="./bef2.png" alt="Upper Burger Before Image 1" />
+                        </Casestudyimage>
 
-                        <div className="md:w-[95%] flex justify-center my-[15vh]">
-                            <img src='before.jpg'
-                                alt="Image of the old website" />
-                        </div>
+
+
+
                         <h1 className="header">Redesign</h1>
-                        <div className="md:w-[85%] flex justify-end my-[15vh]">
-                            <img src='wide1.jpg'
-                                alt="Image of the new site on a smart phone"
-                            /></div>
-                        <div className="md:w-[65%] flex justify-center my-[15vh]">
-                            <img src='mob1.png'
-                                alt="Image of the new site on a laptop"
-                            /></div>
-                        <div className="md:w-[55%] flex justify-center md:ml-[10vw] my-[15vh]">
-                            <img src='wide2.jpg'
-                                alt="Image of the new site on a laptop"
-                            /></div>
-                        <div className="md:w-[85%] flex justify-center md:ml-[5rem] my-[15vh]">
-                            <img src='mob2.jpg'
-                                alt="Image of the new site on a laptop"
-                            /></div>
-                        <div className="flex justify-center my-[15vh]">
-                            <img src='wide3.jpg'
-                                alt="Image of the new site on a laptop"
-                            /></div>
-                        <div className="md:w-[95%] flex justify-end my-[15vh]">
-                            <img src='wide5.jpg'
-                                alt="Image of the new site on mobile"
-                            /></div>
-                        <div className="md:w-[95%] flex justify-end my-[15vh]">
-                            <img src='wide4.png'
-                                alt="Image of the new site on mobile"
-                            /></div>
-
-                        <div className="md:w-[75%] flex justify-center my-[15vh] md:ml-[5vw]">
-                            <img src='mob3.jpg'
-                                alt="Image of the new site on a laptop"
-                            /></div>
-
+                        <Casestudyimage>
+                            <img src="./new1.png" alt="Upper Burger Before Image 1" />
+                        </Casestudyimage>
+                        <Casestudyimage>
+                            <img src="./new2.png" alt="Upper Burger Before Image 1" />
+                        </Casestudyimage>
+                        <Casestudyimage>
+                            <img src="./new3.png" alt="Upper Burger Before Image 1" />
+                        </Casestudyimage>
+                        <Casestudyimage>
+                            <img src="./new4.png" alt="Upper Burger Before Image 1" />
+                        </Casestudyimage>
+                        <Casestudyimage>
+                            <img src="./new5.png" alt="Upper Burger Before Image 1" />
+                        </Casestudyimage>
                         <div className="w-[50%] md:w-[25%] mx-auto my-[15vh]">
                             <img src='bull.png'
                                 alt="Image of the new site on a laptop"

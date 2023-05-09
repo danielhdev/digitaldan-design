@@ -17,8 +17,8 @@ const Services = () => {
 
                         Services
                         <li>Digital design and marketing</li>
-                        <li>Creating visual brands identities, <br />websites and social media ads </li>
-                        <li>Digital design for events, presentations, billboards</li>
+                        <li>Creating visual brands identities, <br />websites, social media ads </li>
+                        <li>Digital design for events,<br /> presentations, billboards</li>
                         <li>Web development</li>
                         <br />
                         Your creative force for hire!<br />

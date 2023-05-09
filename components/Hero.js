@@ -1,7 +1,4 @@
 import { motion } from 'framer-motion'
-import ArrowLinks from './ArrowLinks'
-import { BsArrowUpRight } from 'react-icons/bs'
-import Link from 'next/link'
 import ScrollArrow from './ScrollArrow'
 
 const Hero = () => {
@@ -17,7 +14,6 @@ const Hero = () => {
         transition: { delay: 1, duration: 0.75 },
         ease: "ease-in"
     }
-
     return (
         <main className="h-screen flex flex-col
         justify-center items-center">
@@ -33,14 +29,11 @@ const Hero = () => {
                             Daniel Hubschmann (Germany) <br />
                             Freelance senior digital designer<br />
                             Your success is one great image away<br />
-
                         </motion.div>
                     </motion.h1>
-
                 </section>
-                <div className='grid place-content-center'>
-                    <ScrollArrow />
-                </div>
+                <div className="w-[95vw] mx-auto">
+                    <ScrollArrow /></div>
             </motion.section>
         </main>
     )

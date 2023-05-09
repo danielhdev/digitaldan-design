@@ -14,13 +14,12 @@ const Work = () => {
     return (
         <>
             <main id="Work" className="h-auto flex flex-col justify-center items-center">
-                <section className="lg:w-[80vw] h-auto md:py-[10vh] flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] 
+                <section className="lg:w-[80vw] h-auto md:py-[10vh] flex flex-col justify-start gap-12 mx-auto mt-[15vh] 
                 mb-[15vh]">
-                    <div className="lg:w-[50%]">
+                    <div className="lg:w-[95%]">
 
                         <img src='/burger.png'
                             alt="Upper Burger portfolio redesign"
-                            className="workimg lg:w-[75%]"
                         />
                     </div>
                     <div className="lg:w-[50%]">
@@ -33,26 +32,28 @@ const Work = () => {
                                     <br />
                                 </motion.p></Borders>
                             <br />
-                            <Link href="/Case1/Ubg"
-                            >
-                                <a> <ArrowLinks>case study <BsArrowUpRight />  </ArrowLinks></a>
-                            </Link>
-                            <Link href="https://digitaldanrestaurant.netlify.app/"
-                            >
-                                <a target={'_blank'}
-                                    rel={'noreferrer noopener'}>
-                                    <ArrowLinks>
-                                        website (new tab) <BsArrowUpRight /></ArrowLinks>
-                                </a>
-                            </Link>
+                            <div className='flex flex-row'>
+                                <Link href="/Case1/Ubg"
+
+                                >
+                                    <a> <ArrowLinks>case study <BsArrowUpRight />  </ArrowLinks></a>
+                                </Link>
+                                <Link href="https://digitaldanrestaurant.netlify.app/"
+                                >
+                                    <a target={'_blank'}
+                                        rel={'noreferrer noopener'}>
+                                        <ArrowLinks>
+                                            website (new tab) <BsArrowUpRight /></ArrowLinks>
+                                    </a>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </section>
-                <section className="lg:w-[80vw] h-auto flex flex-col lg:flex-row justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
-                    <div className="lg:w-[50%]">
+                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                    <div className="lg:w-[95%]">
                         <img src='/selfbrand1.png'
                             alt="AS portfolio redesign"
-                            className="workimg lg:w-[75%]"
                         />
                     </div>
                     <div className="lg:w-[50%]">

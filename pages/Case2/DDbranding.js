@@ -37,40 +37,28 @@ const DDbranding = () => {
                             Social Media Assets
                         </h1>
                         <h2 className="paragraph py-[10vh] md:ml-[10vw]">AI DALL-E images for social media branding.</h2>
-                        <div className="md:w-[75%] flex justify-end my-[10vh] md:ml-[10vw]">
-                            <img src='ai1.png'
+                        <div className="md:w-[75%] flex justify-end my-[10vh] md:ml-[10vw] ">
+                            <img src='li.png'
                                 alt="Image of AI generated images using circles"
+                                className='border-[2px] border-zinc-900'
                             /></div>
-                        <div className="md:w-[75%] flex justify-end my-[15vh] md:ml-[10vw]
-                    border-[1px] border-stone-900">
-                            <img src='twi23.png'
-                                alt="Image of a Twitter profile header"
-                            /></div>
-                        <div className="md:w-[75%] flex justify-end mt-[15vh] md:ml-[10vw]  
-                    border-[1px] border-stone-900">
-                            <img src='li23.png'
-                                alt="Image of a LinkedIn profile header"
-                            /></div>
+
                     </section>
-                    <section className="h-auto w-[95vw] my-[5vh] md:my-[10vh] p-1 mx-auto">
+                    <section className="h-auto my-[5vh] md:my-[10vh] p-1 mx-auto">
                         <h1 className="font-[octarine] header">
                             Website
                         </h1>
-                        <div className="md:w-[55%] flex justify-end my-[15vh] lg:ml-[15vw]">
-                            <img src='mobile1.png'
+
+                        <div className="my-[15vh] mx-auto">
+                            <img src='csdesk.png'
                                 alt="Image of a LinkedIn profile header"
                             /></div>
-                        <div className="md:w-[75%] flex justify-end my-[15vh] mx-auto
-                    border-[1px] border-zinc-100">
-                            <img src='desktop1.png'
+                        <div className="my-[15vh]">
+                            <img src='cstab.png'
                                 alt="Image of a LinkedIn profile header"
                             /></div>
-                        <div className="md:w-[35%] flex justify-end my-[15vh] md:ml-[10vw]">
-                            <img src='tablet1.png'
-                                alt="Image of a LinkedIn profile header"
-                            /></div>
-                        <div className="md:w-[45%] flex justify-end my-[15vh] lg:ml-[20nrem]">
-                            <img src='tablet2.png'
+                        <div className="my-[15vh]">
+                            <img src='csmob1.png'
                                 alt="Image of a LinkedIn profile header"
                             /></div>
 
