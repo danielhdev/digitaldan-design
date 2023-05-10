@@ -15,12 +15,12 @@ const Services = () => {
                       landscape:w-[85vw] mb-[4rem]">
 
                         Services
-                        <li>Digital design for</li>
-                        apps, websites, landing pages,<br />
+                        <li>Digital design:</li>
+                        ads, websites, landing pages,<br />
                         social media content,<br />
                         visual brands identities,<br />
                         events, presentations, billboards<br />
-                        <li>Social media management</li>
+                        <li>Online ad campaigns <br />on Google & social media</li>
                         <li> Web development</li>
 
                         <br />
