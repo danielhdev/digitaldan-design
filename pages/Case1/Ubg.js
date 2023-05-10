@@ -16,11 +16,12 @@ const Ubg = () => {
 
 
 
-                    <ul className="paragraph font-bold md:ml-[10vw]">
+                    <ul className="paragraph font-bold md:ml-[10vw] px-[2rem]">
 
 
-                        <li>Digital design with Figma</li>
-                        <li>Digital development with Next.js & Strapi CMS</li>
+                        <li>Art direction</li>
+                        <li>design &</li>
+                        <li>development</li>
                     </ul>
 
 
@@ -33,7 +34,7 @@ const Ubg = () => {
                         </h1>
                     </div>
 
-                    <article className="md:ml-[10vw] md:w-[70ch] p-4">
+                    <article className="md:ml-[10vw] md:w-[70ch] px-[2rem]">
                         <p className="whitespace-normal paragraph font-[Oxygen] py-[15vh]">
                             <span className="font-bold">Upper Burger Grill </span>
                             is an upscale burger restaurant in the heart of Berlin, close to Gedächtniskirche.
@@ -51,7 +52,7 @@ const Ubg = () => {
 
                     </article>
                     <section>
-                        <h1 className="header mx-auto">Before</h1>
+
                         <Casestudyimage>
                             <img src="./bef1.png" alt="Upper Burger Before Image 1" />
                         </Casestudyimage>

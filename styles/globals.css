@@ -199,12 +199,12 @@ html.lenis {
 }
 .header {
   font-family: 'octarine';
-  font-size: clamp(16px, 8vw + 0.75rem, 10vw);
+  font-size: clamp(16px, 6vw + 0.75rem, 8vw);
   margin-left: 1.5vw;
 }
 .herosubtext {
   font-family: 'octarine';
-  font-size: clamp(16px, 1.25vw + 0.75rem, 2.25vw);
+  font-size: clamp(16px, 3.25vw + 0.75rem, 4.5vw);
   line-height: 110%;
   padding: 0.75rem 0;
 }
@@ -215,7 +215,7 @@ html.lenis {
 .paragraph {
   font-family: 'Oxygen';
   font-size: 4vw;
-  padding: 0.5vw;
+  padding: 2vw;
 }
 .fonts {
   font-size: calc(16px + 5vw);
@@ -291,7 +291,7 @@ html.lenis {
   .paragraph {
     font-family: 'Oxygen';
     font-size: 1.6vw;
-    padding: 0.5vw;
+    padding: 1.25vw;
   }
   .fonts {
     font-size: calc(16px + 2.5vw);
