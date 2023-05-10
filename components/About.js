@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import Borders from '@components/Borders'
 import ArrowLinks from './ArrowLinks'
 import { BsArrowUpRight } from 'react-icons/bs'
 
@@ -13,7 +12,7 @@ const About = () => {
     return (
         <>
             <main
-                className="h-auto flex flex-col justify-center py-[10vh]">
+                className="h-auto flex flex-col justify-center py-[20vh]">
 
                 <section className="paragraph flex justify-center items-center md:py-[2.5rem]
                 ">
@@ -23,24 +22,22 @@ const About = () => {
                             grid lg:grid-cols-2 md:w-[80vw] w-full grid-cols-1">
 
                                 <div>
-                                    <h1 className="header">Coder For Hire</h1>
+                                    <h1 className="header">Welcome!</h1>
                                     <br />
-                                    <Borders>
-                                        <motion.p whileInView={paragraphAnimate} className="p-5">
-                                            I'm Daniel Hubschmann, Germany, freelancer, senior digital designer
-                                            and fullstack web developer.
-                                        </motion.p>
 
-                                        <motion.p whileInView={paragraphAnimate} className="p-5">
-                                            Through my background I can help you to get your design on screens.
-                                            Looking for a dev for the digital part of your campaign? Let&apos;s chat!
-                                            <br />
-                                            <br />
-                                            Please scroll or choose a link:
-                                        </motion.p>
-                                    </Borders>
+                                    <motion.p whileInView={paragraphAnimate} className="p-5">
+                                        I'm Daniel Hubschmann (Germany), freelance digital designer
+                                        and digital marketer.
+                                    </motion.p>
+
+                                    <motion.p whileInView={paragraphAnimate} className="p-5">
+
+
+                                        Please scroll or choose a link:
+                                    </motion.p>
+
                                 </div>
-                                <div className='md:pt-5 grid place-content-end'>
+                                <div className='grid place-content-end'>
                                     <ArrowLinks>
                                         <Link href="#Work"
                                         >

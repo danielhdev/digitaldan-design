@@ -1,4 +1,6 @@
-import Back from '@components/Back'
+import Link from 'next/link'
+import { BsArrowUpRight } from 'react-icons/bs'
+import Casestudyimage from '@components/Casestudyimage';
 
 const DDbranding = () => {
 
@@ -12,10 +14,12 @@ const DDbranding = () => {
                         Case Study:<br />
                         Digitaldan Agency/<br /> Personal Branding
                     </h1 >
-                    <ul className="paragraph font-bold md:ml-[10vw]">
+                    <ul className="paragraph font-bold px-[2rem]">
 
-                        <li>Digital design with Figma</li>
-                        <li>Digital development with Next.js</li>
+                        <li>Art direction</li>
+                        <li>design &</li>
+                        <li>development</li>
+
                     </ul>
                 </section>
 
@@ -25,8 +29,8 @@ const DDbranding = () => {
                             Design Thoughts
                         </h1>
                     </div>
-                    <article className="md:ml-[10vw] md:w-[70ch] p-4">
-                        <p className="whitespace-normal paragraph font-[Oxygen] pt-[5vh]">
+                    <article className="md:ml-[10vw] md:w-[70ch] px-[2rem]">
+                        <p className="paragraph font-[Oxygen] pt-[5vh]">
                             <span className="font-bold">Digital design & development for my agency:<br /></span>
                             I used my personal style that can be best described as expressive minimalism, based on the teachings of the 20th century greats like Vignelli.
                             Also used AI for the first time: DALL-E provided some of the images.
@@ -36,36 +40,41 @@ const DDbranding = () => {
                         <h1 className="font-[octarine] header">
                             Social Media Assets
                         </h1>
-                        <h2 className="paragraph py-[10vh] md:ml-[10vw]">AI DALL-E images for social media branding.</h2>
-                        <div className="md:w-[75%] flex justify-end my-[10vh] md:ml-[10vw] ">
-                            <img src='li.png'
-                                alt="Image of AI generated images using circles"
-                                className='border-[2px] border-zinc-900'
-                            /></div>
-
+                        <h2 className="paragraph py-[10vh]">AI DALL-E images for social media branding.</h2>
                     </section>
+
+                    <Casestudyimage>   <img src='li.png'
+                        alt="Image of AI generated images using circles"
+                        className='border-[2px] border-zinc-900'
+                    /> </Casestudyimage>
+
                     <section className="h-auto my-[5vh] md:my-[10vh] p-1 mx-auto">
                         <h1 className="font-[octarine] header">
                             Website
                         </h1>
-
-                        <div className="my-[15vh] mx-auto">
+                        <Casestudyimage>
                             <img src='csdesk.png'
                                 alt="Image of a LinkedIn profile header"
-                            /></div>
-                        <div className="my-[15vh]">
+                            /></Casestudyimage>
+                        <Casestudyimage>
                             <img src='cstab.png'
                                 alt="Image of a LinkedIn profile header"
-                            /></div>
-                        <div className="my-[15vh]">
+                            /></Casestudyimage>
+                        <Casestudyimage>
                             <img src='csmob1.png'
                                 alt="Image of a LinkedIn profile header"
-                            /></div>
+                            /></Casestudyimage>
 
                     </section>
 
                 </section>
-                <Back />
+                <div className="mx-auto pb-[2rem]">
+                    <Link href="/#Selfbrand"
+                    >
+                        <a>
+                            <h2 className="paragraph text-stone-900 dark:text-stone-100 cursor-pointer"> back <BsArrowUpRight /> </h2></a>
+                    </Link></div>
+
             </main>
         </>
     );

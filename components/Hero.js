@@ -26,9 +26,9 @@ const Hero = () => {
                         </div>
                         <motion.div animate={wedesignAnimate2} className="font-bold herosubtext
                         mt-[0.5rem]">
-                            Daniel Hubschmann (Germany) <br />
-                            Freelance senior digital designer<br />
+                            Digital Design & Digital Marketing<br />
                             Your success is one great image away<br />
+                     
                         </motion.div>
                     </motion.h1>
                 </section>

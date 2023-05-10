@@ -1,5 +1,6 @@
-
-import Back from '@components/Back'
+import Link from 'next/link'
+import { BsArrowUpRight } from 'react-icons/bs'
+import Casestudyimage from '@components/Casestudyimage';
 
 const AS = () => {
 
@@ -14,8 +15,9 @@ const AS = () => {
                         Armed Shutter<br /> Photography/ Texas
                     </h1 >
                     <ul className="paragraph font-bold md:ml-[10vw]">
-                        <li>Digital Design</li>
-                        <li>Digital Development</li>
+                        <li>Art direction</li>
+                        <li>digital design</li>
+                        <li>& development</li>
                     </ul>
                 </section>
                 <section className="my-[5vh]">
@@ -25,7 +27,7 @@ const AS = () => {
                         </h1>
                     </div>
 
-                    <article className="md:ml-[10vw] md:w-[70ch] p-4">
+                    <article className="md:ml-[10vw] md:w-[70ch] p-[2rem]">
                         <p className="whitespace-normal paragraph font-[Oxygen] pt-[5vh]">
                             <span className="font-bold">Brand design and a new portfolio page:<br /></span>
                             Ayo Ogunseinde is an American people and fashion photographer with millions of downloads on unsplash.com.
@@ -43,47 +45,49 @@ const AS = () => {
 
                     </article>
 
-                    <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4">
-                        <h1 className="font-[octarine] header">
-                            Social Media
-                        </h1>
-                        <h2 className="paragraph py-[10vh] md:ml-[10vw]">Twitter profile header.</h2>
-                        <div className="md:w-[75%] flex justify-end my-[10vh] md:ml-[10vw]">
-                            <img src='Twitter2.png'
-                                alt="Image of AI generated images using circles and balls"
-                            /></div>
-                    </section>
-                    <section className="h-auto w-[95vw] my-[5vh] md:my-[10vh] p-2">
-                        <h1 className="font-[octarine] header">
-                            Website
-                        </h1>
-                        <div className="md:w-[95%] flex justify-end my-[15vh]">
-                            <img src='wide1.png'
-                                alt="Image of a LinkedIn profile header"
-                            /></div>
-                        <div className="md:w-[75%] flex justify-end my-[15vh] mx-auto">
-                            <img src='mobile1.png'
-                                alt="Image of a LinkedIn profile header"
-                            /></div>
+                    <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh]">
 
-                        <div className="md:w-[65%] flex justify-end my-[15vh] md:ml-[10vw]">
-                            <img src='wide2.png'
-                                alt="Image of a LinkedIn profile header"
-                            /></div>
-                        <div className="md:w-[25%] flex justify-end my-[15vh] md:ml-[35vw]">
-                            <img src='mobile3.png'
-                                alt="Image of a LinkedIn profile header"
-                            /></div>
-                        <div className="md:w-[25%] flex justify-end my-[15vh] md:ml-[15vw]">
-                            <img src='mobile2.png'
-                                alt="Image of a LinkedIn profile header"
-                            /></div>
-                        <div className="md:w-[75%] flex justify-end my-[15vh] md:ml-[10vw]">
-                            <img src='wide4.png'
-                                alt="Image of a LinkedIn profile header"
-                            /></div>
+                        <h1 className="header">Twitter profile header</h1>
+
                     </section>
-                </section> <Back />
+
+                    <Casestudyimage>
+                        <img src='Twitter2.png'
+                            alt="Image of AI generated images using circles and balls"
+                        /></Casestudyimage>
+                    <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh]">
+
+                        <h1 className="header">Website</h1>
+
+                    </section>
+                    <Casestudyimage>
+                        <img src='dsk1.png'
+                            alt="Image of AI generated images using circles and balls"
+                        />
+
+                    </Casestudyimage>
+                    <Casestudyimage>
+                        <img src='tb1.png'
+                            alt="Image of AI generated images using circles and balls"
+                        />
+
+                    </Casestudyimage>
+                    <Casestudyimage>
+                        <img src='mb1.png'
+                            alt="Image of AI generated images using circles and balls"
+                        />
+
+                    </Casestudyimage>
+                </section>
+
+
+                <div className="mx-auto pb-[2rem]">
+                    <Link href="/#ASnew"
+                    >
+                        <a>
+                            <h2 className="paragraph text-stone-900 dark:text-stone-100 cursor-pointer"> back <BsArrowUpRight /> </h2></a>
+                    </Link></div>
+
             </main>
         </>
     );
