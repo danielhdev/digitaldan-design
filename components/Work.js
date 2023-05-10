@@ -135,7 +135,7 @@ const Work = () => {
                         />
                     </div>
                     <div className="lg:w-[50%]">
-                        <h1 className="header">Social Media Marketing</h1>
+                        <h1 className="header">Online Marketing</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
