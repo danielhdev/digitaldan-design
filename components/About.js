@@ -12,7 +12,7 @@ const About = () => {
     return (
         <>
             <main
-                className="h-auto flex flex-col justify-center py-[20vh]">
+                className="h-auto flex flex-col justify-center py-[5vh]">
 
                 <section className="paragraph flex justify-center items-center md:py-[2.5rem]
                 ">
