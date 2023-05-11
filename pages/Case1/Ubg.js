@@ -59,10 +59,6 @@ const Ubg = () => {
                         <Casestudyimage>
                             <img src="./bef2.png" alt="Upper Burger Before Image 1" />
                         </Casestudyimage>
-
-
-
-
                         <h1 className="header">Redesign</h1>
                         <Casestudyimage>
                             <img src="./new1.png" alt="Upper Burger Before Image 1" />
