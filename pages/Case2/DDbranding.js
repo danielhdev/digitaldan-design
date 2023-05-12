@@ -1,6 +1,7 @@
+import Casestudyimage from '@components/Casestudyimage';
 import Link from 'next/link'
 import { BsArrowUpRight } from 'react-icons/bs'
-import Casestudyimage from '@components/Casestudyimage';
+
 
 const DDbranding = () => {
 
@@ -14,7 +15,7 @@ const DDbranding = () => {
                         Case Study:<br />
                         Digitaldan Agency/<br /> Personal Branding
                     </h1 >
-                    <ul className="paragraph font-bold px-[2rem]">
+                    <ul className="paragraph font-bold md:ml-[10vw] px-[2rem]">
 
                         <li>Art direction</li>
                         <li>design &</li>
@@ -42,11 +43,11 @@ const DDbranding = () => {
                         </h1>
                         <h2 className="paragraph py-[10vh]">AI DALL-E images for social media branding.</h2>
                     </section>
-
-                    <Casestudyimage>   <img src='li.png'
-                        alt="Image of AI generated images using circles"
-                        className='border-[2px] border-zinc-900'
-                    /> </Casestudyimage>
+                    <Casestudyimage>
+                        <img src='li.png'
+                            alt="Image of AI generated images using circles"
+                            className='border-[2px] border-zinc-900'
+                        /></Casestudyimage>
 
                     <section className="h-auto my-[5vh] md:my-[10vh] p-1 mx-auto">
                         <h1 className="font-[octarine] header">

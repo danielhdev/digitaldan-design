@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import ScrollArrow from './ScrollArrow'
 import Heroimage from '@components/Heroimage';
 
 const Hero = () => {
@@ -18,7 +17,7 @@ const Hero = () => {
     return (
         <main className="h-screen py-[10rem] lg:py-[2rem] flex flex-col
         justify-center items-center">
-            <motion.section className="w-full md:px-[2rem]">
+            <motion.section className="md:px-[2rem]">
                 <section className="h-auto p-4 flex portrait:flex-col">
                     <motion.h1 animate={wedesignAnimate} className="
                         flex flex-col">
