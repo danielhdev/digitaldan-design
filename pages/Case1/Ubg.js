@@ -13,9 +13,6 @@ const Ubg = () => {
                         Case Study:<br />
                         Upper Burger Grill/<br /> Berlin
                     </h1 >
-
-
-
                     <ul className="paragraph font-bold md:ml-[10vw] px-[2rem]">
 
 
