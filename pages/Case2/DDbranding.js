@@ -37,6 +37,11 @@ const DDbranding = () => {
                             Also used AI for the first time: DALL-E provided some of the images.
                         </p>
                     </article>
+                    <Casestudyimage>
+                        <img src='ddfonts.png'
+                            alt="Fonts used: Octarine and Oxygen"
+                            className='border-[2px] border-zinc-900'
+                        /></Casestudyimage>
                     <section className="h-auto w-[95vw] my-[5vh] md:my-[15vh] p-4 mx-auto">
                         <h1 className="font-[octarine] header">
                             Social Media Assets
