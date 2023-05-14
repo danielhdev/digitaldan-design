@@ -21,12 +21,7 @@ const Work = () => {
             <main id="Work" className="h-auto flex flex-col justify-center items-center">
                 <section className="lg:w-[80vw] h-auto md:py-[10vh] flex flex-col justify-start gap-12 mx-auto mt-[15vh] 
                 mb-[15vh]">
-                    <div className="lg:w-[95%]">
-                        <Casestudyimage>
-                            <img src='/burger.png'
-                                alt="Upper Burger portfolio redesign"
-                            /></Casestudyimage>
-                    </div>
+
                     <div className="lg:w-[50%]">
                         <h1 className="header">Just Premium</h1>
 
@@ -54,16 +49,17 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="lg:w-[95%]">
+                        <Casestudyimage>
+                            <img src='/burger.png'
+                                alt="Upper Burger portfolio redesign"
+                            /></Casestudyimage>
+                    </div>
                 </section>
 
                 <section id="ASnew"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start lg:gap-12 mx-auto my-[15vh]">
-                    <div className="lg:w-[95%]">
 
-                        <Casestudyimage><img src='/as.png'
-                            alt="AS portfolio redesign"
-                        /></Casestudyimage>
-                    </div>
                     <div className="w-screen lg:w-[50%]">
                         <h1 className="header mt-[5vh] lg:mt-0">A New Look</h1>
                         <div className="w-fit">
@@ -81,16 +77,16 @@ const Work = () => {
                                     case study <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
                     </div>
+                    <div className="lg:w-[95%]">
+
+                        <Casestudyimage><img src='/as.png'
+                            alt="AS portfolio redesign"
+                        /></Casestudyimage>
+                    </div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className="lg:w-[95%]">
-                        <Casestudyimage>
-                            <img src='/beauty.png'
-                                alt="AS portfolio redesign"
-                            /></Casestudyimage>
 
-                    </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">Just Beautiful</h1>
                         <div className="w-fit">
@@ -106,16 +102,17 @@ const Work = () => {
                                     <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
                     </div>
+                    <div className="lg:w-[95%]">
+                        <Casestudyimage>
+                            <img src='/beauty.png'
+                                alt="AS portfolio redesign"
+                            /></Casestudyimage>
+
+                    </div>
                 </section>
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className="lg:w-[95%]">
-                        <Casestudyimage>
-                            <img src='/devport1.png'
-                                alt="AS portfolio redesign"
 
-                            /></Casestudyimage>
-                    </div>
                     <div className="lg:w-[50%]">
                         <h1 className="header">For Tool Fans</h1>
                         <div className="w-fit">
@@ -133,16 +130,16 @@ const Work = () => {
                                 </ArrowLinks></a>
                         </Link>
                     </div>
-                </section>
-                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
-
                     <div className="lg:w-[95%]">
                         <Casestudyimage>
-                            <img src='/social.png'
+                            <img src='/devport1.png'
                                 alt="AS portfolio redesign"
 
                             /></Casestudyimage>
                     </div>
+                </section>
+                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+
                     <div className="lg:w-[50%]">
                         <h1 className="header">Online Marketing</h1>
                         <div className="w-fit">
@@ -151,15 +148,18 @@ const Work = () => {
                                     Using visual power and proven design rules to help you stand out in a sea of information.  </motion.p></Borders>
                         </div><br />
                     </div>
+
+                    <div className="lg:w-[95%]">
+                        <Casestudyimage>
+                            <img src='/social.png'
+                                alt="AS portfolio redesign"
+
+                            /></Casestudyimage>
+                    </div>
                 </section>
                 <section id="Selfbrand"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
-                    <div className="lg:w-[95%]">
-                        <Casestudyimage>
-                            <img src='/selfbrand1.png'
-                                alt="Visual brand design for digital.dan agency"
-                            /></Casestudyimage>
-                    </div>
+
                     <div className="lg:w-[50%]">
                         <h1 className="header">It&apos;s Personal!</h1>
                         <div className="w-fit">
@@ -174,7 +174,14 @@ const Work = () => {
                             ><ArrowLinks>
                                     case study <BsArrowUpRight /></ArrowLinks>
                             </a>
-                        </Link></div>
+                        </Link>
+                    </div>
+                    <div className="lg:w-[95%]">
+                        <Casestudyimage>
+                            <img src='/selfbrand1.png'
+                                alt="Visual brand design for digital.dan agency"
+                            /></Casestudyimage>
+                    </div>
                 </section>
             </main>
         </>
