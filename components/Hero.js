@@ -15,7 +15,7 @@ const Hero = () => {
         ease: "ease-in"
     }
     return (
-        <main className="h-screen lg:h-[50vh] lg:pt-[15rem] flex flex-col
+        <main className="h-screen flex flex-col
         justify-center items-center">
             <motion.section className="md:px-[2rem]">
                 <section className="h-auto p-4 flex portrait:flex-col">
@@ -23,7 +23,7 @@ const Hero = () => {
                         flex flex-col">
                         <Heroimage>
                             <img src="./heroimg.png"
-                                alt="digital.dan Freelance web developer, UX designer, SEO and Conversion -  
+                                alt="Digital.dan Digital Design Agency, UX/ UI, Web Design, Adverstisement, Social Media Content,  -  
                             Your success is one great user experience away"
                             >
                             </img>
@@ -31,8 +31,8 @@ const Hero = () => {
                         </Heroimage>
                         <motion.div animate={wedesignAnimate2} className="font-bold herosubtext
                         mt-[0.5rem] mx-auto">
-                            Web Development<br />
-                            User Experience (UX) Design<br /> SEO & Conversion<br />
+                            Digital First Design Agency<br />
+                            Web/ UI/ UX/ <br />Ads/ Brand Identity/ Event/ <br />Presentations/ Social Media<br />
 
 
                         </motion.div>
