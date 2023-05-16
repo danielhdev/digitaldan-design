@@ -12,32 +12,25 @@ const About = () => {
     return (
         <>
             <main
-                className="h-auto flex flex-col justify-center py-[5vh]">
+                className="h-auto flex flex-col justify-center 
+                py-[10vh] lg:py-[25vh]
+                ">
 
                 <section className="paragraph flex justify-center items-center md:py-[2.5rem]
                 ">
                     <div>
                         <div>
                             <section className="text-[var(--stone)
-                            grid lg:grid-cols-2 md:w-[80vw] w-full grid-cols-1">
-
+                            grid grid-cols-1 md:w-[80vw] w-full">
                                 <div>
-                                    <h1 className="header">Welcome!</h1>
                                     <br />
-
-                                    <motion.p whileInView={paragraphAnimate} className="p-5">
-                                        I'm Daniel Hubschmann (Germany), freelance digital designer
-                                        and digital marketer.
-                                    </motion.p>
-
+                                </div>
+                                <div className='grid place-content-start'>
                                     <motion.p whileInView={paragraphAnimate} className="p-5">
 
 
                                         Please scroll or choose a link:
                                     </motion.p>
-
-                                </div>
-                                <div className='grid place-content-end'>
                                     <ArrowLinks>
                                         <Link href="#Work"
                                         >
