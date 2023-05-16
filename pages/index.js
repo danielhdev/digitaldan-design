@@ -11,13 +11,6 @@ export default function Home() {
     <>
       <div>
         <Hero />
-        <About />
-        <ParallaxSection>work</ParallaxSection>
-        <Work />
-        <ParallaxSection>services</ParallaxSection>
-        <Services />
-        <ParallaxSection>contact</ParallaxSection>
-        <Contact />
       </div>
     </>
   );
