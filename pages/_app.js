@@ -40,7 +40,7 @@ function Application({ Component, pageProps }) {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Digitaldan Web development, UX/UI, SEO and Conversion</title>
+        <title>Digitaldan Web development, UX/UI Design, SEO and Conversion</title>
       </Head>
 
 

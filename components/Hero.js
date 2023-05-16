@@ -15,7 +15,7 @@ const Hero = () => {
         ease: "ease-in"
     }
     return (
-        <main className="h-[50vh] pt-[15rem] flex flex-col
+        <main className="h-screen lg:h-[50vh] lg:pt-[15rem] flex flex-col
         justify-center items-center">
             <motion.section className="md:px-[2rem]">
                 <section className="h-auto p-4 flex portrait:flex-col">
@@ -32,7 +32,7 @@ const Hero = () => {
                         <motion.div animate={wedesignAnimate2} className="font-bold herosubtext
                         mt-[0.5rem] mx-auto">
                             Web Development<br />
-                            User Experience (UX)<br /> SEO & Conversion<br />
+                            User Experience (UX) Design<br /> SEO & Conversion<br />
 
 
                         </motion.div>

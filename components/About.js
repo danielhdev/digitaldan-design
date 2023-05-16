@@ -43,7 +43,13 @@ const About = () => {
                                         >
                                             <a>
                                                 <ArrowLinks >
-                                                    What services do you offer? <BsArrowUpRight /> </ArrowLinks>  </a>
+                                                    What services are you offering? <BsArrowUpRight /> </ArrowLinks>  </a>
+                                        </Link>
+                                        <Link href="#About"
+                                        >
+                                            <a>
+                                                <ArrowLinks >
+                                                    Your prizes/ rates? <BsArrowUpRight /> </ArrowLinks>  </a>
                                         </Link>
                                         <Link href="#Contact"
                                         >

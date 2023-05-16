@@ -23,12 +23,12 @@ const Work = () => {
                 mb-[15vh]">
 
                     <div className="lg:w-[50%]">
-                        <h1 className="header">Just Premium</h1>
+                        <h1 className="header">Better User Experience</h1>
 
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Redesign of a Berlin upscale burger joints' website.
+                                    Redesign of a Berlin upscale burger joints' website, getting it out of 2016 with many UX improvements.
                                     <br />
                                 </motion.p></Borders>
                             <br />
@@ -61,11 +61,11 @@ const Work = () => {
                     className="lg:w-[80vw] h-auto flex flex-col justify-start lg:gap-12 mx-auto my-[15vh]">
 
                     <div className="w-screen lg:w-[50%]">
-                        <h1 className="header mt-[5vh] lg:mt-0">A New Look</h1>
+                        <h1 className="header mt-[5vh] lg:mt-0">Making it easy</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    A new portfolio site and social media marketing assets for a popular unsplash.com photographer.
+                                    for your target audience. Better UX and a fresh portfolio site for a popular unsplash.com photographer.
                                     <br />
 
                                 </motion.p></Borders>
@@ -88,11 +88,12 @@ const Work = () => {
 
 
                     <div className="lg:w-[50%]">
-                        <h1 className="header">Just Beautiful</h1>
+                        <h1 className="header">Landing Pages </h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Landing page for beauty products. Art direction, digital design, development with React.
+                                    that will help you convert more visitors into customers: Strong imagery & messages, catch even the most impatient user.
+
                                 </motion.p></Borders>
                         </div><br />
                         <Link href="https://food-health-one-seven.vercel.app/"
@@ -114,11 +115,11 @@ const Work = () => {
 
 
                     <div className="lg:w-[50%]">
-                        <h1 className="header">For Tool Fans</h1>
+                        <h1 className="header">Your New Job</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Customizable portfolio template. Helping you to get noticed and get your next job.  </motion.p></Borders>
+                                    thanks to a strong online presence. Helping you stand out in competitive markets. </motion.p></Borders>
                         </div><br />
 
                         <Link href="https://ddshowcase3.netlify.app/"
@@ -138,7 +139,7 @@ const Work = () => {
                             /></Casestudyimage>
                     </div>
                 </section>
-                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                {/* <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
                         <h1 className="header">Online Marketing</h1>
@@ -156,7 +157,7 @@ const Work = () => {
 
                             /></Casestudyimage>
                     </div>
-                </section>
+                </section> */}
                 <section id="Selfbrand"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
