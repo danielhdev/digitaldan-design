@@ -31,43 +31,16 @@ function Application({ Component, pageProps }) {
       <Head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="digital agency
-digital design
-digital marketing
-web design
-website development
-social media marketing
-brand identity
-branding
-event planning
-presentation design
-graphic design
-content marketing
-search engine optimization (SEO)
-pay-per-click (PPC) advertising
-email marketing
-online advertising
-digital strategy
-user experience (UX)
-user interface (UI)
-mobile app development
-e-commerce
-conversion rate optimization (CRO)
-digital innovation
-customer engagement
-online presence
-digital transformation
-digital solutions
-technology
-creativity
-innovation" />
-        <meta name="description" content="Digitaldan Agency app, web + UI design & development, digital design for branding, social media marketing, events, presentations." />
+        <meta name="keywords" content="freelance, 
+        web developer, frontend, ux ui, design, user experience, conversion, seo, search engine optimization"
+        />
+        <meta name="description" content="Digitaldan Agency, Web Developement with focus on user experiences, SEO and conversion rates." />
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Digitaldan Design & Marketing</title>
+        <title>Digitaldan Web development, UX/UI Design, SEO and Conversion</title>
       </Head>
 
 
