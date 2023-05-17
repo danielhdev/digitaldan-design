@@ -11,8 +11,8 @@ const ScrollArrow = () => {
         }
     }
     return (
-        <section className="relative">
-            <motion.div className="absolute md:right-1/2"
+        <section>
+            <motion.div
                 animate={arrowAnimate}
             >
                 <span className='text-2xl'>

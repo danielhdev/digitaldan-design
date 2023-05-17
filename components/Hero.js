@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import Heroimage from '@components/Heroimage';
+import ScrollArrow from './ScrollArrow';
 
 const Hero = () => {
     const wedesignAnimate = {
@@ -18,23 +19,20 @@ const Hero = () => {
         <main className="h-screen flex flex-col
         justify-center items-center">
             <motion.section className="md:px-[2rem]">
-                <section className="h-auto p-4 flex portrait:flex-col">
-                    <motion.h1 animate={wedesignAnimate} className="
-                        flex flex-col">
+                <section>
+                    <motion.h1 animate={wedesignAnimate} className="flex flex-col">
                         <Heroimage>
                             <img src="./heroimg.png"
                                 alt="Digital.dan Digital Design Agency, UX/ UI, Web Design, Adverstisement, Social Media Content,  -  
                             Your success is one great user experience away"
                             >
                             </img>
-
                         </Heroimage>
                         <motion.div animate={wedesignAnimate2} className="font-bold herosubtext
-                        mt-[0.5rem] mx-auto">
+                        mt-[2.5rem] mx-auto">
                             Digital First Design Agency<br />
                             Web/ UI/ UX/ <br />Ads/ Brand Identity/ Event/ <br />Presentations/ Social Media<br />
-
-
+                            <ScrollArrow />
                         </motion.div>
                     </motion.h1>
                 </section>

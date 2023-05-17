@@ -46,10 +46,10 @@ const DDbranding = () => {
                         <h1 className="font-[octarine] header">
                             Social Media Assets
                         </h1>
-                        <h2 className="paragraph py-[10vh]">AI DALL-E images for social media branding.</h2>
+                        <h2 className="paragraph py-[10vh]">Social media branding with the help of AI.</h2>
                     </section>
                     <Casestudyimage>
-                        <img src='li.png'
+                        <img src='li pug1.png'
                             alt="Image of AI generated images using circles"
                             className='border-[2px] border-zinc-900'
                         /></Casestudyimage>

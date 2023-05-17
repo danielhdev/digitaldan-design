@@ -10,65 +10,54 @@ const Services = () => {
                         <li>About Me</li>
                         <Borders><div className="paragraph mr-[2rem]">
                             <li>Daniel Hubschmann (Germany).</li>
-                            <li>Freelance web developer with focus on frontend, UX, SEO and conversion rates.
+                            <li>Designer & Art Director with over 20 years experience.
                                 <br />
                                 <br />
-
-                                I worked as a web designer for two decades before changing careers to development: The best of both worlds for your projects.<br /></li>
+                                Let me help you raise your brand&apos;s value, win more costumers and meet other day to day business challenges!<br /></li>
                         </div> </Borders></ul>
                 </section>
-
                 <section className="px-2 mb-[2rem]">
                     <ul className="herolinks p-[5vh] md:p-[5vh] landscape:w-[45vw]">
-                        <li>Prizes & Rates</li>
+                        <li>Prizing</li>
                         <Borders><div className="paragraph mr-[1rem]">
                             <ul>
-                                <li> Options: <br />Freelance rate 500 Euro/ day with discounts for longer contracts.
+                                <li> Get your personal senior designer and design consultant for a great prize:
+                                    <br />
+                                    <br />
+                                    Retainer, 1.499,00 Euro/ 20 hours per month.
+                                </li>
+                                <li>
+                                    Monthly contract, pause or cancel anytime.
                                 </li>
                                 <br />
-                                <li>Project based,
-                                    simple landing pages and portfolios already starting at 1.200 Euro including all services.</li>
+                                <li>
+                                    Add 10 extra hours for 499,00.
+                                </li>
+                                <br />
                             </ul>
                         </div>
-
                         </Borders></ul>
                 </section>
                 <section className="flex md:justify-end px-2">
                     <ul className="herolinks list-disc md:pt-[10vh] p-[2rem]
                       landscape:w-[45vw]">
-
-                        My Services
+                        Retainer Services
                         <Borders><div className="paragraph">
-
-                            <li>Apps, landing pages, websites with languages like JavaScript and frameworks like React</li>
-                            <li>E-commerce development, custom store fronts</li>
-                            <li> Custom CMS</li>
-                            <li> Mobile optimization</li>
-                            <li>User consent rules </li>
-                            <li>UX/UI: design or recreating provided designs on point, easy navigation, fast loading times, engaging animations, high accessibility</li>
-                            <li>Helping you navigate through the rapid, ever changing SEO field</li>
-                            <li> Turning visitors into customers through great UX</li>
+                            Consultation and/ or execution
+                            <li>UX/ UI design - apps, websites & landing pages</li>
+                            <li>Latest user consent & accessibility rules</li>
+                            <li>Images for ad & marketing campaigns</li>
+                            <li>Social media content & marketing assets</li>
+                            <li>Visual branding</li>
+                            <li>Visual design for events & presentations</li>
+                            <li>Curating and customizing AI images</li>
                         </div>
-
                         </Borders>
-
                         <br />
-
-                        <br />
-                        <br />
-                        <br /></ul>
-
+                    </ul>
                 </section>
-
                 <section className="herolinks grid place-content-center pb-[5rem]">
-                    How can I help you succeed? <br />
                     Let&apos;s talk about your project:</section>
-
-
-
-
-
-
             </main >
         </>
     )
