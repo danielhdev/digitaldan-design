@@ -44,6 +44,7 @@ function Application({ Component, pageProps }) {
 
 
       <Navbar />
+      <Menu />
       <Contacticons />
       <AnimatePresence mode='wait'
         onExitComplete={() => window.scrollTo(0, 0)}>

@@ -17,7 +17,7 @@ const Navbar = () => {
     return (
         <>
             <div className="navbarcontainer z-10">
-                <nav className="flex items-center w-fit mx-auto space-x-[5vw] top-0 mt-[1rem] md:mt-[0.25rem] lg:ml-[1rem]">
+                <nav className="flex items-center w-fit mx-auto space-x-[5vw] top-0 mt-[0.25rem] lg:ml-[1rem]">
                     <Link href="/">
                         <span className="font-[octarine] cursor-pointer mix-blend-difference
                 logo"> digital.dan</span>

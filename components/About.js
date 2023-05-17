@@ -15,7 +15,6 @@ const About = () => {
                 className="h-auto flex flex-col justify-center 
                 py-[10vh] lg:py-[25vh]
                 ">
-
                 <section className="paragraph flex justify-center items-center md:py-[2.5rem]
                 ">
                     <div>
@@ -26,10 +25,8 @@ const About = () => {
                                     <br />
                                 </div>
                                 <div className='grid place-content-start'>
-                                    <motion.p whileInView={paragraphAnimate} className="p-5">
-
-
-                                        Please scroll or choose a link:
+                                    <motion.p whileInView={paragraphAnimate} className="p-5 header">
+                                        Scroll or choose a link:
                                     </motion.p>
                                     <ArrowLinks>
                                         <Link href="#Work"
@@ -60,16 +57,10 @@ const About = () => {
                                     </ArrowLinks>
                                 </div>
                                 <br />
-
                             </section>
-
                         </div>
                     </div>
                 </section>
-
-
-
-
             </main >
         </>
     )

@@ -139,7 +139,21 @@ const Work = () => {
                             /></Casestudyimage>
                     </div>
                 </section>
-                {/* <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+
+
+                    <div className="lg:w-[50%]">
+                        <h1 className="header">Accessibility & Consent</h1>
+                        <div className="w-fit">
+                            <Borders>
+                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
+                                    Avoid cease and desist messages or fines: <br />
+                                    Our UX/ UI designs are following the latest rules and regulations. </motion.p></Borders>
+                        </div><br />
+                    </div>
+
+                </section>
+                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
                         <h1 className="header">Online Marketing</h1>
@@ -157,7 +171,7 @@ const Work = () => {
 
                             /></Casestudyimage>
                     </div>
-                </section> */}
+                </section>
                 <section id="Selfbrand"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
@@ -181,6 +195,27 @@ const Work = () => {
                         <Casestudyimage>
                             <img src='/selfbrand1.png'
                                 alt="Visual brand design for digital.dan agency"
+                            /></Casestudyimage>
+                    </div>
+                </section>
+                <section id="Selfbrand"
+                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+
+                    <div className="lg:w-[50%]">
+                        <h1 className="header">AI Design Consultant</h1>
+                        <div className="w-fit">
+                            <Borders>
+                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
+                                    The new kid on the block: Billions of AI images will be produced every year. We will help you to stand out
+                                    from the masses by curating and customizing AI images and videos. (Pop Art pugs by Dall-E)
+                                    <br /></motion.p></Borders>
+                        </div><br />
+
+                    </div>
+                    <div className="lg:w-[95%]">
+                        <Casestudyimage>
+                            <img src='/bonus pugs.png'
+                                alt="Picture of two pugs in pop art style made by AI Dall-E"
                             /></Casestudyimage>
                     </div>
                 </section>
