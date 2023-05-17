@@ -21,18 +21,27 @@ const Services = () => {
                         <li>Prizing</li>
                         <Borders><div className="paragraph mr-[1rem]">
                             <ul>
-                                <li> Get your personal senior designer and design consultant for a great prize:
+                                <li> Get your personal senior designer and design consultant for a great prize!
                                     <br />
                                     <br />
-                                    Retainer, 1.499,00 Euro/ 20 hours per month.
+                                    Two options:<br />
+                                    a) Project-based at 79,00 Euro/hour.
+                                </li>
+                                <li>
+                                    Good for single, short-term projects.
+                                </li>
+                                <li>
+                                    <br />
+                                    b) Retainer, 1.499,00 Euro/ 20 hours per month.
                                 </li>
                                 <li>
                                     Monthly contract, pause or cancel anytime.
                                 </li>
-                                <br />
                                 <li>
                                     Add 10 extra hours for 499,00.
                                 </li>
+                                <br />
+                                Pros: Discounts on our hourly rate, fixed costs for calculating your budget.
                                 <br />
                             </ul>
                         </div>
@@ -41,8 +50,9 @@ const Services = () => {
                 <section className="flex md:justify-end px-2">
                     <ul className="herolinks list-disc md:pt-[10vh] p-[2rem]
                       landscape:w-[45vw]">
-                        Retainer Services
+                        Services
                         <Borders><div className="paragraph">
+                            Both options contain the following services:
                             Consultation and/ or execution
                             <li>UX/ UI design - apps, websites & landing pages</li>
                             <li>Latest user consent & accessibility rules</li>
@@ -56,8 +66,9 @@ const Services = () => {
                         <br />
                     </ul>
                 </section>
-                <section className="herolinks grid place-content-center pb-[5rem]">
-                    Let&apos;s talk about your project:</section>
+                <section className="herolinks grid place-content-center pb-[5rem] text-center">
+                    Please contact me <br />
+                    for a free first consultation:</section>
             </main >
         </>
     )
