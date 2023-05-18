@@ -7,7 +7,7 @@ const Services = () => {
             <main id="About" className='h-auto flex flex-col justify-center items-center py-[5rem]'>
                 <section className="px-2 mb-[2rem]">
                     <ul className="herolinks p-[5vh] md:p-[5vh] landscape:w-[45vw]">
-                        <li>About Me</li>
+                        <li>About</li>
                         <Borders><div className="paragraph mr-[2rem]">
                             <li>Digitaldan Agency founded and led by Daniel Hubschmann (Germany).</li>
                             <li>Designer & Art Director with over 20 years experience.
