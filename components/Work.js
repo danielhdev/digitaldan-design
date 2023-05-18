@@ -160,7 +160,7 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Using visual power and proven design rules to help you get noticed in a sea of information.  </motion.p></Borders>
+                                    Using visual power and proven design rules to help you get noticednpm  in a sea of information.  </motion.p></Borders>
                         </div><br />
                     </div>
 

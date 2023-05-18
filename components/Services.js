@@ -16,7 +16,8 @@ const Services = () => {
                                 Let me and a team of remote professionals help you raise your brand&apos;s value, win more costumers and meet other day to day business challenges!<br /></li>
                         </div> </Borders></ul>
                 </section>
-                <section className="px-2 mb-[2rem]">
+                <section id="prizes"
+                    className="px-2 mb-[2rem]">
                     <ul className="herolinks p-[5vh] md:p-[5vh] landscape:w-[45vw]">
                         <li>Prizing</li>
                         <Borders><div className="paragraph mr-[1rem]">
@@ -48,7 +49,9 @@ const Services = () => {
                         </div>
                         </Borders></ul>
                 </section>
-                <section className="flex md:justify-end px-2">
+                <section id="services"
+
+                    className="flex md:justify-end px-2">
                     <ul className="herolinks list-disc md:pt-[10vh] p-[2rem]
                       landscape:w-[45vw]">
                         Services
