@@ -119,7 +119,7 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    thanks to a strong online presence. Helping you stand out in competitive markets. </motion.p></Borders>
+                                    thanks to a strong online presence. Giving you an egde in competitive markets. </motion.p></Borders>
                         </div><br />
 
                         <Link href="https://ddshowcase3.netlify.app/"
@@ -160,7 +160,7 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Using visual power and proven design rules to help you stand out in a sea of information.  </motion.p></Borders>
+                                    Using visual power and proven design rules to help you get noticed in a sea of information.  </motion.p></Borders>
                         </div><br />
                     </div>
 
