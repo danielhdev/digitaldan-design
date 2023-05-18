@@ -141,7 +141,7 @@ html.lenis {
   .herosubtext {
     font-family: 'octarine';
     font-size: clamp(16px, 1vw + 0.85rem, 2vw);
-    line-height: 110%;
+    line-height: 1220%;
   }
   .navbarcontainer {
     position: fixed;
@@ -205,7 +205,7 @@ html.lenis {
 .herosubtext {
   font-family: 'octarine';
   font-size: clamp(16px, 3.25vw + 0.75rem, 4.5vw);
-  line-height: 110%;
+  line-height: 120%;
   padding: 0.75rem 0;
 }
 .herolinks {
@@ -282,7 +282,7 @@ html.lenis {
   .herosubtext {
     font-family: 'octarine';
     font-size: clamp(16px, 0.75vw + 1rem, 1.5vw);
-    line-height: 120%;
+    line-height: 140%;
   }
   .herolinks {
     font-family: 'octarine';
