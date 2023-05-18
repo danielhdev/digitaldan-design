@@ -9,11 +9,11 @@ const Services = () => {
                     <ul className="herolinks p-[5vh] md:p-[5vh] landscape:w-[45vw]">
                         <li>About Me</li>
                         <Borders><div className="paragraph mr-[2rem]">
-                            <li>Daniel Hubschmann (Germany).</li>
+                            <li>Digitaldan Agency founded and led by Daniel Hubschmann (Germany).</li>
                             <li>Designer & Art Director with over 20 years experience.
                                 <br />
                                 <br />
-                                Let me help you raise your brand&apos;s value, win more costumers and meet other day to day business challenges!<br /></li>
+                                Let me and a team of remote professionals help you raise your brand&apos;s value, win more costumers and meet other day to day business challenges!<br /></li>
                         </div> </Borders></ul>
                 </section>
                 <section className="px-2 mb-[2rem]">
@@ -21,21 +21,22 @@ const Services = () => {
                         <li>Prizing</li>
                         <Borders><div className="paragraph mr-[1rem]">
                             <ul>
-                                <li> Get your personal senior designer and design consultant for a great prize!
+                                <li>No tricks, no hidden costs:
+                                    Get your personal senior designer and consultant for a great prize!
                                     <br />
                                     <br />
-                                    Two options:<br />
+                                    Options:<br />
                                     a) Project-based at 79,00 Euro/hour.
                                 </li>
                                 <li>
-                                    Good for single, short-term projects.
+                                    For single, short-term projects.
                                 </li>
                                 <li>
                                     <br />
-                                    b) Retainer, 1.499,00 Euro/ 20 hours per month.
+                                    b) Retainer <br /> 1.499,00 Euro/ 20 hours per month.
                                 </li>
                                 <li>
-                                    Monthly contract, pause or cancel anytime.
+                                    Monthly contract, cancel anytime.
                                 </li>
                                 <li>
                                     Add 10 extra hours for 499,00.
@@ -67,7 +68,7 @@ const Services = () => {
                     </ul>
                 </section>
                 <section className="herolinks grid place-content-center pb-[5rem] text-center">
-                    Please contact me <br />
+                    Please contact us <br />
                     for a free first consultation:</section>
             </main >
         </>
