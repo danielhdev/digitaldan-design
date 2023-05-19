@@ -96,7 +96,7 @@ html.lenis {
 }
 .navbarcontainer {
   position: fixed;
-  padding-left: 3rem;
+  padding-left: 1.5rem;
   text-decoration: none;
   color: white;
   mix-blend-mode: difference;
@@ -128,6 +128,7 @@ html.lenis {
     font-family: 'octarine';
     font-size: clamp(16px, calc(16px + 14vw), 16vw);
     line-height: 10%;
+    margin-left: 0.25rem;
   }
   .header {
     font-family: 'octarine';
@@ -196,6 +197,7 @@ html.lenis {
   font-family: 'octarine';
   font-size: clamp(16px, calc(16px + 15vw), 15vw);
   line-height: 120%;
+  margin-left: 0.25rem;
 }
 .header {
   font-family: 'octarine';
@@ -273,6 +275,7 @@ html.lenis {
     font-family: 'octarine';
     font-size: clamp(16px, calc(16px + 6vw), 7vw);
     line-height: 80%;
+    margin-left: 0.5rem;
   }
   .header {
     font-family: 'octarine';
