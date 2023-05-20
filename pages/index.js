@@ -14,7 +14,7 @@ export default function Home() {
         <About />
         <ParallaxSection>work</ParallaxSection>
         <Work />
-        <ParallaxSection>service</ParallaxSection>
+        <ParallaxSection>about me</ParallaxSection>
         <Services />
         <ParallaxSection>contact</ParallaxSection>
         <Contact />
