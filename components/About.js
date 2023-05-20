@@ -26,6 +26,7 @@ const About = () => {
                                 </div>
                                 <div className='grid place-content-start'>
                                     <motion.p whileInView={paragraphAnimate} className="p-5 header">
+                                        Welcome!<br />
                                         Scroll or choose a link:
                                     </motion.p>
                                     <ArrowLinks>
@@ -40,13 +41,13 @@ const About = () => {
                                         >
                                             <a>
                                                 <ArrowLinks >
-                                                    What services are you offering? <BsArrowUpRight /> </ArrowLinks>  </a>
+                                                    Your skills? <BsArrowUpRight /> </ArrowLinks>  </a>
                                         </Link>
                                         <Link href="#prizes"
                                         >
                                             <a>
                                                 <ArrowLinks >
-                                                    Your prizes/ rates? <BsArrowUpRight /> </ArrowLinks>  </a>
+                                                    Your daily rate? <BsArrowUpRight /> </ArrowLinks>  </a>
                                         </Link>
                                         <Link href="#Contact"
                                         >

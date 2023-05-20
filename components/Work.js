@@ -148,7 +148,7 @@ const Work = () => {
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                     Avoid cease and desist messages or fines: <br />
-                                    Our UX/ UI designs are following the latest rules and regulations. </motion.p></Borders>
+                                    My UX/ UI designs are following the latest rules and regulations. </motion.p></Borders>
                         </div><br />
                     </div>
 
@@ -206,11 +206,11 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    The new kid on the block: Billions of AI images will be produced every year. We will help you to stand out
+                                    The new kid on the block: Billions of AI images will be produced every year. I will help you to stand out
                                     from the masses by curating and customizing AI images and videos. (Pop Art pugs by Dall-E)
                                     <br /></motion.p></Borders>
-                        </div><br />
-
+                        </div>
+                        <br />
                     </div>
                     <div className="lg:w-[95%]">
                         <Casestudyimage>

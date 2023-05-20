@@ -30,7 +30,8 @@ const Hero = () => {
                         </Heroimage>
                         <motion.div animate={wedesignAnimate2} className="font-bold herosubtext
                         mt-[2.5rem] mx-auto">
-                            Digital Design Agency
+                            Daniel Hubschmann (Germany)<br />
+                            Senior UX/ UI/ Digital Designer
                             <ScrollArrow />
                         </motion.div>
                     </motion.h1>

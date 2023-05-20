@@ -9,42 +9,24 @@ const Services = () => {
                     <ul className="herolinks p-[5vh] md:p-[5vh] landscape:w-[45vw]">
                         <li>About</li>
                         <Borders><div className="paragraph mr-[2rem]">
-                            <li>Digitaldan Agency founded and led by Daniel Hubschmann (Germany).</li>
-                            <li>Designer & Art Director with over 20 years experience.
-                                <br />
-                                <br />
-                                Let me and a team of remote professionals help you raise your brand&apos;s value, win more costumers and meet other day to day business challenges!<br /></li>
+                            <li>Daniel Hubschmann (Germany).</li>
+                            <li>Senior UX/ UI/ & Digital Designer with over 20 years experience.</li>
+                            <br />
+                            <li>I&apos;m your creative force in senior designer, art director or creative director roles.
+                            </li>
                         </div> </Borders></ul>
                 </section>
                 <section id="prizes"
                     className="px-2 mb-[2rem]">
                     <ul className="herolinks p-[5vh] md:p-[5vh] landscape:w-[45vw]">
-                        <li>Prizing</li>
+                        <li>Freelance Rate</li>
                         <Borders><div className="paragraph mr-[1rem]">
                             <ul>
                                 <li>No tricks, no hidden costs:
-                                    Get your personal senior designer and consultant for a great prize!
-                                    <br />
-                                    <br />
-                                    Options:<br />
-                                    a) Project-based at 79,00 Euro/hour.
+                                    Your senior designer, consultant and director for 500 Euro/ day.
                                 </li>
-                                <li>
-                                    For single, short-term projects.
+                                <li>Negotiable for longer projects.
                                 </li>
-                                <li>
-                                    <br />
-                                    b) Retainer <br /> 1.499,00 Euro/ 20 hours per month.
-                                </li>
-                                <li>
-                                    Monthly contract, cancel anytime.
-                                </li>
-                                <li>
-                                    Add 10 extra hours for 499,00.
-                                </li>
-                                <br />
-                                Pros: Discounts on our hourly rate, fixed costs for calculating your budget.
-                                <br />
                             </ul>
                         </div>
                         </Borders></ul>
@@ -54,25 +36,31 @@ const Services = () => {
                     className="flex md:justify-end px-2">
                     <ul className="herolinks list-disc md:pt-[10vh] p-[2rem]
                       landscape:w-[45vw]">
-                        Services
+                        My Skills & Tools
                         <Borders><div className="paragraph">
-                            Both options contain the following services:
-                            Consultation and/ or execution
+                            Over 20 years experience = long list:
                             <li>UX/ UI design - apps, websites & landing pages</li>
                             <li>Latest user consent & accessibility rules</li>
+                            <li>Improving SEO and conversion</li>
+                            <li>A/B testing</li>
+                            <li>HTML/ CSS/ JavaScript development</li>
                             <li>Images for ad & marketing campaigns</li>
-                            <li>Social media content & marketing assets</li>
-                            <li>Visual branding</li>
-                            <li>Visual design for events & presentations</li>
+                            <li>Digital design for events & presentations</li>
                             <li>Curating and customizing AI images</li>
+                            <br />
+                            <br />
+                            <li>Adobe Ps/ Ai/ Ae</li>
+                            <li>Blender & Inkscape</li>
+                            <li>Figma</li>
+                            <li>React & other JavaScript libraries</li>
                         </div>
                         </Borders>
                         <br />
                     </ul>
                 </section>
                 <section className="herolinks grid place-content-center pb-[5rem] text-center">
-                    Please contact us <br />
-                    for a free first consultation:</section>
+                    Please contact me <br />
+                    under:</section>
             </main >
         </>
     )
