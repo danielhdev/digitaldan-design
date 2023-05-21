@@ -10,7 +10,7 @@ const Services = () => {
                         <li>About</li>
                         <Borders><div className="paragraph mr-[2rem]">
                             <li>Daniel Hubschmann (Germany).</li>
-                            <li>Senior UX/ UI/ & Digital Designer with over 20 years experience.</li>
+                            <li>Senior UX/ UI/ & digital designer with over 20 years experience.</li>
                             <br />
                             <li>I&apos;m your creative force in senior designer, art director or creative director roles.
                             </li>
@@ -22,7 +22,7 @@ const Services = () => {
                         <li>Freelance Rate</li>
                         <Borders><div className="paragraph mr-[1rem]">
                             <ul>
-                                <li>No tricks, no hidden costs:
+                                <li>
                                     Your senior designer, consultant and director for 500 Euro/ day.
                                 </li>
                                 <li>Negotiable for longer projects.
@@ -40,12 +40,11 @@ const Services = () => {
                         <Borders><div className="paragraph">
                             Over 20 years experience = long list:
                             <li>UX/ UI design - apps, websites & landing pages</li>
-                            <li>Latest user consent & accessibility rules</li>
-                            <li>Improving SEO and conversion</li>
-                            <li>A/B testing</li>
+                            <li>A/B testing, conversion, SEO</li>
                             <li>HTML/ CSS/ JavaScript development</li>
-                            <li>Images for ad & marketing campaigns</li>
-                            <li>Digital design for events & presentations</li>
+                            <li>Digital graphic design for events, presentations, <br />
+                                ad & marketing campaigns, visual branding</li>
+
                             <li>Curating and customizing AI images</li>
                             <br />
                             <br />
