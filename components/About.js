@@ -43,12 +43,6 @@ const About = () => {
                                                 <ArrowLinks >
                                                     Your skills? <BsArrowUpRight /> </ArrowLinks>  </a>
                                         </Link>
-                                        <Link href="#prizes"
-                                        >
-                                            <a>
-                                                <ArrowLinks >
-                                                    Your daily rate? <BsArrowUpRight /> </ArrowLinks>  </a>
-                                        </Link>
                                         <Link href="#Contact"
                                         >
                                             <a  >
