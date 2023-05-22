@@ -16,21 +16,7 @@ const Services = () => {
                             </li>
                         </div> </Borders></ul>
                 </section>
-                <section id="prizes"
-                    className="px-2 mb-[2rem]">
-                    <ul className="herolinks p-[5vh] md:p-[5vh] landscape:w-[45vw]">
-                        <li>Freelance Rate</li>
-                        <Borders><div className="paragraph mr-[1rem]">
-                            <ul>
-                                <li>
-                                    Your senior designer, consultant and director for 500 Euro/ day.
-                                </li>
-                                <li>Negotiable for longer projects.
-                                </li>
-                            </ul>
-                        </div>
-                        </Borders></ul>
-                </section>
+               
                 <section id="services"
 
                     className="flex md:justify-end px-2">
