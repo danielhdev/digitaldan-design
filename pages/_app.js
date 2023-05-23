@@ -31,15 +31,15 @@ function Application({ Component, pageProps }) {
       <Head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="frontend, ux ui, design, user experience, web design, digital design, freelancer"
+        <meta name="keywords" content="frontend, ux ui, design, user experience, web design, freelancer"
         />
-        <meta name="description" content="Digitaldan Daniel Hubschmann Senior UX/UI Digital Designer" />
+        <meta name="description" content="Digitaldan Daniel Hubschmann Senior UX/UI and Web Designer" />
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Digitaldan UX/ UI/ Digital Design</title>
+        <title>Digitaldan UX/ UI/ Web Design</title>
       </Head>
 
 
