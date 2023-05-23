@@ -10,13 +10,13 @@ const Services = () => {
                         <li>About</li>
                         <Borders><div className="paragraph mr-[2rem]">
                             <li>Daniel Hubschmann (Germany).</li>
-                            <li>Senior UX/ UI/ & digital designer with over 20 years experience.</li>
+                            <li>Senior UX/ UI/ & Web designer with over 20 years experience.</li>
                             <br />
                             <li>I&apos;m your creative force in senior designer, art director or creative director roles.
                             </li>
                         </div> </Borders></ul>
                 </section>
-               
+
                 <section id="services"
 
                     className="flex md:justify-end px-2">
@@ -24,20 +24,15 @@ const Services = () => {
                       landscape:w-[45vw]">
                         My Skills & Tools
                         <Borders><div className="paragraph">
-                            Over 20 years experience = long list:
                             <li>UX/ UI design - apps, websites & landing pages</li>
                             <li>A/B testing, conversion, SEO</li>
                             <li>HTML/ CSS/ JavaScript development</li>
-                            <li>Digital graphic design for events, presentations, <br />
-                                ad & marketing campaigns, visual branding</li>
-
-                            <li>Curating and customizing AI images</li>
                             <br />
                             <br />
-                            <li>Adobe Ps/ Ai/ Ae</li>
-                            <li>Blender & Inkscape</li>
                             <li>Figma</li>
                             <li>React & other JavaScript libraries</li>
+                            <li>Adobe Ps/ Ai/ Ae</li>
+                            <li>Blender & Inkscape</li>
                         </div>
                         </Borders>
                         <br />

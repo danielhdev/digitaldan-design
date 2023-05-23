@@ -153,7 +153,7 @@ const Work = () => {
                     </div>
 
                 </section>
-                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                {/* <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
                         <h1 className="header">Online Ads</h1>
@@ -171,7 +171,7 @@ const Work = () => {
 
                             /></Casestudyimage>
                     </div>
-                </section>
+                </section> */}
                 <section id="Selfbrand"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
