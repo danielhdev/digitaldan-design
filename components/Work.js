@@ -148,7 +148,7 @@ const Work = () => {
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                     Avoid cease and desist messages or fines: <br />
-                                    My UX/ UI designs are following the latest rules and regulations. </motion.p></Borders>
+                                    In cooperation with your UX/ UI designers I&apos;m following the latest rules and regulations. </motion.p></Borders>
                         </div><br />
                     </div>
 
@@ -198,7 +198,7 @@ const Work = () => {
                             /></Casestudyimage>
                     </div>
                 </section>
-                <section id="Selfbrand"
+                {/* <section id="Selfbrand"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
@@ -218,7 +218,7 @@ const Work = () => {
                                 alt="Picture of two pugs in pop art style made by AI Dall-E"
                             /></Casestudyimage>
                     </div>
-                </section>
+                </section> */}
             </main>
         </>
     )

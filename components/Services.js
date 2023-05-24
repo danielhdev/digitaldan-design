@@ -10,29 +10,28 @@ const Services = () => {
                         <li>About</li>
                         <Borders><div className="paragraph mr-[2rem]">
                             <li>Daniel Hubschmann (Germany).</li>
-                            <li>Senior UX/ UI/ & Web designer with over 20 years experience.</li>
+                            <li>Senior Graphic & Web designer with over 20 years experience that changed careers to web development in recent years.</li>
                             <br />
-                            <li>I&apos;m your creative force in senior designer, art director or creative director roles.
+                            <li>With my background in web design I can work closely with your UX/UI teams to deliver great experiences for your users.
                             </li>
                         </div> </Borders></ul>
                 </section>
-
                 <section id="services"
-
                     className="flex md:justify-end px-2">
                     <ul className="herolinks list-disc md:pt-[10vh] p-[2rem]
                       landscape:w-[45vw]">
                         My Skills & Tools
                         <Borders><div className="paragraph">
-                            <li>UX/ UI design - apps, websites & landing pages</li>
-                            <li>A/B testing, conversion, SEO</li>
-                            <li>HTML/ CSS/ JavaScript development</li>
-                            <br />
-                            <br />
+
+                            <li>HTML/ CSS/ JavaScript/ PHP development</li>
+                            <li>Fullstack with focus on frontend development</li>
+                            <li>Search engine, conversion, accessibility & other page optimizations</li>
+                            <li>UI animations</li>
+                            <li>Custom CMS (Strapi & others)</li>
                             <li>Figma</li>
+                            <li>Wordpress & Shopify</li>
                             <li>React & other JavaScript libraries</li>
-                            <li>Adobe Ps/ Ai/ Ae</li>
-                            <li>Blender & Inkscape</li>
+                            <li>Laravel for PHP</li>
                         </div>
                         </Borders>
                         <br />

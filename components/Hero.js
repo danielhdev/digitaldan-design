@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
 import Heroimage from '@components/Heroimage';
 import ScrollArrow from './ScrollArrow';
+import Typeanimation from './Typeanimation';
+
 
 const Hero = () => {
     const wedesignAnimate = {
@@ -15,6 +17,10 @@ const Hero = () => {
         transition: { delay: 1, duration: 0.75 },
         ease: "ease-in"
     }
+
+
+
+
     return (
         <main className="h-screen flex flex-col
         justify-center items-center">
@@ -29,9 +35,9 @@ const Hero = () => {
                             </img>
                         </Heroimage>
                         <motion.div animate={wedesignAnimate2} className="font-bold herosubtext
-                        mt-[2.5rem] mx-auto">
+                        mt-[2.5rem] mx-auto w-[30rem]">
                             Daniel Hubschmann (Germany)<br />
-                            Senior UX/ UI/ Web Designer
+                            Web Developer || <Typeanimation />
                             <ScrollArrow />
                         </motion.div>
                     </motion.h1>
