@@ -3,13 +3,13 @@ import { Typewriter } from 'react-simple-typewriter'
 
 const Typeanimation = () => {
     return (
-        <span className="font-bold herosubtext">
+        <div className="h-[1rem] font-bold herosubtext">
             <Typewriter
                 words={['User Experience', 'SEO', 'Conversion']}
                 loop={false}
-                typespeed={9}
-                deletespeed={9}
-            /></span>
+                typespeed={10}
+                deletespeed={10}
+            /></div>
     )
 }
 

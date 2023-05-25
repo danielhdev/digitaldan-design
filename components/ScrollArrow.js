@@ -15,7 +15,7 @@ const ScrollArrow = () => {
             <motion.div
                 animate={arrowAnimate}
             >
-                <span className='text-2xl'>
+                <span className='text-xl m-0 p-0'>
                     <BsFileArrowDown /></span>
 
             </motion.div></section>
