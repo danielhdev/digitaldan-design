@@ -35,9 +35,10 @@ const Hero = () => {
                             </img>
                         </Heroimage>
                         <motion.div animate={wedesignAnimate2} className="font-bold herosubtext
-                        mt-[2.5rem] mx-auto w-[30rem]">
+                        mt-[2.5rem] mx-auto">
                             Daniel Hubschmann (Germany)<br />
-                            Web Developer || <Typeanimation />
+                            Web Developer <Typeanimation />
+                            <div className="h-[2rem]"></div>
                             <ScrollArrow />
                         </motion.div>
                     </motion.h1>

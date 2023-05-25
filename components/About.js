@@ -13,7 +13,7 @@ const About = () => {
         <>
             <main
                 className="h-auto flex flex-col justify-center 
-                py-[20vh] lg:py-[25vh]
+                pt-[10vh] pb-[20vh] lg:py-[25vh]
                 ">
                 <section className="paragraph flex justify-center items-center md:py-[2.5rem]
                 ">

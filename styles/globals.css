@@ -142,7 +142,7 @@ html.lenis {
   .herosubtext {
     font-family: 'octarine';
     font-size: clamp(16px, 1vw + 0.85rem, 2vw);
-    line-height: 1220%;
+    line-height: 122%;
   }
   .navbarcontainer {
     position: fixed;

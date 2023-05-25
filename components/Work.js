@@ -92,7 +92,7 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    that will help you convert more visitors into customers: Strong imagery & messages, catch even the most impatient user.
+                                    that will help you convert more visitors into customers: Fast loading, strong imagery & messages. Catch even the most impatient user.
 
                                 </motion.p></Borders>
                         </div><br />

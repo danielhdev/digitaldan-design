@@ -10,7 +10,7 @@ const Services = () => {
                         <li>About</li>
                         <Borders><div className="paragraph mr-[2rem]">
                             <li>Daniel Hubschmann (Germany).</li>
-                            <li>Senior Graphic & Web designer with over 20 years experience that changed careers to web development in recent years.</li>
+                            <li>Senior graphic & web designer with over 20 years experience that changed careers to web development in recent years.</li>
                             <br />
                             <li>With my background in web design I can work closely with your UX/UI teams to deliver great experiences for your users.
                             </li>
@@ -25,7 +25,7 @@ const Services = () => {
 
                             <li>HTML/ CSS/ JavaScript/ PHP development</li>
                             <li>Fullstack with focus on frontend development</li>
-                            <li>Search engine, conversion, accessibility & other page optimizations</li>
+                            <li>Search engine, conversion, accessibility, user engagement & other page optimizations</li>
                             <li>UI animations</li>
                             <li>Custom CMS (Strapi & others)</li>
                             <li>Figma</li>
