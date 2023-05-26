@@ -60,11 +60,6 @@ const Work = () => {
                     <img src='/ubg3.png'
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
-
-
-
-
-
                 <section id="ASnew"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start lg:gap-12 mx-auto my-[15vh]">
 
@@ -85,13 +80,13 @@ const Work = () => {
                                     case study <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
                     </div>
-                    <div className="lg:w-[95%]">
-
-                        <Casestudyimage><img src='/as.png'
-                            alt="AS portfolio redesign"
-                        /></Casestudyimage>
-                    </div>
                 </section>
+
+                <Casestudyimage><img src='/as.png'
+                    alt="AS portfolio redesign"
+                /></Casestudyimage>
+
+
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
 
@@ -110,15 +105,15 @@ const Work = () => {
                                 rel={'noreferrer noopener'}> <ArrowLinks >website prototype (new tab)
                                     <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
-                    </div>
-                    <div className="lg:w-[95%]">
-                        <Casestudyimage>
-                            <img src='/beauty.png'
-                                alt="AS portfolio redesign"
-                            /></Casestudyimage>
+                    </div> </section>
 
-                    </div>
-                </section>
+                <Casestudyimage>
+                    <img src='/beauty.png'
+                        alt="AS portfolio redesign"
+                    /></Casestudyimage>
+
+
+
 
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
@@ -140,15 +135,14 @@ const Work = () => {
                                 </ArrowLinks></a>
                         </Link>
                     </div>
-                    <div className="lg:w-[95%]">
-                        <Casestudyimage>
-                            <img src='/devport1.png'
-                                alt="AS portfolio redesign"
-
-                            /></Casestudyimage>
-                    </div>
                 </section>
 
+
+                <Casestudyimage>
+                    <img src='/devport1.png'
+                        alt="AS portfolio redesign"
+
+                    /></Casestudyimage>
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
@@ -158,19 +152,12 @@ const Work = () => {
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                     Using visual power and proven design rules to help you get noticed in a sea of information.  </motion.p></Borders>
                         </div><br />
-                    </div>
+                    </div>    </section>
+                <Casestudyimage>
+                    <img src='/social.png'
+                        alt="AS portfolio redesign"
 
-                    <div className="lg:w-[95%]">
-                        <Casestudyimage>
-                            <img src='/social.png'
-                                alt="AS portfolio redesign"
-
-                            /></Casestudyimage>
-                    </div>
-                </section>
-
-
-
+                    /></Casestudyimage>
                 <section id="Selfbrand"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
@@ -197,6 +184,12 @@ const Work = () => {
                         alt="AS portfolio redesign"
 
                     /></Casestudyimage>
+                <div className="w-[75%]">
+                    <Casestudyimage>
+                        <img src='/ddfonts.png'
+                            alt="AS portfolio redesign"
+                        /></Casestudyimage></div>
+
 
 
                 <section id="Selfbrand"
