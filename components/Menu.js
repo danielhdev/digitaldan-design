@@ -29,19 +29,20 @@ const Menu = () => {
 
     return (
         <>
-            < div className="w-fit text-center fixed mt-[0.2rem] right-[1rem] md:right-[3rem] z-40
-            text-zinc-50 mix-blend-difference">
-                <button
-                    className="hover:text-amber-200 focus:outline-none header"
-                    onClick={toggleModal}>
-                    {!isOpen ? <FaGripLines /> : <GiTireIronCross />}
-                </button>
-            </div>
+
+
+            <button
+                className="hover:text-amber-200 focus:outline-none header z-50 fixed right-[1.25rem] lg:right-[2.5rem] mt-[0.25rem]
+                    text-zinc-50 mix-blend-difference "
+                onClick={toggleModal}>
+                {!isOpen ? <FaGripLines /> : <GiTireIronCross />}
+            </button>
+
             <div>
                 <AnimatePresence>
                     {isOpen && (
                         <motion.div
-                            className="fixed top-0 left-0 w-full h-full bg-lime-200 flex justify-center items-center z-20"
+                            className="fixed top-0 left-0 w-full h-full bg-stone-200/95 flex justify-center items-center z-40"
                             variants={variants}
                             initial="hidden"
                             animate="visible"
@@ -52,7 +53,7 @@ const Menu = () => {
                                 {menu.map((item, index) => {
                                     return (
                                         <Link key={index} href={item.path}>
-                                            <a className="heroheader text-zinc-800 hover:text-amber-500"
+                                            <a className="header text-zinc-800 hover:text-amber-500"
                                                 onClick={toggleModal}>{item.title}
                                             </a>
                                         </Link>
@@ -64,6 +65,7 @@ const Menu = () => {
                 </AnimatePresence>
 
             </div>
+
         </>
     )
 }

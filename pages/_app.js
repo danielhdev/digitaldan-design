@@ -31,26 +31,50 @@ function Application({ Component, pageProps }) {
       <Head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="frontend developer, web developer, SEO specialist, user engagement, conversion optimization, web development portfolio, HTML, CSS, JavaScript, responsive design"
+        <meta name="keywords" content="Senior digital designer
+UI designer
+Visual designer
+Portfolio
+Design projects
+User interface
+User experience
+Web design
+Mobile app design
+Graphic design
+Creative design solutions
+Digital branding
+Visual storytelling
+Typography
+Responsive design
+Interaction design
+User-centered design
+Illustration
+Prototyping
+Motion graphics"
         />
-        <meta name="description" content=
-          "I'm a web developer with expertise in SEO, user engagement, and conversion optimization. Explore my portfolio to see how I create visually stunning websites that rank well, engage users, and drive conversions." />
+        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, a senior digital, UI, and visual designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
+
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
-        <meta property="og:title" content="Frontend Web Developer | SEO Specialist | User Engagement Expert" />
-        <meta property="og:description" content="Explore my portfolio to see how I create visually stunning websites that rank well, engage users, and drive conversions." />
-        <meta property="og:url" content="https://www.digitaldan.agency" />
+        <meta property="og:title" content="digital.dan Digital, UI and Visual Design" />
+        <meta property="og:description" content="Welcome to the portfolio of Your Name, a senior digital, UI, and visual designer. 
+        Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects."/>
+        <meta property="og:url" content="https://digitaldan.agency/" />
         <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Senior Digital, UI, and Visual Designer Portfolio - Your Name" />
+        <meta name="twitter:description" content="Welcome to the portfolio of Your Name, a senior digital, UI, and visual designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
+        <meta name="twitter:image" content="https://example.com/your-image.jpg"></meta>
+
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Digitaldan Web Developer | Frontend, SEO, User Engagement, Conversion</title>
+        <title>Digitaldan Design - Senior digital, UI and visual designer</title>
       </Head>
 
 
       <Navbar />
       <Menu />
-      <Contacticons />
       <AnimatePresence mode='wait'
         onExitComplete={() => window.scrollTo(0, 0)}>
 

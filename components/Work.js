@@ -6,9 +6,6 @@ import Borders from '@components/Borders'
 import ArrowLinks from '@components/ArrowLinks'
 import Casestudyimage from '@components/Casestudyimage'
 
-
-
-
 const Work = () => {
     const paragraphAnimate = {
         opacity: [0, 1],
@@ -18,12 +15,25 @@ const Work = () => {
     }
     return (
         <>
-            <main id="Work" className="h-auto flex flex-col justify-center items-center">
+            <main id="Work" className="h-auto flex flex-col justify-center items-center pb-[10rem] lg:pb-[15rem]">
+                <Casestudyimage>
+                    <img src='/ubg1.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
+                <div className='lg:w-[65%]'>
+                    <Casestudyimage>
+                        <img src='/ubg4.png'
+                            alt="Upper Burger portfolio redesign"
+                        /></Casestudyimage></div>
+                <Casestudyimage>
+                    <img src='/ubg2.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
                 <section className="lg:w-[80vw] h-auto md:py-[10vh] flex flex-col justify-start gap-12 mx-auto mt-[15vh] 
                 mb-[15vh]">
 
                     <div className="lg:w-[50%]">
-                        <h1 className="header">Better User Experience</h1>
+
 
                         <div className="w-fit">
                             <Borders>
@@ -33,29 +43,27 @@ const Work = () => {
                                 </motion.p></Borders>
                             <br />
                             <div className='flex flex-row gap-[2rem]'>
-                                <Link href="/Case1/Ubg"
 
-                                >
-                                    <a> <ArrowLinks>case study <BsArrowUpRight />  </ArrowLinks></a>
-                                </Link>
                                 <Link href="https://digitaldanrestaurant.netlify.app/"
                                 >
                                     <a target={'_blank'}
                                         rel={'noreferrer noopener'}>
                                         <ArrowLinks>
-                                            website (new tab) <BsArrowUpRight /></ArrowLinks>
+                                            website prototype (new tab) <BsArrowUpRight /></ArrowLinks>
                                     </a>
                                 </Link>
                             </div>
                         </div>
                     </div>
-                    <div className="lg:w-[95%]">
-                        <Casestudyimage>
-                            <img src='/burger.png'
-                                alt="Upper Burger portfolio redesign"
-                            /></Casestudyimage>
-                    </div>
                 </section>
+                <Casestudyimage>
+                    <img src='/ubg3.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
+
+
+
+
 
                 <section id="ASnew"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start lg:gap-12 mx-auto my-[15vh]">
@@ -99,7 +107,7 @@ const Work = () => {
                         <Link href="https://food-health-one-seven.vercel.app/"
                         >
                             <a target={'_blank'}
-                                rel={'noreferrer noopener'}> <ArrowLinks >website (new tab)
+                                rel={'noreferrer noopener'}> <ArrowLinks >website prototype (new tab)
                                     <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
                     </div>
@@ -111,6 +119,7 @@ const Work = () => {
 
                     </div>
                 </section>
+
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
 
@@ -127,7 +136,7 @@ const Work = () => {
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}>
                                 <ArrowLinks>
-                                    website (new tab) <BsArrowUpRight />
+                                    website prototype (new tab) <BsArrowUpRight />
                                 </ArrowLinks></a>
                         </Link>
                     </div>
@@ -139,21 +148,8 @@ const Work = () => {
                             /></Casestudyimage>
                     </div>
                 </section>
+
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
-
-
-                    <div className="lg:w-[50%]">
-                        <h1 className="header">Accessibility & Consent</h1>
-                        <div className="w-fit">
-                            <Borders>
-                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Avoid cease and desist messages or fines: <br />
-                                    In cooperation with your UX/ UI designers I&apos;m following the latest rules and regulations. </motion.p></Borders>
-                        </div><br />
-                    </div>
-
-                </section>
-                {/* <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
                         <h1 className="header">Online Ads</h1>
@@ -171,7 +167,10 @@ const Work = () => {
 
                             /></Casestudyimage>
                     </div>
-                </section> */}
+                </section>
+
+
+
                 <section id="Selfbrand"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
@@ -191,34 +190,36 @@ const Work = () => {
                             </a>
                         </Link>
                     </div>
-                    <div className="lg:w-[95%]">
-                        <Casestudyimage>
-                            <img src='/selfbrand1.png'
-                                alt="Visual brand design for digital.dan agency"
-                            /></Casestudyimage>
-                    </div>
                 </section>
-                {/* <section id="Selfbrand"
+
+                <Casestudyimage>
+                    <img src='/noway.png'
+                        alt="AS portfolio redesign"
+
+                    /></Casestudyimage>
+
+
+                <section id="Selfbrand"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
-                        <h1 className="header">AI Design Consultant</h1>
+                        <h1 className="header">AI</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
                                     The new kid on the block: Billions of AI images will be produced every year. I will help you to stand out
-                                    from the masses by curating and customizing AI images and videos. (Pop Art pugs by Dall-E)
+                                    from the masses by curating and customizing AI images and videos. (Edited base image provided by Dall-E)
                                     <br /></motion.p></Borders>
                         </div>
                         <br />
-                    </div>
-                    <div className="lg:w-[95%]">
-                        <Casestudyimage>
-                            <img src='/bonus pugs.png'
-                                alt="Picture of two pugs in pop art style made by AI Dall-E"
-                            /></Casestudyimage>
-                    </div>
-                </section> */}
+                    </div>   </section>
+
+                <Casestudyimage>
+                    <img src='/makingof1.png'
+                        alt="Picture of two pugs in pop art style made by AI Dall-E"
+                    /></Casestudyimage>
+
+
             </main>
         </>
     )
