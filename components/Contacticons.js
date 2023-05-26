@@ -1,10 +1,12 @@
 import React from 'react'
 import { ImLinkedin, ImTwitter, ImMail2 } from 'react-icons/im'
 import Link from 'next/link'
+
 const Contacticons = () => {
     return (
-        <div className='iconsize fixed bottom-5
-        flex flex-col justify-end space-y-[6vw] lg:space-y-[4vw] z-30'>
+        <div className='iconsize fixed bottom-3
+        flex justify-end space-x-[8vw] lg:space-x-[4vw] z-40'>
+
 
             <Link href="mailto:d.huebschmann@tutanota.com"  >
                 <a

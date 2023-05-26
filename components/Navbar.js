@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
+import Contacticons from './Contacticons';
 
 const Navbar = () => {
 
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('dark');
     const toggleTheme = () => {
         if (theme === 'dark') {
             setTheme('light');
@@ -33,11 +34,15 @@ const Navbar = () => {
                             ></div>
                             <div className="w-[1rem] h-[1rem] 
                                 lg:w-[1.25rem] lg:h-[1.25rem] 
-                            rounded-full cursor-pointer hidden dark:block bg-zinc-50"></div>
+                            rounded-full cursor-pointer hidden dark:block bg-zinc-50">
 
-
+                            </div>
                         </div>
+
                     </section>
+
+
+                    <Contacticons />
                 </nav>
 
             </div >

@@ -120,14 +120,14 @@ html.lenis {
     font-size: calc(16px + 5vw);
   }
   .iconsize {
-    font-size: 5vw;
+    font-size: 4.5vw;
     opacity: 80%;
-    right: 4vw;
+    right: 2vw;
   }
   .heroheader {
     font-family: 'octarine';
     font-size: clamp(16px, calc(16px + 14vw), 16vw);
-    line-height: 10%;
+    line-height: 5%;
     margin-left: 0.25rem;
   }
   .header {
@@ -195,8 +195,8 @@ html.lenis {
 }
 .heroheader {
   font-family: 'octarine';
-  font-size: clamp(16px, calc(16px + 15vw), 15vw);
-  line-height: 120%;
+  font-size: clamp(16px, calc(16px + 18vw), 20vw);
+  line-height: 100%;
   margin-left: 0.25rem;
 }
 .header {
@@ -273,8 +273,8 @@ html.lenis {
   }
   .heroheader {
     font-family: 'octarine';
-    font-size: clamp(16px, calc(16px + 6vw), 7vw);
-    line-height: 80%;
+    font-size: clamp(16px, calc(16px + 7vw), 11vw);
+    line-height: 90%;
     margin-left: 0.5rem;
   }
   .header {

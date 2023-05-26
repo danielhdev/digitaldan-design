@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import Heroimage from '@components/Heroimage';
 import ScrollArrow from './ScrollArrow';
 import Typeanimation from './Typeanimation';
 
@@ -18,26 +17,19 @@ const Hero = () => {
         ease: "ease-in"
     }
 
-
-
-
     return (
         <main className="h-screen flex flex-col
         justify-center items-center">
-            <motion.section className="md:px-[2rem]">
+            <motion.section className="md:px-[2rem] lg:pt-[5rem]">
                 <section>
-                    <motion.h1 animate={wedesignAnimate} className="flex flex-col">
-                        <Heroimage>
-                            <img src="./heroimg.png"
-                                alt="Digital.dan Digital Design Agency, UX/ UI, Web Design, Adverstisement, Social Media Content,  -  
-                            Your success is one great user experience away"
-                            >
-                            </img>
-                        </Heroimage>
+                    <motion.h1 animate={wedesignAnimate} className="flex flex-col heroheader">
+                        <div className="text-center">
+                            <Typeanimation /><br />
+                            Design</div>
                         <motion.div animate={wedesignAnimate2} className="font-bold herosubtext
                         mt-[2.5rem] mx-auto">
                             Daniel Hubschmann (Germany)<br />
-                            Web Developer <Typeanimation />
+                            Senior Designer
                             <div className="h-[2rem]"></div>
                             <ScrollArrow />
                         </motion.div>
