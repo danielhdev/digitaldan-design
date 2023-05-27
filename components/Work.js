@@ -20,11 +20,11 @@ const Work = () => {
                     <img src='/ubg1.png'
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
-                <div className='lg:w-[65%]'>
-                    <Casestudyimage>
-                        <img src='/ubg4.png'
-                            alt="Upper Burger portfolio redesign"
-                        /></Casestudyimage></div>
+                <div className='lg:w-[65%]'></div>
+                <Casestudyimage>
+                    <img src='/ubg4.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
                 <Casestudyimage>
                     <img src='/ubg2.png'
                         alt="Upper Burger portfolio redesign"
@@ -60,29 +60,42 @@ const Work = () => {
                     <img src='/ubg3.png'
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
+
+                <Casestudyimage>
+                    <img src='/as2.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/as1.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
+
                 <section id="ASnew"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start lg:gap-12 mx-auto my-[15vh]">
 
                     <div className="w-screen lg:w-[50%]">
-                        <h1 className="header mt-[5vh] lg:mt-0">Making it easy</h1>
+
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    for your target audience. Better UX and a fresh portfolio site for a popular unsplash.com photographer.
+                                    A fresh portfolio site for a popular unsplash.com photographer.
                                     <br />
 
                                 </motion.p></Borders>
                         </div><br />
-                        <Link href="/Case3/AS"
+                        <Link href="https://asprototype.netlify.app/Prototype/"
                         >
-                            <a>
-                                <ArrowLinks>
-                                    case study <BsArrowUpRight /> </ArrowLinks>  </a>
+                            <a target={'_blank'}
+                                rel={'noreferrer noopener'}> <ArrowLinks >website prototype (new tab)
+                                    <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
                     </div>
                 </section>
-
-                <Casestudyimage><img src='/as.png'
+                <Casestudyimage>
+                    <img src='/twitter2.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
+                <Casestudyimage><img src='/as3.png'
                     alt="AS portfolio redesign"
                 /></Casestudyimage>
 
@@ -143,18 +156,23 @@ const Work = () => {
                         alt="AS portfolio redesign"
 
                     /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/soc1.png'
+                        alt="AS portfolio redesign"
+
+                    /></Casestudyimage>
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
-                        <h1 className="header">Online Ads</h1>
+
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Using visual power and proven design rules to help you get noticed in a sea of information.  </motion.p></Borders>
+                                    Online Advertisement: Using visual power and proven design rules to help you get noticed in a sea of information.  </motion.p></Borders>
                         </div><br />
                     </div>    </section>
                 <Casestudyimage>
-                    <img src='/social.png'
+                    <img src='/soc2.png'
                         alt="AS portfolio redesign"
 
                     /></Casestudyimage>
@@ -169,13 +187,7 @@ const Work = () => {
                                     Website and ads for a picky client: myself. AI helped out with ideas.
                                     <br /></motion.p></Borders>
                         </div><br />
-                        <Link href="/Case2/DDbranding"
-                        >
-                            <a className="cursor-pointer"
-                            ><ArrowLinks>
-                                    case study <BsArrowUpRight /></ArrowLinks>
-                            </a>
-                        </Link>
+
                     </div>
                 </section>
 
@@ -184,12 +196,17 @@ const Work = () => {
                         alt="AS portfolio redesign"
 
                     /></Casestudyimage>
-                <div className="w-[75%]">
-                    <Casestudyimage>
-                        <img src='/ddfonts.png'
-                            alt="AS portfolio redesign"
-                        /></Casestudyimage></div>
+                <Casestudyimage>
+                    <img src='/noway2.png'
+                        alt="AS portfolio redesign"
 
+                    /></Casestudyimage>
+                <div className="w-[75%]"></div>
+
+                <Casestudyimage>
+                    <img src='/ddfonts.png'
+                        alt="AS portfolio redesign"
+                    /></Casestudyimage>
 
 
                 <section id="Selfbrand"
