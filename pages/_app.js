@@ -55,13 +55,13 @@ Motion graphics"
         <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, a senior digital, UI, and visual designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
 
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
-        <meta property="og:title" content="digital.dan Digital, UI and Visual Design" />
+        <meta property="og:title" content="digital.dan Digital, AI, UI and Visual Design" />
         <meta property="og:description" content="Welcome to the portfolio of Your Name, a senior digital, UI, and visual designer. 
         Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects."/>
         <meta property="og:url" content="https://digitaldan.agency/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Senior Digital, UI, and Visual Designer Portfolio - Your Name" />
+        <meta name="twitter:title" content="Senior Digital, AI, UI, and Visual Designer Portfolio - Your Name" />
         <meta name="twitter:description" content="Welcome to the portfolio of Your Name, a senior digital, UI, and visual designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
         <meta name="twitter:image" content="https://example.com/your-image.jpg"></meta>
 
@@ -69,7 +69,7 @@ Motion graphics"
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Digitaldan Design - Senior digital, UI and visual designer</title>
+        <title>Digitaldan Design - Senior digital, UI, AI and visual designer</title>
       </Head>
 
 

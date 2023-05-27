@@ -10,7 +10,7 @@ const Services = () => {
                         <li>About Me</li>
                         <Borders><div className="paragraph mr-[2rem]">
                             <li>Daniel Hubschmann (Germany).</li>
-                            <li>Senior digital, ui and visual designer with over 20 years experience.</li>
+                            <li>Senior digital, ai, ui and visual designer with over 20 years experience.</li>
                             <br />
                             <li>I can create timeless visuals, your client&apos;s investment will last for a long time.
                                 <br />
@@ -32,6 +32,7 @@ const Services = () => {
                             <li>Figma</li>
                             <li>Adobe Ae, Ps, Ai</li>
                             <li>Inkscape, Fusion, Blender</li>
+                            <li>Dall-E, Midjourney</li>
                         </div>
                         </Borders>
                         <br />
