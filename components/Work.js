@@ -20,15 +20,7 @@ const Work = () => {
                     <img src='/ubg1.png'
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
-                <div className='lg:w-[65%]'></div>
-                <Casestudyimage>
-                    <img src='/ubg4.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/ubg2.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
+
                 <section className="lg:w-[80vw] h-auto md:py-[10vh] flex flex-col justify-start gap-12 mx-auto mt-[15vh] 
                 mb-[15vh]">
 
@@ -56,6 +48,16 @@ const Work = () => {
                         </div>
                     </div>
                 </section>
+                <div className='lg:w-[65%]'></div>
+                <Casestudyimage>
+                    <img src='/ubg4.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/ubg2.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
+
                 <Casestudyimage>
                     <img src='/ubg3.png'
                         alt="Upper Burger portfolio redesign"
@@ -65,11 +67,6 @@ const Work = () => {
                     <img src='/as2.png'
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/as1.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
-
                 <section id="ASnew"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start lg:gap-12 mx-auto my-[15vh]">
 
@@ -92,6 +89,12 @@ const Work = () => {
                     </div>
                 </section>
                 <Casestudyimage>
+                    <img src='/as1.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
+
+
+                <Casestudyimage>
                     <img src='/twitter2.png'
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
@@ -100,15 +103,19 @@ const Work = () => {
                 /></Casestudyimage>
 
 
+
+                <Casestudyimage><img src='/beau1.png'
+                    alt="AS portfolio redesign"
+                /></Casestudyimage>
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
 
                     <div className="lg:w-[50%]">
-                        <h1 className="header">Landing Pages </h1>
+
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    that will help you convert more visitors into customers: Fast loading, strong imagery & messages. Catch even the most impatient user.
+                                    Landing pages that will help you convert more visitors into customers: Strong imagery & messages. Catch even the most impatient user.
 
                                 </motion.p></Borders>
                         </div><br />
@@ -119,24 +126,30 @@ const Work = () => {
                                     <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
                     </div> </section>
+                <Casestudyimage><img src='/beau2.png'
+                    alt="AS portfolio redesign"
+                /></Casestudyimage>
+                <Casestudyimage><img src='/beau3.png'
+                    alt="AS portfolio redesign"
+                /></Casestudyimage>
+
+
+
 
                 <Casestudyimage>
-                    <img src='/beauty.png'
+                    <img src='/dev1.png'
                         alt="AS portfolio redesign"
+
                     /></Casestudyimage>
-
-
-
 
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
 
                     <div className="lg:w-[50%]">
-                        <h1 className="header">Your New Job</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    thanks to a strong online presence. Giving you an egde in competitive markets. </motion.p></Borders>
+                                    Your new job thanks to a strong online presence. Giving you an egde in competitive markets. </motion.p></Borders>
                         </div><br />
 
                         <Link href="https://ddshowcase3.netlify.app/"
@@ -149,13 +162,13 @@ const Work = () => {
                         </Link>
                     </div>
                 </section>
-
-
                 <Casestudyimage>
-                    <img src='/devport1.png'
+                    <img src='/desk1.png'
                         alt="AS portfolio redesign"
 
                     /></Casestudyimage>
+
+
                 <Casestudyimage>
                     <img src='/soc1.png'
                         alt="AS portfolio redesign"
@@ -176,11 +189,18 @@ const Work = () => {
                         alt="AS portfolio redesign"
 
                     /></Casestudyimage>
+
+
+                <Casestudyimage>
+                    <img src='/noway.png'
+                        alt="AS portfolio redesign"
+
+                    /></Casestudyimage>
                 <section id="Selfbrand"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
-                        <h1 className="header">It&apos;s Personal!</h1>
+
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
@@ -190,12 +210,6 @@ const Work = () => {
 
                     </div>
                 </section>
-
-                <Casestudyimage>
-                    <img src='/noway.png'
-                        alt="AS portfolio redesign"
-
-                    /></Casestudyimage>
                 <Casestudyimage>
                     <img src='/noway2.png'
                         alt="AS portfolio redesign"
