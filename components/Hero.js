@@ -23,13 +23,12 @@ const Hero = () => {
             <motion.section className="md:px-[2rem] lg:pt-[5rem]">
                 <section>
                     <motion.h1 animate={wedesignAnimate} className="flex flex-col heroheader">
-                        <div className="text-center">
+                        <div className="flex flex-col justify-center items-center">
                             <Typeanimation /><br />
                             Design</div>
                         <motion.div animate={wedesignAnimate2} className="font-bold herosubtext
                         mt-[2.5rem] mx-auto">
-                            Daniel Hubschmann (Germany)<br />
-                            Senior Designer
+                            Daniel Hubschmann (Germany)
                             <div className="h-[2rem]"></div>
                             <ScrollArrow />
                         </motion.div>

@@ -16,10 +16,7 @@ const Work = () => {
     return (
         <>
             <main id="Work" className="h-auto flex flex-col justify-center items-center pb-[10rem] lg:pb-[15rem]">
-                <Casestudyimage>
-                    <img src='/ubg1.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
+
 
                 <section className="lg:w-[80vw] h-auto md:py-[10vh] flex flex-col justify-start gap-12 mx-auto mt-[15vh] 
                 mb-[15vh]">
@@ -48,6 +45,10 @@ const Work = () => {
                         </div>
                     </div>
                 </section>
+                <Casestudyimage>
+                    <img src='/ubg1.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
                 <div className='lg:w-[65%]'></div>
                 <Casestudyimage>
                     <img src='/ubg4.png'
@@ -63,10 +64,7 @@ const Work = () => {
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
 
-                <Casestudyimage>
-                    <img src='/as2.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
+
                 <section id="ASnew"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start lg:gap-12 mx-auto my-[15vh]">
 
@@ -89,6 +87,10 @@ const Work = () => {
                     </div>
                 </section>
                 <Casestudyimage>
+                    <img src='/as2.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
+                <Casestudyimage>
                     <img src='/as1.png'
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
@@ -104,9 +106,7 @@ const Work = () => {
 
 
 
-                <Casestudyimage><img src='/beau1.png'
-                    alt="AS portfolio redesign"
-                /></Casestudyimage>
+
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
 
@@ -126,76 +126,44 @@ const Work = () => {
                                     <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
                     </div> </section>
+                <Casestudyimage><img src='/beau1.png'
+                    alt="AS portfolio redesign"
+                /></Casestudyimage>
                 <Casestudyimage><img src='/beau2.png'
                     alt="AS portfolio redesign"
                 /></Casestudyimage>
                 <Casestudyimage><img src='/beau3.png'
                     alt="AS portfolio redesign"
                 /></Casestudyimage>
+                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
+                    <div className="w-fit">
+                        <Borders>
+                            <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
+                                Your new job thanks to a strong online presence. Giving you an egde in competitive markets. </motion.p></Borders>
+                    </div><br />
 
+                    <Link href="https://ddshowcase3.netlify.app/"
+                    >
+                        <a target={'_blank'}
+                            rel={'noreferrer noopener'}>
+                            <ArrowLinks>
+                                website prototype (new tab) <BsArrowUpRight />
+                            </ArrowLinks></a>
+                    </Link>
 
-
+                </section>
                 <Casestudyimage>
                     <img src='/dev1.png'
                         alt="AS portfolio redesign"
 
                     /></Casestudyimage>
-
-                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
-
-
-                    <div className="lg:w-[50%]">
-                        <div className="w-fit">
-                            <Borders>
-                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Your new job thanks to a strong online presence. Giving you an egde in competitive markets. </motion.p></Borders>
-                        </div><br />
-
-                        <Link href="https://ddshowcase3.netlify.app/"
-                        >
-                            <a target={'_blank'}
-                                rel={'noreferrer noopener'}>
-                                <ArrowLinks>
-                                    website prototype (new tab) <BsArrowUpRight />
-                                </ArrowLinks></a>
-                        </Link>
-                    </div>
-                </section>
                 <Casestudyimage>
                     <img src='/desk1.png'
                         alt="AS portfolio redesign"
 
                     /></Casestudyimage>
 
-
-                <Casestudyimage>
-                    <img src='/soc1.png'
-                        alt="AS portfolio redesign"
-
-                    /></Casestudyimage>
-                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
-
-                    <div className="lg:w-[50%]">
-
-                        <div className="w-fit">
-                            <Borders>
-                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Online Advertisement: Using visual power and proven design rules to help you get noticed in a sea of information.  </motion.p></Borders>
-                        </div><br />
-                    </div>    </section>
-                <Casestudyimage>
-                    <img src='/soc2.png'
-                        alt="AS portfolio redesign"
-
-                    /></Casestudyimage>
-
-
-                <Casestudyimage>
-                    <img src='/noway.png'
-                        alt="AS portfolio redesign"
-
-                    /></Casestudyimage>
                 <section id="Selfbrand"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
@@ -204,24 +172,29 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    Website and ads for a picky client: myself. AI helped out with ideas.
+                                    Website and social media assets for a picky client: myself.
                                     <br /></motion.p></Borders>
                         </div><br />
-
                     </div>
                 </section>
-                <Casestudyimage>
-                    <img src='/noway2.png'
-                        alt="AS portfolio redesign"
-
-                    /></Casestudyimage>
-                <div className="w-[75%]"></div>
-
                 <Casestudyimage>
                     <img src='/ddfonts.png'
                         alt="AS portfolio redesign"
                     /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/ddmob1.png'
+                        alt="AS portfolio redesign"
+                    /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/ddtab.png'
+                        alt="AS portfolio redesign"
 
+                    /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/noway.png'
+                        alt="AS portfolio redesign"
+
+                    /></Casestudyimage>
 
                 <section id="Selfbrand"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
