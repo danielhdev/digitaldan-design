@@ -30,45 +30,40 @@ function Application({ Component, pageProps }) {
       <Head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="Senior digital designer
+        <meta name="keywords" content="UI Web designer
 UI designer
-Visual designer
+
 Portfolio
 Design projects
 User interface
 User experience
 Web design
 Mobile app design
-Graphic design
-Creative design solutions
-Digital branding
 Visual storytelling
 Typography
 Responsive design
 Interaction design
 User-centered design
-Illustration
-Prototyping
-Motion graphics"
+"
         />
-        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, a senior digital, UI, and visual designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
+        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, UI and Web designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
 
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
-        <meta property="og:title" content="digital.dan Digital, AI, UI and Visual Design" />
-        <meta property="og:description" content="Welcome to the portfolio of Your Name, a senior digital, UI, and visual designer. 
+        <meta property="og:title" content="digital.dan UI and Web Design" />
+        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, a UI and Web designer. 
         Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects."/>
         <meta property="og:url" content="https://digitaldan.agency/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Senior Digital, AI, UI, and Visual Designer Portfolio - Your Name" />
-        <meta name="twitter:description" content="Welcome to the portfolio of Your Name, a senior digital, UI, and visual designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
+        <meta name="twitter:title" content="UI and Web Designer Portfolio - Daniel Hubschmann digital.dan" />
+        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, a UI and Web designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
         <meta name="twitter:image" content="https://example.com/your-image.jpg"></meta>
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Digital, UI, Visual Design - digital.dan</title>
+        <title>UI & Web Design - digital.dan</title>
       </Head>
 
 

@@ -9,13 +9,18 @@ const Services = () => {
                     <ul className="herolinks p-[5vh] md:p-[5vh] landscape:w-[45vw]">
                         <li>About Me</li>
                         <Borders><div className="paragraph mr-[2rem]">
-                            <li>Daniel Hubschmann (Germany).</li>
-                            <li>Senior digital, ui and visual designer with over 20 years experience.</li>
+                            <li>Daniel Hubschmann (Germany).
+                                UI, web and graphic designer with over 20 years experience. I have been focusing on digital design in the recent decade.</li>
                             <br />
-                            <li>I can create timeless visuals, your client&apos;s investment will last for a long time.
+
+                            <li>Taking classic rules and the teachings of the art and design greats into the 21st century.</li>
+
+                            <br />
+
+                            <li>I can create timeless visuals for all industries, your client&apos;s investment will last for a long time.
+
                                 <br />
-                                <br />
-                                Taking classic rules and the teachings of the art and design greats into the 21st century.
+
                             </li>
                         </div> </Borders></ul>
                 </section>
@@ -25,10 +30,10 @@ const Services = () => {
                       landscape:w-[45vw]">
                         My Skills & Tools
                         <Borders><div className="paragraph">
-                            <li>Digital, user interface & visual design</li>
-                            <li>Proficient in HTML, CSS</li>
-                            <li>JavaScript & JavaScript framework basics for UI components </li>
-                            <li>Fields: Adverstisement (online & public), apps, websites, landing pages, events & presentations</li>
+                            <li>User interface & web design</li>
+                            <li>Proficient in HTML, CSS, Tailwind CSS</li>
+                            <li>JavaScript & JavaScript frameworks for UI components </li>
+                            <li>Fields: Adverstisement, apps, websites, landing pages, micro pages, events & presentations</li>
                             <li>Figma</li>
                             <li>Adobe Ae, Ps, Ai</li>
                             <li>Inkscape, Fusion, Blender</li>
