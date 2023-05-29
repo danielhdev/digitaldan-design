@@ -129,7 +129,7 @@ const Work = () => {
                 <Casestudyimage><img src='/beau1.png'
                     alt="AS portfolio redesign"
                 /></Casestudyimage>
-                <Casestudyimage><img src='/beau2.png'
+                <Casestudyimage><img src='/beau2.jpg'
                     alt="AS portfolio redesign"
                 /></Casestudyimage>
                 <Casestudyimage><img src='/beau3.png'
