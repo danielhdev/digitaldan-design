@@ -141,7 +141,7 @@ const Work = () => {
                         <Borders>
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Your new job thanks to a strong online presence. Giving you an egde in competitive markets. </motion.p></Borders>
-                    </div><br />
+                    </div>
 
                     <Link href="https://ddshowcase3.netlify.app/"
                     >
