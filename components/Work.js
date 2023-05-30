@@ -200,21 +200,29 @@ const Work = () => {
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
-                        <h1 className="header">AI</h1>
+                        <h1 className="header">AI for UI</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    The new kid on the block: Billions of AI images will be produced every year. I will help you to stand out
-                                    from the masses by curating and customizing AI images and videos. (Edited base image provided by Dall-E)
+                                    The new kid on the block: AI can help designers develop ideas like in the following example.
                                     <br /></motion.p></Borders>
                         </div>
                         <br />
                     </div>   </section>
 
                 <Casestudyimage>
-                    <img src='/makingof1.png'
+                    <img src='/howto1.png'
                         alt="Picture of two pugs in pop art style made by AI Dall-E"
                     /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/howto2.png'
+                        alt="Picture of two pugs in pop art style made by AI Dall-E"
+                    /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/howto3.png'
+                        alt="Picture of two pugs in pop art style made by AI Dall-E"
+                    /></Casestudyimage>
+
 
 
             </main>
