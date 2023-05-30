@@ -86,10 +86,7 @@ const Work = () => {
                         </Link>
                     </div>
                 </section>
-                <Casestudyimage>
-                    <img src='/as2.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
+
                 <Casestudyimage>
                     <img src='/as1.png'
                         alt="Upper Burger portfolio redesign"
@@ -103,7 +100,10 @@ const Work = () => {
                 <Casestudyimage><img src='/as3.png'
                     alt="AS portfolio redesign"
                 /></Casestudyimage>
-
+                <Casestudyimage>
+                    <img src='/as2.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
 
 
 
