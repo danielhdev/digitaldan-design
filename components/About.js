@@ -24,11 +24,12 @@ const About = () => {
                                 <div>
                                     <br />
                                 </div>
-                                <div className='grid place-content-start'>
-                                    <motion.p whileInView={paragraphAnimate} className="p-5 header">
+                                <div className='grid place-content-start herosubtext'>
+                                    <motion.h1 whileInView={paragraphAnimate} className="header mb-[10%]">
                                         Welcome!<br />
-                                        Scroll or choose a link:
-                                    </motion.p>
+                                        <div className="subheader">
+                                            Scroll or choose a link:</div>
+                                    </motion.h1>
                                     <ArrowLinks>
                                         <Link href="#Work"
                                         >
