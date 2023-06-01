@@ -77,7 +77,7 @@ body {
 }
 .header {
   font-family: 'octarine';
-  font-size: clamp(16px, 2vw + 0.75rem, 7vw);
+  font-size: clamp(67px, 67px + 0.75rem, 7vw);
   margin-left: 1.5vw;
 }
 
@@ -126,23 +126,27 @@ html.lenis {
   }
   .heroheader {
     font-family: 'octarine';
-    font-size: clamp(16px, calc(16px + 14vw), 16vw);
+    font-size: clamp(16px, calc(110rem + 14vw), 16vw);
     line-height: 5%;
     margin-left: 0.25rem;
   }
   .header {
     font-family: 'octarine';
-    font-size: clamp(16px, 9vw + 0.75rem, 10vw);
+    font-size: clamp(67px, 67px + 0.75rem, 10vw);
     margin-left: 1.5vw;
   }
   .herolinks {
     font-family: 'octarine';
-    font-size: calc(7vw - 0.25vw);
+    font-size: calc(42px + 0.25vw);
   }
   .herosubtext {
     font-family: 'octarine';
-    font-size: clamp(16px, 1vw + 0.85rem, 2vw);
-    line-height: 122%;
+    font-size: clamp(16px, 16px + 0.85rem, 2vw);
+  }
+  .iconsize {
+    font-size: calc(1rem + 1vw);
+    opacity: 80%;
+    right: 1rem;
   }
   .navbarcontainer {
     position: fixed;
@@ -174,10 +178,6 @@ html.lenis {
   .link {
     font-size: 5vw;
   }
-  .logo {
-    font-size: 6vw;
-    margin-top: 0.5rem;
-  }
 }
 /* small tablets, laptops & desktop monitors */
 @media (width >= 500px) {
@@ -188,35 +188,35 @@ html.lenis {
     font-family: 'octarine';
   }
   .iconsize {
-    font-size: 3vw;
+    font-size: calc(1rem + 1vw);
     opacity: 80%;
     right: 2rem;
   }
 }
 .heroheader {
   font-family: 'octarine';
-  font-size: clamp(16px, calc(16px + 18vw), 20vw);
+  font-size: clamp(16px, calc(110px + 18vw), 20vw);
   line-height: 100%;
   margin-left: 0.25rem;
 }
 .header {
   font-family: 'octarine';
-  font-size: clamp(16px, 4vw + 0.75rem, 6vw);
+  font-size: clamp(67px, 67px + 0.75rem, 6vw);
   margin-left: 1.5vw;
 }
 .herosubtext {
   font-family: 'octarine';
-  font-size: clamp(16px, 3.25vw + 0.75rem, 4.5vw);
-  line-height: 120%;
+  font-size: clamp(16px, 16px + 0.75rem, 4.5vw);
+
   padding: 0.75rem 0;
 }
 .herolinks {
   font-family: 'octarine';
-  font-size: clamp(2vw, calc(6vw - 15%), 8vw);
+  font-size: clamp(2vw, calc(42px + 15%), 8vw);
 }
 .paragraph {
   font-family: 'Oxygen';
-  font-size: 4vw;
+  font-size: calc(10px + 1vw);
   padding: 2vw;
 }
 .fonts {
@@ -237,7 +237,7 @@ html.lenis {
   font-size: 3.5vw;
 }
 .logo {
-  font-size: 3.5vw;
+  font-size: calc(1rem + 1vw);
   margin-top: 0.4rem;
 }
 .contactli1 {
@@ -264,7 +264,7 @@ html.lenis {
     font-family: 'octarine';
   }
   .iconsize {
-    font-size: 1.4vw;
+    font-size: calc(1rem + 0.5vw);
     opacity: 80%;
     right: 3vw;
   }
@@ -273,19 +273,18 @@ html.lenis {
   }
   .heroheader {
     font-family: 'octarine';
-    font-size: clamp(16px, calc(16px + 7vw), 11vw);
+    font-size: clamp(16px, calc(110px + 7vw), 11vw);
     line-height: 90%;
     margin-left: 0.5rem;
   }
   .header {
     font-family: 'octarine';
-    font-size: clamp(16px, 2vw + 0.75rem, 3vw);
+    font-size: clamp(67px, 67px + 0.75rem, 3vw);
     margin-left: 1.5vw;
   }
   .herosubtext {
     font-family: 'octarine';
-    font-size: clamp(16px, 0.75vw + 1rem, 1.5vw);
-    line-height: 140%;
+    font-size: clamp(16px, 16px + 1rem, 1.5vw);
   }
   .herolinks {
     font-family: 'octarine';
@@ -293,7 +292,7 @@ html.lenis {
   }
   .paragraph {
     font-family: 'Oxygen';
-    font-size: 1.6vw;
+    font-size: calc(10px + 1vw);
     padding: 1.25vw;
   }
   .fonts {
@@ -313,7 +312,7 @@ html.lenis {
     font-size: 1.4vw;
   }
   .logo {
-    font-size: 1.5vw;
+    font-size: calc(1rem + 0.5vw);
     margin-top: 0.5rem;
   }
   .contactli1 {
@@ -336,16 +335,14 @@ html.lenis {
 @media (min-width: 1500px) {
   .herosubtext {
     font-family: 'octarine';
-    font-size: clamp(16px, 1vw + 0.75rem, 2vw);
-
-    line-height: 4rem;
+    font-size: clamp(16px, 16px + 2rem, 2.5vw);
   }
   .headertagline {
     font-family: 'octarine';
     font-size: calc(3vw - 0.25vw);
   }
   .iconsize {
-    font-size: 1.3vw;
+    font-size: calc(1rem + 0.5vw);
     opacity: 80%;
     right: 3rem;
   }
@@ -355,7 +352,7 @@ html.lenis {
   }
   .paragraph {
     font-family: 'Oxygen';
-    font-size: 1.75vw;
+    font-size: calc(10px + 1vw);
     padding-left: 0.5vw;
   }
   .link {
@@ -371,9 +368,7 @@ html.lenis {
     line-height: 1.4em;
     font-family: 'octarine';
   }
-  .logo {
-    font-size: 2vw;
-  }
+
   .contactli1 {
     font-size: calc(4vw - 0.25vw);
     line-height: 1.2em;

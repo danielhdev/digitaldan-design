@@ -38,7 +38,7 @@ const Work = () => {
                                     <a target={'_blank'}
                                         rel={'noreferrer noopener'}>
                                         <ArrowLinks>
-                                            website prototype (new tab) <BsArrowUpRight /></ArrowLinks>
+                                            website (new tab) <BsArrowUpRight /></ArrowLinks>
                                     </a>
                                 </Link>
                             </div>
@@ -78,10 +78,10 @@ const Work = () => {
 
                                 </motion.p></Borders>
                         </div><br />
-                        <Link href="https://asprototype.netlify.app/Prototype/"
+                        <Link href="https://asnetlify.app/"
                         >
                             <a target={'_blank'}
-                                rel={'noreferrer noopener'}> <ArrowLinks >website prototype (new tab)
+                                rel={'noreferrer noopener'}> <ArrowLinks >website (new tab)
                                     <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
                     </div>
@@ -122,7 +122,7 @@ const Work = () => {
                         <Link href="https://food-health-one-seven.vercel.app/"
                         >
                             <a target={'_blank'}
-                                rel={'noreferrer noopener'}> <ArrowLinks >website prototype (new tab)
+                                rel={'noreferrer noopener'}> <ArrowLinks >website (new tab)
                                     <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
                     </div> </section>
@@ -148,7 +148,7 @@ const Work = () => {
                         <a target={'_blank'}
                             rel={'noreferrer noopener'}>
                             <ArrowLinks>
-                                website prototype (new tab) <BsArrowUpRight />
+                                website (new tab) <BsArrowUpRight />
                             </ArrowLinks></a>
                     </Link>
 
@@ -186,6 +186,10 @@ const Work = () => {
                         alt="AS portfolio redesign"
                     /></Casestudyimage>
                 <Casestudyimage>
+                    <img src='/ddtype.png'
+                        alt="AS portfolio redesign"
+                    /></Casestudyimage>
+                <Casestudyimage>
                     <img src='/ddtab.png'
                         alt="AS portfolio redesign"
 
@@ -200,7 +204,7 @@ const Work = () => {
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
-                        <h1 className="header">AI for UI</h1>
+                        <h1 className="herosubtext">AI for UI</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">

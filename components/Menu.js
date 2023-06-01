@@ -32,7 +32,7 @@ const Menu = () => {
 
 
             <button
-                className="hover:text-amber-200 focus:outline-none header z-50 fixed right-[1.25rem] lg:right-[2.5rem] mt-[0.25rem]
+                className="hover:text-amber-200 focus:outline-none herosubtext z-50 fixed right-[1.25rem] lg:right-[2.5rem] mt-[0.15rem]
                     text-zinc-50 mix-blend-difference "
                 onClick={toggleModal}>
                 {!isOpen ? <FaGripLines /> : <GiTireIronCross />}

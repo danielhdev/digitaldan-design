@@ -27,7 +27,7 @@ const Hero = () => {
                             <Typeanimation /><br />
                             Design</div>
                         <motion.div animate={wedesignAnimate2} className="font-bold herosubtext
-                        mt-[2.5rem] mx-auto">
+                        mt-[2.5rem] mx-auto text-center flex flex-col items-center">
                             Daniel Hubschmann (Germany)
                             <div className="h-[2rem]"></div>
                             <ScrollArrow />
