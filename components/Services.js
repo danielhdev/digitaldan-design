@@ -27,7 +27,7 @@ const Services = () => {
                 <section id="services"
                     className="flex md:justify-end px-2">
                     <ul className="herosubtext list-disc md:pt-[10vh] p-[2rem]
-                      landscape:w-[45vw]">
+                      landscape:w-[44vw]">
                         Skills & Tools
                         <Borders><div className="paragraph">
                             <li>User interface & web design</li>
