@@ -17,7 +17,7 @@ const Services = () => {
 
                             <br />
 
-                            <p>I can create timeless visuals for all industries, your client&apos;s investment will last for a long time.
+                            <p>I combine timeless visuals with great user experiences for all industries.
 
                                 <br />
 
