@@ -6,7 +6,7 @@ const Services = () => {
         <>
             <main id="About" className='h-auto flex flex-col justify-center items-center py-[5rem]'>
                 <section className="px-2 mb-[2rem]">
-                    <ul className="herosubtext p-[5vh] md:p-[5vh] landscape:w-[45vw]">
+                    <ul className="title p-[5vh] md:p-[5vh] landscape:w-[45vw]">
                         <li>About Me</li>
                         <Borders><div className="paragraph mr-[2rem]">
                             <p>Daniel Hubschmann (Germany).
@@ -26,9 +26,9 @@ const Services = () => {
                 </section>
                 <section id="services"
                     className="flex md:justify-end px-2">
-                    <ul className="herosubtext list-disc md:pt-[10vh] p-[2rem]
-                      landscape:w-[44vw]">
-                        Skills & Tools
+                    <ul className="title list-disc md:pt-[10vh] p-[2rem]
+                      landscape:w-[45vw]">
+                        Skills/ Tools
                         <Borders><div className="paragraph">
                             <li>User interface & web design</li>
                             <li>Graphic design</li>

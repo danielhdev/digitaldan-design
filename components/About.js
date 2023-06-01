@@ -15,19 +15,16 @@ const About = () => {
                 className="h-auto flex flex-col justify-center 
                 pt-[10vh] pb-[20vh] lg:py-[25vh]
                 ">
-                <section className="paragraph flex justify-center items-center md:py-[2.5rem]
+                <section className="paragraph flex justify-center items-start md:py-[2.5rem]
                 ">
                     <div>
                         <div>
-                            <section className="text-[var(--stone)
-                            grid grid-cols-1 md:w-[80vw] w-full">
-                                <div>
-                                    <br />
-                                </div>
-                                <div className='grid place-content-start herosubtext'>
-                                    <motion.h1 whileInView={paragraphAnimate} className="header mb-[10%]">
+                            <section className="text-[var(--stone) md:w-[80vw] w-full">
+
+                                <div className='grid place-content-start header'>
+                                    <motion.h1 whileInView={paragraphAnimate} className="title mb-[10%]">
                                         Welcome!<br />
-                                        <div className="subheader">
+                                        <div className="paragraph">
                                             Scroll or choose a link:</div>
                                     </motion.h1>
                                     <ArrowLinks>
