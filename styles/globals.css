@@ -60,8 +60,8 @@ body {
   background-color: #fdfdfd;
   color: #041320;
 }
-.subheader{
-  font-size: calc(10px + 1vw)
+.subheader {
+  font-size: calc(10px + 1vw);
 }
 #darkmodeicon {
   border-radius: 50%;
@@ -80,7 +80,12 @@ body {
 }
 .header {
   font-family: 'octarine';
-  font-size: clamp(67px, 67px + 0.75rem, 7vw);
+  font-size: clamp(68px, 68px + 1vw, 6vw);
+  margin-left: 1.5vw;
+}
+.title {
+  font-family: 'octarine';
+  font-size: cALC(2.7rem + 1vw);
   margin-left: 1.5vw;
 }
 
@@ -133,11 +138,7 @@ html.lenis {
     line-height: 5%;
     margin-left: 0.25rem;
   }
-  .header {
-    font-family: 'octarine';
-    font-size: clamp(67px, 67px + 0.75rem, 10vw);
-    margin-left: 1.5vw;
-  }
+
   .herolinks {
     font-family: 'octarine';
     font-size: calc(42px + 0.25vw);
@@ -202,11 +203,7 @@ html.lenis {
   line-height: 100%;
   margin-left: 0.25rem;
 }
-.header {
-  font-family: 'octarine';
-  font-size: clamp(67px, 67px + 0.75rem, 6vw);
-  margin-left: 1.5vw;
-}
+
 .herosubtext {
   font-family: 'octarine';
   font-size: clamp(16px, 16px + 0.75rem, 4.5vw);
@@ -280,11 +277,7 @@ html.lenis {
     line-height: 90%;
     margin-left: 0.5rem;
   }
-  .header {
-    font-family: 'octarine';
-    font-size: clamp(67px, 67px + 0.75rem, 3vw);
-    margin-left: 1.5vw;
-  }
+
   .herosubtext {
     font-family: 'octarine';
     font-size: clamp(16px, 16px + 1rem, 1.5vw);

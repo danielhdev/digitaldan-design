@@ -204,7 +204,7 @@ const Work = () => {
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
-                        <h1 className="herosubtext">AI for UI</h1>
+                        <h1 className="title">AI for UI</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
