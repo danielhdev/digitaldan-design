@@ -60,6 +60,9 @@ body {
   background-color: #fdfdfd;
   color: #041320;
 }
+.subheader{
+  font-size: calc(10px + 1vw)
+}
 #darkmodeicon {
   border-radius: 50%;
   background-color: transparent;

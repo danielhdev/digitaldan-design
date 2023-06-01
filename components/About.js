@@ -25,9 +25,9 @@ const About = () => {
                                     <br />
                                 </div>
                                 <div className='grid place-content-start herosubtext'>
-                                    <motion.h1 whileInView={paragraphAnimate} className="header">
+                                    <motion.h1 whileInView={paragraphAnimate} className="header mb-[10%]">
                                         Welcome!<br />
-                                        <div className="herosubtext">
+                                        <div className="subheader">
                                             Scroll or choose a link:</div>
                                     </motion.h1>
                                     <ArrowLinks>
