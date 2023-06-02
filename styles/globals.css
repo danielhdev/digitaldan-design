@@ -184,7 +184,7 @@ html.lenis {
   }
 }
 /* small tablets, laptops & desktop monitors */
-@media (width >= 500px) {
+@media (width = 500px) {
   .workheader,
   .aboutheader {
     font-size: calc(16px + 10vw);
@@ -237,7 +237,7 @@ html.lenis {
   font-size: 3.5vw;
 }
 .logo {
-  font-size: calc(1rem + 1vw);
+  font-size: calc(0.62rem + 1vw);
   margin-top: 0.4rem;
 }
 .contactli1 {
@@ -256,7 +256,7 @@ html.lenis {
   font-family: 'octarine';
 }
 /* medium tablets, laptops & desktop monitors */
-@media (width >= 950px) {
+@media (width > 950px) {
   .workheader,
   .aboutheader {
     font-size: calc(16px + 4vw);
@@ -288,7 +288,7 @@ html.lenis {
   }
   .paragraph {
     font-family: 'Oxygen';
-    font-size: calc(10px + 1vw);
+    font-size: calc(10px + 0.75vw);
     padding: 1.25vw;
   }
   .fonts {
@@ -308,7 +308,7 @@ html.lenis {
     font-size: 1.4vw;
   }
   .logo {
-    font-size: calc(1rem + 0.5vw);
+    font-size: calc(0.62rem + 0.5vw);
     margin-top: 0.5rem;
   }
   .contactli1 {

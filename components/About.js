@@ -25,29 +25,37 @@ const About = () => {
                                     <motion.h1 whileInView={paragraphAnimate} className="title mb-[10%]">
                                         Welcome!<br />
                                         <div className="paragraph">
-                                            Scroll or choose a link:</div>
+                                            Please scroll or choose a link:</div>
                                     </motion.h1>
-                                    <ArrowLinks>
+                                    <span className="pb-[5%]">
+
                                         <Link href="#Work"
                                         >
                                             <a>
                                                 <ArrowLinks
                                                 >
-                                                    Show me your work! <BsArrowUpRight /> </ArrowLinks>  </a>
-                                        </Link>
+                                                    Show me your work! <BsArrowUpRight />
+                                                </ArrowLinks>  </a>
+                                        </Link></span>
+
+                                    <span className="pb-[5%]">
+
+
                                         <Link href="#services"
                                         >
                                             <a>
                                                 <ArrowLinks >
                                                     Your skills? <BsArrowUpRight /> </ArrowLinks>  </a>
-                                        </Link>
+                                        </Link></span>
+                                    <span className="pb-[5%]">
+
                                         <Link href="#Contact"
                                         >
                                             <a  >
                                                 <ArrowLinks >
                                                     How can I contact you? <BsArrowUpRight /> </ArrowLinks>  </a>
-                                        </Link>
-                                    </ArrowLinks>
+                                        </Link></span>
+
                                 </div>
                                 <br />
                             </section>
