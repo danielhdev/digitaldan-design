@@ -73,7 +73,7 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    A fresh portfolio site for a popular unsplash.com photographer.
+                                    A fresh portfolio site for an American people and fashion photographer.
                                     <br />
 
                                 </motion.p></Borders>
@@ -115,7 +115,7 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Landing pages that will help you convert more visitors into customers: Strong imagery & messages. Catch even the most impatient user.
+                                    Landing pages with strong imagery & messages. Catch even the most impatient user.
 
                                 </motion.p></Borders>
                         </div><br />
