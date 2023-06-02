@@ -18,7 +18,7 @@ const variants = {
 
 const menu = [
     { title: 'work', path: '/#Work' },
-    { title: 'about me', path: '/#About' },
+    { title: 'about', path: '/#About' },
     { title: 'contact', path: '/#Contact' }
 ]
 const Menu = () => {
