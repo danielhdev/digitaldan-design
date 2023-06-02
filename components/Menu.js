@@ -53,7 +53,7 @@ const Menu = () => {
                                 {menu.map((item, index) => {
                                     return (
                                         <Link key={index} href={item.path}>
-                                            <a className="header text-zinc-800 hover:text-amber-500"
+                                            <a className="title text-zinc-800 hover:text-amber-500"
                                                 onClick={toggleModal}>{item.title}
                                             </a>
                                         </Link>
