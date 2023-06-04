@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Contacticons from './Contacticons';
+import Menu from './Menu';
 
 const Navbar = () => {
 
@@ -37,11 +38,13 @@ const Navbar = () => {
                             rounded-full cursor-pointer hidden dark:block bg-zinc-50">
 
                             </div>
+
+
                         </div>
 
                     </section>
 
-
+                    <Menu />
                     <Contacticons />
                 </nav>
 

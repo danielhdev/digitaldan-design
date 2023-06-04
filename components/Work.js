@@ -226,6 +226,24 @@ const Work = () => {
                     <img src='/howto3.png'
                         alt="Picture of two pugs in pop art style made by AI Dall-E"
                     /></Casestudyimage>
+                <section id="Selfbrand"
+                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+
+                    <div className="lg:w-[50%]">
+
+                        <div className="w-fit">
+                            <Borders>
+                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
+                                    Gallery for a skateboard shop. I created the assets and the UI/UX design. The layout went through several phases until it worked on all screen sizes, saving developer time.
+                                    <br /></motion.p></Borders>
+                        </div><br />
+                    </div>
+                </section>
+
+                <Casestudyimage>
+                    <img src='/moon1.png'
+                        alt="Picture of two pugs in pop art style made by AI Dall-E"
+                    /></Casestudyimage>
 
 
 
