@@ -42,14 +42,14 @@ const Menu = () => {
                 <AnimatePresence>
                     {isOpen && (
                         <motion.div
-                            className="fixed top-0 right-0 w-2/3 lg:w-1/3 h-full bg-neutral-900 flex justify-center items-center z-40"
+                            className="fixed top-0 right-0 w-2/3 lg:w-1/3 h-full bg-lime-900 flex justify-center items-center z-40"
                             variants={variants}
                             initial="hidden"
                             animate="visible"
                             exit="hidden"
                             onClick={toggleModal}
                         >
-                            <div className="w-full flex flex-col justify-start items-start space-y-[4vw] p-[3rem] text-neutral-50
+                            <div className="w-full flex flex-col justify-start items-start space-y-[4vw] p-[3rem] text-yellow-50
                             ">
 
                                 {menu.map((item, index) => {
