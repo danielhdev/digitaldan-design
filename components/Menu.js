@@ -42,7 +42,7 @@ const Menu = () => {
                 <AnimatePresence>
                     {isOpen && (
                         <motion.div
-                            className="fixed top-0 right-0 w-2/3 lg:w-1/3 h-full bg-lime-900 flex justify-center items-center z-40"
+                            className="fixed top-0 right-0 w-2/3 lg:w-[30%] h-full bg-lime-900 flex justify-center items-center z-40"
                             variants={variants}
                             initial="hidden"
                             animate="visible"
