@@ -184,7 +184,7 @@ html.lenis {
   }
 }
 /* small tablets, laptops & desktop monitors */
-@media (width = 500px) {
+@media (width > 500px) {
   .workheader,
   .aboutheader {
     font-size: calc(16px + 10vw);
