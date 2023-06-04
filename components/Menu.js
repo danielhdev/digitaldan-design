@@ -32,8 +32,8 @@ const Menu = () => {
 
 
             <button
-                className="hover:text-amber-200 focus:outline-none herosubtext z-50 fixed right-[1.25rem] lg:right-[2.5rem] mt-[0.15rem]
-                    text-zinc-50 mix-blend-difference "
+                className="hover:text-amber-200 focus:outline-none paragraph z-50 fixed right-[1.25rem] lg:right-[2.5rem] mt-[0.15rem] lg:mt-0
+                    text-zinc-50 mix-blend-difference"
                 onClick={toggleModal}>
                 {!isOpen ? <FaGripLines /> : <GiTireIronCross />}
             </button>
@@ -42,25 +42,27 @@ const Menu = () => {
                 <AnimatePresence>
                     {isOpen && (
                         <motion.div
-                            className="fixed top-0 left-0 w-full h-full bg-stone-200/95 flex justify-center items-center z-40"
+                            className="fixed top-0 right-0 w-2/3 lg:w-1/3 h-full bg-neutral-900 flex justify-center items-center z-40"
                             variants={variants}
                             initial="hidden"
                             animate="visible"
                             exit="hidden"
                             onClick={toggleModal}
                         >
-                            <ul className="w-full flex flex-col justify-start items-start space-y-[4vw] p-[3rem]">
+                            <div className="w-full flex flex-col justify-start items-start space-y-[4vw] p-[3rem] text-neutral-50
+                            ">
+
                                 {menu.map((item, index) => {
                                     return (
                                         <Link key={index} href={item.path}>
-                                            <a className="title text-zinc-800 hover:text-amber-500"
+                                            <a className="title hover:text-amber-500"
                                                 onClick={toggleModal}>{item.title}
                                             </a>
                                         </Link>
                                     )
                                 }
                                 )}
-                            </ul>
+                            </div>
                         </motion.div>)}
                 </AnimatePresence>
 
