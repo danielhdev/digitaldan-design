@@ -5,6 +5,7 @@ import Head from 'next/head'
 import Navbar from "@components/Navbar"
 import Lenis from '@studio-freight/lenis'
 import { ParallaxProvider } from 'react-scroll-parallax'
+import Menu from '@components/Menu'
 
 
 function Application({ Component, pageProps }) {
@@ -67,7 +68,7 @@ User-centered design
 
 
       <Navbar />
-      {/* <Menu /> */}
+      <Menu />
       <AnimatePresence mode='wait'
         onExitComplete={() => window.scrollTo(0, 0)}>
 

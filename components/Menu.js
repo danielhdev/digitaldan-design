@@ -30,7 +30,8 @@ const Menu = () => {
     return (
         <>
             <button
-                className="hover:text-amber-200 focus:outline-none paragraph z-50 fixed right-[1.25rem] lg:right-[2.5rem] mt-[0.15rem] lg:mt-0
+                className="hover:text-amber-200 focus:outline-none 
+                z-50 fixed right-[1.25rem] lg:right-[2.5rem] mt-[0.75rem]
                     text-zinc-50 mix-blend-difference"
                 onClick={toggleModal}>
                 {!isOpen ? <FaGripLines /> : <GiTireIronCross />}
@@ -40,20 +41,20 @@ const Menu = () => {
                 <AnimatePresence>
                     {isOpen && (
                         <motion.div
-                            className="fixed top-0 right-0 w-2/3 lg:w-[30%] h-full bg-lime-500 flex justify-center items-start z-40"
+                            className="fixed top-0 right-0 w-2/3 lg:w-[30%] h-full bg-sky-900 flex justify-center items-center z-40"
                             variants={variants}
                             initial="hidden"
                             animate="visible"
                             exit="hidden"
                             onClick={toggleModal}
                         >
-                            <div className="w-full flex flex-col justify-end items-end space-y-[4vw] p-[3rem] text-sky-900
+                            <div className="w-full flex flex-col justify-end items-end space-y-[4vw] p-[3rem] text-amber-500
                             ">
 
                                 {menu.map((item, index) => {
                                     return (
                                         <Link key={index} href={item.path}>
-                                            <a className="title hover:text-stone-500"
+                                            <a className="title hover:text-stone-50"
                                                 onClick={toggleModal}>{item.title}
                                             </a>
                                         </Link>

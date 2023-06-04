@@ -36,18 +36,11 @@ const Navbar = () => {
                             <div className="w-[1rem] h-[1rem] 
                                 lg:w-[1.25rem] lg:h-[1.25rem] 
                             rounded-full cursor-pointer hidden dark:block bg-zinc-50">
-
                             </div>
-
-
                         </div>
-
                     </section>
-
-                    <Menu />
                     <Contacticons />
                 </nav>
-
             </div >
         </>
     )
