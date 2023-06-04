@@ -28,6 +28,7 @@ const Hero = () => {
                             Design</div>
                         <motion.div animate={wedesignAnimate2} className="font-bold subheader
                         mt-[2rem] mx-auto text-center flex flex-col items-center">
+                            Portfolio/
                             Daniel Hubschmann (Germany)<br />
                             <div>
                                 <ScrollArrow /></div>
