@@ -55,7 +55,7 @@ const Menu = () => {
                                 {menu.map((item, index) => {
                                     return (
                                         <Link key={index} href={item.path}>
-                                            <a className="title hover:text-amber-500"
+                                            <a className="title hover:text-stone-500"
                                                 onClick={toggleModal}>{item.title}
                                             </a>
                                         </Link>
