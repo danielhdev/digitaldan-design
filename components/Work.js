@@ -133,7 +133,7 @@ const Work = () => {
 
                                 </motion.p></Borders>
                         </div><br />
-                        <Link href="https://asnetlify.app/"
+                        <Link href="https://asprototype.netlify.app/Prototype/"
                         >
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}> <ArrowLinks >website (new tab)
