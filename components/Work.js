@@ -97,7 +97,7 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    Gallery for a skateboard shop. I created the assets and the UI/UX design. The layout went through several phases until it worked on all screen sizes, saving developer time.
+                                    Gallery for a skateboard shop. I created the assets and the UI/UX design. The layout went through several phases to save developer time.
                                     <br /></motion.p></Borders>
                         </div><br />
                     </div>
@@ -109,6 +109,10 @@ const Work = () => {
                     /></Casestudyimage>
                 <Casestudyimage>
                     <img src='/moon2.png'
+                        alt="Tab version gallery shop"
+                    /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/moon3.png'
                         alt="Tab version gallery shop"
                     /></Casestudyimage>
 
