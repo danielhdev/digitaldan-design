@@ -63,7 +63,54 @@ const Work = () => {
                     <img src='/ubg3.png'
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
+                <section id="Selfbrand"
+                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
+                    <div className="lg:w-[50%]">
+                        <h1 className="title">AI for UI</h1>
+                        <div className="w-fit">
+                            <Borders>
+                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
+                                    The new kid on the block: AI can help designers develop ideas like in the following example.
+                                    <br /></motion.p></Borders>
+                        </div>
+                        <br />
+                    </div>   </section>
+
+                <Casestudyimage>
+                    <img src='/howto1.png'
+                        alt="Picture of two pugs in pop art style made by AI Dall-E"
+                    /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/howto2.png'
+                        alt="Picture of two pugs in pop art style made by AI Dall-E"
+                    /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/howto3.png'
+                        alt="Picture of two pugs in pop art style made by AI Dall-E"
+                    /></Casestudyimage>
+                <section id="Selfbrand"
+                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+
+                    <div className="lg:w-[50%]">
+
+                        <div className="w-fit">
+                            <Borders>
+                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
+                                    Gallery for a skateboard shop. I created the assets and the UI/UX design. The layout went through several phases until it worked on all screen sizes, saving developer time.
+                                    <br /></motion.p></Borders>
+                        </div><br />
+                    </div>
+                </section>
+
+                <Casestudyimage>
+                    <img src='/moon1.png'
+                        alt="Gallery page for a skater shop"
+                    /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/moon2.png'
+                        alt="Tab version gallery shop"
+                    /></Casestudyimage>
 
                 <section id="ASnew"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start lg:gap-12 mx-auto my-[15vh]">
@@ -200,50 +247,7 @@ const Work = () => {
 
                     /></Casestudyimage>
 
-                <section id="Selfbrand"
-                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
-                    <div className="lg:w-[50%]">
-                        <h1 className="title">AI for UI</h1>
-                        <div className="w-fit">
-                            <Borders>
-                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    The new kid on the block: AI can help designers develop ideas like in the following example.
-                                    <br /></motion.p></Borders>
-                        </div>
-                        <br />
-                    </div>   </section>
-
-                <Casestudyimage>
-                    <img src='/howto1.png'
-                        alt="Picture of two pugs in pop art style made by AI Dall-E"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/howto2.png'
-                        alt="Picture of two pugs in pop art style made by AI Dall-E"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/howto3.png'
-                        alt="Picture of two pugs in pop art style made by AI Dall-E"
-                    /></Casestudyimage>
-                <section id="Selfbrand"
-                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
-
-                    <div className="lg:w-[50%]">
-
-                        <div className="w-fit">
-                            <Borders>
-                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    Gallery for a skateboard shop. I created the assets and the UI/UX design. The layout went through several phases until it worked on all screen sizes, saving developer time.
-                                    <br /></motion.p></Borders>
-                        </div><br />
-                    </div>
-                </section>
-
-                <Casestudyimage>
-                    <img src='/moon1.png'
-                        alt="Picture of two pugs in pop art style made by AI Dall-E"
-                    /></Casestudyimage>
 
 
 

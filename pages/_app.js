@@ -63,7 +63,7 @@ User-centered design
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>UI & Web Design - digital.dan</title>
+        <title>UI/UX/Web Design - digital.dan</title>
       </Head>
 
 
