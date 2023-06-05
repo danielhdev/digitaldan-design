@@ -38,7 +38,7 @@ const Services = () => {
                             <li>Fields: Adverstisement, apps, websites, landing pages, micro pages, events & presentations</li>
                             <li>Figma</li>
                             <li>Adobe Ae, Ps, Ai</li>
-                            <li>Inkscape, Fusion, Blender</li>
+                            <li>Inkscape</li>
                             <li>Dall-E, Midjourney</li>
                         </div>
                         </Borders>
