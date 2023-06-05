@@ -97,7 +97,7 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    UI/UX/Brand design for skateboard shop.
+                                    UI/UX/Brand design for a skateboard shop.
                                     <br /></motion.p></Borders>
                         </div><br />
                     </div>
