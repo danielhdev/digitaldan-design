@@ -23,11 +23,11 @@ const Work = () => {
 
                     <div className="lg:w-[50%]">
 
-
+                        <h1 className="title">Burger Place</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Redesign of a Berlin upscale burger joints' website, getting it out of 2016 with many UX improvements.
+                                    Redesign of a Berlin upscale burger joints' website, getting it out of 2016 with many UI improvements.
                                     <br />
                                 </motion.p></Borders>
                             <br />
@@ -93,11 +93,13 @@ const Work = () => {
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
-
+                        <h1 className="title">Skateboard Shop</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    UI/UX/Brand design for a skateboard shop.
+                                    UI & brand design. Challenges: Standing out from the competitors through a clear design identity.
+                                    Finding the right tone between a trustworthy e-commerce site and the unconventional
+                                    art style of the skater scene.
                                     <br /></motion.p></Borders>
                         </div><br />
                     </div>
@@ -124,7 +126,7 @@ const Work = () => {
                     className="lg:w-[80vw] h-auto flex flex-col justify-start lg:gap-12 mx-auto my-[15vh]">
 
                     <div className="w-screen lg:w-[50%]">
-
+                        <h1 className="title">Portfolio</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
@@ -160,13 +162,38 @@ const Work = () => {
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
 
+                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+
+
+                    <div className="lg:w-[50%]">
+                        <h1 className="title">Social Media</h1>
+                        <div className="w-fit">
+                            <Borders>
+                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
+                                    Helping clients to stand out in a sea of information: With a mix of classic design rules and new ideas.
+
+                                </motion.p></Borders>
+                        </div><br />
+                        <Link href="https://food-health-one-seven.vercel.app/"
+                        >
+                            <a target={'_blank'}
+                                rel={'noreferrer noopener'}> <ArrowLinks >website (new tab)
+                                    <BsArrowUpRight /> </ArrowLinks>  </a>
+                        </Link>
+                    </div> </section>
+                <Casestudyimage><img src='/soc1.png'
+                    alt="AS portfolio redesign"
+                /></Casestudyimage>
+                <Casestudyimage><img src='/soc2.png'
+                    alt="AS portfolio redesign"
+                /></Casestudyimage>
 
 
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
 
                     <div className="lg:w-[50%]">
-
+                        <h1 className="title">Beauty</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
@@ -191,7 +218,7 @@ const Work = () => {
                     alt="AS portfolio redesign"
                 /></Casestudyimage>
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
-
+                    <h1 className="title">Portfolio II</h1>
                     <div className="w-fit">
                         <Borders>
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
@@ -223,7 +250,7 @@ const Work = () => {
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
 
                     <div className="lg:w-[50%]">
-
+                        <h1 className="title">Self-Branding</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
@@ -254,11 +281,6 @@ const Work = () => {
                         alt="AS portfolio redesign"
 
                     /></Casestudyimage>
-
-
-
-
-
             </main>
         </>
     )

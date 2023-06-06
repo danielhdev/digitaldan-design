@@ -5,7 +5,7 @@ const Typeanimation = () => {
     return (
         <div className="h-[1rem] font-bold heroheader">
             <Typewriter
-                words={['UX', 'UI', 'Web']}
+                words={['UI', 'Visual', 'Web']}
                 loop={false}
                 typespeed={10}
                 deletespeed={10}

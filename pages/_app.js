@@ -46,24 +46,24 @@ Interaction design
 User-centered design
 "
         />
-        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, UI and Web designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
+        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, UI, Visual and Web designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
 
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
-        <meta property="og:title" content="digital.dan UI and Web Design" />
-        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, a UI and Web designer. 
+        <meta property="og:title" content="digital.dan UI, Visual and Web Design" />
+        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, a UI Visual and Web designer. 
         Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects."/>
         <meta property="og:url" content="https://digitaldan.agency/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="UI and Web Designer Portfolio - Daniel Hubschmann digital.dan" />
-        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, a UI and Web designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
+        <meta name="twitter:title" content="UI Visual and Web Designer Portfolio - Daniel Hubschmann digital.dan" />
+        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, a UI, Visual and Web designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
         <meta name="twitter:image" content="https://example.com/your-image.jpg"></meta>
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>UI/UX/Web Design - digital.dan</title>
+        <title>UI/Visual/Web Design - digital.dan</title>
       </Head>
 
 
