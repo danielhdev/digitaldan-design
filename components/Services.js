@@ -10,7 +10,7 @@ const Services = () => {
                         <li>About Me</li>
                         <Borders><div className="paragraph mr-[2rem]">
                             <p>Daniel Hubschmann (Germany).
-                                UI, web and graphic designer with over 20 years experience. I have been focusing on digital design in the recent decade.</p>
+                                UI, web and visual designer with over 20 years experience. I have been focusing on digital design in the recent decade.</p>
                             <br />
 
                             <p>Taking classic rules and the teachings of the art and design greats into the 21st century.</p>
@@ -31,7 +31,7 @@ const Services = () => {
                         Skills/ Tools
                         <Borders><div className="paragraph">
                             <li>User interface & web design</li>
-                            <li>Graphic design</li>
+                            <li>Graphic & visual design</li>
                             <li>Design systems</li>
                             <li>Proficient in HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript & JavaScript frameworks for UI components </li>
