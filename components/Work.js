@@ -49,7 +49,11 @@ const Work = () => {
                     <img src='/ubg1.png'
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
-                <div className='lg:w-[65%]'></div>
+                <Casestudyimage>
+                    <img src='/ubg5.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
+
                 <Casestudyimage>
                     <img src='/ubg4.png'
                         alt="Upper Burger portfolio redesign"

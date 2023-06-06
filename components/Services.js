@@ -10,14 +10,15 @@ const Services = () => {
                         <li>About Me</li>
                         <Borders><div className="paragraph mr-[2rem]">
                             <p>Daniel Hubschmann (Germany).
-                                UI, web and visual designer with over 20 years experience. I have been focusing on digital design in the recent decade.</p>
+                                UI, web and visual designer with over 20 years experience.</p>
                             <br />
 
                             <p>Taking classic rules and the teachings of the art and design greats into the 21st century.</p>
 
                             <br />
 
-                            <p>I combine timeless visuals with great user experiences for all industries.
+                            <p>A good designer should be able to design everything: focused on digital,
+                                I can create timeless visuals across medias and industries.
 
                                 <br />
 
