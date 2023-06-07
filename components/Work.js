@@ -102,7 +102,7 @@ const Work = () => {
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
                                     UI & brand design. Challenges: Standing out from the competitors through a clear design identity.
-                                    Finding the right tone between a trustworthy e-commerce site and the unconventional
+                                    Finding the right tone between a sober, solid e-commerce site and the chaotic, experimental
                                     art style of the skater scene.
                                     <br /></motion.p></Borders>
                         </div><br />
@@ -174,7 +174,7 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Helping clients to stand out in a sea of information: With a mix of classic design rules and new ideas.
+                                    Stand out in a sea of information thanks to a mix of classic design rules and new ideas.
 
                                 </motion.p></Borders>
                         </div><br />
@@ -227,7 +227,7 @@ const Work = () => {
                         <h1 className="title">Portfolio II</h1>
                         <Borders>
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                Your new job thanks to a strong online presence. Giving you an egde in competitive markets. </motion.p></Borders>
+                                Get your new job with to a strong online presence. Giving you an egde in competitive markets. </motion.p></Borders>
                     </div>
 
                     <Link href="https://ddshowcase3.netlify.app/"
@@ -260,7 +260,7 @@ const Work = () => {
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
                                     Website and social media assets for a picky client: myself. One of the brand types consists of many circles.
-                                    I chose AI-generated images of metal balls for the first batch of promotional material.
+                                    Based on this I chose AI-generated images of metal balls and circles for the first batch of promotional material.
                                     <br /></motion.p></Borders>
                         </div><br />
                     </div>
