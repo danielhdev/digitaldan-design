@@ -55,7 +55,7 @@ const About = () => {
                                             <a target={'_blank'}
                                                 rel={'noreferrer noopener'}>
                                                 <ArrowLinks >
-                                                    Your resume? (Google document) <BsArrowUpRight /> </ArrowLinks>  </a>
+                                                    Your resume? (PDF) <BsArrowUpRight /> </ArrowLinks>  </a>
                                         </Link></span>
                                     <span className="pb-[5%]">
 
