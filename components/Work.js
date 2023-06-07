@@ -18,7 +18,8 @@ const Work = () => {
             <main id="Work" className="h-auto flex flex-col justify-center items-center pb-[10rem] lg:pb-[15rem]">
 
 
-                <section className="lg:w-[80vw] h-auto md:py-[10vh] flex flex-col justify-start gap-12 mx-auto mt-[15vh]">
+                <section id="Selfbrand"
+                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto  mt-[15vh] lg:mt-[35vh]">
 
                     <div className="lg:w-[50%]">
 
