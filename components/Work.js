@@ -259,7 +259,7 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    Website and social media assets for a picky client: myself. One of the brand types consists of many circles.
+                                    Website and social media assets for a picky client: myself. One of the brand types consists of somed circles.
                                     Based on this I chose AI-generated images of metal balls and circles for the first batch of promotional material.
                                     <br /></motion.p></Borders>
                         </div><br />
