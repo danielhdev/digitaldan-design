@@ -18,8 +18,7 @@ const Work = () => {
             <main id="Work" className="h-auto flex flex-col justify-center items-center pb-[10rem] lg:pb-[15rem]">
 
 
-                <section className="lg:w-[80vw] h-auto md:py-[10vh] flex flex-col justify-start gap-12 mx-auto mt-[15vh] 
-                mb-[15vh]">
+                <section className="lg:w-[80vw] h-auto md:py-[10vh] flex flex-col justify-start gap-12 mx-auto mt-[15vh]">
 
                     <div className="lg:w-[50%]">
 
@@ -67,7 +66,7 @@ const Work = () => {
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
                 <section id="Selfbrand"
-                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh]">
 
                     <div className="lg:w-[50%]">
                         <h1 className="title">AI for UI</h1>
@@ -78,7 +77,8 @@ const Work = () => {
                                     <br /></motion.p></Borders>
                         </div>
                         <br />
-                    </div>   </section>
+                    </div>
+                </section>
 
                 <Casestudyimage>
                     <img src='/howto1.png'
@@ -93,7 +93,7 @@ const Work = () => {
                         alt="Picture of two pugs in pop art style made by AI Dall-E"
                     /></Casestudyimage>
                 <section id="Selfbrand"
-                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh]">
 
                     <div className="lg:w-[50%]">
                         <h1 className="title">Skateboard Shop</h1>
@@ -126,7 +126,7 @@ const Work = () => {
                     /></Casestudyimage>
 
                 <section id="ASnew"
-                    className="lg:w-[80vw] h-auto flex flex-col justify-start lg:gap-12 mx-auto my-[15vh]">
+                    className="lg:w-[80vw] h-auto flex flex-col justify-start lg:gap-12 mx-auto mt-[15vh]">
 
                     <div className="w-screen lg:w-[50%]">
                         <h1 className="title">Portfolio</h1>
@@ -165,7 +165,7 @@ const Work = () => {
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
 
-                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh]">
 
 
                     <div className="lg:w-[50%]">
@@ -192,7 +192,7 @@ const Work = () => {
                 /></Casestudyimage>
 
 
-                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh]">
 
 
                     <div className="lg:w-[50%]">
@@ -200,7 +200,7 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Landing pages with strong imagery & messages. Catch even the most impatient user.
+                                    Strong imagery & messages. Catch even the most impatient user.
 
                                 </motion.p></Borders>
                         </div><br />
@@ -220,9 +220,10 @@ const Work = () => {
                 <Casestudyimage><img src='/beau3.png'
                     alt="AS portfolio redesign"
                 /></Casestudyimage>
-                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
-                    <h1 className="title">Portfolio II</h1>
+                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh]">
+
                     <div className="w-fit">
+                        <h1 className="title">Portfolio II</h1>
                         <Borders>
                             <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                 Your new job thanks to a strong online presence. Giving you an egde in competitive markets. </motion.p></Borders>
@@ -250,7 +251,7 @@ const Work = () => {
                     /></Casestudyimage>
 
                 <section id="Selfbrand"
-                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh] mb-[15vh]">
+                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh]">
 
                     <div className="lg:w-[50%]">
                         <h1 className="title">Self-Branding</h1>
