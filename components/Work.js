@@ -258,8 +258,8 @@ const Work = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    Website and social media assets for a picky client: myself. One of the brand types consists of many circles. 
-                                    I chose AI-generated images of metal balls for the first batch of promotional material.   
+                                    Website and social media assets for a picky client: myself. One of the brand types consists of many circles.
+                                    I chose AI-generated images of metal balls for the first batch of promotional material.
                                     <br /></motion.p></Borders>
                         </div><br />
                     </div>
@@ -285,6 +285,10 @@ const Work = () => {
                     <img src='/noway.png'
                         alt="AS portfolio redesign"
 
+                    /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/noway2.png'
+                        alt="AS portfolio redesign"
                     /></Casestudyimage>
             </main>
         </>

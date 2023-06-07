@@ -49,6 +49,16 @@ const About = () => {
                                         </Link></span>
                                     <span className="pb-[5%]">
 
+
+                                        <Link href="https://drive.google.com/file/d/1JIKTwgwAZAFZ8fyAO0eYpzlEM95a5YWM/view?usp=drive_link"
+                                        >
+                                            <a target={'_blank'}
+                                                rel={'noreferrer noopener'}>
+                                                <ArrowLinks >
+                                                    Your resume? (Google document) <BsArrowUpRight /> </ArrowLinks>  </a>
+                                        </Link></span>
+                                    <span className="pb-[5%]">
+
                                         <Link href="#Contact"
                                         >
                                             <a  >

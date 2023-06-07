@@ -9,7 +9,7 @@ const Services = () => {
                     <ul className="title p-[5vh] md:p-[5vh] landscape:w-[45vw]">
                         <li>About Me</li>
                         <Borders><div className="paragraph mr-[2rem]">
-                            <p>Daniel Hubschmann (Germany).
+                            <p>Daniel Hubschmann (Germany) <br />Art director,
                                 UI, web and visual designer with over 20 years experience.</p>
                             <br />
 
@@ -31,12 +31,12 @@ const Services = () => {
                       landscape:w-[45vw]">
                         Skills/ Tools
                         <Borders><div className="paragraph">
+                            <li>Art direction</li>
                             <li>User interface & web design</li>
                             <li>Graphic & visual design</li>
                             <li>Design systems</li>
                             <li>Proficient in HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript & JavaScript frameworks for UI components </li>
-                            <li>Fields: Adverstisement, apps, websites, landing pages, micro pages, events & presentations</li>
                             <li>Figma</li>
                             <li>Adobe Ae, Ps, Ai</li>
                             <li>Inkscape</li>
