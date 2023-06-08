@@ -17,7 +17,8 @@ function Application({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="UI Web designer
 UI designer
-
+art direction
+art director
 Portfolio
 Design projects
 User interface
@@ -34,7 +35,7 @@ User-centered design
         <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, Art Director, UI, Visual and Web designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
 
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
-        <meta property="og:title" content="digital.dan UI, Visual and Web Design Art Direction" />
+        <meta property="og:title" content="digital.dan UI, Visual and Web Design, Art Direction" />
         <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, an Art Director, UI, Visual and Web designer. 
         Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects."/>
         <meta property="og:url" content="https://digitaldan.agency/" />
