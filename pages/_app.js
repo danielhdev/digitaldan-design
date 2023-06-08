@@ -17,7 +17,8 @@ function Application({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="UI Web designer
 UI designer
-
+art direction
+art director
 Portfolio
 Design projects
 User interface
