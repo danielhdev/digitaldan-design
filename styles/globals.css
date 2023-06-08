@@ -68,6 +68,11 @@ body {
   border-radius: 50%;
   background-color: transparent;
 }
+.aboutimg {
+  height: calc(12rem + 30vh);
+  margin: 4rem 0;
+}
+
 .contactli1:hover,
 .contactli2:hover,
 .contactli3:hover {

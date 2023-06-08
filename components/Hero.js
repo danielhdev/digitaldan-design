@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import ScrollArrow from './ScrollArrow';
-import Typeanimation from './Typeanimation';
 
 
 const Hero = () => {
@@ -18,14 +17,12 @@ const Hero = () => {
     }
 
     return (
-        <main className="h-screen flex flex-col
-        justify-center items-center">
-            <motion.section className="md:px-[2rem] lg:pt-[5rem]">
+        <main className="h-auto flex flex-col
+        justify-start items-start">
+            <motion.section className="px-[2rem] pt-[5rem]">
                 <section>
                     <motion.h1 animate={wedesignAnimate} className="flex flex-col heroheader">
-                        <div className="flex flex-col justify-center items-center">
-                            <Typeanimation /><br />
-                            Design</div>
+
                         <motion.div animate={wedesignAnimate2} className="font-bold subheader
                         mt-[2rem] mx-auto">
                             Portfolio Daniel Hubschmann (Germany) <br /> Designer & Art Director
