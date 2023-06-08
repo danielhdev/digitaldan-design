@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Contacticons from './Contacticons';
-import Menu from './Menu';
 
 const Navbar = () => {
 
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('dark');
     const toggleTheme = () => {
         if (theme === 'dark') {
             setTheme('light');
