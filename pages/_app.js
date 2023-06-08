@@ -80,6 +80,7 @@ User-centered design
             exit="exitPt"
             transition={{
               duration: 0.4,
+              delay: 1,
               ease: 'easeOut'
             }}
             variants={{
