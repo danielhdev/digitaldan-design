@@ -3,28 +3,13 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Navbar from "@components/Navbar"
-import Lenis from '@studio-freight/lenis'
 import { ParallaxProvider } from 'react-scroll-parallax'
 import Menu from '@components/Menu'
 
 
 function Application({ Component, pageProps }) {
   const router = useRouter()
-  if (typeof window !== "undefined") {
-    const lenis = new Lenis()
 
-    lenis.on('scroll', (e) => {
-      console.log(e)
-    })
-
-    function raf(time) {
-      lenis.raf(time)
-      requestAnimationFrame(raf)
-    }
-
-    requestAnimationFrame(raf)
-
-  }
   return (
     <>
       <Head>
@@ -80,7 +65,6 @@ User-centered design
             exit="exitPt"
             transition={{
               duration: 0.4,
-              delay: 1,
               ease: 'easeOut'
             }}
             variants={{
