@@ -17,7 +17,7 @@ const Hero = () => {
     }
 
     return (
-        <main className="h-auto flex flex-col
+        <main className="h-[20vh] pt-[2vh] flex flex-col
         justify-start items-start">
             <motion.section className="px-[2rem] pt-[5rem]">
                 <section>
