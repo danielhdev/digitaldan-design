@@ -5,7 +5,7 @@ const Casestudyimage = ({ children }) => {
         React.cloneElement(child, { className: 'w-full' }))
 
     return (
-        <div className="w-full h-auto mx-auto my-[10%] lg:my-[5%]
+        <div className="w-[75%] h-auto mx-auto my-[10%] lg:my-[5%]
         border-[1px] border-stone-800 border-solid">{fullWidth}</div>
     )
 }
