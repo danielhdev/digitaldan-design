@@ -53,18 +53,29 @@ const Burger = () => {
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
                 <Casestudyimage>
+                    <img src='/ubg6.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
+
+
+                <Casestudyimage>
                     <img src='/ubg4.png'
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
+
+                <Casestudyimage>
+                    <img src='/ubg8.png'
+                        alt="Upper Burger portfolio redesign"
+                    /></Casestudyimage>
+
+
+
                 <Casestudyimage>
                     <img src='/ubg2.png'
                         alt="Upper Burger portfolio redesign"
                     /></Casestudyimage>
 
-                <Casestudyimage>
-                    <img src='/ubg3.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
+
 
                 <Back />
             </main>

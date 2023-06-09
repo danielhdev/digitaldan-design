@@ -1,10 +1,6 @@
 import React from 'react'
-import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { BsArrowUpRight } from 'react-icons/bs'
 import Borders from '@components/Borders'
-import ArrowLinks from '@components/ArrowLinks'
-import Casestudyimage from '@components/Casestudyimage'
 import Back from '@components/Back'
 import Socgallery from '@components/Socgallery'
 
@@ -20,7 +16,7 @@ const Social = () => {
             <main id="Work" className="h-auto flex 
             flex-col justify-center items-center pb-[10rem] lg:pb-[15rem]">
 
-                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh]">
+                <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto my-[15vh]">
 
 
                     <div className="lg:w-[50%]">
