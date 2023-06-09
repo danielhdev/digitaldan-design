@@ -59,6 +59,10 @@ const Selfbrand = () => {
                     <img src='/ddmock1.png'
                         alt="AS portfolio redesign"
                     /></Casestudyimage>
+                <Casestudyimage>
+                    <img src='/ddcard.png'
+                        alt="AS portfolio redesign"
+                    /></Casestudyimage>
 
 
                 <Back />

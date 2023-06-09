@@ -13,9 +13,9 @@ const Services = () => {
                 <Aboutgallery />
 
                 <section className="px-2 my-[5rem] md:my-[10rem] grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <ul className="title px-[5vh] p-[5vh] landscape:w-[45vw]">
+                    <ul className="subheader font-bold px-[5vh] p-[5vh] landscape:w-[45vw]">
                         <li>About Me</li>
-                        <Borders><div className="paragraph mr-[2rem]">
+                        <Borders><div className="paragraph font-normal mr-[2rem]">
                             <p>Daniel Hubschmann (Germany) <br />Art director,
                                 UI, web and visual designer with over 20 years experience.</p>
                             <br />
@@ -26,9 +26,9 @@ const Services = () => {
                             </p>
                         </div> </Borders></ul>
 
-                    <ul className="title px-[5vh] md:p-[5vh] landscape:w-[45vw] list-disc">
+                    <ul className="subheader font-bold px-[5vh] md:p-[5vh] landscape:w-[45vw] list-disc">
                         Skills/ Tools
-                        <Borders><div className="paragraph">
+                        <Borders><div className="paragraph font-normal">
                             <li>Art direction</li>
                             <li>User interface & web design</li>
                             <li>Graphic & visual design</li>
