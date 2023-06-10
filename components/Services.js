@@ -37,8 +37,8 @@ const Services = () => {
                             <li>JavaScript & JavaScript frameworks for UI components </li>
                             <li>Figma</li>
                             <li>Adobe Ae, Ps, Ai</li>
-                            <li>Inkscape</li>
-                            <li>Dall-E, Midjourney</li>
+                            <li>Inkscape, Gimp</li>
+                            <li>ChatGPT, Dall-E, Midjourney</li>
                         </div>
                         </Borders>
                         <br />
