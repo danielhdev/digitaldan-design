@@ -25,7 +25,7 @@ const FrontGallery = () => {
                             <Link href={`${item.slug}`}>
                                 <a>
                                     <div
-                                        className="w-full h-[30rem] 2xl:h-[40rem] bg-cover bg-center
+                                        className="w-full h-[35rem] 2xl:h-[40rem] bg-cover bg-center
                                         border-[1px] border-stone-800 border-solid"
                                         style={{ backgroundImage: `url(${item.image})` }}
                                     ></div>
