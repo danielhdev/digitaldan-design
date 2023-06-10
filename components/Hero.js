@@ -24,7 +24,7 @@ const Hero = () => {
                     <motion.h1 animate={wedesignAnimate} className="flex flex-col">
 
                         <motion.div animate={wedesignAnimate2} className="font-bold subheader
-                        mt-[2rem] mx-auto">
+                        lg:ml-[0.25rem] mt-[2rem] mx-auto">
                             Portfolio Daniel Hubschmann (Germany) <br /> Art Director & Designer
                             <div className="mt-[1rem]">
                                 <ScrollArrow /></div>
