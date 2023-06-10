@@ -17,11 +17,11 @@ const Hero = () => {
     }
 
     return (
-        <main className="h-[20vh] pt-[2vh] flex flex-col
+        <main className="h-[20vh] pt-[2vh] flex flex-col 
         justify-start items-start">
             <motion.section className="px-[2rem] pt-[5rem]">
                 <section>
-                    <motion.h1 animate={wedesignAnimate} className="flex flex-col heroheader">
+                    <motion.h1 animate={wedesignAnimate} className="flex flex-col">
 
                         <motion.div animate={wedesignAnimate2} className="font-bold subheader
                         mt-[2rem] mx-auto">
