@@ -17,7 +17,7 @@ const FrontGallery = () => {
     return (
         <main id="Work"
             className="h-auto flex flex-col justify-center items-center py-[10rem] lg:py-[15rem]">
-            <div className="w-full lg:w-[80vw] mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="w-full lg:w-[90vw] mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-[4rem]">
                     {images.map((item) => (
                         <div key={item.id} className="gallery-icon">
@@ -25,7 +25,7 @@ const FrontGallery = () => {
                             <Link href={`${item.slug}`}>
                                 <a>
                                     <div
-                                        className="w-full h-[25rem] 2xl:h-[40rem] bg-cover bg-center
+                                        className="w-full h-[30rem] 2xl:h-[40rem] bg-cover bg-center
                                         border-[1px] border-stone-800 border-solid"
                                         style={{ backgroundImage: `url(${item.image})` }}
                                     ></div>

@@ -9,7 +9,7 @@ const Aboutgallery = () => {
     ];
 
     return (
-        <div className="w-full lg:w-[80vw] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full lg:w-[90vw] mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 gap-4">
                 {images.map((image, index) => (
                     <div key={index}>
