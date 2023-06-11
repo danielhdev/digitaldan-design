@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import { BsArrowUpRight } from 'react-icons/bs'
 import Borders from '@components/Borders'
 import ArrowLinks from '@components/ArrowLinks'
-import Casestudyimage from '@components/Casestudyimage'
 import Back from '@components/Back'
 
 const Beauty = () => {
@@ -13,6 +12,11 @@ const Beauty = () => {
         y: [15, 0],
         transition: { delay: 0.2, duration: 1 },
     }
+    const images = [
+        '/beau1.png',
+        '/beau2.jpg',
+        '/beau3.png',
+    ];
     return (
         <div>
 
@@ -22,11 +26,11 @@ const Beauty = () => {
 
 
                     <div className="lg:w-[50%]">
-                        <h1 className="title">Beauty</h1>
+                        <h1 className="title">Beauty Brand</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Strong imagery & messages. Catch even the most impatient user.
+                                    Digtal campaign for a new line of skin care products. A brand that emphasizes not using lab animals for testing.
 
                                 </motion.p></Borders>
                         </div><br />
@@ -36,16 +40,18 @@ const Beauty = () => {
                                 rel={'noreferrer noopener'}> <ArrowLinks >website (new tab)
                                     <BsArrowUpRight /> </ArrowLinks>  </a>
                         </Link>
-                    </div> </section>
-                <Casestudyimage><img src='/beau1.png'
-                    alt="AS portfolio redesign"
-                /></Casestudyimage>
-                <Casestudyimage><img src='/beau2.jpg'
-                    alt="AS portfolio redesign"
-                /></Casestudyimage>
-                <Casestudyimage><img src='/beau3.png'
-                    alt="AS portfolio redesign"
-                /></Casestudyimage>
+                    </div>
+                </section>
+                <div className="sm:w-screen md:w-screen lg:w-[90vw] mx-auto px-2 mt-[4rem]">
+                    <div className="grid grid-cols-1 gap-4 ">
+                        {images.map((image, index) => (
+                            <div key={index}>
+                                <img src={image} alt={`Image ${index + 1}`} className="w-full mx-auto lg:w-[90%] mb-[4rem]
+                                border-[1px] border-solid border-stone-800" />
+                            </div>
+                        ))}
+                    </div>
+                </div>
 
                 <Back />
             </main>

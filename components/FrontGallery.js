@@ -16,8 +16,8 @@ const FrontGallery = () => {
 
     return (
         <main id="Work"
-            className="h-auto flex flex-col justify-center items-center py-[10rem] lg:py-[15rem]">
-            <div className="w-full lg:w-[90vw] mx-auto px-4 sm:px-6 lg:px-8">
+            className=" flex flex-col justify-center items-center py-[10rem] lg:py-[15rem]">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 gap-[4rem]">
                     {images.map((item) => (
                         <div key={item.id} className="gallery-icon">

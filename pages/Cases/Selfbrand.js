@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import Borders from '@components/Borders'
-import Casestudyimage from '@components/Casestudyimage'
 import Back from '@components/Back'
 
 const Selfbrand = () => {
@@ -10,6 +9,15 @@ const Selfbrand = () => {
         y: [15, 0],
         transition: { delay: 0.2, duration: 1 },
     }
+    const images = [
+        '/ddmob1.png',
+        '/ddfonts.png',
+        '/ddtab.png',
+        '/ddtype.png',
+        '/ddmock1.png',
+        '/ddcard.png',
+
+    ];
     return (
         <div>
 
@@ -23,46 +31,22 @@ const Selfbrand = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    Website and social media assets for a picky client: myself. One of the brand types consists of some circles.
+                                    Brand design, website, social media assets and stationary for myself. One of the brand types consists of some circles.
                                     Based on this I chose AI-generated images of metal balls and circles for the first batch of promotional material.
                                     <br /></motion.p></Borders>
                         </div><br />
                     </div>
                 </section>
-                <Casestudyimage>
-                    <img src='/ddfonts.png'
-                        alt="AS portfolio redesign"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/ddmob1.png'
-                        alt="AS portfolio redesign"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/ddtype.png'
-                        alt="AS portfolio redesign"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/ddtab.png'
-                        alt="AS portfolio redesign"
-
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/noway.png'
-                        alt="AS portfolio redesign"
-
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/noway2.png'
-                        alt="AS portfolio redesign"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/ddmock1.png'
-                        alt="AS portfolio redesign"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/ddcard.png'
-                        alt="AS portfolio redesign"
-                    /></Casestudyimage>
+                <div className="sm:w-screen md:w-screen lg:w-[90vw] mx-auto px-2 mt-[4rem]">
+                    <div className="grid grid-cols-1 gap-4 ">
+                        {images.map((image, index) => (
+                            <div key={index}>
+                                <img src={image} alt={`Image ${index + 1}`} className="w-full mx-auto lg:w-[90%] mb-[4rem]
+                                border-[1px] border-solid border-stone-800" />
+                            </div>
+                        ))}
+                    </div>
+                </div>
 
 
                 <Back />

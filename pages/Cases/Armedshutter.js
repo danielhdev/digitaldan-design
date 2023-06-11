@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import { BsArrowUpRight } from 'react-icons/bs'
 import Borders from '@components/Borders'
 import ArrowLinks from '@components/ArrowLinks'
-import Casestudyimage from '@components/Casestudyimage'
 import Back from '@components/Back'
 
 const Armedshutter = () => {
@@ -13,6 +12,13 @@ const Armedshutter = () => {
         y: [15, 0],
         transition: { delay: 0.2, duration: 1 },
     }
+    const images = [
+        '/as1.png',
+        '/Twitter2.png',
+        '/as2.png',
+        '/as3.png',
+
+    ];
     return (
         <div>
 
@@ -27,7 +33,7 @@ const Armedshutter = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    A fresh portfolio site for an American people and fashion photographer.
+                                    Brand refresh for an American people and fashion photographer: New types and logo, social media ads and a new website with improved UX.
                                     <br />
 
                                 </motion.p></Borders>
@@ -40,25 +46,16 @@ const Armedshutter = () => {
                         </Link>
                     </div>
                 </section>
-
-                <Casestudyimage>
-                    <img src='/as1.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
-
-
-                <Casestudyimage>
-                    <img src='/twitter2.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
-                <Casestudyimage><img src='/as3.png'
-                    alt="AS portfolio redesign"
-                /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/as2.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
-
+                <div className="sm:w-screen md:w-screen lg:w-[90vw] mx-auto px-2 mt-[4rem]">
+                    <div className="grid grid-cols-1 gap-4 ">
+                        {images.map((image, index) => (
+                            <div key={index}>
+                                <img src={image} alt={`Image ${index + 1}`} className="w-full mx-auto lg:w-[90%] mb-[4rem]
+                                border-[1px] border-solid border-stone-800" />
+                            </div>
+                        ))}
+                    </div>
+                </div>
                 <Back />
             </main>
 

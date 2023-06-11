@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Borders from '@components/Borders'
 import Back from '@components/Back'
-import Socgallery from '@components/Socgallery'
+
 
 const Social = () => {
     const paragraphAnimate = {
@@ -10,6 +10,14 @@ const Social = () => {
         y: [15, 0],
         transition: { delay: 0.2, duration: 1 },
     }
+    const images = [
+        '/soc1.png',
+        '/soc2.png',
+        '/soc3.png',
+        '/soc4.png',
+        '/soc6.png',
+    ];
+
     return (
         <div>
 
@@ -29,8 +37,17 @@ const Social = () => {
                                 </motion.p></Borders>
                         </div><br />
 
-                    </div> </section>
-                <Socgallery />
+                    </div>
+                </section>
+                <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="grid grid-cols-1 gap-[4rem]">
+                        {images.map((image, index) => (
+                            <div key={index}>
+                                <img src={image} alt={`Image ${index + 1}`} className="w-full" />
+                            </div>
+                        ))}
+                    </div>
+                </div>
 
                 <Back />
             </main>
