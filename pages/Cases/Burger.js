@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 import { BsArrowUpRight } from 'react-icons/bs'
 import Borders from '@components/Borders'
 import ArrowLinks from '@components/ArrowLinks'
-import Casestudyimage from '@components/Casestudyimage'
 import Back from '@components/Back'
 
 const Burger = () => {
@@ -13,70 +12,54 @@ const Burger = () => {
         y: [15, 0],
         transition: { delay: 0.2, duration: 1 },
     }
+    const images = [
+        '/ubg5.png',
+        '/ubg1.png',
+        '/ubg4.png',
+        '/ubg2.png',
+        '/ubg6.png',
+        '/ubg8.png',
+
+        ,
+    ];
     return (
         <div>
+
+
             <main id="Work" className="h-auto flex flex-col justify-center items-center 
-            pb-[10rem] lg:pb-[15rem]">
+            pb-[10rem] lg:pb-[15rem] pt-5rem]">
+
                 <section id="Selfbrand"
-                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto  mt-[15vh] lg:mt-[35vh]">
+                    className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh]">
 
                     <div className="lg:w-[50%]">
-
-                        <h1 className="title">Burger Place</h1>
+                        <h1 className="title">Gourmet Burger</h1>
                         <div className="w-fit">
                             <Borders>
-                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Redesign of a Berlin upscale burger joints' website, getting it out of 2016 with many UI improvements.
-                                    <br />
-                                </motion.p></Borders>
-                            <br />
-                            <div className='flex flex-row gap-[2rem]'>
-
-                                <Link href="https://digitaldanrestaurant.netlify.app/"
-                                >
-                                    <a target={'_blank'}
-                                        rel={'noreferrer noopener'}>
-                                        <ArrowLinks>
-                                            website (new tab) <BsArrowUpRight /></ArrowLinks>
-                                    </a>
-                                </Link>
-                            </div>
-                        </div>
+                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
+                                    Brand design refresh: Bringing the website out of 2016 and some social media advertising.
+                                    <br /></motion.p></Borders>
+                        </div><br />
+                        <Link href="https://digitaldanrestaurant.netlify.app/"
+                        >
+                            <a target={'_blank'}
+                                rel={'noreferrer noopener'}> <ArrowLinks >website (new tab)
+                                    <BsArrowUpRight /> </ArrowLinks>  </a>
+                        </Link>
                     </div>
                 </section>
-                <Casestudyimage>
-                    <img src='/ubg5.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/ubg1.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/ubg6.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
 
 
-                <Casestudyimage>
-                    <img src='/ubg4.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
-
-                <Casestudyimage>
-                    <img src='/ubg8.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
-
-
-
-                <Casestudyimage>
-                    <img src='/ubg2.png'
-                        alt="Upper Burger portfolio redesign"
-                    /></Casestudyimage>
-
-
-
+                <div className="sm:w-screen md:w-screen lg:w-[90vw] mx-auto px-2 mt-[4rem]">
+                    <div className="grid grid-cols-1 gap-4 ">
+                        {images.map((image, index) => (
+                            <div key={index}>
+                                <img src={image} alt={`Image ${index + 1}`} className="w-full mx-auto lg:w-[90%] mb-[4rem]
+                                border-[1px] border-solid border-stone-800" />
+                            </div>
+                        ))}
+                    </div>
+                </div>
                 <Back />
             </main>
         </div>

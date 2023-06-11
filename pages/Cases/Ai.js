@@ -1,10 +1,6 @@
 import React from 'react'
-import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { BsArrowUpRight } from 'react-icons/bs'
 import Borders from '@components/Borders'
-
-import Casestudyimage from '@components/Casestudyimage'
 import Back from '@components/Back'
 
 const Ai = () => {
@@ -13,6 +9,12 @@ const Ai = () => {
         y: [15, 0],
         transition: { delay: 0.2, duration: 1 },
     }
+    const images = [
+        '/howto1.png',
+        '/howto2.png',
+        '/howto3.png',
+
+    ];
     return (
         <div>
 
@@ -32,19 +34,16 @@ const Ai = () => {
                         <br />
                     </div>
                 </section>
-
-                <Casestudyimage>
-                    <img src='/howto1.png'
-                        alt="Picture of two pugs in pop art style made by AI Dall-E"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/howto2.png'
-                        alt="Picture of two pugs in pop art style made by AI Dall-E"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/howto3.png'
-                        alt="Picture of two pugs in pop art style made by AI Dall-E"
-                    /></Casestudyimage>
+                <div className="sm:w-screen md:w-screen lg:w-[90vw] mx-auto px-2 mt-[4rem]">
+                    <div className="grid grid-cols-1 gap-4 ">
+                        {images.map((image, index) => (
+                            <div key={index}>
+                                <img src={image} alt={`Image ${index + 1}`} className="w-full mx-auto lg:w-[90%] mb-[4rem]
+                                border-[1px] border-solid border-stone-800" />
+                            </div>
+                        ))}
+                    </div>
+                </div>
 
                 <Back />
             </main>

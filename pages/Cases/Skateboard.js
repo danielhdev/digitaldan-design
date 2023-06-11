@@ -2,14 +2,19 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Back from '@components/Back'
 import Borders from '@components/Borders'
-import Casestudyimage from '@components/Casestudyimage'
-
 const Skateboard = () => {
     const paragraphAnimate = {
         opacity: [0, 1],
         y: [15, 0],
         transition: { delay: 0.2, duration: 1 },
     }
+    const images = [
+        '/moon1.png',
+        '/moon2.png',
+        '/moon3.png',
+        '/moon4.png',
+
+    ];
     return (
         <div>
 
@@ -32,23 +37,17 @@ const Skateboard = () => {
                     </div>
                 </section>
 
-                <Casestudyimage>
-                    <img src='/moon1.png'
-                        alt="Gallery page for a skater shop"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/moon2.png'
-                        alt="Tab version gallery shop"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/moon3.png'
-                        alt="Tab version gallery shop"
-                    /></Casestudyimage>
-                <Casestudyimage>
-                    <img src='/moon4.png'
-                        alt="Tab version gallery shop"
-                    /></Casestudyimage>
-               
+                <div className="sm:w-screen md:w-screen lg:w-[90vw] mx-auto px-2">
+                    <div className="grid grid-cols-1 gap-4 ">
+                        {images.map((image, index) => (
+                            <div key={index}>
+                                <img src={image} alt={`Image ${index + 1}`} className="w-full mx-auto lg:w-[90%] mb-[4rem]
+                                border-[1px] border-solid border-stone-800" />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
                 <Back />
             </main>
         </div>
