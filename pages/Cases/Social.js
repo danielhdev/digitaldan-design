@@ -15,6 +15,7 @@ const Social = () => {
         '/soc2.png',
         '/soc3.png',
         '/soc4.png',
+        '/soc5.png',
         '/soc6.png',
     ];
 
@@ -23,20 +24,15 @@ const Social = () => {
 
             <main id="Work" className="h-auto flex 
             flex-col justify-center items-center pb-[10rem] lg:pb-[15rem]">
-
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto my-[15vh]">
-
-
                     <div className="lg:w-[50%]">
                         <h1 className="title">Playground</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                     A collection of past work including social media ads and random design projects
-
                                 </motion.p></Borders>
                         </div><br />
-
                     </div>
                 </section>
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -48,7 +44,6 @@ const Social = () => {
                         ))}
                     </div>
                 </div>
-
                 <Back />
             </main>
         </div>
