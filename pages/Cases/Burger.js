@@ -21,6 +21,7 @@ const Burger = () => {
         '/ubg6.png',
         '/ubg8.png',
         '/ubg9.png',
+        '/ubg10.png',
     ];
     return (
         <div>
@@ -37,7 +38,7 @@ const Burger = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    Brand design refresh: Bringing the website out of 2016 and some social media advertising.
+                                    Brand design refresh: A younger appearance, bringing the website out of 2016, social media advertising and stationary.
                                     <br /></motion.p></Borders>
                         </div><br />
                         <Link href="https://digitaldanrestaurant.netlify.app/"
