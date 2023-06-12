@@ -13,7 +13,7 @@ const Skateboard = () => {
         '/moon2.png',
         '/moon3.png',
         '/moon4.png',
-
+        '/moon5.png',
     ];
     return (
         <div>
