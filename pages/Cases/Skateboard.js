@@ -14,6 +14,8 @@ const Skateboard = () => {
         '/moon3.png',
         '/moon4.png',
         '/moon5.png',
+        '/moon6.png',
+        '/moon7.png',
     ];
     return (
         <div>
@@ -25,11 +27,11 @@ const Skateboard = () => {
                     className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh]">
 
                     <div className="lg:w-[50%]">
-                        <h1 className="title">Skateboard Shop</h1>
+                        <h1 className="title">Moonskater</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    UI & brand design. Challenges: Standing out from the competitors through a clear design identity.
+                                    App & brand design. Challenges: Standing out from the competitors through a clear design identity.
                                     Finding the right tone between a sober, solid e-commerce site and the chaotic, experimental
                                     art style of the skater scene.
                                     <br /></motion.p></Borders>
