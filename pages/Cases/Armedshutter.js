@@ -50,7 +50,7 @@ const Armedshutter = () => {
                     <div className="grid grid-cols-1 gap-4 ">
                         {images.map((image, index) => (
                             <div key={index}>
-                                <img src={image} alt={`Image ${index + 1}`} className="w-full mx-auto lg:w-[90%] mb-[4rem]
+                                <img src={image} alt={`Image ${index + 1}`} className="w-full mx-auto lg:w-[75%] mb-[4rem]
                                 border-[1px] border-solid border-stone-800" />
                             </div>
                         ))}

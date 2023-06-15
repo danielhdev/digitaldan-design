@@ -39,7 +39,8 @@ const Social = () => {
                     <div className="grid grid-cols-1 gap-[4rem]">
                         {images.map((image, index) => (
                             <div key={index}>
-                                <img src={image} alt={`Image ${index + 1}`} className="w-full" />
+                                <img src={image} alt={`Image ${index + 1}`} className="w-full mx-auto lg:w-[75%] mb-[4rem]
+                                border-[1px] border-solid border-stone-800" />
                             </div>
                         ))}
                     </div>
