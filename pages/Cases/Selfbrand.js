@@ -17,8 +17,8 @@ const Selfbrand = () => {
         '/ddmock1.png',
         '/noway.png',
         '/noway2.png',
-        '/ddcard.png',
-        '/ddcard2.png',
+        '/ddcard3.png',
+
 
     ];
     return (
