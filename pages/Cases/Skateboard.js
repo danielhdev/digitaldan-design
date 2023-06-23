@@ -31,8 +31,8 @@ const Skateboard = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    App & brand design. Challenges: Standing out from the competitors through a clear design identity.
-                                    Finding the right tone between a sober, solid e-commerce site and the chaotic, experimental
+                                    Pre-launch brand design. Challenges: Standing out from the competitors through identity design.
+                                    Finding the right tone between a solid e-commerce site and the chaotic, experimental
                                     art style of the skater scene.
                                     <br /></motion.p></Borders>
                         </div><br />
