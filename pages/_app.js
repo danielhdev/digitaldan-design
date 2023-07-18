@@ -32,24 +32,24 @@ Interaction design
 User-centered design
 "
         />
-        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, Art Director, UI, Visual and Web designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
+        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, UX/UI designer and web developer. Explore a collection of user-centric interfaces, and visually stunning projects." />
 
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
-        <meta property="og:title" content="digital.dan UI, Visual and Web Design, Art Direction" />
-        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, an Art Director, UI, Visual and Web designer. 
-        Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects."/>
+        <meta property="og:title" content="digital.dan UX/UI Design, Web Development" />
+        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, UX/UI Designer and Web Developer. 
+        Explore a collection of user-centric interfaces and visually stunning projects."/>
         <meta property="og:url" content="https://digitaldan.agency/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Art Director, UI, Visual and Web Designer Portfolio - Daniel Hubschmann digital.dan" />
-        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, an Art Director, UI, Visual and Web designer. Explore a collection of innovative designs, user-centric interfaces, and visually stunning projects." />
+        <meta name="twitter:title" content="UX/UI Desinger and Web Developer Portfolio - Daniel Hubschmann digital.dan" />
+        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, an UX/UI Designer and Web developer. Explore a collection of user-centric interfaces and visually stunning projects." />
         <meta name="twitter:image" content="https://example.com/your-image.jpg"></meta>
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Art Direction/UI/Visual/Web Design - digital.dan</title>
+        <title>UX/UI Design, Web Development - digital.dan</title>
       </Head>
 
 

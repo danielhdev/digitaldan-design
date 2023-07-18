@@ -3,13 +3,13 @@ import ScrollArrow from './ScrollArrow';
 
 
 const Hero = () => {
-    const wedesignAnimate = {
+    const introAnimate = {
         opacity: [0, 1],
         x: [10, 0],
         transition: { delay: 0.5, duration: 1 },
         ease: "ease-in"
     }
-    const wedesignAnimate2 = {
+    const introAnimate2 = {
         opacity: [0, 1],
         x: [10, 0],
         transition: { delay: 1, duration: 0.75 },
@@ -21,11 +21,11 @@ const Hero = () => {
         justify-start items-start">
             <motion.section className="px-[2rem] pt-[5rem]">
                 <section>
-                    <motion.h1 animate={wedesignAnimate} className="flex flex-col">
+                    <motion.h1 animate={introAnimate} className="flex flex-col">
 
-                        <motion.div animate={wedesignAnimate2} className="font-bold subheader
+                        <motion.div animate={introAnimate2} className="font-bold subheader
                         lg:ml-[0.25rem] mt-[2rem] mx-auto">
-                            Portfolio Daniel Hubschmann (Germany) <br /> Art Director & Designer
+                            Portfolio Daniel Hubschmann (Germany) <br /> UX/UI Designer & <br /> Web Developer
                             <div className="mt-[1rem]">
                                 <ScrollArrow /></div>
                         </motion.div>
