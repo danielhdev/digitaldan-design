@@ -16,28 +16,29 @@ const Services = () => {
                     <ul className="subheader font-bold px-[5vh] p-[5vh] landscape:w-[45vw]">
                         <li>About Me</li>
                         <Borders><div className="paragraph font-normal mr-[2rem]">
-                            <p>Daniel Hubschmann (Germany) <br />Art director,
-                                UI, web and visual designer with over 20 years experience.</p>
+                            <p>Daniel Hubschmann (Germany) <br />Web and graphic designer with over two decades of experience.</p>
+                            <br />
+                            <p>
+                                In recent years I took the next career steps, now focusing on UX/UI design and web development.
+                            </p>
+
                             <br />
                             <p>Taking classic rules and the teachings of the art and design greats into the 21st century.</p>
                             <br />
-                            <p>Focused on digital,
-                                I can create timeless and original visuals across medias and industries.
-                            </p>
+
                         </div> </Borders></ul>
 
                     <ul className="subheader font-bold px-[5vh] md:p-[5vh] landscape:w-[45vw] list-disc">
                         Skills/ Tools
                         <Borders><div className="paragraph font-normal">
-                            <li>Art direction</li>
-                            <li>User interface & web design</li>
+                            <li>UX/UI design</li>
                             <li>Graphic & visual design</li>
-                            <li>Design systems</li>
+                            <li>App & Web development</li>
                             <li>Proficient in HTML, CSS, Tailwind CSS</li>
-                            <li>JavaScript & JavaScript frameworks for UI components </li>
+                            <li>JavaScript & JavaScript frameworks </li>
+                            <li>PHP & Wordpress </li>
                             <li>Figma</li>
-                            <li>Adobe Ae, Ps, Ai</li>
-                            <li>Inkscape, Gimp</li>
+                            <li>Adobe Ae, Ps, Ai, Inkscape, Gimp </li>
                             <li>ChatGPT, Dall-E, Midjourney</li>
                         </div>
                         </Borders>
@@ -45,14 +46,14 @@ const Services = () => {
                     </ul>
 
                 </section>
-                <span className="pb-[5%]">
+                {/* <span className="pb-[5%]">
                     <Link href="https://drive.google.com/file/d/1JIKTwgwAZAFZ8fyAO0eYpzlEM95a5YWM/view?usp=drive_link"
                     >
                         <a target={'_blank'}
                             rel={'noreferrer noopener'}>
                             <ArrowLinks >
                                 My resume (PDF) <BsArrowUpRight /> </ArrowLinks>  </a>
-                    </Link></span>
+                    </Link></span> */}
                 <section className="herolinks grid place-content-center pb-[5rem] text-center">
                     Please contact me <br />
                     under:</section>
