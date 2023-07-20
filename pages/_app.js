@@ -16,20 +16,24 @@ function Application({ Component, pageProps }) {
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="UI Web designer
-UI designer
-art direction
-art director
+UX/UI designer
+Web Developer
+Web Development
 Portfolio
 Design projects
 User interface
 User experience
 Web design
-Mobile app design
+Mobile app development
 Visual storytelling
 Typography
 Responsive design
 Interaction design
 User-centered design
+PHP
+JavaScript
+React
+Frontend Development
 "
         />
         <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, UX/UI designer and web developer. Explore a collection of user-centric interfaces, and visually stunning projects." />

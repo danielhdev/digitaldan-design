@@ -6,7 +6,9 @@ const Casestudyimage = ({ children }) => {
 
     return (
         <div className="w-[75%] h-auto mx-auto my-[10%] lg:my-[5%]
-        border-[1px] border-stone-800 border-solid">{fullWidth}</div>
+                        border-[1px] border-stone-800 border-solid">
+            {fullWidth}
+        </div>
     )
 }
 

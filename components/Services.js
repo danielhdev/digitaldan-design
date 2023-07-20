@@ -22,9 +22,6 @@ const Services = () => {
                                 In recent years I took the next career steps, now focusing on UX/UI design and web development.
                             </p>
 
-                            <br />
-                            <p>Taking classic rules and the teachings of the art and design greats into the 21st century.</p>
-                            <br />
 
                         </div> </Borders></ul>
 
@@ -32,7 +29,6 @@ const Services = () => {
                         Skills/ Tools
                         <Borders><div className="paragraph font-normal">
                             <li>UX/UI design</li>
-                            <li>Graphic & visual design</li>
                             <li>App & Web development</li>
                             <li>Proficient in HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript & JavaScript frameworks </li>
