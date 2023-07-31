@@ -21,8 +21,6 @@ const Services = () => {
                             <p>
                                 In recent years I took the next career steps, now focusing on UX/UI design and web development.
                             </p>
-
-
                         </div> </Borders></ul>
 
                     <ul className="subheader font-bold px-[5vh] md:p-[5vh] landscape:w-[45vw] list-disc">
@@ -32,7 +30,7 @@ const Services = () => {
                             <li>App & Web development</li>
                             <li>Proficient in HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript & JavaScript frameworks </li>
-                            <li>PHP & Wordpress </li>
+                            <li>PHP & MySQL </li>
                             <li>Figma</li>
                             <li>Adobe Ae, Ps, Ai, Inkscape, Gimp </li>
                             <li>ChatGPT, Dall-E, Midjourney</li>
