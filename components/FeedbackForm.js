@@ -60,7 +60,7 @@ export default function FeedbackForm() {
               transition={{ delay: 0.6, duration: 0.5 }}
               viewport={{ once: true }}
             >
-              twitter
+              X
             </motion.li></a>
         </ul>
       </main>
