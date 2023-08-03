@@ -12,7 +12,7 @@ const Services = () => {
 
                 <Aboutgallery />
 
-                <section className="px-2 my-[5rem] md:my-[10rem] grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <section className="px-2 my-[5rem] grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <ul className="subheader font-bold px-[5vh] p-[5vh] landscape:w-[45vw]">
                         <li>About Me</li>
                         <Borders><div className="paragraph font-normal mr-[2rem]">
@@ -48,10 +48,7 @@ const Services = () => {
                             <ArrowLinks >
                                 My resume (PDF) <BsArrowUpRight /> </ArrowLinks>  </a>
                     </Link></span> */}
-                <section className="herolinks grid place-content-center pb-[5rem] text-center">
-                    Please contact me <br />
-                    under:
-                </section>
+
             </main >
         </>
     )
