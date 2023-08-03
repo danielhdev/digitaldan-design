@@ -1,5 +1,5 @@
 import React from 'react'
-import { ImLinkedin, ImTwitter, ImMail2 } from 'react-icons/im'
+import { ImLinkedin, ImMail2 } from 'react-icons/im'
 import Link from 'next/link'
 
 const Contacticons = () => {
