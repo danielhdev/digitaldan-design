@@ -25,7 +25,7 @@ const Hero = () => {
 
                         <motion.div animate={introAnimate2} className="font-bold subheader
                         lg:ml-[0.25rem] mt-[2rem] mx-auto">
-                            Portfolio Daniel Hubschmann (Germany) <br /> UX/UI Designer & <br /> Web Developer
+                            Portfolio Daniel Hubschmann (Germany) <br />  Fullstack Web Developer & <br />UX/UI Designer
                             <div className="mt-[1rem]">
                                 <ScrollArrow /></div>
                         </motion.div>

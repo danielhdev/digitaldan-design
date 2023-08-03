@@ -19,7 +19,7 @@ const Services = () => {
                             <p>Daniel Hubschmann (Germany) <br />Web and graphic designer with over two decades of experience.</p>
                             <br />
                             <p>
-                                In recent years I took the next career steps, now focusing on UX/UI design and web development.
+                                In recent years I took the next career steps, now focusing on fullstack development & UX/ UI design.
                             </p>
                         </div> </Borders></ul>
 
@@ -50,7 +50,8 @@ const Services = () => {
                     </Link></span> */}
                 <section className="herolinks grid place-content-center pb-[5rem] text-center">
                     Please contact me <br />
-                    under:</section>
+                    under:
+                </section>
             </main >
         </>
     )
