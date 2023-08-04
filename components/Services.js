@@ -19,7 +19,11 @@ const Services = () => {
                             <p>Daniel Hubschmann (Germany) <br />Web and graphic designer with over two decades of experience.</p>
                             <br />
                             <p>
-                                In recent years I took the next career steps, now focusing on full stack development & UX/ UI design.
+                                In recent years I took the next career steps, now focusing on full stack development & UX/UI design.
+                            </p>
+                            <br />
+                            <p>
+                                I can create states and responsive designs myself during development, saving designer time.
                             </p>
                         </div> </Borders></ul>
 
@@ -31,7 +35,8 @@ const Services = () => {
                             <li>HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript & JavaScript frameworks </li>
                             <li>PHP & MySQL </li>
-                            <li>Flexible, fast learner </li>
+                            <li>CMS (Strapi & others)</li>
+                            <li>UI animations (GSAP & others)</li>
                             <span className="font-bold">
                                 UX/UI design</span>
                             <li>Figma</li>
