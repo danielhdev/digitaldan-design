@@ -19,21 +19,25 @@ const Services = () => {
                             <p>Daniel Hubschmann (Germany) <br />Web and graphic designer with over two decades of experience.</p>
                             <br />
                             <p>
-                                In recent years I took the next career steps, now focusing on fullstack development & UX/ UI design.
+                                In recent years I took the next career steps, now focusing on full stack development & UX/ UI design.
                             </p>
                         </div> </Borders></ul>
 
                     <ul className="subheader font-bold px-[5vh] md:p-[5vh] landscape:w-[45vw] list-disc">
                         Skills/ Tools
                         <Borders><div className="paragraph font-normal">
-                            <li>UX/UI design</li>
-                            <li>App & Web development</li>
-                            <li>Proficient in HTML, CSS, Tailwind CSS</li>
+                            <span className="font-bold">
+                                App & Web development</span>
+                            <li>HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript & JavaScript frameworks </li>
                             <li>PHP & MySQL </li>
+                            <li>Flexible, fast learner </li>
+                            <span className="font-bold">
+                                UX/UI design</span>
                             <li>Figma</li>
                             <li>Adobe Ae, Ps, Ai, Inkscape, Gimp </li>
-                            <li>ChatGPT, Dall-E, Midjourney</li>
+                            <span className="font-bold">
+                                ChatGPT, Dall-E, Midjourney</span>
                         </div>
                         </Borders>
                         <br />
