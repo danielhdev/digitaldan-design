@@ -15,45 +15,44 @@ function Application({ Component, pageProps }) {
       <Head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="UI Web designer
-UX/UI designer
+        <meta name="keywords" content="Fullstack Web Developer
+Full Stack Development
 Web Developer
 Web Development
 Portfolio
-Design projects
 User interface
 User experience
 Web design
 Mobile app development
-Visual storytelling
-Typography
 Responsive design
-Interaction design
 User-centered design
 PHP
 JavaScript
 React
+MySQL
+MySQL database
 Frontend Development
+API Development
+Backend Development
 "
         />
-        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, UX/UI designer and web developer. Explore a collection of user-centric interfaces, and visually stunning projects." />
+        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, full stack developer using JavaScript, PHP and SQL." />
 
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
-        <meta property="og:title" content="digital.dan UX/UI Design, Web Development" />
-        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, UX/UI Designer and Web Developer. 
-        Explore a collection of user-centric interfaces and visually stunning projects."/>
+        <meta property="og:title" content="digital.dan Full Stack Web Development" />
+        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, Full stack Developer using JavaScript, PHP and SQL." />
         <meta property="og:url" content="https://digitaldan.agency/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="UX/UI Desinger and Web Developer Portfolio - Daniel Hubschmann digital.dan" />
-        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, an UX/UI Designer and Web developer. Explore a collection of user-centric interfaces and visually stunning projects." />
+        <meta name="twitter:title" content="Fullstack Web Developer Portfolio - Daniel Hubschmann digital.dan" />
+        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, a Full Stack Web developer using JavaScript, PHP and SQL." />
         <meta name="twitter:image" content="https://example.com/your-image.jpg"></meta>
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Web Development + UX/UI Design - digital.dan</title>
+        <title>Full Stack Development - digital.dan</title>
       </Head>
 
 
