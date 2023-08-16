@@ -34,7 +34,7 @@ const Services = () => {
                                 App & Web development</span>
                             <li>HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript & JavaScript frameworks </li>
-                            <li>PHP & Laravel </li>
+                            <li>PHP & frameworks </li>
                             <li>MySQL </li>
                             <li>CMS (Strapi & others)</li>
                             <li>UI animations & interactions</li>
