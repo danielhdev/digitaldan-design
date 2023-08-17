@@ -19,7 +19,7 @@ const Services = () => {
                             <p>Daniel Hubschmann (Germany) <br />Web and graphic designer with over two decades of experience.</p>
                             <br />
                             <p>
-                                In recent years I took the next career step, now focusing on full stack development.
+                                In recent years I took the next career step, now offering both UI design and web development.
                             </p>
                             <br />
                             <p>
@@ -34,11 +34,13 @@ const Services = () => {
                                 App & Web development</span>
                             <li>HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript & JavaScript frameworks </li>
-                            <li>PHP & frameworks </li>
-                            <li>MySQL </li>
                             <li>CMS (Strapi & others)</li>
                             <li>UI animations & interactions</li>
-                            <br />
+
+                            <span className="font-bold">
+                                UI Design</span>
+                            <li>Figma</li>
+                            <li>Adobe Ps/Ai, Gimp, Inkscape</li>
                             <span className="font-bold">
                                 ChatGPT, Dall-E, Midjourney</span>
                         </div>

@@ -21,38 +21,34 @@ Web Developer
 Web Development
 Portfolio
 User interface
-User experience
 Web design
 Mobile app development
 Responsive design
 User-centered design
-PHP
 JavaScript
 React
-MySQL
-MySQL database
+Vuejs
 Frontend Development
 API Development
-Backend Development
 "
         />
-        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, full stack developer using JavaScript, PHP and SQL." />
+        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, Web Developer and UI Designer" />
 
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
         <meta property="og:title" content="digital.dan Full Stack Web Development" />
-        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, Full stack Developer using JavaScript, PHP and SQL." />
+        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, Web Developer and UI Designer." />
         <meta property="og:url" content="https://digitaldan.agency/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Fullstack Web Developer Portfolio - Daniel Hubschmann digital.dan" />
-        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, a Full Stack Web developer using JavaScript, PHP and SQL." />
+        <meta name="twitter:title" content="Web Developer/UI Designer Portfolio - Daniel Hubschmann digital.dan" />
+        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, a Web Developer and UI Designer." />
         <meta name="twitter:image" content="https://example.com/your-image.jpg"></meta>
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Full Stack Development - digital.dan</title>
+        <title>Web Developer and UI Designer - digital.dan</title>
       </Head>
 
 
