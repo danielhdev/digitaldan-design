@@ -19,7 +19,7 @@ const Services = () => {
                             <p>Daniel Hubschmann (Germany) <br />Web and graphic designer with over two decades of experience.</p>
                             <br />
                             <p>
-                                In recent years I took the next career step, now offering both UI design and web development.
+                                In recent years I took the next career step, now focusing on full stack development.
                             </p>
                             <br />
                             <p>
