@@ -34,13 +34,13 @@ const Services = () => {
                                 App & Web development</span>
                             <li>HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript & JavaScript frameworks </li>
+                            <li>Node.js </li>
                             <li>CMS (Strapi & others)</li>
                             <li>UI animations & interactions</li>
 
                             <span className="font-bold">
                                 UI Design</span>
-                            <li>Figma</li>
-                            <li>Adobe Ps/Ai, Gimp, Inkscape</li>
+                            <li>Figma, Adobe Ps/Ai, Gimp, Inkscape</li>
                             <span className="font-bold">
                                 ChatGPT, Dall-E, Midjourney</span>
                         </div>
