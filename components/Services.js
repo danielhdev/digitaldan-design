@@ -36,11 +36,8 @@ const Services = () => {
                             <li>JavaScript & JavaScript frameworks </li>
                             <li>Node.js </li>
                             <li>CMS (Strapi & others)</li>
+                            <li>MySQL</li>
                             <li>UI animations & interactions</li>
-
-                            <span className="font-bold">
-                                UI Design</span>
-                            <li>Figma, Adobe Ps/Ai, Gimp, Inkscape</li>
                             <span className="font-bold">
                                 ChatGPT, Dall-E, Midjourney</span>
                         </div>
