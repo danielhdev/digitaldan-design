@@ -38,6 +38,7 @@ const Services = () => {
                             <li>CMS (Strapi & others)</li>
                             <li>MySQL</li>
                             <li>UI animations & interactions</li>
+                            <br />
                             <span className="font-bold">
                                 ChatGPT, Dall-E, Midjourney</span>
                         </div>
