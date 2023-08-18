@@ -16,7 +16,6 @@ const Selfbrand = () => {
         '/ddtype.png',
         '/ddmock1.png',
         '/noway.png',
-        '/ddcard3.png',
     ];
     return (
         <div>
@@ -31,7 +30,7 @@ const Selfbrand = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    Brand design, website, social media assets and stationary for myself. One of the brand types consists of some circles.
+                                    Brand design, website, social media assets for myself. One of the brand types consists of circles.
                                     Based on this I chose AI-generated images of metal balls and circles for the first batch of promotional material.
                                     <br /></motion.p></Borders>
                         </div><br />
