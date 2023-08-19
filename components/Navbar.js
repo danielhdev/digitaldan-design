@@ -28,13 +28,14 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={`navbarcontainer z-10 ${isAnimating ? 'dark-mode-transition' : 'light-mode-transition'}`}>
+            <div className="navbarcontainer z-10">
                 <nav className="flex items-center w-fit mx-auto space-x-[5vw] top-0 mt-[0.25rem] lg:ml-[1rem]">
                     <Link href="/">
                         <span className="font-[octarine] cursor-pointer mix-blend-difference logo"> digital.dan</span>
                     </Link>
                     <section className={`MyApp ${theme}`} id="darkmodeicon">
-                        <div onClick={toggleTheme}>
+                        <div className={`${isAnimating ? 'dark-mode-transition' : 'light-mode-transition'}`}
+                            onClick={toggleTheme}>
                             <div
                                 className="w-[1rem] h-[1rem] 
                                 lg:w-[1.25rem] lg:h-[1.25rem] 
