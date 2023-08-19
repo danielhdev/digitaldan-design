@@ -5,23 +5,33 @@ import Contacticons from './Contacticons';
 const Navbar = () => {
 
     const [theme, setTheme] = useState('light');
+    const [isAnimating, setIsAnimating] = useState(false);
+
+
     const toggleTheme = () => {
+        setIsAnimating(true);
         if (theme === 'dark') {
-            setTheme('light');
+            setTimeout(() => {
+                setTheme('light');
+                setIsAnimating(false);
+            }, 300);
         } else {
-            setTheme('dark');
+            setTimeout(() => {
+                setTheme('dark');
+                setIsAnimating(false);
+            }, 300);
         }
     };
     useEffect(() => {
         document.body.className = theme;
     }, [theme]);
+
     return (
         <>
-            <div className="navbarcontainer z-10">
+            <div className={`navbarcontainer z-10 ${isAnimating ? 'dark-mode-transition' : 'light-mode-transition'}`}>
                 <nav className="flex items-center w-fit mx-auto space-x-[5vw] top-0 mt-[0.25rem] lg:ml-[1rem]">
                     <Link href="/">
-                        <span className="font-[octarine] cursor-pointer mix-blend-difference
-                logo"> digital.dan</span>
+                        <span className="font-[octarine] cursor-pointer mix-blend-difference logo"> digital.dan</span>
                     </Link>
                     <section className={`MyApp ${theme}`} id="darkmodeicon">
                         <div onClick={toggleTheme}>

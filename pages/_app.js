@@ -1,4 +1,5 @@
 import '@styles/globals.css'
+import '@styles/tailwind.css'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useRouter } from 'next/router'
 import Head from 'next/head'
