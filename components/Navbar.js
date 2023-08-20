@@ -39,13 +39,11 @@ const Navbar = () => {
                             <div
                                 className="w-[1rem] h-[1rem] 
                                 lg:w-[1.25rem] lg:h-[1.25rem] 
-                                
-                                rounded-full cursor-pointer border-l-2 border-b-2 border-stone-100
-                       dark:hidden"
+                                dark:hidden rounded-full cursor-pointer border-l-2 border-b-2 border-stone-100"
                             ></div>
                             <div className="w-[1rem] h-[1rem] 
                                 lg:w-[1rem] lg:h-[1rem] 
-                            rounded-full cursor-pointer hidden dark:block bg-zinc-50">
+                            hidden dark:block rounded-full cursor-pointer  bg-zinc-50">
                             </div>
                         </div>
                     </section>

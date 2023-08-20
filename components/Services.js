@@ -23,7 +23,7 @@ const Services = () => {
                             </p>
                             <br />
                             <p>
-                                Due to my background frontend work is my biggest skill. I can help you bring any designs to life and on user&apos;s screens.
+                                Frontend work is my biggest skill. I can help you bring any designs to life and on user&apos;s screens.
                             </p>
                         </div> </Borders></ul>
 
