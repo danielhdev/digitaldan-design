@@ -28,19 +28,22 @@ const Services = () => {
                         </div> </Borders></ul>
 
                     <ul className="subheader font-bold px-[5vh] md:p-[5vh] landscape:w-[45vw] list-disc">
-                        Skills/ Tools
+                        Current Tech Stack & Skills
                         <Borders><div className="paragraph font-normal">
-                            <span className="font-bold">
-                                App & Web development</span>
-                            <li>HTML, CSS, Tailwind CSS</li>
-                            <li>JavaScript & JavaScript frameworks </li>
-                            <li>Node.js </li>
-                            <li>CMS (Strapi & others)</li>
-                            <li>MySQL</li>
+
+
+                            <li>HTML/CSS, Tailwind</li>
+                            <li>JavaScript & frameworks</li>
+                            <li>React, Next.js, Vite, Node.js, MySQL </li>
+                            <li>Headless CMS (Butter, Sanity & more)</li>
+                            <li>GitHub</li>
                             <li>UI animations & interactions</li>
+                            <li> ChatGPT, Dall-E, Midjourney</li>
                             <br />
-                            <span className="font-bold">
-                                ChatGPT, Dall-E, Midjourney</span>
+                            I'm able to learn new tech stacks in a short time.
+
+
+
                         </div>
                         </Borders>
                         <br />
