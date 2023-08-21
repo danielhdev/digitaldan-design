@@ -16,14 +16,15 @@ const Services = () => {
                     <ul className="subheader font-bold px-[5vh] p-[5vh] landscape:w-[45vw]">
                         <li>About Me</li>
                         <Borders><div className="paragraph font-normal mr-[2rem]">
-                            <p>Daniel Hubschmann (Germany) <br />Web and graphic designer with over two decades of experience.</p>
+                            <p>Daniel Hubschmann (Germany) <br />
+                                <br />
+                                Web and graphic designer with over two decades of experience.
+                                In recent years I took the next career step, now focusing on full stack development.</p>
                             <br />
                             <p>
-                                In recent years I took the next career step, now focusing on full stack development.
-                            </p>
-                            <br />
-                            <p>
-                                Frontend work is my biggest skill. I can help you bring any designs to life and on user&apos;s screens.
+                                I can use new languages and frameworks within a short time.
+
+                                Frontend work is my strongest skill, bringing designs to life and on user&apos;s screens.
                             </p>
                         </div> </Borders></ul>
 
@@ -34,13 +35,14 @@ const Services = () => {
 
                             <li>HTML/CSS, Tailwind</li>
                             <li>JavaScript & frameworks</li>
-                            <li>React, Next.js, Vite, Node.js, MySQL </li>
+                            <li>React, Next.js, Vite, Node.js</li>
+                            <li>MySQL and noSQL data bases </li>
                             <li>Headless CMS (Butter, Sanity & more)</li>
                             <li>GitHub</li>
                             <li>UI animations & interactions</li>
                             <li> ChatGPT, Dall-E, Midjourney</li>
-                            <br />
-                            I'm able to learn new tech stacks in a short time.
+
+
 
 
 
