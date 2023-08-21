@@ -15,22 +15,23 @@ const Services = () => {
                 <section className="px-2 my-[5rem] grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <ul className="subheader font-bold px-[5vh] p-[5vh] landscape:w-[45vw]">
                         <li>About Me</li>
-                        <Borders><div className="paragraph font-normal mr-[2rem]">
-                            <p>Daniel Hubschmann (Germany) <br />
+                        <Borders>
+                            <div className="paragraph font-normal mr-[2rem] max-h-[350px]">
+                                <p>Daniel Hubschmann (Germany) <br />
+                                    <br />
+                                    After two decades in web and graphic design, I took the next career step in recent years,
+                                    now focusing on full stack development.</p>
                                 <br />
-                                Web and graphic designer with over two decades of experience.
-                                In recent years I took the next career step, now focusing on full stack development.</p>
-                            <br />
-                            <p>
-                                I can use new languages and frameworks within a short time.
+                                <p>
+                                    I can learn new languages and frameworks within a short time.
 
-                                Frontend work is my strongest skill, bringing designs to life and on user&apos;s screens.
-                            </p>
-                        </div> </Borders></ul>
+                                    Frontend work is my strongest skill, bringing designs to life and on user&apos;s screens.
+                                </p>
+                            </div> </Borders></ul>
 
                     <ul className="subheader font-bold px-[5vh] md:p-[5vh] landscape:w-[45vw] list-disc">
                         Current Tech Stack & Skills
-                        <Borders><div className="paragraph font-normal">
+                        <Borders><div className="paragraph font-normal max-h-[350px]">
 
 
                             <li>HTML/CSS, Tailwind</li>
@@ -41,11 +42,6 @@ const Services = () => {
                             <li>GitHub</li>
                             <li>UI animations & interactions</li>
                             <li> ChatGPT, Dall-E, Midjourney</li>
-
-
-
-
-
                         </div>
                         </Borders>
                         <br />
