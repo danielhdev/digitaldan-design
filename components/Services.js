@@ -34,11 +34,11 @@ const Services = () => {
                         <Borders><div className="paragraph font-normal max-h-[350px]">
 
 
-                            <li>HTML/CSS, Tailwind</li>
-                            <li>JavaScript & frameworks</li>
+                            <li>HTML, CSS, Tailwind CSS</li>
+                            <li>JavaScript & TypeScript</li>
                             <li>React, Next.js, Vite, Node.js</li>
-                            <li>MySQL and noSQL data bases </li>
-                            <li>Headless CMS (Butter, Sanity & more)</li>
+                            <li>MySQL </li>
+                            <li>Headless CMS (Sanity & more)</li>
                             <li>GitHub</li>
                             <li>UI animations & interactions</li>
                             <li> ChatGPT, Dall-E, Midjourney</li>
