@@ -2,8 +2,12 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Borders from '@components/Borders'
 import Back from '@components/Back'
+import Projectspecs from '@components/Projectspecs'
 
 const Selfbrand = () => {
+    const projectTech = "Next, Tailwind, Dall-E"
+    const projectRole = "UI design, front-end development"
+    const projectDesc = "Brand design, website, and social media assets."
     const paragraphAnimate = {
         opacity: [0, 1],
         y: [15, 0],
@@ -29,10 +33,13 @@ const Selfbrand = () => {
                         <h1 className="title">Self-Branding</h1>
                         <div className="w-fit">
                             <Borders>
-                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    Brand design, website, social media assets for myself. One of the brand types consists of circles.
-                                    Based on this I chose AI-generated images of metal balls and circles for the first batch of promotional material.
-                                    <br /></motion.p></Borders>
+                                <motion.div whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
+                                    <Projectspecs
+                                        tech={projectTech}
+                                        role={projectRole}
+                                        description={projectDesc}
+                                    />
+                                </motion.div></Borders>
                         </div><br />
                     </div>
                 </section>

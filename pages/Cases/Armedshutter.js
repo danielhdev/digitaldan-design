@@ -5,8 +5,14 @@ import { BsArrowUpRight } from 'react-icons/bs'
 import Borders from '@components/Borders'
 import ArrowLinks from '@components/ArrowLinks'
 import Back from '@components/Back'
+import Projectspecs from '@components/Projectspecs'
 
 const Armedshutter = () => {
+    const projectTech = "React, Tailwind, Sanity CMS"
+    const projectRole = "UI design, full stack development"
+    const projectDesc = " Brand refresh for an American people and fashion photographer: New types and logo, social media ads and a new website with improved UX."
+
+
     const paragraphAnimate = {
         opacity: [0, 1],
         y: [15, 0],
@@ -32,11 +38,15 @@ const Armedshutter = () => {
                         <h1 className="title">Portfolio</h1>
                         <div className="w-fit">
                             <Borders>
-                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
-                                    Brand refresh for an American people and fashion photographer: New types and logo, social media ads and a new website with improved UX.
-                                    <br />
+                                <motion.div whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
 
-                                </motion.p></Borders>
+                                    <Projectspecs
+                                        tech={projectTech}
+                                        role={projectRole}
+                                        description={projectDesc}
+                                    />
+
+                                </motion.div></Borders>
                         </div><br />
                         <Link href="https://asprototype.netlify.app/Prototype/"
                         >

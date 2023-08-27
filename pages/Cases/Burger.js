@@ -5,8 +5,15 @@ import { BsArrowUpRight } from 'react-icons/bs'
 import Borders from '@components/Borders'
 import ArrowLinks from '@components/ArrowLinks'
 import Back from '@components/Back'
+import Projectspecs from '@components/Projectspecs'
+
 
 const Burger = () => {
+    const projectTech = "Next, Tailwind, Sanity CMS"
+    const projectRole = "UI design, full stack development"
+    const projectDesc = " Brand refresh: A younger appearance, bringing the website out of 2016, social media advertising and stationary."
+
+
     const paragraphAnimate = {
         opacity: [0, 1],
         y: [15, 0],
@@ -25,8 +32,6 @@ const Burger = () => {
     ];
     return (
         <div>
-
-
             <main id="Work" className="h-auto flex flex-col justify-center items-center 
             pb-[10rem] lg:pb-[15rem] pt-5rem]">
 
@@ -37,9 +42,14 @@ const Burger = () => {
                         <h1 className="title">Gourmet Burger</h1>
                         <div className="w-fit">
                             <Borders>
-                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    Brand design refresh: A younger appearance, bringing the website out of 2016, social media advertising and stationary.
-                                    <br /></motion.p></Borders>
+
+                                <motion.div whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
+                                    <Projectspecs
+                                        tech={projectTech}
+                                        role={projectRole}
+                                        description={projectDesc}
+                                    />
+                                </motion.div></Borders>
                         </div><br />
                         <Link href="https://digitaldanrestaurant.netlify.app/"
                         >
