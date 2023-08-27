@@ -1,7 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Borders from '@components/Borders'
-import Back from '@components/Back'
+import Borders from '@components/utility/Borders'
+import Back from '@components/utility/Back'
+import GalleryMapper from '@components/utility/GalleryMapper'
 
 
 const Social = () => {
@@ -20,10 +21,9 @@ const Social = () => {
     ];
 
     return (
-        <div>
-
+        <>
             <main id="Work" className="h-auto flex 
-            flex-col justify-center items-center pb-[10rem] lg:pb-[15rem]">
+                flex-col justify-center items-center pb-[10rem] lg:pb-[15rem]">
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto my-[15vh]">
                     <div className="lg:w-[50%]">
                         <h1 className="title">Playground</h1>
@@ -35,19 +35,10 @@ const Social = () => {
                         </div><br />
                     </div>
                 </section>
-                <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid grid-cols-1 gap-[4rem]">
-                        {images.map((image, index) => (
-                            <div key={index}>
-                                <img src={image} alt={`Image ${index + 1}`} className="w-full mx-auto lg:w-[75%] mb-[4rem]
-                                border-[1px] border-solid border-stone-800" />
-                            </div>
-                        ))}
-                    </div>
-                </div>
+                <GalleryMapper images={images} />
                 <Back />
             </main>
-        </div>
+        </>
 
     )
 }
