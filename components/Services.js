@@ -1,6 +1,6 @@
 import Aboutgallery from "./Aboutgallery"
-import ArrowLinks from "./ArrowLinks"
-import Borders from "./Borders"
+import ArrowLinks from "./utility/ArrowLinks"
+import Borders from "./utility/Borders"
 import Link from "next/link"
 import { BsArrowUpRight } from 'react-icons/bs'
 

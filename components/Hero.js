@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import ScrollArrow from './ScrollArrow';
+import ScrollArrow from './utility/ScrollArrow';
 
 
 const Hero = () => {

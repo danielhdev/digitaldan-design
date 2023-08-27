@@ -1,7 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Borders from '@components/Borders'
-import Back from '@components/Back'
+import Borders from '@components/utility/Borders'
+import Back from '@components/utility/Back'
+import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Ai = () => {
     const paragraphAnimate = {
@@ -16,7 +17,7 @@ const Ai = () => {
 
     ];
     return (
-        <div>
+        <>
 
             <main id="Work" className="h-auto flex 
             flex-col justify-center items-center pb-[10rem] lg:pb-[15rem]">
@@ -34,21 +35,13 @@ const Ai = () => {
                         <br />
                     </div>
                 </section>
-                <div className="sm:w-screen md:w-screen lg:w-[90vw] mx-auto px-2 mt-[4rem]">
-                    <div className="grid grid-cols-1 gap-4 ">
-                        {images.map((image, index) => (
-                            <div key={index}>
-                                <img src={image} alt={`Image ${index + 1}`} className="w-full mx-auto lg:w-[75%] mb-[4rem]
-                                border-[1px] border-solid border-stone-800" />
-                            </div>
-                        ))}
-                    </div>
-                </div>
+                <GalleryMapper
+                    images={images} />
 
                 <Back />
             </main>
 
-        </div>
+        </>
 
     )
 }
