@@ -2,7 +2,13 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Back from '@components/Back'
 import Borders from '@components/Borders'
+import Projectspecs from '@components/Projectspecs'
+
 const Skateboard = () => {
+    const projectTech = "Next, Tailwind, Sanity CMS, Shopify"
+    const projectRole = "UI design, full stack development"
+    const projectDesc = "Pre-launch design & development. Challenges: Standing out from the competitors through identity design. Finding the right tone between a solid e-commerce site and the experimental art style of the skater scene."
+
     const paragraphAnimate = {
         opacity: [0, 1],
         y: [15, 0],
@@ -31,10 +37,11 @@ const Skateboard = () => {
                         <div className="w-fit">
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
-                                    Pre-launch brand design. Challenges: Standing out from the competitors through identity design.
-                                    Finding the right tone between a solid e-commerce site and the chaotic, experimental
-                                    art style of the skater scene.
-                                    <br /></motion.p></Borders>
+                                    <Projectspecs
+                                        tech={projectTech}
+                                        role={projectRole}
+                                        description={projectDesc}
+                                    /></motion.p></Borders>
                         </div><br />
                     </div>
                 </section>
