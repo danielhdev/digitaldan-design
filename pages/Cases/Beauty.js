@@ -28,8 +28,6 @@ const Beauty = () => {
             <main id="Work" className="h-auto flex 
             flex-col justify-center items-center pb-[10rem] lg:pb-[15rem]">
                 <section className="lg:w-[80vw] h-auto flex flex-col justify-start gap-12 mx-auto mt-[15vh]">
-
-
                     <div className="lg:w-[50%]">
                         <h1 className="title">Beauty & Health</h1>
                         <div className="w-fit">
@@ -50,8 +48,8 @@ const Beauty = () => {
                         </Link>
                     </div>
                 </section>
-                <GalleryMapper images={images} />
-
+                <GalleryMapper
+                    images={images} />
                 <Back />
             </main>
 

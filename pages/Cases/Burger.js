@@ -13,7 +13,6 @@ const Burger = () => {
     const projectRole = "UI design, full stack development"
     const projectDesc = " Brand refresh: A younger appearance, bringing the website out of 2016, social media advertising and stationary."
 
-
     const paragraphAnimate = {
         opacity: [0, 1],
         y: [15, 0],
