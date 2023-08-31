@@ -18,7 +18,8 @@ const ScrollArrow = () => {
                 <span className='text-xl m-0 p-0'>
                     <BsFileArrowDown /></span>
 
-            </motion.div></section>
+            </motion.div>
+        </section>
     )
 }
 

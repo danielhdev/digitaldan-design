@@ -1,9 +1,7 @@
 import FeedbackForm from '@components/FeedbackForm'
 
-
 const Contact = () => {
     return (
-
         <>
             <main id="Contact"
                 className="h-screen  flex justify-center items-center">
