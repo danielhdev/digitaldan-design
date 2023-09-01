@@ -24,10 +24,8 @@ const Contacticons = () => {
                             </div>
                         </a>
                     </Link>
-
                 </div>
             ))}
-
         </div>
     )
 }

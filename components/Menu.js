@@ -17,9 +17,9 @@ const variants = {
 };
 
 const menu = [
-    { title: 'work', path: '/#Work' },
-    { title: 'about', path: '/#About' },
-    { title: 'contact', path: '/#Contact' }
+    { id: 1, title: 'work', path: '/#Work' },
+    { id: 2, title: 'about', path: '/#About' },
+    { id: 3, title: 'contact', path: '/#Contact' }
 ]
 const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +41,7 @@ const Menu = () => {
                 <AnimatePresence>
                     {isOpen && (
                         <motion.div
-                            className="fixed top-0 right-0 w-2/3 lg:w-[30%] h-full bg-neutral-900 flex justify-center items-center z-40"
+                            className="fixed top-0 right-0 w-2/3 lg:w-[30%] h-full bg-neutral-900/90 flex justify-center items-center z-40"
                             variants={variants}
                             initial="hidden"
                             animate="visible"
@@ -51,9 +51,9 @@ const Menu = () => {
                             <div className="w-full flex flex-col justify-end items-end space-y-[4vw] p-[3rem] text-amber-400
                             ">
 
-                                {menu.map((item, index) => {
+                                {menu.map((item) => {
                                     return (
-                                        <Link key={index} href={item.path}>
+                                        <Link key={item.id} href={item.path}>
                                             <a className="herolinks hover:text-stone-50"
                                                 onClick={toggleModal}>{item.title}
                                             </a>

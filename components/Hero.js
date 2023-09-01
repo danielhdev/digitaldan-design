@@ -17,22 +17,24 @@ const Hero = () => {
     }
 
     return (
-        <main className="h-[20vh] pt-[2vh] flex flex-col 
+        <>
+            <div className="h-[20vh] pt-[2vh] flex flex-col 
         justify-start items-start">
-            <motion.section className="px-[2rem] pt-[5rem]">
-                <section>
-                    <motion.h1 animate={introAnimate} className="flex flex-col">
+                <motion.div className="px-[2rem] pt-[5rem]">
+                    <div>
+                        <motion.h1 animate={introAnimate} className="flex flex-col">
 
-                        <motion.div animate={introAnimate2} className="font-bold subheader
+                            <motion.div animate={introAnimate2} className="font-bold subheader
                         lg:ml-[0.25rem] mt-[2rem] mx-auto">
-                            Portfolio Daniel Hubschmann (Germany) <br /> Fullstack Developer
-                            <div className="mt-[1rem]">
-                                <ScrollArrow /></div>
-                        </motion.div>
-                    </motion.h1>
-                </section>
-            </motion.section>
-        </main>
+                                Portfolio Daniel Hubschmann (Germany) <br /> Fullstack Developer
+                                <div className="mt-[1rem]">
+                                    <ScrollArrow /></div>
+                            </motion.div>
+                        </motion.h1>
+                    </div>
+                </motion.div>
+            </div>
+        </>
     )
 }
 
