@@ -16,7 +16,7 @@ export default function FeedbackForm() {
         <ul className="text-center">
           <a
             href="mailto:d.huebschmann@tutanota.com"
-            method="get"
+            method="post"
             encType="text/plain"
           >
             <motion.li
@@ -56,7 +56,21 @@ export default function FeedbackForm() {
               transition={{ delay: 0.6, duration: 0.5 }}
               viewport={{ once: true }}
             >
-              X
+              twitter (X)
+            </motion.li></a>
+          <a
+            href="https://github.com/danielhdev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <motion.li
+              className="contactli3 p-1"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.6, duration: 0.5 }}
+              viewport={{ once: true }}
+            >
+              github
             </motion.li></a>
         </ul>
       </main>
