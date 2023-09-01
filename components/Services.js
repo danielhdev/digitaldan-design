@@ -46,7 +46,7 @@ const Services = () => {
                     </ul>
 
                 </section>
-                <span className="pb-[5%]">
+                <span className="py-[5%]">
                     <Link href="https://drive.google.com/file/d/1JIKTwgwAZAFZ8fyAO0eYpzlEM95a5YWM/view?usp=drive_link"
                     >
                         <a target={'_blank'}
