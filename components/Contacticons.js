@@ -13,14 +13,11 @@ const Contacticons = () => {
         { id: 4, icon: <ImGithub />, slug: "https://github.com/danielhdev" }
     ]
     return (
-        <div className='iconsize fixed bottom-3
-        flex justify-end z-40'>
-
-
+        <div className='iconsize fixed bottom-3 flex justify-end z-40'>
             {icons.map((item) => (
                 <div key={item.id}>
                     <Link href={`${item.slug}`}>
-                        <a rel="noopener noreferer" target="_blank">
+                        <a rel="noopener noreferrer" target="_blank">
                             <div
                                 className="iconsize flex pl-[2.5rem]"
                             >  {item.icon}
