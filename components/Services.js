@@ -37,6 +37,7 @@ const Services = () => {
                             <li>React, Next.js, Vite, Node.js</li>
                             <li>MySQL </li>
                             <li>Headless CMS (Sanity & more)</li>
+                            <li>Code design priniciples (SOLID & others)</li>
                             <li>GitHub</li>
                             <li>UI animations & interactions</li>
                             <li> ChatGPT, Dall-E, Midjourney</li>
