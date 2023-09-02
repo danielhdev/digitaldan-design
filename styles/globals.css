@@ -144,8 +144,6 @@ body {
   }
   .iconsize {
     font-size: calc(1rem + 1vw);
-    opacity: 80%;
-    right: 1rem;
   }
   .navbarcontainer {
     position: fixed;
