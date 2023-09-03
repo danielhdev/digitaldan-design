@@ -51,7 +51,7 @@ const Armedshutter = () => {
                         <Link href="https://asprototype.netlify.app/Prototype/"
                         >
                             <a target={'_blank'}
-                                rel={'noreferrer noopener'}> <ArrowLinks >website (new tab)
+                                rel={'noreferrer noopener'}> <ArrowLinks >demo (new tab)
                                 </ArrowLinks>  </a>
                         </Link>
                     </div>

@@ -42,7 +42,7 @@ const Beauty = () => {
                         <Link href="https://food-health-one-seven.vercel.app/"
                         >
                             <a target={'_blank'}
-                                rel={'noreferrer noopener'}> <ArrowLinks >website (new tab)
+                                rel={'noreferrer noopener'}> <ArrowLinks >demo (new tab)
                                     </ArrowLinks>  </a>
                         </Link>
                     </div>

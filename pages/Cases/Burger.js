@@ -47,12 +47,13 @@ const Burger = () => {
                                         role={projectRole}
                                         description={projectDesc}
                                     />
-                                </motion.div></Borders>
+                                </motion.div>
+                            </Borders>
                         </div><br />
                         <Link href="https://digitaldanrestaurant.netlify.app/"
                         >
                             <a target={'_blank'}
-                                rel={'noreferrer noopener'}> <ArrowLinks >website (new tab)
+                                rel={'noreferrer noopener'}> <ArrowLinks >demo (new tab)
                                 </ArrowLinks>  </a>
                         </Link>
                     </div>
