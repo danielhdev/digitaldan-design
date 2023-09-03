@@ -1,8 +1,7 @@
 import Aboutgallery from "./Aboutgallery"
-import ArrowLinks from "./utility/ArrowLinks"
+import Resume from "./Resume"
 import Borders from "./utility/Borders"
-import Link from "next/link"
-import { BsArrowUpRight } from 'react-icons/bs'
+
 
 const Services = () => {
 
@@ -25,7 +24,7 @@ const Services = () => {
                                 <p>
                                     I&apos;m a fast learner and can grab new languages and their frameworks within a short time.
 
-                                    
+
                                 </p>
                             </div> </Borders></ul>
 
@@ -47,14 +46,7 @@ const Services = () => {
                     </ul>
 
                 </section>
-                <span className="py-[5%]">
-                    <Link href="https://drive.google.com/file/d/1JIKTwgwAZAFZ8fyAO0eYpzlEM95a5YWM/view?usp=drive_link"
-                    >
-                        <a target={'_blank'}
-                            rel={'noreferrer noopener'}>
-                            <ArrowLinks >
-                                My resume (PDF) <BsArrowUpRight /> </ArrowLinks>  </a>
-                    </Link></span>
+                <Resume />
 
             </main >
         </>

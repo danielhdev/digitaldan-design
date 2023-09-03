@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-import { BsArrowUpRight } from 'react-icons/bs'
 import Borders from '@components/utility/Borders'
 import ArrowLinks from '@components/utility/ArrowLinks'
 import Back from '@components/utility/Back'
@@ -52,8 +51,8 @@ const Armedshutter = () => {
                         <Link href="https://asprototype.netlify.app/Prototype/"
                         >
                             <a target={'_blank'}
-                                rel={'noreferrer noopener'}> <ArrowLinks >website (new tab)
-                                    <BsArrowUpRight /> </ArrowLinks>  </a>
+                                rel={'noreferrer noopener'}> <ArrowLinks >demo (new tab)
+                                </ArrowLinks>  </a>
                         </Link>
                     </div>
                 </section>
