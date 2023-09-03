@@ -1,6 +1,5 @@
 import Link from "next/link"
 import ArrowLinks from "./utility/ArrowLinks"
-import { BsArrowUpRight } from 'react-icons/bs'
 
 export default function Resume() {
     return (
@@ -11,7 +10,7 @@ export default function Resume() {
                     <a target={'_blank'}
                         rel={'noreferrer noopener'}>
                         <ArrowLinks >
-                            My resume (PDF) <BsArrowUpRight /> </ArrowLinks>  </a>
+                            My resume (PDF) </ArrowLinks>  </a>
                 </Link>
             </span>
         </>
