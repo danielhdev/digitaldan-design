@@ -13,15 +13,14 @@ const Contacticons = () => {
         { id: 4, icon: <ImGithub />, slug: "https://github.com/danielhdev" }
     ]
     return (
-        <div className='iconsize fixed bottom-3 flex justify-end z-40 mix-blend-difference
-        '>
+        <div className='w-full iconsize fixed bottom-3 z-40 mix-blend-difference flex justify-end
+        items-center'>
             {icons.map((item) => (
-                <div key={item.id}>
+                <div key={item.id} className="pr-[1rem] md:pr-0">
                     <Link href={`${item.slug}`}>
                         <a rel="noopener noreferrer" target="_blank">
                             <div
-                                className="flex pl-[2.5rem]"
-                            >  {item.icon}
+                                className="pl-[1.5rem]">  {item.icon}
                             </div>
                         </a>
                     </Link>

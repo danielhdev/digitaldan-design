@@ -47,7 +47,9 @@ const Navbar = () => {
                             </div>
                         </div>
                     </section>
+            
                     <Contacticons />
+            
                 </nav>
             </div >
         </>

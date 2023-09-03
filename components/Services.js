@@ -23,9 +23,9 @@ const Services = () => {
                                     now focusing on full stack development.</p>
                                 <br />
                                 <p>
-                                    I can learn new languages and frameworks within a short time.
+                                    I&apos;m a fast learner and can grab new languages and their frameworks within a short time.
 
-                                    Frontend work is my strongest skill, bringing designs to life and on user&apos;s screens.
+                                    
                                 </p>
                             </div> </Borders></ul>
 
