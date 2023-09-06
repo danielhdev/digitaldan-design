@@ -19,7 +19,8 @@ const variants = {
 const menu = [
     { id: 1, title: 'work', path: '/#Work' },
     { id: 2, title: 'about', path: '/#About' },
-    { id: 3, title: 'contact', path: '/#Contact' }
+    { id: 3, title: 'contact', path: '/#Contact' },
+    { id: 4, title: 'resume', path: "https://drive.google.com/file/d/1JIKTwgwAZAFZ8fyAO0eYpzlEM95a5YWM/view?usp=drive_link" }
 ]
 const Menu = () => {
     const [isOpen, setIsOpen] = useState(false);
