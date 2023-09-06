@@ -23,8 +23,6 @@ const Services = () => {
                                 <br />
                                 <p>
                                     I&apos;m a fast learner and can grab new tools and frameworks within a short time.Through my trained visual senses I can get any design to the screen.
-
-
                                 </p>
                             </div> </Borders></ul>
 
