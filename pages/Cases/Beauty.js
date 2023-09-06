@@ -9,7 +9,7 @@ import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Beauty = () => {
     const projectTech = "React/Vite, Tailwind, Sanity CMS, Shopify"
-    const projectRole = "UI design, full stack development"
+    const projectRole = "UI design, web development"
     const projectDesc = "A costumizable e-commerce template for beauty, health or wellness industry clients."
 
     const paragraphAnimate = {
