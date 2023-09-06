@@ -10,7 +10,7 @@ import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Burger = () => {
     const projectTech = "Next, Tailwind, Sanity CMS"
-    const projectRole = "UI design, full stack development"
+    const projectRole = "UI design, web development"
     const projectDesc = " Brand refresh: A younger appearance, bringing the website out of 2016, social media advertising and stationary."
 
     const paragraphAnimate = {

@@ -18,11 +18,11 @@ const Services = () => {
                             <div className="paragraph font-normal mr-[2rem] max-h-[350px]">
                                 <p>Daniel Hubschmann (Germany) <br />
                                     <br />
-                                    After two decades in web and graphic design, I took the next career step in recent years,
-                                    now focusing on full stack development.</p>
+                                    After two decades in web design, I took the next career step in recent years:
+                                    Now working in web development, with focus on the front end.</p>
                                 <br />
                                 <p>
-                                    I&apos;m a fast learner and can grab new languages and their frameworks within a short time.
+                                    I&apos;m a fast learner and can grab new tools and frameworks within a short time.Through my trained visual senses I can get any design to the screen.
 
 
                                 </p>
@@ -33,11 +33,11 @@ const Services = () => {
                         <Borders><div className="paragraph font-normal max-h-[350px]">
                             <li>HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript & TypeScript</li>
-                            <li>React, Next.js, Vite, Node.js</li>
-                            <li>MySQL </li>
-                            <li>Headless CMS (Sanity & more)</li>
-                            <li>Code design patterns</li>
+                            <li>React, Next, Angular & more</li>
+                            <li>Able to learn any framework </li>
+                            <li>Back end: CMS, APIs, SSR</li>
                             <li>GitHub</li>
+                            <li>Adobe, Gimp, Inkscape</li>
                             <li>UI animations & interactions</li>
                             <li>ChatGPT, Dall-E, Midjourney</li>
                         </div>

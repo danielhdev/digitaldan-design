@@ -7,7 +7,7 @@ import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Skateboard = () => {
     const projectTech = "Next, Tailwind, Sanity CMS, Shopify"
-    const projectRole = "UI design, full stack development"
+    const projectRole = "UI design, web development"
     const projectDesc = "Pre-launch design & development. Challenges: Standing out from the competitors through identity design. Finding the right tone between a solid e-commerce site and the experimental art style of the skater scene."
 
     const paragraphAnimate = {

@@ -9,7 +9,7 @@ import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Armedshutter = () => {
     const projectTech = "React, Tailwind, Sanity CMS"
-    const projectRole = "UI design, full stack development"
+    const projectRole = "UI design, web development"
     const projectDesc = " Brand refresh for an American people and fashion photographer: New types and logo, social media ads and a new website with improved UX."
 
 
