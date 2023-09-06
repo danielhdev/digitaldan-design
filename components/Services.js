@@ -19,7 +19,7 @@ const Services = () => {
                                 <p>Daniel Hubschmann (Germany) <br />
                                     <br />
                                     After two decades in web design, I took the next career step in recent years:
-                                    Now working web development, with focus on the front end.</p>
+                                    Now working in web development, with focus on the front end.</p>
                                 <br />
                                 <p>
                                     I&apos;m a fast learner and can grab new tools and frameworks within a short time.Through my trained visual senses I can get any design to the screen.
