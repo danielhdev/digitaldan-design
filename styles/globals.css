@@ -209,7 +209,7 @@ body {
 }
 .paragraph {
   font-family: 'Oxygen';
-  font-size: calc(10px + 1vw);
+  font-size: calc(12.5px + 1vw);
   padding: 2vw;
 }
 .fonts {
