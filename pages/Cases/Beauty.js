@@ -8,9 +8,9 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Beauty = () => {
-    const projectTech = "React/Vite, Tailwind, Sanity CMS, Shopify"
-    const projectRole = "UI design, web development"
-    const projectDesc = "A costumizable e-commerce template for beauty, health or wellness industry clients."
+    const tech = "React/Vite, Tailwind, Sanity CMS, Shopify"
+    const role = "UI design, web development"
+    const desc = "A costumizable e-commerce template for beauty, health or wellness industry clients."
 
     const paragraphAnimate = {
         opacity: [0, 1],
@@ -33,9 +33,9 @@ const Beauty = () => {
                             <Borders>
                                 <motion.div whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
                                     <Projectspecs
-                                        tech={projectTech}
-                                        role={projectRole}
-                                        description={projectDesc}
+                                        tech={tech}
+                                        role={role}
+                                        description={desc}
                                     />
                                 </motion.div></Borders>
                         </div><br />
