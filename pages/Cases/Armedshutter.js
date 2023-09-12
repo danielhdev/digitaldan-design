@@ -8,9 +8,9 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Armedshutter = () => {
-    const projectTech = "React, Tailwind, Sanity CMS"
-    const projectRole = "UI design, web development"
-    const projectDesc = " Brand refresh for an American people and fashion photographer: New types and logo, social media ads and a new website with improved UX."
+    const tech = "React, Tailwind, Sanity CMS"
+    const role = "UI design, web development"
+    const desc = " Brand refresh for an American people and fashion photographer: New types and logo, social media ads and a new website with improved UX."
 
 
     const paragraphAnimate = {
@@ -41,9 +41,9 @@ const Armedshutter = () => {
                                 <motion.div whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
 
                                     <Projectspecs
-                                        tech={projectTech}
-                                        role={projectRole}
-                                        description={projectDesc}
+                                        tech={tech}
+                                        role={role}
+                                        description={desc}
                                     />
 
                                 </motion.div></Borders>

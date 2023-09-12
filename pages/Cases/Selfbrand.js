@@ -6,9 +6,10 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Selfbrand = () => {
-    const projectTech = "Next, Tailwind, Dall-E"
-    const projectRole = "UI design, front-end development"
-    const projectDesc = "Brand design, website, and social media assets."
+    const tech = "Next, Tailwind, Dall-E"
+    const role = "UI design, front-end development"
+    const desc = "Brand design, website, and social media assets."
+
     const paragraphAnimate = {
         opacity: [0, 1],
         y: [15, 0],
@@ -35,9 +36,9 @@ const Selfbrand = () => {
                             <Borders>
                                 <motion.div whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
                                     <Projectspecs
-                                        tech={projectTech}
-                                        role={projectRole}
-                                        description={projectDesc}
+                                        tech={tech}
+                                        role={role}
+                                        description={desc}
                                     />
                                 </motion.div></Borders>
                         </div><br />

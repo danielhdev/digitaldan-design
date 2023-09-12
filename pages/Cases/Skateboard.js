@@ -6,9 +6,9 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Skateboard = () => {
-    const projectTech = "Next, Tailwind, Sanity CMS, Shopify"
-    const projectRole = "UI design, web development"
-    const projectDesc = "Pre-launch design & development. Challenges: Standing out from the competitors through identity design. Finding the right tone between a solid e-commerce site and the experimental art style of the skater scene."
+    const tech = "Next, Tailwind, Sanity CMS, Shopify"
+    const role = "UI design, web development"
+    const desc = "Pre-launch design & development. Challenges: Standing out from the competitors through identity design. Finding the right tone between a solid e-commerce site and the experimental art style of the skater scene."
 
     const paragraphAnimate = {
         opacity: [0, 1],
@@ -36,9 +36,9 @@ const Skateboard = () => {
                             <Borders>
                                 <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
                                     <Projectspecs
-                                        tech={projectTech}
-                                        role={projectRole}
-                                        description={projectDesc}
+                                        tech={tech}
+                                        role={role}
+                                        description={desc}
                                     /></motion.p></Borders>
                         </div><br />
                     </div>

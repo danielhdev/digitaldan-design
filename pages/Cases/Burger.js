@@ -9,9 +9,9 @@ import GalleryMapper from '@components/utility/GalleryMapper'
 
 
 const Burger = () => {
-    const projectTech = "Next, Tailwind, Sanity CMS"
-    const projectRole = "UI design, web development"
-    const projectDesc = " Brand refresh: A younger appearance, bringing the website out of 2016, social media advertising and stationary."
+    const tech = "Next, Tailwind, Sanity CMS"
+    const role = "UI design, web development"
+    const desc = " Brand refresh: A younger appearance, bringing the website out of 2016, social media advertising and stationary."
 
     const paragraphAnimate = {
         opacity: [0, 1],
@@ -43,9 +43,9 @@ const Burger = () => {
                             <Borders>
                                 <motion.div whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
                                     <Projectspecs
-                                        tech={projectTech}
-                                        role={projectRole}
-                                        description={projectDesc}
+                                        tech={tech}
+                                        role={role}
+                                        description={desc}
                                     />
                                 </motion.div>
                             </Borders>
