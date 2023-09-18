@@ -9,7 +9,7 @@ import GalleryMapper from '@components/utility/GalleryMapper'
 
 
 const Burger = () => {
-    const tech = "Next, Tailwind, Sanity CMS"
+    const tech = "Next, Tailwind, Headless CMS"
     const role = "UI design, web development"
     const desc = " Brand refresh: A younger appearance, bringing the website out of 2016, social media advertising and stationary."
 
