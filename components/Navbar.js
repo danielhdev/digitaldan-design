@@ -31,7 +31,7 @@ const Navbar = () => {
             <div className="navbarcontainer z-10">
                 <nav className="flex items-center w-fit mx-auto space-x-[1.75rem] top-0 mt-[0.25rem] lg:ml-[1rem]">
                     <Link href="/">
-                        <span className="font-[octarine] cursor-pointer mix-blend-difference logo"> digital.dan</span>
+                        <span className="font-[octarine] cursor-pointer mix-blend-difference logo">digital.dan</span>
                     </Link>
                     <section className={`MyApp ${theme}`} id="darkmodeicon">
                         <div className={`${isAnimating ? 'dark-mode-transition' : 'light-mode-transition'}`}

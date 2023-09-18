@@ -6,7 +6,7 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Skateboard = () => {
-    const tech = "Next, Tailwind, Sanity CMS, Shopify"
+    const tech = "Next, Tailwind, Headless CMS, Shopify"
     const role = "UI design, web development"
     const desc = "Pre-launch design & development. Challenges: Standing out from the competitors through identity design. Finding the right tone between a solid e-commerce site and the experimental art style of the skater scene."
 
