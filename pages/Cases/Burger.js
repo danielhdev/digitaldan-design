@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { motion } from 'framer-motion'
-
 import Borders from '@components/utility/Borders'
 import ArrowLinks from '@components/utility/ArrowLinks'
 import Back from '@components/utility/Back'
@@ -9,7 +8,7 @@ import GalleryMapper from '@components/utility/GalleryMapper'
 
 
 const Burger = () => {
-    const tech = "Next, Tailwind, Headless CMS"
+    const tech = "Next, Tailwind, Strapi CMS"
     const role = "UI design, web development"
     const desc = " Brand refresh: A younger appearance, bringing the website out of 2016, social media advertising and stationary."
 
