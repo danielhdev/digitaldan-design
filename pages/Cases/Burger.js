@@ -49,13 +49,13 @@ const Burger = () => {
                                 </motion.div>
                             </Borders>
                         </div><br />
-                        <Link href="https://digitaldanrestaurant.netlify.app/"
+                        {/* <Link href="https://digitaldanrestaurant.netlify.app/"
                         >
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}> <ArrowLinks >demo (new tab)
                                 </ArrowLinks>  </a>
                         </Link>
-                    </div>
+                    </div> */}
                 </section>
                 <GalleryMapper
                     images={images} />
