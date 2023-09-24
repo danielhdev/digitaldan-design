@@ -10,7 +10,7 @@ import GalleryMapper from '@components/utility/GalleryMapper'
 const Burger = () => {
     const tech = "Next, Tailwind, Strapi CMS"
     const role = "UI design, web development"
-    const desc = " Brand refresh: A younger appearance, bringing the website out of 2016, social media advertising and stationary."
+    const desc = "Refresh: A younger appearance, bringing the website out of 2016, added a CMS to update the menu."
 
     const paragraphAnimate = {
         opacity: [0, 1],
@@ -49,12 +49,12 @@ const Burger = () => {
                                 </motion.div>
                             </Borders>
                         </div><br />
-                        <Link href="https://digitaldanrestaurant.netlify.app/"
+                        {/* <Link href="https://digitaldanrestaurant.netlify.app/"
                         >
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}> <ArrowLinks >demo (new tab)
                                 </ArrowLinks>  </a>
-                        </Link>
+    </Link>*/}
                     </div>
                 </section>
                 <GalleryMapper
