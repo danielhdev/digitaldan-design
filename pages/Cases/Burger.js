@@ -54,8 +54,8 @@ const Burger = () => {
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}> <ArrowLinks >demo (new tab)
                                 </ArrowLinks>  </a>
-                        </Link>
-                    </div> */}
+    </Link>*/}
+                    </div>
                 </section>
                 <GalleryMapper
                     images={images} />
