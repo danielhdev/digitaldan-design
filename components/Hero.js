@@ -23,10 +23,12 @@ const Hero = () => {
                 <motion.div className="px-[2rem] pt-[5rem]">
                     <div>
                         <motion.h1 animate={introAnimate} className="flex flex-col">
-
                             <motion.div animate={introAnimate2} className="font-bold subheader
                         lg:ml-[0.25rem] mt-[2rem] mx-auto">
-                                Portfolio Daniel Hubschmann (Germany) <br /> Web Developer
+                                <div className="herotitle inline">
+                                    Portfolio <br />Daniel Hubschmann
+                                </div>
+                                <br /> Web Developer
                                 <div className="mt-[1rem]">
                                     <ScrollArrow /></div>
                             </motion.div>

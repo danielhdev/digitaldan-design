@@ -284,6 +284,9 @@ body {
     font-family: 'octarine';
     font-size: 2.5vw;
   }
+  .herotitle {
+    font-size: calc(16px + 1.5vw);
+  }
   .paragraph {
     font-family: 'Oxygen';
     font-size: calc(10px + 0.75vw);
