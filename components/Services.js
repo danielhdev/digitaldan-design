@@ -13,16 +13,22 @@ const Services = () => {
 
                 <section id="About"
                     className="px-2 mt-[10rem] grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <ul className="subheader font-bold px-[5vh] p-[5vh] landscape:w-[45vw]">
-                        <li>About Me</li>
+                    <div className="subheader font-bold px-[5vh] p-[5vh] landscape:w-[45vw]">
+                        <h1>About Me</h1>
                         <Borders>
                             <div className="paragraph font-normal mr-[2rem] max-h-[350px]">
-                                <p>Daniel Hubschmann (Germany) <br />
+                                <br />
+                                <br />
+                                <p>Daniel Hubschmann (Germany)
+                                    <br />
                                     <br />
                                     After two decades in web design, I took the next career step in recent years:
                                     Now working in fullstack web development with focus on the front end.</p>
                                 <br />
-                            </div> </Borders></ul>
+                                <br />
+                            </div>
+                        </Borders>
+                    </div>
 
                     <ul className="subheader font-bold px-[5vh] md:p-[5vh] landscape:w-[45vw] list-disc">
                         Current Tech Stack & Skills
