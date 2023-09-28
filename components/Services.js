@@ -32,12 +32,12 @@ const Services = () => {
                         Current Tech Stack & Skills
                         <Borders><div className="paragraph font-normal max-h-[350px]">
                             <li>HTML, CSS, Tailwind CSS</li>
-                            <li>JavaScript & TypeScript</li>
-                            <li>React, Next, Angular & more</li>
+                            <li>JavaScript, TypeScript, C#</li>
+                            <li>React, Next, Astro, ASP.NET</li>
                             <li>Able to use any framework </li>
-                            <li>Back end: APIs, CMS, SSR</li>
+                            <li>Back end: APIs, CMS, SQL</li>
                             <li>GitHub</li>
-                            <li>Figma, Adobe, Gimp, Inkscape</li>
+                            <li>Software design patterns</li>
                             <li>UI animations & interactions</li>
                             <li>ChatGPT, Dall-E, Midjourney</li>
                         </div>
