@@ -18,15 +18,13 @@ const Burger = () => {
         transition: { delay: 0.2, duration: 1 },
     }
     const images = [
-        '/ubg5.png',
-        '/ubg1.png',
-        '/ubg1a.png',
-        '/ubg4.png',
+        '/ubg1.jpg',
         '/ubg2.png',
-        '/ubg6.png',
-        '/ubg8.png',
-        '/ubg9.png',
-        '/ubg10.png',
+        '/ubg3.png',
+        '/ubg4.png',
+        '/ubg5.jpg',
+        '/ubg6.jpg',
+        '/ubg7.png',
     ];
     return (
         <>
