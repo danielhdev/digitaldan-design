@@ -37,9 +37,9 @@ const Services = () => {
                             <li>JavaScript, TypeScript</li>
                             <li>React, Next, Astro, Remix</li>
                             <li>Able to use any framework </li>
-                            <li>Back end: APIs, CMS, SQL/noSQL</li>
+                            <li>Back end: APIs, headless CMS</li>
                             <li>GitHub</li>
-                            <li>Software design patterns</li>
+                            <li>Figma, Adobe, Gimp, Inkscape</li>
                             <li>UI animations & interactions</li>
                             <li>ChatGPT, Dall-E, Midjourney</li>
                         </div>
