@@ -8,7 +8,7 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Armedshutter = () => {
-    const tech = "React, Tailwind, Strapi CMS"
+    const tech = "Astro, Tailwind, Strapi CMS"
     const role = "UI design, web development"
     const desc = " Brand refresh for an American people and fashion photographer: New types and logo, social media ads and a new website with improved UX."
 
