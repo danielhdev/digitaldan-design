@@ -47,12 +47,12 @@ const Burger = () => {
                                 </motion.div>
                             </Borders>
                         </div><br />
-                        {/* <Link href="https://digitaldanrestaurant.netlify.app/"
-                        >
+                        <Link href="https://ubg-next-13-demo.vercel.app/
+                                    ">
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}> <ArrowLinks >demo (new tab)
                                 </ArrowLinks>  </a>
-    </Link>*/}
+                        </Link>
                     </div>
                 </section>
                 <GalleryMapper
