@@ -39,7 +39,7 @@ const PetsInSpace = () => {
                                     />
                                 </motion.div></Borders>
                         </div><br />
-                        <Link href="/"
+                        <Link href="https://petsinspace.netlify.app/"
                         >
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}> <ArrowLinks >website
