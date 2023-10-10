@@ -8,7 +8,7 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Beauty = () => {
-    const tech = "React (Prototype),Hydrogen (Production), Tailwind, Shopify"
+    const tech = "React (demo), Hydrogen (production), Shopify"
     const role = "UI design, web development"
     const desc = "A costumizable e-commerce template for beauty, health or wellness industry clients."
 
