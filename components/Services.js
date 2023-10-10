@@ -23,7 +23,7 @@ const Services = () => {
                                     <br />
                                     <br />
                                     After two decades in web design, I took the next career step in recent years:
-                                    Now working in web development with focus on the front end.</p>
+                                    Working in fullstack web development with focus on the front end.</p>
                                 <br />
                                 <br />
                             </div>
@@ -35,9 +35,10 @@ const Services = () => {
                         <Borders><div className="paragraph font-normal max-h-[350px]">
                             <li>HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript, TypeScript</li>
-                            <li>React, Next, Astro, Remix</li>
-                            <li>Back end: APIs, headless CMS</li>
-                            <li>GitHub</li>
+                            <li>React, Next, Astro, Remix & more</li>
+                            <li>APIs, CMS</li>
+                            <li>Basic SQL and noSQL data bases</li>
+                            <li>Version control with GitHub</li>
                             <li>Figma, Adobe, Gimp, Inkscape</li>
                             <li>UI animations & interactions</li>
                             <li>ChatGPT, Dall-E, Midjourney</li>
