@@ -6,9 +6,9 @@ const FrontGallery = () => {
     const images = [
         { id: 1, image: 'ubg5.jpg', slug: '/Cases/Burger' },
         { id: 2, image: 'moon1.png', slug: '/Cases/Skateboard' },
-        { id: 3, image: 'ddimg1.jpg', slug: '/Cases/Petsinspace' },
+        { id: 3, image: 'beau1.png', slug: '/Cases/Beauty' },
         { id: 4, image: 'as1.png', slug: '/Cases/Armedshutter' },
-        { id: 5, image: 'beau1.png', slug: '/Cases/Beauty' },
+        { id: 5, image: 'ddimg1.jpg', slug: '/Cases/Petsinspace' },
         { id: 6, image: 'soc1.png', slug: '/Cases/Social' },
         { id: 7, image: 'howto1.png', slug: '/Cases/Ai' },
         { id: 8, image: 'ddmock1.png', slug: '/Cases/Selfbrand' }
