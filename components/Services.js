@@ -36,10 +36,10 @@ const Services = () => {
                             <li>HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript, TypeScript</li>
                             <li>React, Next, Astro, Remix & more</li>
-                            <li>APIs, CMS</li>
-                            <li>Basic SQL and noSQL data bases</li>
+                            <li>APIs, CMS, Prisma, Supabase</li>
+                            <li>MySQL databases</li>
                             <li>Version control with GitHub</li>
-                            <li>Figma, Adobe, Gimp, Inkscape</li>
+                            <li>Responsive layouts</li>
                             <li>UI animations & interactions</li>
                             <li>ChatGPT, Dall-E, Midjourney</li>
                         </div>
