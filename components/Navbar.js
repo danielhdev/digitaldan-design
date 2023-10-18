@@ -4,7 +4,7 @@ import Contacticons from './Contacticons';
 
 const Navbar = () => {
 
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('dark');
     const [isAnimating, setIsAnimating] = useState(false);
 
 
