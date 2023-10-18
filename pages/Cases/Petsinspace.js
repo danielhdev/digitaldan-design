@@ -10,7 +10,7 @@ import GalleryMapper from '@components/utility/GalleryMapper'
 const PetsInSpace = () => {
     const tech = "Astro, Tailwind, Dall-e"
     const role = "UI design, web development"
-    const desc = "Tech playoground with AI-generated images. Roadmap: The 'Pets in Space' API. An AI-supported image editor, letting users create pictures of their pets as astronauts."
+    const desc = "Tech playground with AI-generated images. Roadmap: 'Pets in Space' API and an AI-supported image editor, letting users create pictures of their pets as astronauts."
 
     const paragraphAnimate = {
         opacity: [0, 1],
