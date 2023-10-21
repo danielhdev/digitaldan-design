@@ -20,7 +20,7 @@ const Burger = () => {
     const images = [
         '/ubg1.jpg',
         '/ubg2.png',
-        '/ubg3.png',
+        '/ubg3.jpg',
         '/ubg4.jpg',
         '/ubg5.jpg',
         '/ubg6.jpg',

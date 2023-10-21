@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const FrontGallery = () => {
     const images = [
-        { id: 1, image: 'ubg5.jpg', slug: '/Cases/Burger' },
+        { id: 1, image: 'ubg6.jpg', slug: '/Cases/Burger' },
         { id: 2, image: 'moon1.png', slug: '/Cases/Skateboard' },
         { id: 3, image: 'beau1.png', slug: '/Cases/Beauty' },
         { id: 4, image: 'as1.png', slug: '/Cases/Armedshutter' },
