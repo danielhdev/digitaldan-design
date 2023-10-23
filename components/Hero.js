@@ -6,13 +6,13 @@ const Hero = () => {
     const introAnimate = {
         opacity: [0, 1],
         x: [10, 0],
-        transition: { delay: 0.5, duration: 1 },
+        transition: { delay: 0.2, duration: 1 },
         ease: "ease-in"
     }
     const introAnimate2 = {
         opacity: [0, 1],
         x: [10, 0],
-        transition: { delay: 1, duration: 0.75 },
+        transition: { delay: 0.2, duration: 0.75 },
         ease: "ease-in"
     }
 
