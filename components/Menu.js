@@ -6,13 +6,14 @@ import { GiTireIronCross } from 'react-icons/gi'
 
 const variants = {
     hidden: {
-        y: '-200vh',
-        transition: { duration: 0.4 },
+        x: '200vh',
     },
     visible: {
-        y: 0,
-        transition: { duration: 0.5 },
-        ease: "easeIn"
+        x: 0,
+        transition: {
+            duration: 0.5,
+            ease: "easeIn"
+        }
     },
 };
 
@@ -42,20 +43,20 @@ const Menu = () => {
                 <AnimatePresence>
                     {isOpen && (
                         <motion.div
-                            className="fixed top-0 right-0 w-2/3 lg:w-[30%] h-full bg-neutral-900/90 flex justify-center items-center z-40"
+                            className="fixed top-0 right-0 w-1/2 lg:w-[30%] h-full bg-zinc-900/90 flex justify-center items-center z-40"
                             variants={variants}
                             initial="hidden"
                             animate="visible"
                             exit="hidden"
                             onClick={toggleModal}
                         >
-                            <div className="w-full flex flex-col justify-end items-end space-y-[4vw] p-[3rem] text-amber-400
+                            <div className="w-full flex flex-col justify-end items-end space-y-[4vw] p-[3rem] text-zinc-50
                             ">
 
                                 {menu.map((item) => {
                                     return (
                                         <Link key={item.id} href={item.path}>
-                                            <a className="herolinks hover:text-stone-50"
+                                            <a className="herolinks hover:text-amber-200"
                                                 onClick={toggleModal}>{item.title}
                                             </a>
                                         </Link>
