@@ -8,9 +8,9 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const PetsInSpace = () => {
-    const tech = "Astro, Tailwind, Dall-e"
+    const tech = "Astro, Tailwind, Supabase, DALL-E "
     const role = "UI design, web development"
-    const desc = "Tech playground with AI-generated images. Roadmap: 'Pets in Space' API and an AI-supported image editor, letting users create pictures of their pets as astronauts."
+    const desc = "Tech playground with AI-generated images. Roadmap: User accounts, user image uploads."
 
     const paragraphAnimate = {
         opacity: [0, 1],

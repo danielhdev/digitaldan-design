@@ -20,7 +20,7 @@ const Contacticons = () => {
                     <Link href={`${item.slug}`}>
                         <a rel="noopener noreferrer" target="_blank">
                             <div
-                                className="pl-[1.75rem]">  {item.icon}
+                                className="sm:pl-[1.25rem]">  {item.icon}
                             </div>
                         </a>
                     </Link>

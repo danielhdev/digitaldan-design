@@ -18,6 +18,9 @@ const Social = () => {
         '/soc4.png',
         '/soc5.png',
         '/soc6.png',
+        '/ddmob1.png',
+        '/ddmock1.png',
+        '/noway.png',
     ];
 
     return (

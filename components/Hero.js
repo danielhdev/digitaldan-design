@@ -26,9 +26,10 @@ const Hero = () => {
                             <motion.div animate={introAnimate2} className="font-bold subheader
                         lg:ml-[0.25rem] mt-[2rem] mx-auto">
                                 <div className="herotitle inline">
-                                    Portfolio <br />Daniel Hubschmann
+                                    <span className="herotitle2 font-[octarine]">Portfolio</span>
+                                    <br />Daniel Hubschmann
                                 </div>
-                                <br /> Web Developer
+                                <br /> Full Stack Developer
                                 <div className="mt-[1rem]">
                                     <ScrollArrow /></div>
                             </motion.div>
