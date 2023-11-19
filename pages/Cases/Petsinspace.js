@@ -8,7 +8,7 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const PetsInSpace = () => {
-    const tech = "Astro, Tailwind, Supabase, DALL-E "
+    const tech = "Astro, Tailwind, DALL-E"
     const role = "UI design, web development"
     const desc = "Tech playground with AI-generated images. Roadmap: User accounts, user image uploads."
 
@@ -39,7 +39,7 @@ const PetsInSpace = () => {
                                     />
                                 </motion.div></Borders>
                         </div><br />
-                        <Link href="https://petsinspace.netlify.app/"
+                        <Link href="https://petsinspace.netlify.app"
                         >
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}> <ArrowLinks >website
