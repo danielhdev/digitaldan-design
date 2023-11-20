@@ -8,7 +8,7 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const DDtimer = () => {
-    const tech = "NEXT, Zustand, Supabase"
+    const tech = "NEXT, Zustand, Tailwind, shadcn/ui"
     const role = "UI design, web development"
     const desc = "Demo-version of d.d timelogger, a work hour log app, both simplistic and full of features. Including multi-platform use, safe data storage, statistics and an offline modus."
 
