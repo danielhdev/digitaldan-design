@@ -37,7 +37,7 @@ const Services = () => {
                             <li>JavaScript, TypeScript</li>
                             <li>React, Next, Astro, Remix & more</li>
                             <li>APIs, headless CMS</li>
-                            <li>Web Accessibilty</li>
+                            <li>Web accessibility</li>
                             <li>Responsive layouts</li>
                             <li>Version control with GitHub</li>
                             <li>UI animations & interactions</li>
