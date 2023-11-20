@@ -17,7 +17,7 @@ function Application({ Component, pageProps }) {
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="Web Developer Full Stack Developer
-Full Stack Development
+
 Web Developer
 Web Development
 Portfolio
@@ -31,7 +31,6 @@ React
 NextJS
 Next
 Frontend Development
-Full Stack Developer
 APIs
 CMS
 "
