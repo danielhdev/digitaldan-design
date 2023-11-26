@@ -36,7 +36,7 @@ const Services = () => {
                             <li>HTML, CSS, Tailwind CSS</li>
                             <li>JavaScript, TypeScript</li>
                             <li>React, Next, Astro, Remix & more</li>
-                            <li>APIs, headless CMS</li>
+                            <li>APIs, CMS, SQL databases</li>
                             <li>Web accessibility</li>
                             <li>Responsive layouts</li>
                             <li>Version control with GitHub</li>
