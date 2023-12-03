@@ -75,16 +75,11 @@ export default function FeedbackForm() {
         </ul>
       </main>
       <section className="text-center text-stone-900 dark:text-stone-100
-      
       ml-[50vw]
       md:ml-[30vw]
-      
-    
       sm:text-[3vw]
       md:text-[1.5vw]
       lg:text-[1vw]
-      
-      
       ">
         design & code &copy; {date} <br />Daniel Hubschmann<br />
         <Link href="/Imprint">
