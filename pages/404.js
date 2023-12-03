@@ -12,16 +12,11 @@ const pageNotFound = () => {
 
     return (
         <main className="h-screen w-full flex flex-col justify-center items-center text-center">
-
-            <div></div>
-            <div className="
-            "></div>
             <h1 className="font-[octarine] workheader z-20">404</h1>
             <motion.h1 animate={Collapse} className="font-[octarine] workheader z-20">page not found</motion.h1>
             <h2 className="font-[Oxygen] text-[2vw] z-20 text-amber-600">
                 <Link href="/">
                     go back
-
                 </Link>
             </h2>
 
