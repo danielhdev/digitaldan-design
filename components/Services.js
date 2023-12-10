@@ -23,7 +23,7 @@ const Services = () => {
                                     <br />
                                     <br />
                                     After two decades in web design, I took the next career step in recent years:
-                                    Working in full-stack web development.</p>
+                                    Working in web development. With my experience and new skills combined, I can help to build beautiful and user-centric applications.</p>
                                 <br />
                                 <br />
                             </div>
