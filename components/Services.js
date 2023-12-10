@@ -33,13 +33,13 @@ const Services = () => {
                     <ul className="subheader font-bold px-[5vh] md:p-[5vh] landscape:w-[45vw] list-disc">
                         Current Tech Stack & Skills
                         <Borders><div className="paragraph font-normal max-h-[350px]">
-                            <li>Core:</li>
+                            <span>Core:</span>
                             <li>React, Next, Astro, Remix</li>
-                            <li>Tailwind CSS</li>
+                            <li>HTML, CSS, Tailwind CSS</li>
                             <li>Web accessibility</li>
                             <li>Responsive layouts</li>
                             <li>UI animations & components</li>
-                            <li>Experience with:</li>
+                            <span>Experience with:</span>
                             <li>APIs, CMS, SQL databases</li>
                             <li>ChatGPT, Dall-E, Midjourney</li>
                         </div>
