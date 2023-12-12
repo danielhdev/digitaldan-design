@@ -32,7 +32,7 @@ const Menu = () => {
     return (
         <>
             <button
-                className="hover:text-amber-200 focus:outline-none 
+                className="hover:text-amber-200 focus:outline-none sm:hidden
                 z-50 fixed right-[1.25rem] lg:right-[2.5rem] mt-[0.75rem]
                     text-zinc-50 mix-blend-difference"
                 onClick={toggleModal}>
@@ -43,7 +43,7 @@ const Menu = () => {
                 <AnimatePresence>
                     {isOpen && (
                         <motion.div
-                            className="fixed top-0 right-0 w-1/2 lg:w-[20%] h-full bg-zinc-900/90 flex justify-center items-center z-40"
+                            className="fixed top-0 right-0 w-1/2 lg:w-[20%] h-full bg-zinc-900/90 flex justify-center items-center z-40 sm:hidden"
                             variants={variants}
                             initial="hidden"
                             animate="visible"
@@ -55,7 +55,7 @@ const Menu = () => {
 
                                 {menu.map((item) => {
                                     return (
-                                        <section section className='flex items-center'>
+                                        <section className='flex items-center'>
                                             <Link key={item.id} href={item.path}>
                                                 <a className="herolinks hover:text-amber-200"
                                                     onClick={toggleModal}>{item.title}
