@@ -110,6 +110,7 @@ body {
   text-decoration: none;
   color: white;
   mix-blend-mode: difference;
+  z-index: 30;
 }
 .logo:hover {
   color: #39ff14;
