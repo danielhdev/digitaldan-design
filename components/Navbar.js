@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Contacticons from './Contacticons';
 
-const Navbar = () => {
+export default function Navbar() {
 
     const [theme, setTheme] = useState('dark');
     const [isAnimating, setIsAnimating] = useState(false);
 
-    const menu = [
+    const menuDesk = [
         { id: 1, title: 'work', path: '/#Work' },
         { id: 2, title: 'about', path: '/#About' },
         { id: 3, title: 'contact', path: '/#Contact' },
@@ -54,11 +54,11 @@ const Navbar = () => {
                             </div>
                         </div>
                     </section>
-                    {menu.map((item) => {
+                    {menuDesk.map((menu) => {
                         return (
-                            <nav className='hidden sm:block space-x-[1.25rem]'>
-                                <Link key={item.id} href={item.path}>
-                                    <a className="mix-blend-difference logo hover:text-amber-200">{item.title}
+                            <nav key={menu.id} className='hidden sm:block space-x-[1.25rem]'>
+                                <Link href={menu.path}>
+                                    <a className="mix-blend-difference logo hover:text-amber-200">{menu.title}
                                     </a>
                                 </Link>
                             </nav>
@@ -72,5 +72,3 @@ const Navbar = () => {
         </>
     )
 }
-
-export default Navbar
