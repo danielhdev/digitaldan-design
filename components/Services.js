@@ -23,8 +23,8 @@ const Services = () => {
                                     <br />
                                     <br />
                                     After two decades in web design, I took the next career step in recent years:
-                                    Working in web development. With my experience and new skills combined, I can help to build beautiful and user-centric applications.</p>
-                                <br />
+                                    Working in fullstack web development, with a focus on UI/ frontend development.
+                                </p>
                                 <br />
                             </div>
                         </Borders>
@@ -34,11 +34,11 @@ const Services = () => {
                         Current Tech Stack & Skills
                         <Borders><div className="paragraph font-normal max-h-[350px]">
                             <span>Core:</span>
-                            <li>React, Next, Astro, Remix</li>
+                            <li>React, Next, Astro</li>
                             <li>HTML, CSS, Tailwind CSS</li>
                             <li>Web accessibility</li>
                             <li>Responsive layouts</li>
-                            <li>UI animations & components</li>
+                            <li>UI animations</li>
                             <span>Experience with:</span>
                             <li>APIs, CMS, SQL databases</li>
                             <li>ChatGPT, Dall-E, Midjourney</li>
@@ -46,10 +46,8 @@ const Services = () => {
                         </Borders>
                         <br />
                     </ul>
-
                 </section>
                 <Resume />
-
             </main >
         </>
     )
