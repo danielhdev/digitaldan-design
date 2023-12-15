@@ -17,13 +17,13 @@ const variants = {
     },
 };
 
-const menu = [
+const menuMobile = [
     { id: 1, title: 'work', path: '/#Work' },
     { id: 2, title: 'about', path: '/#About' },
     { id: 3, title: 'contact', path: '/#Contact' },
     { id: 4, title: 'resume', path: "https://drive.google.com/file/d/1JIKTwgwAZAFZ8fyAO0eYpzlEM95a5YWM/view?usp=drive_link" }
 ]
-const Menu = () => {
+export default function Menu() {
     const [isOpen, setIsOpen] = useState(false);
     const toggleModal = () => {
         setIsOpen(!isOpen);
@@ -53,10 +53,10 @@ const Menu = () => {
                             <div className="w-full flex flex-col justify-end items-end space-y-[4vw] p-[3rem] text-zinc-50
                             ">
 
-                                {menu.map((item) => {
+                                {menuMobile.map((item) => {
                                     return (
-                                        <section className='flex items-center'>
-                                            <Link key={item.id} href={item.path}>
+                                        <section key={item.id} className='flex items-center'>
+                                            <Link href={item.path}>
                                                 <a className="herolinks hover:text-amber-200"
                                                     onClick={toggleModal}>{item.title}
                                                 </a>
@@ -74,5 +74,3 @@ const Menu = () => {
         </>
     )
 }
-
-export default Menu
