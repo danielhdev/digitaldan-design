@@ -18,8 +18,8 @@ const PetsInSpace = () => {
         transition: { delay: 0.2, duration: 1 },
     }
     const images = [
-        '/ddimg1.jpg',
-        '/ddimg2.jpg',
+        '/ddimg1v2.png',
+        '/ddimg2v2.png',
 
     ];
     return (
