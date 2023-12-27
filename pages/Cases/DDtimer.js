@@ -8,9 +8,9 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const DDtimer = () => {
-    const tech = "NEXT, Zustand, Tailwind, shadcn/ui"
+    const tech = "Demo 1: NEXT, Zustand, Tailwind, shadcn/ui; Demo 2 & Production: Flask,Tailwind"
     const role = "UI design, web development"
-    const desc = "Demo-version of d.d timelogger. This app is based on a YouTube tutorial with an improved UI, plus a roadmap including user accounts, multi-platform use, safe data storage, statistics and an offline modus."
+    const desc = "Demo of d.d timelogger. Roadmap: New version with Python/ Flask, user accounts, multi-platform use, safe data storage, statistics and an offline modus."
 
     const paragraphAnimate = {
         opacity: [0, 1],
@@ -41,7 +41,7 @@ const DDtimer = () => {
                         <Link href="https://ddtimelogger.netlify.app/"
                         >
                             <a target={'_blank'}
-                                rel={'noreferrer noopener'}> <ArrowLinks >demo version (new tab)
+                                rel={'noreferrer noopener'}> <ArrowLinks >demo 1 (new tab)
                                 </ArrowLinks>  </a>
                         </Link>
                     </div>
