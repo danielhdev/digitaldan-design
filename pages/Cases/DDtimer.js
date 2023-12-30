@@ -8,7 +8,7 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const DDtimer = () => {
-    const tech = "Demo 1: NEXT, Zustand, Tailwind, shadcn/ui; Demo 2 & Production: Flask,Tailwind"
+    const tech = "Demo 1: NEXT, Zustand, Tailwind, shadcn/ui; Production: Flask, Bootstrap, SQL"
     const role = "UI design, web development"
     const desc = "Demo of d.d timelogger. Roadmap: New version with Python/ Flask, user accounts, multi-platform use, safe data storage, statistics and an offline modus."
 

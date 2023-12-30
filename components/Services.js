@@ -23,7 +23,7 @@ const Services = () => {
                                     <br />
                                     <br />
                                     After two decades in web design, I took the next career step in recent years:
-                                    Working in fullstack web development, with a focus on UI/ frontend development.
+                                    Working in fullstack web development as contractor in the D/A/CH area.
                                 </p>
                                 <br />
                             </div>
@@ -33,13 +33,12 @@ const Services = () => {
                     <ul className="subheader font-bold px-[5vh] md:p-[5vh] landscape:w-[45vw] list-disc">
                         Current Tech Stack & Skills
                         <Borders><div className="paragraph font-normal max-h-[350px]">
-                            <span>Core:</span>
-                            <li>React, Next, Astro</li>
-                            <li>HTML, CSS, Tailwind CSS</li>
+                            <li>JavaScript, Python</li>
+                            <li>React, Next, Flask, Django</li>
+                            <li>HTML, CSS, Tailwind CSS, Bootstrap</li>
                             <li>Web accessibility</li>
                             <li>Responsive layouts</li>
                             <li>UI animations</li>
-                            <span>Experience with:</span>
                             <li>APIs, CMS, SQL databases</li>
                             <li>ChatGPT, Dall-E, Midjourney</li>
                         </div>
