@@ -8,7 +8,7 @@ const FrontGallery = () => {
         { id: 2, image: 'ddtimermob.jpg', slug: '/Cases/DDtimer' },
         { id: 3, image: 'ubg6.jpg', slug: '/Cases/Burger' },
         { id: 4, image: 'beau1.png', slug: '/Cases/Beauty' },
-        { id: 5, image: 'moon1.png', slug: '/Cases/Skateboard' },
+        { id: 5, image: 'howto1.png', slug: '/Cases/Ai' },
         { id: 6, image: 'soc1.png', slug: '/Cases/Social' },
 
     ];

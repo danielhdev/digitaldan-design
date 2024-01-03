@@ -23,7 +23,7 @@ const Services = () => {
                                     <br />
                                     <br />
                                     After two decades in web design, I took the next career step in recent years:
-                                    Working in fullstack web development as contractor in the D/A/CH area.
+                                    Working in fullstack web development as a contractor in the D/A/CH region.
                                 </p>
                                 <br />
                             </div>
@@ -35,10 +35,10 @@ const Services = () => {
                         <Borders><div className="paragraph font-normal max-h-[350px]">
                             <li>JavaScript, Python</li>
                             <li>React, Next, Flask, Django</li>
+                            <li>PyTorch, TensorFlow</li>
                             <li>HTML, CSS, Tailwind CSS, Bootstrap</li>
                             <li>Web accessibility</li>
                             <li>Responsive layouts</li>
-                            <li>UI animations</li>
                             <li>APIs, CMS, SQL databases</li>
                             <li>ChatGPT, Dall-E, Midjourney</li>
                         </div>
