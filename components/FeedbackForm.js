@@ -74,11 +74,11 @@ export default function FeedbackForm() {
             </motion.li></a>
         </ul>
       </main>
-      <section className="text-center text-stone-900 dark:text-stone-100
+      <section className="text-center text-stone-900 dark:text-stone-100 mt-[1rem]
       ml-[50vw]
       md:ml-[30vw]
-      sm:text-[3vw]
-      md:text-[1.5vw]
+      text-[2vw]
+      md:text-[1.25vw]
       lg:text-[1vw]
       ">
         design & code &copy; {date} <br />Daniel Hubschmann<br />

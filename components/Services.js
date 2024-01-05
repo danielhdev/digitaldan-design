@@ -13,7 +13,7 @@ const Services = () => {
 
                 <section id="About"
                     className="px-2 mt-[10rem] grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <div className="subheader font-bold px-[5vh] p-[5vh] landscape:w-[45vw]">
+                    <div className="subheader font-bold px-[5vh] p-[5vh]">
                         <h1>About Me</h1>
                         <Borders>
                             <div className="paragraph font-normal mr-[2rem] max-h-[350px]">
@@ -30,7 +30,7 @@ const Services = () => {
                         </Borders>
                     </div>
 
-                    <ul className="subheader font-bold px-[5vh] md:p-[5vh] landscape:w-[45vw] list-disc">
+                    <ul className="subheader font-bold px-[5vh] md:p-[5vh] list-disc">
                         Current Tech Stack & Skills
                         <Borders><div className="paragraph font-normal max-h-[350px]">
                             <li>JavaScript, Python</li>
