@@ -15,12 +15,12 @@ const Social = () => {
         '/soc1.png',
         '/soc2.png',
         '/soc3.png',
-        '/soc4.png',
         '/soc5.png',
         '/soc6.png',
         '/ddmob1.png',
         '/ddmock1.png',
         '/noway.png',
+        '/libg 2024.jpg',
     ];
 
     return (
