@@ -14,45 +14,34 @@ function Application({ Component, pageProps }) {
   return (
     <>
       <Head>
+
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="Web Developer 
+        <meta name="keywords" content="Web Developer, Web Development, Portfolio, User interface, Mobile app development, Responsive design, User-centered design, JavaScript, React, NextJS, APIs, CMS, Python, Flask, Django, PyTorch, Machine Learning, AI model training" />
+        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, Web Developer with expertise in JavaScript, Python, PyTorch, Machine Learning, and AI model training." />
 
-Web Developer
-Web Development
-Portfolio
-User interface
-Web design
-Mobile app development
-Responsive design
-User-centered design
-JavaScript
-React
-NextJS
-Next
-Frontend Development
-APIs
-CMS
-"
-        />
-        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, Web Developer." />
+        <meta name="author" content="Daniel Hubschmann" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow" />
 
-        <meta http-equiv="X-UA-Compatible" content="IE=7" />
-        <meta property="og:title" content="digital.dan Web Developer" />
-        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, Web Developer." />
+        <meta property="og:title" content="digital.dan JavaScript Python Web Developer" />
+        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, Web Developer with expertise in JavaScript, Python, Flask, Django, PyTorch, Machine Learning, and AI model training." />
         <meta property="og:url" content="https://digitaldan.agency/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Web Developer  Portfolio - Daniel Hubschmann digital.dan" />
-        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, Web Developer." />
-        <meta name="twitter:image" content="https://example.com/your-image.jpg"></meta>
+        <meta name="twitter:title" content="JavaScript Python Web Developer Portfolio - Daniel Hubschmann digital.dan" />
+        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, Web Developer with expertise in Python, Python frameworks, PyTorch, Machine Learning, and AI model training." />
+        <meta name="twitter:image" content="https://example.com/your-image.jpg" />
+
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Web Developer - digital.dan</title>
+
+        <title>JavaScript Python Developer - Daniel Hubschmann digital.dan</title>
       </Head>
+
       <Navbar />
       <Menu />
       <AnimatePresence mode='wait'
