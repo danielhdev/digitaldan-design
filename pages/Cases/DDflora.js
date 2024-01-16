@@ -8,9 +8,9 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Armedshutter = () => {
-    const tech = "Astro, Tailwind, Strapi CMS"
-    const role = "UI design, web development"
-    const desc = " Brand refresh for an American people and fashion photographer: New types and logo, social media ads and a new website with improved UX."
+    const tech = "Flask and PyTorch"
+    const role = "(In development) AI model training, UI design, web development"
+    const desc = "AI plant image recognition app for professionals and hobbyists. Combines an easy to navigate UI with maximum user experience. Roadmap: Plant wiki, plant maintenance, where to buy and more."
 
 
     const paragraphAnimate = {
@@ -19,10 +19,7 @@ const Armedshutter = () => {
         transition: { delay: 0.2, duration: 1 },
     }
     const images = [
-        '/as1.png',
-        '/Twitter2.png',
-        '/as2.png',
-        '/as3.png',
+        '/ddflorin.jpg',
 
     ];
     return (
@@ -31,11 +28,11 @@ const Armedshutter = () => {
             <main id="Work" className="h-auto flex 
             flex-col justify-center items-center pb-[10rem] lg:pb-[15rem]">
 
-                <section id="ASnew"
+                <section id="dd_florainspector"
                     className="lg:w-[80vw] h-auto flex flex-col justify-start lg:gap-12 mx-auto mt-[15vh]">
 
                     <div className="w-screen lg:w-[50%]">
-                        <h1 className="title">Portfolio</h1>
+                        <h1 className="title">FloraInspector</h1>
                         <div className="w-fit">
                             <Borders>
                                 <motion.div whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
@@ -48,10 +45,10 @@ const Armedshutter = () => {
 
                                 </motion.div></Borders>
                         </div><br />
-                        <Link href="https://asprototype.netlify.app/Prototype/"
+                        <Link href="https://github.com/danielhdev/ddflorainspector"
                         >
                             <a target={'_blank'}
-                                rel={'noreferrer noopener'}> <ArrowLinks >demo (new tab)
+                                rel={'noreferrer noopener'}> <ArrowLinks >GitHub
                                 </ArrowLinks>  </a>
                         </Link>
                     </div>
