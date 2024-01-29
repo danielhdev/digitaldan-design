@@ -35,7 +35,7 @@ const Services = () => {
                         <Borders><div className="paragraph font-normal max-h-[350px]">
                             <li>JavaScript, Python</li>
                             <li>React, Next, Flask, Django</li>
-                            <li>PyTorch</li>
+                            <li>TensorFLow</li>
                             <li>HTML, CSS, Tailwind CSS, Bootstrap</li>
                             <li>Web accessibility</li>
                             <li>Responsive layouts</li>
