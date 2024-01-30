@@ -34,7 +34,7 @@ const Services = () => {
                         Current Tech Stack & Skills
                         <Borders><div className="paragraph font-normal max-h-[350px]">
                             <li>JavaScript, Python</li>
-                            <li>React, Next, Flask, Django</li>
+                            <li>React, Next, Django, Flask</li>
                             <li>TensorFLow</li>
                             <li>HTML, CSS, Tailwind CSS, Bootstrap</li>
                             <li>Web accessibility</li>

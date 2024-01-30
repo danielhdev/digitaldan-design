@@ -8,7 +8,7 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Armedshutter = () => {
-    const tech = "Flask and PyTorch"
+    const tech = "Django and PyTorch"
     const role = "(In development) AI model training, UI design, web development"
     const desc = "AI plant image recognition app for professionals and hobbyists. Combines an easy to navigate UI with maximum user experience. Roadmap: Plant wiki, plant maintenance, where to buy and more."
 
