@@ -8,9 +8,9 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const DDtimer = () => {
-    const tech = "Demo 1: NEXT, Zustand, Tailwind, shadcn/ui; Production: Django"
-    const role = "UI design, web development"
-    const desc = "Demo of d.d timelogger. Roadmap: New version with Python/ Django, user accounts, multi-platform use, safe data storage, statistics and an offline modus."
+    const tech = "Demo: NEXT, Zustand, shadcn/ui; Production: React/Vite, Django, Tailwind CSS"
+    const role = "(v1.0.0 in development) UI design, web development"
+    const desc = "Work hour time logger. Roadmap: Developed with React/ Django, user authentication, user accounts, data storage."
 
     const paragraphAnimate = {
         opacity: [0, 1],
@@ -38,12 +38,20 @@ const DDtimer = () => {
                                     />
                                 </motion.div></Borders>
                         </div><br />
-                        <Link href="https://ddtimelogger.netlify.app/"
-                        >
-                            <a target={'_blank'}
-                                rel={'noreferrer noopener'}> <ArrowLinks >demo 1 (new tab)
-                                </ArrowLinks>  </a>
-                        </Link>
+                        <section className='flex items-center gap-[1rem]'>
+                            <Link href="https://ddtimelogger.netlify.app/"
+                            >
+                                <a target={'_blank'}
+                                    rel={'noreferrer noopener'}> <ArrowLinks >demo (new tab)
+                                    </ArrowLinks>  </a>
+                            </Link>
+                            <Link href="https://github.com/danielhdev/dd_Timelogger_React_Django"
+                            >
+                                <a target={'_blank'}
+                                    rel={'noreferrer noopener'}> <ArrowLinks >GitHub (new tab)
+                                    </ArrowLinks>  </a>
+                            </Link>
+                        </section>
                     </div>
                 </section>
                 <GalleryMapper
