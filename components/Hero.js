@@ -26,9 +26,9 @@ const Hero = () => {
                         lg:ml-[0.25rem] mt-[2rem] mx-auto">
                             <div className="herotitle inline">
                                 {/* <span className="herotitle2 font-[octarine]">Portfolio</span> */}
-                                <br />Daniel Hubschmann
+                                <br />Daniel Huebschmann
                             </div>
-                            <br />JavaScript & Python Developer
+                            <br />Full Stack Developer
                             <div className="mt-[1rem]">
                                 <ScrollArrow /></div>
                         </motion.div>

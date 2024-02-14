@@ -17,20 +17,20 @@ function Application({ Component, pageProps }) {
 
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="Web Developer, Web Development, Portfolio, User interface, Mobile app development, Responsive design, User-centered design, JavaScript, React, NextJS, APIs, CMS, Python, Flask, Django, PyTorch, Machine Learning, AI model training" />
-        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, Web Developer with expertise in JavaScript, Python, PyTorch, Machine Learning, and AI model training." />
+        <meta name="keywords" content="Full Stack Developer, Web Development, Portfolio, User interface, Mobile app development, Responsive design, User-centered design, JavaScript, React, NextJS, APIs, CMS, Python, Flask, Django, PyTorch, Machine Learning, AI model training" />
+        <meta name="description" content="Welcome to the portfolio of Daniel Hubschmann, Full Stack Developer with expertise in JavaScript, Python, PyTorch, Machine Learning, and AI model training." />
 
         <meta name="author" content="Daniel Hubschmann" />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />
 
         <meta property="og:title" content="digital.dan JavaScript Python Web Developer" />
-        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, Web Developer with expertise in JavaScript, Python, Flask, Django, PyTorch, Machine Learning, and AI model training." />
+        <meta property="og:description" content="Welcome to the portfolio of Daniel Hubschmann, Full Stack Developer with expertise in JavaScript, Python, Flask, Django, PyTorch, Machine Learning, and AI model training." />
         <meta property="og:url" content="https://digitaldan.agency/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="JavaScript Python Web Developer Portfolio - Daniel Hubschmann digital.dan" />
-        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, Web Developer with expertise in Python, Python frameworks, PyTorch, Machine Learning, and AI model training." />
+        <meta name="twitter:title" content="JavaScript Python Full Stack Developer Portfolio - Daniel Hubschmann digital.dan" />
+        <meta name="twitter:description" content="Welcome to the portfolio of Daniel Hubschmann digital.dan, Full Stack Developer with expertise in Python, Python frameworks, PyTorch, Machine Learning, and AI model training." />
         <meta name="twitter:image" content="https://example.com/your-image.jpg" />
 
 
@@ -39,7 +39,7 @@ function Application({ Component, pageProps }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
 
-        <title>JavaScript Python Developer - Daniel Hubschmann digital.dan</title>
+        <title>Full Stack Developer - Daniel Hubschmann digital.dan</title>
       </Head>
 
       <Navbar />
