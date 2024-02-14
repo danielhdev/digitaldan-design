@@ -23,7 +23,7 @@ const Services = () => {
                                     <br />
                                     <br />
                                     After two decades in web design, I took the next career step in recent years:
-                                    Working in web development, machine learning and AI implementation.
+                                    Working in full stack web and software development, machine learning and AI implementation.
                                 </p>
                                 <br />
                             </div>
