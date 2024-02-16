@@ -90,7 +90,7 @@ body {
   margin-left: 1.5vw;
 }
 .herotitle {
-  font-size: calc(16px + 1.5vw);
+  font-size: calc(1rem + 1.5vw);
 }
 .herotitle2 {
   font-family: 'octarine';
