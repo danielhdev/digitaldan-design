@@ -22,8 +22,8 @@ const Services = () => {
                                 <p>Daniel Hubschmann (Germany)
                                     <br />
                                     <br />
-                                    After two decades in web design, I took the next career step in recent years:
-                                    Working in full stack web and software development, machine learning and AI implementation.
+                                    After two decades in web design, I changed careers in recent years:
+                                    Now working as a full stack software and web developer.
                                 </p>
                                 <br />
                             </div>
@@ -35,12 +35,12 @@ const Services = () => {
                         <Borders><div className="paragraph font-normal max-h-[350px]">
                             <li>JavaScript, Python</li>
                             <li>React, Next, Django, Flask</li>
-                            <li>TensorFLow</li>
                             <li>HTML, CSS, Tailwind CSS, Bootstrap</li>
                             <li>Web accessibility</li>
                             <li>Responsive layouts</li>
                             <li>APIs, CMS, SQL databases</li>
-                            <li>ChatGPT, Dall-E, Midjourney</li>
+                            <li>AI application and AI training</li>
+                            <li>TensorFLow</li>
                         </div>
                         </Borders>
                         <br />
