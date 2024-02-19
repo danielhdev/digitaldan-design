@@ -1,6 +1,6 @@
 
 import { ImGithub, ImLinkedin, ImMail2 } from 'react-icons/im'
-import { FaXTwitter } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 import Link from 'next/link'
 
 const Contacticons = () => {
@@ -9,7 +9,7 @@ const Contacticons = () => {
 
         { id: 1, icon: <ImMail2 />, slug: "mailto:d.huebschmann@tutanota.com" },
         { id: 2, icon: <ImLinkedin />, slug: "https://linkedin.com/in/daniel-huebschmann-175b66236/" },
-        { id: 3, icon: <FaXTwitter />, slug: "https://twitter.com/digitaldan_de" },
+        { id: 3, icon: <BsTwitterX />, slug: "https://twitter.com/digitaldan_de" },
         { id: 4, icon: <ImGithub />, slug: "https://github.com/danielhdev" }
     ]
     return (
