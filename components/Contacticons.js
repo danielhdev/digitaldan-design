@@ -1,6 +1,6 @@
 
 import { ImGithub, ImLinkedin, ImMail2 } from 'react-icons/im'
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa";
 import Link from 'next/link'
 
 const Contacticons = () => {
