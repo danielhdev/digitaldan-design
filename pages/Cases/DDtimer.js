@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Borders from '@components/utility/Borders'
@@ -8,9 +8,9 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const DDtimer = () => {
-    const tech = "Demo: NEXT, Zustand, shadcn/ui; Production: React/Vite, Django, Tailwind CSS"
-    const role = "(v1.0.0 in development) UI design, web development"
-    const desc = "Work hour time logger. Roadmap: Developed with React/ Django, user authentication, user accounts, data storage."
+    const tech = "Demo: NEXT, Zustand; Production: React/Vite, Django REST Framework"
+    const role = "(v1.0.0 in development) UI design, development"
+    const desc = "Work hour time logger. Developed with React/ Django. Features user accounts, authentication, data storage."
 
     const paragraphAnimate = {
         opacity: [0, 1],
