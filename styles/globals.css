@@ -195,6 +195,11 @@ body {
     right: 2rem;
   }
 }
+.paragraph, li {
+  font-family: 'Oxygen';
+  font-size: calc(1rem + 1vw);
+  padding: 1.25vw;
+}
 .heroheader {
   font-family: 'octarine';
   font-size: clamp(1rem, calc(8rem + 18vw), 20vw);
