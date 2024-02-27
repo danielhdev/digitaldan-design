@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Borders from '@components/utility/Borders'
@@ -8,9 +8,9 @@ import Projectspecs from '@components/utility/Projectspecs'
 import GalleryMapper from '@components/utility/GalleryMapper'
 
 const Beauty = () => {
-    const tech = "React (demo), Hydrogen (production), Shopify"
-    const role = "UI design, web development"
-    const desc = "A costumizable e-commerce template for beauty, health or wellness industry clients."
+    const tech = "React (demo), React/ Django (production)"
+    const role = "UI design, development"
+    const desc = "A costumizable e-commerce template with an admin panel for content management. For beauty, health or wellness industry clients."
 
     const paragraphAnimate = {
         opacity: [0, 1],
@@ -43,7 +43,7 @@ const Beauty = () => {
                         >
                             <a target={'_blank'}
                                 rel={'noreferrer noopener'}> <ArrowLinks >demo (new tab)
-                                    </ArrowLinks>  </a>
+                                </ArrowLinks>  </a>
                         </Link>
                     </div>
                 </section>
