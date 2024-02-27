@@ -20,7 +20,7 @@ const Social = () => {
         '/ddmob1.png',
         '/ddmock1.png',
         '/noway.png',
-        '/libg 2024.jpg',
+        '/libgv2jpeg 2024.jpg',
     ];
 
     return (

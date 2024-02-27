@@ -28,7 +28,7 @@ const Hero = () => {
                                 {/* <span className="herotitle2 font-[octarine]">Portfolio</span> */}
                                 <br />Daniel Huebschmann
                             </div>
-                            <br />Full Stack Software & Web Developer
+                            <br />Software & Web Developer
                             <div className="mt-[1rem]">
                                 <ScrollArrow /></div>
                         </motion.div>
