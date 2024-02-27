@@ -8,9 +8,9 @@ import GalleryMapper from '@components/utility/GalleryMapper'
 
 
 const Burger = () => {
-    const tech = "Next, Tailwind, Strapi CMS"
+    const tech = "Next, Tailwind, Strapi CMS (demo), React, Django (production)"
     const role = "UI design, web development"
-    const desc = "Refresh: A younger appearance, bringing the website out of 2016, added a CMS for updating the menu and contact data."
+    const desc = "Refresh of the page from 2016: A modern UI and an admin panel for content management."
 
     const paragraphAnimate = {
         opacity: [0, 1],
