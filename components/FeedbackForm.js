@@ -19,7 +19,7 @@ export default function FeedbackForm() {
             encType="text/plain"
           >
             <motion.li
-              className="contactli1 p-1"
+              className="contactli3 p-1"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.5 }}
@@ -34,7 +34,7 @@ export default function FeedbackForm() {
             rel="noopener noreferrer"
           >
             <motion.li
-              className="contactli2 p-1"
+              className="contactli3 p-1"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 0.5 }}
