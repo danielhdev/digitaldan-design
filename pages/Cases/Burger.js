@@ -38,7 +38,7 @@ const Burger = () => {
                         <h1 className="title">Gourmet Burger</h1>
                         <div className="w-fit">
                             <Borders>
-                                <motion.div whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
+                                <motion.div whileInView={paragraphAnimate} className="abouttext lg:w-[40ch] pt-3 pr-8">
                                     <Projectspecs
                                         tech={tech}
                                         role={role}

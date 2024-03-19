@@ -6,7 +6,7 @@ const Back = () => {
         <div className="mx-auto pb-[2rem]">
             <Link href="/#Work">
                 <a>
-                    <h2 className="paragraph text-stone-900 dark:text-stone-100 cursor-pointer"> back
+                    <h2 className="abouttext text-stone-900 dark:text-stone-100 cursor-pointer"> back
                         <BsArrowUpRight />
                     </h2>
                 </a>

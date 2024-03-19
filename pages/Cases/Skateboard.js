@@ -34,7 +34,7 @@ const Skateboard = () => {
                         <h1 className="title">Moonskater</h1>
                         <div className="w-fit">
                             <Borders>
-                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8">
+                                <motion.p whileInView={paragraphAnimate} className="abouttext lg:w-[40ch] pt-3 pr-8">
                                     <Projectspecs
                                         tech={tech}
                                         role={role}
