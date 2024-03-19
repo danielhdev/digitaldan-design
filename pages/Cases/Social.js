@@ -32,7 +32,7 @@ const Social = () => {
                         <h1 className="title">Playground</h1>
                         <div className="w-fit">
                             <Borders>
-                                <motion.p whileInView={paragraphAnimate} className="paragraph lg:w-[40ch] pt-3 pr-8 ">
+                                <motion.p whileInView={paragraphAnimate} className="abouttext lg:w-[40ch] pt-3 pr-8 ">
                                     A collection of past work including social media ads and random design projects
                                 </motion.p></Borders>
                         </div><br />
